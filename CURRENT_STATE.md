@@ -35,7 +35,7 @@ Sprint date boundaries are calendar dates. Clock times, once a sprint exists, li
 
 | Track | Repo status | Attention | Latest evidence |
 | --- | --- | --- | --- |
-| GATE | not started in this repo | primary | none logged |
+| GATE | domain roadmap written; baseline not established | primary | owner: paper CS/IT, target AIR < 400; no level logged |
 | System design | not started in this repo | secondary | none logged |
 | Product | not started in this repo | secondary | none logged |
 | Music | domain roadmap written; no sessions logged | maintenance | owner reports tools understood; setup recorded; gap is translating ideas into convincing records. Folder is `beat-production/`. D-021 |
@@ -70,7 +70,7 @@ Do not invent these. Do not let a domain file answer them locally. If one become
 - Name, city. Working calendar timezone is `Asia/Kolkata` (see above). That does not identify a city
 - Weekly time actually available, and what else occupies the next eleven months
 - Degree status, college, branch. The timeline is compatible with a delayed joining after a campus placement. That is an inference, not a fact. See profile
-- GATE paper, exact exam date, current preparation level, materials already owned or used
+- GATE: exact exam date, current preparation level per subject, materials already owned or used. Paper is CS/IT and the target is AIR < 400 (owner-stated 2026-09-27)
 - Whether "approximately ₹14 LPA" is CTC, and what the role, team, office, and exact joining date are
 - Whether an internship will be offered, in which team, and when
 - Music: sample sources, and which DAW becomes primary. Setup otherwise recorded in `beat-production/ROADMAP.md`
@@ -96,7 +96,7 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 
 Domain planning for this phase, not a sprint. Do not create `current-sprint/` or `sprint-001` until the owner asks.
 
-1. GATE — identify the paper and a coarse baseline. Do not write a syllabus while the paper is unknown.
+1. GATE — run the Stage 0 diagnostic and record the per-subject baseline. Path: `gate/ROADMAP.md`.
 2. System design — first thread of the arc in the master roadmap. Do not assume a zero baseline.
 3. Product — the experiment loop. Do not invent an idea.
 
@@ -108,3 +108,4 @@ Domain planning for this phase, not a sprint. Do not create `current-sprint/` or
 - 2026-09-27 — Music stream broadened from beat production to finished songs (rap-first, vocals included). Bands unchanged. Folder name kept. D-021.
 - 2026-09-27 — Music domain roadmap written: six ability-gated stages, milestones, and a finished-piece definition. No dates or quotas. No sessions logged.
 - 2026-09-27 — Music roadmap cleanup: vocal/song stages moved earlier (S3, S4); beat craft is S5. Setup facts recorded. Six owner-chosen references recorded in `beat-production/REFERENCES.md`.
+- 2026-09-27 — GATE domain roadmap written: Stage 0 baseline, concept pass, PYQ mastery, mock consolidation, exam mode. Paper CS/IT and target AIR < 400 recorded. No preparation logged.

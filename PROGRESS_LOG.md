@@ -24,3 +24,10 @@ Record events, not intentions. "Planned to study databases" is not an entry.
 - New `beat-production/REFERENCES.md` for owner-chosen reference tracks and teardowns.
 - No music sessions logged. Baseline is owner-reported only.
 - No sprint or calendar created.
+
+### 2026-09-27 — GATE domain roadmap written
+
+- `gate/ROADMAP.md` moved from skeleton to active: Stage 0 baseline, first concept pass, PYQ mastery, mock-driven consolidation, exam-mode close.
+- Paper recorded as CS/IT and target as AIR < 400 (owner-stated). The master roadmap predates this and still says "no score target"; a later strategic pass should reconcile the wording.
+- Per-subject baseline remains `unknown`; the Stage 0 diagnostic establishes it. No preparation logged.
+- No sprint or calendar created.
