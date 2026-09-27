@@ -107,4 +107,4 @@ Domain planning for this phase, not a sprint. Do not create `current-sprint/` or
 - 2026-09-27 — First strategic review. Phase is `gate-window`. No sprint opened.
 - 2026-09-27 — Music stream broadened from beat production to finished songs (rap-first, vocals included). Bands unchanged. Folder name kept. D-021.
 - 2026-09-27 — Music domain roadmap written: six ability-gated stages, milestones, and a finished-piece definition. No dates or quotas. No sessions logged.
-- 2026-09-27 — Music roadmap cleanup: vocal/song stages moved earlier (S3, S4); beat craft is S5. Setup facts recorded. Six owner-chosen references pending entry in `beat-production/REFERENCES.md`.
+- 2026-09-27 — Music roadmap cleanup: vocal/song stages moved earlier (S3, S4); beat craft is S5. Setup facts recorded. Six owner-chosen references recorded in `beat-production/REFERENCES.md`.

@@ -23,7 +23,61 @@ Ids are never reused. Replace tracks over time. Do not grow the list forever.
 
 ## Reference set
 
-Owner reports six tracks already chosen, but they are not recorded in the repo yet. Paste them here in the format above. A model must not fill these in. Once entered, this is the set the roadmap compares against. See [ROADMAP.md](ROADMAP.md).
+Owner-chosen, recorded 2026-09-27. This is the set the roadmap compares against. Blank teardown fields belong to the owner's S1 work; a model must not fill them in.
+
+### R-001 — Major Distribution, Drake & 21 Savage
+
+- Date added: 2026-09-27
+- Lane:
+- Why it is here:
+- Key moments (timestamps):
+- What it does (arrangement, groove, vocal, space, mix):
+- What to try next from it:
+
+### R-002 — Ladki Kathiyawadi, Bhadrankar
+
+- Date added: 2026-09-27
+- Lane:
+- Why it is here:
+- Key moments (timestamps):
+- What it does (arrangement, groove, vocal, space, mix):
+- What to try next from it:
+
+### R-003 — Mann Ke Raaz, Rawal & Suhavi Kalsi
+
+- Date added: 2026-09-27
+- Lane:
+- Why it is here:
+- Key moments (timestamps):
+- What it does (arrangement, groove, vocal, space, mix):
+- What to try next from it:
+
+### R-004 — ARSENAL, Shlok ft. OG Tehran
+
+- Date added: 2026-09-27
+- Lane:
+- Why it is here:
+- Key moments (timestamps):
+- What it does (arrangement, groove, vocal, space, mix):
+- What to try next from it:
+
+### R-005 — TAX, Yashraj, aywy, Maania
+
+- Date added: 2026-09-27
+- Lane:
+- Why it is here:
+- Key moments (timestamps):
+- What it does (arrangement, groove, vocal, space, mix):
+- What to try next from it:
+
+### R-006 — DUNYA, Ahmer ft. Pho & Arif Mir
+
+- Date added: 2026-09-27
+- Lane:
+- Why it is here:
+- Key moments (timestamps):
+- What it does (arrangement, groove, vocal, space, mix):
+- What to try next from it:
 
 ## Teardowns
 

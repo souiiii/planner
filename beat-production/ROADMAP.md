@@ -16,7 +16,7 @@ Learn to make finished music you respect: rap-led, with some melodic attempts, v
 - The gap: translating an imagined sound into a convincing result.
 - Symptom: productions often sound cheap or artificial even with decent plugins.
 - What has not worked: generic tool tutorials, passively watching producers work, and excessive tweaking of individual elements.
-- Reference tracks: six owner-chosen tracks are pending entry in [REFERENCES.md](REFERENCES.md). A model must not fill them in.
+- Reference tracks: six owner-chosen tracks, recorded in [REFERENCES.md](REFERENCES.md). Owner-provided, not model suggestions. D-006.
 
 ## Setup (owner-reported 2026-09-27)
 
@@ -60,7 +60,7 @@ A useful session shape: a short ear warm-up, one focused task from the current s
 
 **Work**
 
-1. Enter the reference set you have already chosen (six tracks are pending in [REFERENCES.md](REFERENCES.md)) and keep it small: rap-led, with some melodic examples. Owner-chosen only.
+1. Work from the six owner-chosen references recorded in [REFERENCES.md](REFERENCES.md). Keep the set small; add or replace a track only deliberately. Only the owner adds tracks.
 2. Tear references down with a fixed question list:
    - sections: what happens, in what order, roughly how long each part;
    - energy: what enters and leaves to keep it moving;
