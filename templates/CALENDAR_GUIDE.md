@@ -284,6 +284,19 @@ Once assigned, the UID does not change. If Tuesday moves to Wednesday, keep the 
 
 Regenerating the file with the same UIDs is how a supporting calendar avoids duplicates. It is not a promise that every importer updates in place. Still do not mint new UIDs for the same blocks.
 
+## Importing into Google Calendar
+
+Stable UIDs and `SEQUENCE` remain required. They are correct iCalendar practice, and importers that honor them can update an event instead of creating a duplicate. Do not weaken either requirement.
+
+Manual Google Calendar imports should not be assumed to reliably update previously imported events without duplicates. Treat a manual import as importing events, not as syncing a calendar.
+
+- Import `CALENDAR.ics` when the sprint begins.
+- If only a few events change, update those events manually in Google Calendar, and make the same change in `CALENDAR.ics`. The two copies should not drift.
+- If you want to re-import the whole `.ics`, first verify how the target calendar handles existing UIDs and duplicates. Try a test calendar before doing it on the sprint calendar.
+- `CALENDAR.ics` remains the canonical planned schedule in the repo, whatever the Google Calendar copy looks like.
+- Stable UIDs must still be preserved across reschedules.
+- `SEQUENCE` must still increment for changed events.
+
 ## Escaping
 
 In `SUMMARY` and `DESCRIPTION`:

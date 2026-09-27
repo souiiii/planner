@@ -73,7 +73,7 @@ Close writes `REVIEW.md` and leaves the directory at `current-sprint/` until the
 
 After that move, the archived folder stays put. There is no `sprints/archive/` and no second move. Do not rewrite an archived sprint to make the history look cleaner. Decision D-016.
 
-[PROGRESS_LOG.md](../PROGRESS_LOG.md) links to reviews. Do not keep a second index in this file. If a link still points at `current-sprint/REVIEW.md` after the move, fix the link. Do not fix history by editing the review.
+[PROGRESS_LOG.md](../PROGRESS_LOG.md) links to reviews using their permanent archive path, `sprints/sprint-NNN/REVIEW.md`. The entry is written that way at close, while the file is still at `current-sprint/REVIEW.md`, so the archive move makes it valid without editing the log. Do not keep a second index in this file, and do not rewrite a log entry after the move. The log is append-only.
 
 ## First sprint
 

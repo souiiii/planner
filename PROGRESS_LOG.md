@@ -3,6 +3,7 @@
 > **Authority:** append-only chronological index of what happened.
 > **Not a plan,** and not the place for detailed reviews.
 > **Update rule:** append. Do not rewrite old entries. If an entry was wrong, add a new dated correction that points at it.
+> **Sprint review links:** written once at close, using the permanent archive path `sprints/sprint-NNN/REVIEW.md`, even while the review is temporarily at `current-sprint/REVIEW.md`. The archive move makes the entry valid. Do not edit an entry after the move.
 > **Detail lives in:** sprint `REVIEW.md` files, domain `PROGRESS.md` files, and specialized logs.
 
 Record events, not intentions. "Planned to study databases" is not an entry.

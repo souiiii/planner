@@ -246,6 +246,7 @@ Real life will move. If the owner asks to reschedule:
 - Do not rewrite `PLAN.md` because Tuesday moved to Wednesday
 - Do not pour missed work into `Rest / Buffer` or `Free Time`
 - Do not keep `CALENDAR-v2.ics` or any other parallel schedule. Git history is the earlier version
+- A manual Google Calendar import does not sync. If only a few events change, update them manually there and in `CALENDAR.ics`. Verify duplicate handling before re-importing the whole file. See [templates/CALENDAR_GUIDE.md](templates/CALENDAR_GUIDE.md)
 
 If the calendar repeatedly cannot fit the plan, leave that for the review. Do not silently shrink the plan to match a pretty week, and do not silently grow the calendar to absorb every unfinished task.
 
@@ -256,7 +257,7 @@ If the calendar repeatedly cannot fit the plan, leave that for the review. Do no
 3. Create `current-sprint/REVIEW.md` from `templates/SPRINT_REVIEW_TEMPLATE.md`.
 4. For each planned outcome: `completed`, `partial`, or `not done`. If the owner did not say, `not reported`. A calendar event is not a completed outcome. Fixed commitments are not achievements.
 5. Update domain progress from real evidence, not from the plan or the calendar.
-6. Append a short `PROGRESS_LOG.md` entry that links to the review. Do not paste the review in.
+6. Append a short `PROGRESS_LOG.md` entry that links to the review using its eventual permanent path, `sprints/sprint-NNN/REVIEW.md`, even though the file is still at `current-sprint/REVIEW.md`. Write the link this way once. The archive move makes it valid without any later edit, which keeps the log append-only. Do not paste the review in.
 7. Update `CURRENT_STATE.md`: active sprint `none`, this id awaiting archive, paths still under `current-sprint/`.
 8. For every unfinished item: `carry`, `change`, or `delete`. Default is not carry. Name the destination of anything carried. Do not turn leftovers into extra calendar blocks.
 9. Do not alter `CALENDAR.ics` to pretend the original schedule was followed.
@@ -273,7 +274,7 @@ When a new sprint is requested, and a reviewed `current-sprint/` is in the way:
 3. Move the whole directory in one step. Prefer `git mv current-sprint sprints/sprint-NNN` so history follows. If the files are not tracked, `mv current-sprint sprints/sprint-NNN`. Do not copy and leave the original.
 4. Confirm `current-sprint/` is gone and the destination contains `PLAN.md`, `CALENDAR.ics`, and `REVIEW.md`. If the move failed, stop. Do not create a new `current-sprint/`.
 5. Only then create the new `current-sprint/` using "Create a sprint".
-6. Update `CURRENT_STATE.md` to the new active sprint. Fix any progress-log link that still points at `current-sprint/REVIEW.md` for the sprint you just moved.
+6. Update `CURRENT_STATE.md` to the new active sprint. Do not edit the `PROGRESS_LOG.md` entry for the sprint you just moved. It was written with the permanent path at close, so the move has already made it valid.
 
 The archived calendar is the final schedule that was in force. Do not regenerate it during the move.
 

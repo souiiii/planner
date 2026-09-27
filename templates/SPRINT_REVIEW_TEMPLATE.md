@@ -59,7 +59,7 @@ Only numbers or artifacts the owner reported. If you did not measure it, write `
 
 - [ ] Domain `PROGRESS.md` files for tracks with new evidence
 - [ ] Specialized logs, if any (practice, experiments, reading)
-- [ ] `PROGRESS_LOG.md` one-line index entry linking here
+- [ ] `PROGRESS_LOG.md` one-line index entry using the permanent path `sprints/sprint-NNN/REVIEW.md`, not `current-sprint/REVIEW.md`. Written once. The archive move must not require editing it
 - [ ] `CURRENT_STATE.md`: active sprint `none`, and this id marked awaiting archive, with paths under `current-sprint/`
 - [ ] Backlogs, only for items explicitly carried there
 - [ ] This folder was not moved. Archive happens when the next sprint starts
