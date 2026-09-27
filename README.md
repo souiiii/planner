@@ -17,7 +17,7 @@ Intents, not the ranking. Ranking lives in [MASTER_ROADMAP.md](MASTER_ROADMAP.md
 | [GATE](gate/ROADMAP.md) | A serious backup attempt around February 2027, then largely drop it |
 | [System design](system-design/ROADMAP.md) | Backend and production depth, using the Node/TypeScript stack you already know |
 | [Product](product/ROADMAP.md) | A real attempt at independent software income, through small validated experiments |
-| [Beat production](beat-production/ROADMAP.md) | Sampled beatmaking as a craft. Finished beats, not a career plan |
+| [Music](beat-production/ROADMAP.md) | Rap-first music-making: beats, vocals, and finished songs. A personal craft, not a career plan |
 | [Markets](markets/ROADMAP.md) | Slow practical understanding of markets. Personally interesting, also relevant to LSEG |
 | [LeetCode](leetcode/MAINTENANCE_PLAN.md) | Stay sharp. Not another placement grind |
 

@@ -25,7 +25,7 @@ These came from the owner. They are not optional style advice.
 
 - Do not make the main engineering activity "learn random new frameworks"
 - Do not restart a placement-style DSA grind. Maintenance is the ceiling unless the owner later asks otherwise
-- Do not turn beat production into career optimization, audience growth, or an income project
+- Do not turn music-making into career optimization, audience growth, or an income project
 - Do not turn `lseg/` into a second generic software curriculum
 - Do not treat GATE as the main career direction. It is a backup attempt
 - Do not spend months secretly building a product nobody has been asked about. Fast experiments beat a hidden six-month build
@@ -44,7 +44,7 @@ Docker, AWS, CI/CD, Redis, Kafka, and similar production topics are allowed when
 
 ## Creative constraint
 
-Beat production is a personal passion and a serious craft. Finished beats matter more than watching tutorials. Models must not reframe it as "personal branding", "content pipeline", or "useful for interviews" unless the owner asks.
+Music-making is a personal passion and a serious craft. Finished music matters more than watching tutorials or collecting tools. Models must not reframe it as "personal branding", "content pipeline", or "useful for interviews" unless the owner asks, and must not push gear purchases. The planning language covers the whole craft: beat-making, vocals, recording, and mixing into finished songs, not beats alone. Decision D-021.
 
 ## Product constraint
 

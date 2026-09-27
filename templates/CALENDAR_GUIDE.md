@@ -75,7 +75,7 @@ Work:
 ```text
 System Design — Cache-Aside Implementation
 GATE — DBMS PYQ Set
-Beat Production — Sample Chopping Practice
+Music — Vocal Recording Practice
 Product — Validate Problem #2
 ```
 

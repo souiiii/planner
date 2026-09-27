@@ -48,14 +48,14 @@ These are the intents the first strategy had to respect. The adopted phases and 
 - What it is not: "do projects", a venture-scale startup by default, or a requirement to quit the LSEG path.
 - Success shape: at least one serious attempt that reaches real users or a clear, evidence-based kill. Revenue targets are **TBD** and may stay unset.
 
-## 4. Beat production
+## 4. Music
 
-- Folder: [beat-production/](../beat-production/ROADMAP.md)
-- Intent: learn to make sampled beats at a level you respect.
+- Folder: [beat-production/](../beat-production/ROADMAP.md) (folder name kept; the stream is broader than beats)
+- Intent: learn to make music at a level you respect. Mainly rap, with some melodic attempts. The outcome is finished music, not knowledge of tools.
 - Why it is here: personal passion. That is a sufficient reason.
-- In scope as craft, unordered: sampling, chopping, drums, bass, arrangement, mixing, ear development.
-- What it is not: a career track, a content strategy, or an interview story. Decision D-011.
-- Success shape: finished beats, targeted practice, some pieces you consider genuinely good. Counts and cadence are **TBD**. Tutorial completion is not the goal.
+- In scope as craft, unordered: beat-making, sampling, chopping, drums, bass, arrangement, recording, vocal processing, vocal mixing, and integrating vocals into a finished record. Making full songs over existing beats counts as valid progress. Ear development and finishing pieces run through all of it.
+- What it is not: a career track, a content strategy, or an interview story. Decision D-011. Not a gear-shopping exercise either.
+- Success shape: finished music that sounds convincing and impressive to you, including songs with vocals. Counts and cadence are **TBD**. Tutorial completion is not the goal.
 
 ## 5. Markets and finance
 

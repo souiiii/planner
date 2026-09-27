@@ -38,7 +38,7 @@ Sprint date boundaries are calendar dates. Clock times, once a sprint exists, li
 | GATE | not started in this repo | primary | none logged |
 | System design | not started in this repo | secondary | none logged |
 | Product | not started in this repo | secondary | none logged |
-| Beat production | not started in this repo | maintenance | none logged |
+| Music | not started in this repo | maintenance | none logged. Folder is `beat-production/`. D-021 |
 | Markets | not started in this repo | maintenance | none logged |
 | LeetCode | not started in this repo | maintenance | owner reports existing DSA ability; no maintenance log yet |
 | LSEG notes | placeholder only | not a track | no internship, no joining prep written |
@@ -73,7 +73,7 @@ Do not invent these. Do not let a domain file answer them locally. If one become
 - GATE paper, exact exam date, current preparation level, materials already owned or used
 - Whether "approximately ₹14 LPA" is CTC, and what the role, team, office, and exact joining date are
 - Whether an internship will be offered, in which team, and when
-- Music setup: DAW, samples, monitoring, experience so far
+- Music setup: DAW, samples, microphone or recording path, monitoring, experience so far
 - Existing depth in system design, markets, or production engineering beyond the skills listed in the profile
 - Budget for exams, cloud, software, or music tools
 - Any constraint that would make a 10-day sprint unrealistic (travel, exams other than GATE, family)
@@ -105,3 +105,4 @@ Domain planning for this phase, not a sprint. Do not create `current-sprint/` or
 - 2026-09-27 — Repository created. No goal work logged.
 - 2026-09-27 — Sprint execution switched to `current-sprint/` plus `CALENDAR.ics`. No sprint opened. Working calendar timezone set to `Asia/Kolkata`.
 - 2026-09-27 — First strategic review. Phase is `gate-window`. No sprint opened.
+- 2026-09-27 — Music stream broadened from beat production to finished songs (rap-first, vocals included). Bands unchanged. Folder name kept. D-021.

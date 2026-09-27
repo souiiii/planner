@@ -33,7 +33,7 @@ Bands are not percentages and not weekly quotas. Capacity is unknown. A band is 
 Two phases, plus a contingency that is not a phase.
 
 1. **gate-window** — now until the GATE exam. GATE is the temporary priority. Other tracks continue only at the bands below, so the exam does not erase the rest of the year and the rest of the year does not erase the exam.
-2. **post-gate** — after the exam, until joining. GATE leaves. System design and the income attempt become the center. Markets and beat production get more room. Neither becomes a new exam.
+2. **post-gate** — after the exam, until joining. GATE leaves. System design and the income attempt become the center. Markets and music get more room. Neither becomes a new exam.
 
 An LSEG internship, if it appears, is an overlay. It does not have a reserved block of time now. See below.
 
@@ -65,7 +65,7 @@ If joining moves into the GATE window, stop and review. Do not quietly compress 
 | GATE | primary | A serious attempt at the paper you are actually sitting. Not a score chase |
 | System design | secondary | Keep the learning arc moving. Conceptual continuity. Not a second full-time program |
 | Product | secondary | Discovery and small tests only. Not a multi-week private build |
-| Beat production | maintenance | The craft stays alive through finishes, not through a second syllabus |
+| Music | maintenance | The craft stays alive through finished work, not through a second syllabus |
 | Markets | maintenance | Slow-burn stays warm. Not another exam |
 | LeetCode | maintenance | Stay fluent. No sheet, no quota, no required contest |
 
@@ -76,7 +76,7 @@ If joining moves into the GATE window, stop and review. Do not quietly compress 
 | GATE | paused, then closed | Close-out only, then gone. No new study |
 | System design | primary | Move from concepts into guided practice and independent application |
 | Product | primary | The real income attempt: ship, price, distribute, or kill on evidence |
-| Beat production | secondary | More room for finishes and technique. Still not a career track |
+| Music | secondary | More room for finished music and technique. Still not a career track |
 | Markets | secondary | Broader practical understanding. Still not a syllabus, and not team-specific |
 | LeetCode | maintenance | Same ceiling as before. Contests stay occasional and optional |
 
@@ -90,14 +90,14 @@ Capacity is `unknown`. Do not invent hours. If a sprint cannot hold every band, 
 
 1. Keep GATE.
 2. Keep some system-design continuity. The arc should not go to zero for months.
-3. Beat production, markets, and LeetCode may be omitted for a sprint. Omitting them for the whole phase is not allowed.
+3. Music, markets, and LeetCode may be omitted for a sprint. Omitting them for the whole phase is not allowed.
 4. Product discovery yields before system-design continuity. It does not yield before GATE.
 
 **post-gate**
 
 1. Keep system design and the product attempt if both can be real. They are both primary on purpose.
 2. If both cannot fit, do not silently demote one. Escalate to a strategic review.
-3. Beat production and markets yield before either primary is dropped.
+3. Music and markets yield before either primary is dropped.
 4. LeetCode yields first.
 
 Unknown capacity is not a reason to mark ordinary weeks Intensive. A mock week, the exam week, or a real deadline may justify Intensive. Ordinary weeks should not. Calendar mode is still chosen in the sprint plan, not here.
@@ -150,15 +150,17 @@ Guardrail, so a hidden build cannot happen by drift: judge experiments on outsid
 
 Acceptable shapes remain the ones you already named. None are selected.
 
-### Beat production
+### Music
 
-A serious craft. Not a career, an audience, or an income track. Decision D-011.
+Making music as a personal craft. Mainly rap, with some melodic attempts. The target is finished music that sounds convincing, not knowledge of tools. Decision D-011 still applies: not a career, an audience, or an income track. Decision D-021 broadens this stream from beats to songs.
 
-gate-window: maintenance. The point of the band is that the craft stays alive without becoming a program. Finished pieces matter more than tutorials. The domain plan decides practice cadence and what counts as finished work for you. No quota is set here.
+Beat-making, sampling, and chopping are part of this, not the whole of it. Writing, recording, vocal processing and mixing, beat tweaking and arrangement, and putting vocals together with a track into a finished piece are core parts of the same craft. Making full songs over existing beats counts as real progress.
+
+gate-window: maintenance. The craft stays alive without becoming a program. Finished work matters more than tutorials. The domain plan decides practice cadence and what counts as finished.
 
 post-gate: secondary. More room. Same non-goals.
 
-"Genuinely good" is your judgment only. Setup is `unknown`. The domain pass must not assume a DAW or buy a stack of tools on your behalf.
+"Genuinely good" is your judgment only. Setup is `unknown`. The domain pass must not assume a DAW, a microphone, or a stack of tools, and must not push gear purchases.
 
 ### Markets
 
@@ -190,7 +192,7 @@ When an offer exists, update [CURRENT_STATE.md](CURRENT_STATE.md) and hold a str
 
 - Internship hours are fixed commitments. They are not sprint achievements and not a new study track.
 - If it falls in gate-window: GATE stays primary. Shrink system design and product first. Do not cancel the exam attempt to make the internship comfortable.
-- If it falls in post-gate: system design stays at least secondary, so the arc does not go to zero. Product may have to drop from primary; a live experiment with evidence is time-boxed harder, not automatically killed. Beat production drops to maintenance, not to nothing. Markets and LeetCode may pause.
+- If it falls in post-gate: system design stays at least secondary, so the arc does not go to zero. Product may have to drop from primary; a live experiment with evidence is time-boxed harder, not automatically killed. Music drops to maintenance, not to nothing. Markets and LeetCode may pause.
 - Refused even then: a framework tour, a placement grind, a secret product build, or an `lseg/` folder that becomes a second engineering curriculum.
 
 ## Checkpoints
@@ -214,18 +216,18 @@ These are directions, not milestone definitions. Domain plans decide the checkpo
 - GATE: you sat the exam, or you explicitly withdrew. There is a short record of which. No score goal.
 - System design: on an unfamiliar problem, you can reason from requirements and constraints, compare designs, and justify a choice, including what you give up — with real implementation experience behind the reasoning, not reading alone. A finished playlist is not this.
 - Product: at least one serious attempt was judged on outside evidence: real use, payment, or a kill written with what actually happened. A private build alone does not count. The evidence bar itself belongs to the domain.
-- Beat production: you can point at finished work you genuinely respect, and the craft is still alive. Tutorial time does not count.
+- Music: you can point at finished music you genuinely respect, songs included, and the craft is still alive. Knowing tools or watching tutorials does not count.
 - Markets: you can explain how markets and their machinery work in your own words, at whatever breadth the domain pass chose to check.
 - LeetCode: you are not starting DSA over. No rating goal.
 - The LSEG path is intact, unless a later review records that you changed it on purpose.
 
 ## What should not receive attention
 
-Standing non-goals in [context/CONSTRAINTS.md](context/CONSTRAINTS.md) stay in force, including: no framework tourism, no placement grind, no beat-production career plan, no second engineering curriculum in `lseg/`, no hidden six-month product, no extra tracks.
+Standing non-goals in [context/CONSTRAINTS.md](context/CONSTRAINTS.md) stay in force, including: no framework tourism, no placement grind, no music career or audience plan, no second engineering curriculum in `lseg/`, no hidden six-month product, no extra tracks.
 
 Also out, for this horizon:
 
-- Score targets, revenue targets, beat quotas, and problem quotas
+- Score targets, revenue targets, music output quotas, and problem quotas
 - A reserved empty block for a hypothetical internship
 - Specializing markets to an unknown LSEG team
 - Treating a good GATE result as an automatic change of career plan
@@ -235,7 +237,7 @@ Also out, for this horizon:
 
 gate-window specifically: no second exam out of markets or LeetCode, and no product build that crowds the attempt.
 
-post-gate specifically: no lingering GATE schedule, and no promotion of beats or markets into the new primary just because the exam is over.
+post-gate specifically: no lingering GATE schedule, and no promotion of music or markets into the new primary just because the exam is over.
 
 ## Assumptions
 
@@ -255,7 +257,7 @@ Decided around, not invented:
 - Exact exam day, joining day, team, role, office, whether the package figure is CTC
 - Weekly capacity and other obligations. Sprints stay small until you report this. It blocks a honest sprint more than it blocks a domain pass
 - GATE paper and current preparation level. These block a GATE syllabus. They do not block the other domain passes. The GATE domain pass should start by establishing the paper and a coarse baseline, and should stop there until you supply them
-- Music setup, budget, and existing depth in system design or markets. Domain passes ask or work with what you have. They do not shop, and they do not assume zero
+- Music setup (DAW, samples, monitoring, recording gear), budget, and existing depth in system design or markets. Domain passes ask or work with what you have. They do not shop, and they do not assume zero
 
 Nothing else in the unknown list needs an answer before domain planning begins.
 
@@ -271,3 +273,4 @@ Nothing else in the unknown list needs an answer before domain planning begins.
 - 2026-09-27 — Skeleton created. No strategic decisions.
 - 2026-09-27 — First strategy adopted. Phases `gate-window` and `post-gate`. Minutes: [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md). D-018, D-019.
 - 2026-09-27 — Cleanup: domain-level prescriptions (GATE study method, system-design phase balance and implementation count, product kill timing, beat finish cadence, markets competency boundary) delegated to domain passes. Phases, bands, stack rule, and goals unchanged. D-020.
+- 2026-09-27 — Amendment: the beat-production stream is broadened to music-making. Mainly rap, some melodic attempts; vocals, recording, vocal mixing, and full songs over existing beats are part of the craft. Bands and phases unchanged. Folder name kept. D-021.

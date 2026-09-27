@@ -46,7 +46,7 @@ File headers repeat this. If a header and this table disagree, the header wins, 
 | `product/IDEAS.md` | Uncommitted ideas | Commitments (those become experiments or sprint outcomes) |
 | `product/EXPERIMENTS.md` | Experiments actually run | Ideas not yet chosen |
 | `product/VALIDATION.md` | What counts as evidence, and findings | A pitch |
-| `beat-production/PRACTICE_LOG.md` | Append-only practice and finished-beat notes | Strategy |
+| `beat-production/PRACTICE_LOG.md` | Append-only music practice and finished-piece notes (beats and songs). Folder name is historical | Strategy |
 | `markets/READING.md` | Reading actually chosen or finished | An unsolicited syllabus |
 | `markets/NOTES.md` | Working notes | A second progress file |
 | `lseg/*` | Employer-specific facts and later notes | A generic engineering curriculum |
@@ -283,7 +283,7 @@ The archived calendar is the final schedule that was in force. Do not regenerate
 - Update progress from evidence, not from the plan or the calendar.
 - Cite the sprint review or the dated owner report you are trusting.
 - Baselines are `unlogged` until the owner reports them. Do not write zero. See decision D-012.
-- Beat sessions go in `beat-production/PRACTICE_LOG.md` first. `PROGRESS.md` holds counts and current focus, derived from the log.
+- Music sessions go in `beat-production/PRACTICE_LOG.md` first. Beats and vocals both count. `PROGRESS.md` holds counts and current focus, derived from the log.
 - Product experiments go in `product/EXPERIMENTS.md`. Ideas that were not run stay in `IDEAS.md`.
 - Markets notes are not progress. If understanding changed, say so in `markets/PROGRESS.md` in the owner's words, or mark it as the model's summary of owner-reported reading.
 - Do not increase a metric because it would be motivating to do so.
@@ -310,7 +310,7 @@ Escalate to a strategic review when any of these are true:
 - Success-by-joining needs to be redefined
 - A monthly review finds drift between how time is actually going and the bands in the master roadmap
 
-Do not escalate because a task was unfinished, a block moved, a mock score was disappointing, or a beat was bad. Those are sprint dispositions or practice. Record them and continue.
+Do not escalate because a task was unfinished, a block moved, a mock score was disappointing, or a piece of music came out badly. Those are sprint dispositions or practice. Record them and continue.
 
 How to escalate: write the reason in the sprint review or monthly review. Do not edit `MASTER_ROADMAP.md` in that same edit. Stop and hand the strategic read set to Grok, unless the owner explicitly told this model to perform the strategy change itself. If they did, still use `templates/STRATEGIC_REVIEW_TEMPLATE.md`, still append a decision, and note that the owner directed a non-Grok strategy edit.
 
@@ -328,7 +328,7 @@ These are hard rules:
 
 - Do not mark work complete unless the owner said it was done, or an artifact they produced is in the repo or linked
 - Do not treat a calendar event as proof the work happened
-- Do not invent mock scores, revenue, user counts, beat counts, chapters read, or problems solved
+- Do not invent mock scores, revenue, user counts, music finish counts, chapters read, or problems solved
 - Do not invent a weekly hour budget, a GATE score target, a revenue target, or a joining team
 - Do not invent classes, labs, exams, interviews, travel, or other fixed commitments
 - Do not add books, courses, problem lists, or product ideas to repo files unless the owner asked or explicitly accepted a suggestion. Suggestions stay in the chat until then

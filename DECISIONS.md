@@ -223,3 +223,13 @@ Ids are never reused.
 - Why: The first pass wrote some detail that the domain passes should own. Delegating it keeps the master stable, stops it from becoming a curriculum, and avoids over-constraining later domain planning.
 - Changes: `MASTER_ROADMAP.md` cleanup (GATE preparation checklist, system-design phase balance and implementation count, product kill timing, beat finish cadence, markets competency enumeration loosened or removed). `product/ROADMAP.md` and `product/VALIDATION.md` pointers updated. Phases, bands, yield order, stack rule, and goals unchanged.
 - Supersedes: none
+
+### D-021 — The music stream is broader than beat production
+
+- Date: 2026-09-27
+- Status: accepted
+- Decided by: owner instruction (strategic amendment)
+- Decision: The stream previously called beat production is music-making. Mainly rap, with some melodic attempts. The target is finished music that sounds convincing and impressive to the owner, not knowledge of DAW tools. Making full songs over existing beats counts as valid progress. Recording, vocal processing, vocal mixing, beat tweaking and arrangement, and integrating vocals into a finished record are core parts of the stream. Beat-making, sampling, and chopping still matter as one part of it. It remains a personal craft: not a career, audience-growth, or monetization goal. No gear-buying requirement. Phase structure, attention bands (maintenance in gate-window, secondary in post-gate), and folder structure are unchanged; `beat-production/` stays the folder name.
+- Why: The goal changed from making instrumentals to making finished music. Framing the stream as beats only would under-plan the vocal and song side and misread progress.
+- Changes: `MASTER_ROADMAP.md` stream section, tables, yield order, success, and non-goals. `context/GOALS.md` goal 4. `context/CONSTRAINTS.md` creative constraint. `README.md` track table. `beat-production/ROADMAP.md`, `PROGRESS.md`, `PRACTICE_LOG.md`, `RESOURCES.md`. `CURRENT_STATE.md` track row and unknown facts. `AI_WORKFLOW.md` log wording. `templates/CALENDAR_GUIDE.md` example title. Strategic minutes amendment appended.
+- Supersedes: none. Broadens the stream named in D-011; the no-career, no-audience, no-monetization rule in D-011 remains in force. Detailed learning sequence, resources, DAW choice, milestones, and practice cadence remain for the domain-planning pass.
