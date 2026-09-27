@@ -23,7 +23,7 @@ Ids are never reused. Replace tracks over time. Do not grow the list forever.
 
 ## Reference set
 
-None chosen yet. Building this is Stage 1 work. See [ROADMAP.md](ROADMAP.md).
+Owner reports six tracks already chosen, but they are not recorded in the repo yet. Paste them here in the format above. A model must not fill these in. Once entered, this is the set the roadmap compares against. See [ROADMAP.md](ROADMAP.md).
 
 ## Teardowns
 

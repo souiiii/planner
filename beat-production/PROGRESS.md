@@ -7,7 +7,7 @@
 
 ## Where things stand
 
-No practice has been logged in this repo. Owner-reported baseline: tools are understood reasonably well; the difficulty is translating an imagined sound into a convincing result. Setup specifics remain `unknown`. See [ROADMAP.md](ROADMAP.md).
+No practice has been logged in this repo. Owner-reported baseline: tools are understood reasonably well; the difficulty is translating an imagined sound into a convincing result. Setup is recorded in [ROADMAP.md](ROADMAP.md): Ableton and FL Studio, i3-1220P laptop, Razer Seiren Mini, headphones, Mac after Durga Puja. Sample sources remain `unknown`.
 
 ## Current stage
 

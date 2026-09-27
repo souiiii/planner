@@ -160,7 +160,7 @@ gate-window: maintenance. The craft stays alive without becoming a program. Fini
 
 post-gate: secondary. More room. Same non-goals.
 
-"Genuinely good" is your judgment only. Setup is `unknown`. The domain pass must not assume a DAW, a microphone, or a stack of tools, and must not push gear purchases.
+"Genuinely good" is your judgment only. Setup facts are owner-reported in [beat-production/ROADMAP.md](beat-production/ROADMAP.md). The domain pass must not assume tools beyond those, and must not push gear purchases.
 
 ### Markets
 

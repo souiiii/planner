@@ -12,4 +12,4 @@ None yet.
 
 What belongs here: a small number of materials you actually work with, used deliberately rather than watched in the background. Decision D-020 says the master does not prescribe these, and neither does this file until you choose.
 
-Also `unknown`, and not a resource until you name it: DAW, sample sources, microphone or recording path, monitoring. Do not write a shopping list here.
+Setup is recorded in [ROADMAP.md](ROADMAP.md). Still `unknown`: sample sources. Do not write a shopping list here.
