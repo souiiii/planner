@@ -2,7 +2,7 @@
 
 > **Authority:** append-only log of durable choices and why they were made.
 > **Current strategy** still lives in [MASTER_ROADMAP.md](MASTER_ROADMAP.md), once that file leaves skeleton status. This log is history and rationale, not a second roadmap.
-> **Update rule:** append a new id. Never rewrite an accepted decision in place. Mark it `superseded` and point at the new id.
+> **Update rule:** append a new id. Never rewrite an accepted decision in place. Mark it `superseded` and point at the new id. A superseded decision is history. Follow the newer id, not the old body.
 > **Last reviewed:** 2026-09-27
 
 Execution models may append execution decisions. Strategic decisions (priorities, phases, success definition) are accepted only in a strategic review. A sprint model may append a `proposed` decision and escalate; proposed is not in force.
@@ -37,7 +37,7 @@ Ids are never reused.
 ### D-002 — Sprint ids are sequential and folders stay put
 
 - Date: 2026-09-27
-- Status: accepted
+- Status: superseded by D-016
 - Decided by: scaffolding
 - Decision: Folders are `sprints/sprint-001/`, zero-padded to three digits. Dates live inside `PLAN.md`. Do not skip ids, do not renumber, do not move closed sprints into an archive folder. A date gap between sprints is allowed. An id gap is not.
 - Why: About thirty sprints are likely. Dates slip; ids should not. Moving folders breaks links from the progress log.
@@ -47,7 +47,7 @@ Ids are never reused.
 ### D-003 — Current sprint file is a pointer
 
 - Date: 2026-09-27
-- Status: accepted
+- Status: superseded by D-016
 - Decided by: scaffolding
 - Decision: `CURRENT_SPRINT.md` only identifies the active sprint. The plan is not copied there.
 - Why: Two copies of the active plan will diverge.
@@ -157,7 +157,7 @@ Ids are never reused.
 ### D-014 — Default sprint length is 10 calendar days
 
 - Date: 2026-09-27
-- Status: accepted
+- Status: superseded by D-017
 - Decided by: scaffolding
 - Decision: A sprint is 10 calendar days, start and end inclusive, unless that sprint's plan writes a different length and the reason. Do not silently stretch to 14 days. Do not schedule by hour.
 - Why: The owner asked for approximately 10-day sprints and rejected fake full-day productivity schedules.
@@ -173,3 +173,23 @@ Ids are never reused.
 - Why: Context drift across models will otherwise rewrite priorities a paragraph at a time.
 - Changes: Edit rule is in the master roadmap header and in [AI_WORKFLOW.md](AI_WORKFLOW.md).
 - Supersedes: none
+
+### D-016 — The active sprint is the `current-sprint/` directory
+
+- Date: 2026-09-27
+- Status: accepted
+- Decided by: owner instruction
+- Decision: While a sprint is open, `current-sprint/` is the sprint. It holds `PLAN.md` and `CALENDAR.ics`. `REVIEW.md` is added only at close. The sprint id is written inside `PLAN.md`, not in the folder name. There is no `CURRENT_SPRINT.md`. `CURRENT_STATE.md` states the active id and the paths. When the next sprint is requested, the whole `current-sprint/` directory is moved to `sprints/sprint-NNN/` and a new `current-sprint/` is created. There is never a second active sprint. After that move, the archived folder is permanent evidence: do not renumber it, do not skip ids, and do not rewrite it to make history look cleaner. There is still no `sprints/archive/` folder. If no sprint has been created, `current-sprint/` does not exist. Do not create a placeholder.
+- Why: A pointer file was a second place to look, and a second place to get wrong. The owner wants the active directory itself to be the sprint, and the archive to be a move of that directory, not a copy.
+- Changes: `CURRENT_SPRINT.md` is deleted. Open work is not filed under `sprints/` until the next sprint starts. D-001 remains accepted: one integrated sprint, no per-domain sprint folders. The sentence in D-001 that called `sprints/` the only execution tree is no longer how the open sprint is stored. D-004 remains accepted: do not create `current-sprint/` or `sprint-001` while the master roadmap is a skeleton, unless the owner overrides that.
+- Supersedes: D-002, D-003
+
+### D-017 — `CALENDAR.ics` is part of the sprint, and it does not set priorities
+
+- Date: 2026-09-27
+- Status: accepted
+- Decided by: owner instruction
+- Decision: Every real sprint has a valid iCalendar file, `CALENDAR.ics`, written by the planning model from `templates/CALENDAR_GUIDE.md`. No generator script. The plan says what; the calendar says when; the calendar is subordinate to the plan. Mode is Light, Structured, or Intensive, named in the plan. Intensive is not the default and is not chosen just because the grid can be filled. Working timezone is `Asia/Kolkata` until `CURRENT_STATE.md` says otherwise. Mid-sprint, edit the one calendar file in place. At close, do not alter it to pretend the schedule was followed. The archived file is the final schedule that was in force. Default sprint length remains 10 calendar days, start and end inclusive, unless that plan writes a different length and the reason. Do not silently stretch to 14 days. Do not put the hourly schedule in `PLAN.md`. Do not treat every free hour as work.
+- Why: The owner already plans with importable calendars and wants that in the sprint, without turning the calendar into a second strategy or a claim that the work was done.
+- Changes: Calendar guide and sprint templates. `CURRENT_STATE.md` records `Asia/Kolkata` as the working calendar timezone. City remains unknown.
+- Supersedes: D-014

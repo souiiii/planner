@@ -2,7 +2,7 @@
 
 > **Authority:** authoritative snapshot of what is true right now.
 > **Not authoritative for:** strategy. If this file and [MASTER_ROADMAP.md](MASTER_ROADMAP.md) disagree about priorities or phases, the master roadmap wins and this file should be corrected.
-> **Update rule:** any model may update facts, the phase *label* (to match the master, not to invent one), capacity, and review pointers. Do not copy plans or metric tables into here.
+> **Update rule:** any model may update facts, the phase *label* (to match the master, not to invent one), the active sprint id, capacity, and review dates. Do not copy plans, calendars, or metric tables into here.
 > **Last reviewed:** 2026-09-27
 
 If you only read one file before acting, read this one, then follow its links. Do not treat empty progress files as proof that prior skill is zero.
@@ -11,7 +11,7 @@ If you only read one file before acting, read this one, then follow its links. D
 
 - As of: 2026-09-27
 - Planning status: scaffolded. Master roadmap is a skeleton. No strategic review has been held
-- Active sprint: none. Pointer: [CURRENT_SPRINT.md](CURRENT_SPRINT.md)
+- Active sprint: none
 - Phase label: TBD (no phase adopted)
 - Attention bands: not assigned
 
@@ -27,7 +27,7 @@ Canonical working dates. Original wording is preserved in [context/PROFILE.md](c
 | Optional LSEG internship | unknown | possible only. Not offered in this repo, not scheduled |
 | Horizon end | LSEG joining | approximate |
 
-Sprint boundaries use dates, not times. Timezone is `unknown`. Do not assume IST.
+Sprint date boundaries are calendar dates. Clock times, once a sprint exists, live only in that sprint's `CALENDAR.ics`.
 
 ## Tracks
 
@@ -42,6 +42,12 @@ Bands are not assigned. "Not started" means this repo has no logged work. It doe
 | Markets | not started in this repo | TBD | none logged |
 | LeetCode | not started in this repo | TBD | owner reports existing DSA ability; no maintenance log yet |
 | LSEG notes | placeholder only | not a track | no internship, no joining prep written |
+
+## Timezone
+
+Working timezone for sprint calendars: `Asia/Kolkata`.
+
+Owner-instructed 2026-09-27. Use this for every `CALENDAR.ics` unless this section is later changed. City is still unknown. The timezone is not a home address, a college, or a class timetable. Do not invent those from it.
 
 ## Capacity
 
@@ -61,7 +67,7 @@ Do not assume hours per day or that every day is productive. Until the owner rep
 
 Do not invent these. Do not let a domain file answer them locally. If one becomes known, update it here and note the date.
 
-- Name, city, timezone
+- Name, city. Working calendar timezone is `Asia/Kolkata` (see above). That does not identify a city
 - Weekly time actually available, and what else occupies the next eleven months
 - Degree status, college, branch. The timeline is compatible with a delayed joining after a campus placement. That is an inference, not a fact. See profile
 - GATE paper, exact exam date, current preparation level, materials already owned or used
@@ -77,6 +83,8 @@ Do not invent these. Do not let a domain file answer them locally. If one become
 Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.md).
 
 - One integrated sprint, not per-track sprints (D-001)
+- The open sprint is the `current-sprint/` directory, then moved into `sprints/` (D-016). That directory does not exist yet
+- Timed work lives in `CALENDAR.ics`, not in the plan (D-017)
 - No sprint until the master roadmap leaves skeleton status (D-004)
 - Attention will be expressed in bands, not percentages, once assigned (D-005)
 - Resource lists stay empty until the owner accepts them (D-006)
@@ -85,8 +93,9 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 
 Grok 4.7 writes the first master roadmap using the read set at the top of [MASTER_ROADMAP.md](MASTER_ROADMAP.md).
 
-Until that happens, do not create `sprints/sprint-001/`.
+Until that happens, do not create `current-sprint/` or `sprints/sprint-001/`.
 
 ## Recent changes
 
 - 2026-09-27 — Repository created. No goal work logged.
+- 2026-09-27 — Sprint execution switched to `current-sprint/` plus `CALENDAR.ics`. No sprint opened. Working calendar timezone set to `Asia/Kolkata`.

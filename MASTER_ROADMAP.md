@@ -24,7 +24,7 @@ This file must not become a weekly schedule, a GATE syllabus, a reading list, or
 7. [DECISIONS.md](DECISIONS.md)
 8. [templates/STRATEGIC_REVIEW_TEMPLATE.md](templates/STRATEGIC_REVIEW_TEMPLATE.md)
 
-Write the result here. Record minutes in `reviews/strategic/YYYY-MM-DD.md`. Append decisions. Update the phase *label* in `CURRENT_STATE.md` so the snapshot matches. Do not create `sprint-001` in that pass unless the owner asks.
+Write the result here. Record minutes in `reviews/strategic/YYYY-MM-DD.md`. Append decisions. Update the phase *label* in `CURRENT_STATE.md` so the snapshot matches. Do not create `current-sprint/` or `sprint-001` in that pass unless the owner asks.
 
 Do not invent values for facts marked `unknown` in current state. Owner-stated phase intents in `context/GOALS.md` are constraints on the strategy, not a strategy already chosen.
 

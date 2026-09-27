@@ -45,4 +45,4 @@ Point at `CURRENT_STATE.md` for personal facts. Do not restate them as if this f
 - Progress: `PROGRESS.md`
 - Near-term backlog, only if this track needs one: `BACKLOG.md`
 - Chosen resources, only if any exist: `RESOURCES.md`
-- Execution: global `sprints/`, not a folder here
+- Execution: the open sprint in `current-sprint/`, later archived under `sprints/`. Not a folder in this domain

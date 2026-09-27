@@ -1,0 +1,338 @@
+# Calendar guide
+
+> **Role:** how to write a sprint `CALENDAR.ics`. Format rules in this file win over summaries elsewhere.
+> **When to create or move a sprint:** [AI_WORKFLOW.md](../AI_WORKFLOW.md). This file does not decide sprint scope.
+> **Last reviewed:** 2026-09-27
+
+The planning model writes the `.ics` file directly. Do not add a generator script, a second calendar file, or a JSON copy of the schedule.
+
+`PLAN.md` says what the sprint is for. `CALENDAR.ics` says when it makes sense to work on those outcomes. The calendar is subordinate to the plan.
+
+## What the calendar must not do
+
+- Invent a strategic priority, or make a track matter more because it has more events
+- Treat every free hour as available work
+- Schedule the entire day, except in Intensive mode, and even then protected free time stays free
+- Turn unfinished tasks into extra blocks on its own
+- Silently add scope that is not in `PLAN.md`
+- Stand in for completion. An event is a block, not evidence the work happened. Completion is `REVIEW.md`
+- Invent classes, exams, interviews, travel, or other commitments the owner has not reported
+- Put secrets, passwords, tokens, or private credentials in a description
+- Select Intensive mode just because the calendar can be filled
+
+If capacity is `unknown`, use Light. Do not guess a full week.
+
+## Modes
+
+The active `PLAN.md` must name the mode and why. One mode per sprint.
+
+### Light
+
+Use when life is uncertain, capacity is unknown, or the sprint does not need a rigid schedule.
+
+Include:
+
+- fixed commitments that are actually known and relevant
+- a small number of important focus blocks
+- deadlines or assessments, if a real date is known
+- a few protected sessions, if something would otherwise be crowded out
+
+Leave most of the time off the calendar. Do not create an event for every empty hour. Absence is the slack.
+
+### Structured
+
+Default when availability is reasonably known and the sprint is ordinary.
+
+Include:
+
+- planned work sessions for the outcomes that need a time
+- known fixed commitments
+- breaks or buffers where work would otherwise stack with no recovery
+- deliberate slack, mostly as unscheduled gaps rather than a labeled event in every hole
+
+Do not schedule the entire day.
+
+### Intensive
+
+Only when the plan names a real reason:
+
+- important exam preparation
+- interview preparation
+- a short high-pressure window
+- a deadline
+- another period the owner has explicitly called intensive
+
+May include a detailed day: fixed commitments, focus blocks, meals, breaks, transition time, recovery, free time, wind-down, and hard stops.
+
+Still not permission to delete free time. A hard stop is a hard stop. If you cannot name the circumstance in `PLAN.md`, you are not in Intensive mode.
+
+## Titles
+
+Concise and useful. Emoji prefixes are optional, not the default.
+
+Work:
+
+```text
+System Design — Cache-Aside Implementation
+GATE — DBMS PYQ Set
+Beat Production — Sample Chopping Practice
+Product — Validate Problem #2
+```
+
+Pattern: `Track — specific block`. The title should tell you what this sitting is for without opening the plan.
+
+Fixed commitments, so they are not mistaken for sprint goals:
+
+```text
+Fixed — DBMS class
+Fixed — Interview
+Exam — GATE mock
+```
+
+Use the specific name when it is clearer (`Class — DBMS`). The point is that a review can see it was not an outcome.
+
+Non-work, when the mode actually includes them:
+
+```text
+Break
+Rest / Buffer
+Lunch
+Dinner
+Transition
+Free Time
+Wind Down
+Unused Slack
+```
+
+Stretch, only if there is real spare capacity and the plan already lists it:
+
+```text
+Stretch — <task>
+```
+
+Missing a stretch block is not a miss.
+
+## Descriptions
+
+Enough to do that block without reopening five planning files. Not a paste of the sprint plan.
+
+Usual shape:
+
+```text
+Plan: O1
+Purpose: Understand cache-aside behavior under normal and failure conditions.
+What to do:
+- implement the normal read path
+- handle a cache miss
+- simulate a Redis outage
+- reason about invalidation
+Output: Working implementation plus short failure-mode notes.
+```
+
+Add a line only when it earns its place:
+
+- `Workflow:` or constraints, if the order matters
+- `Resources:` only for material already chosen in the repo. Do not introduce a book or course here
+- `Hard rule:` a stop condition, when one would otherwise be ignored
+
+`Plan: O1` (or the task it covers) is how a work event maps back to `PLAN.md`. Fixed commitments and non-work events do not need an outcome id. Their description should say they are not sprint outcomes.
+
+A tiny follow-up can live inside a larger block. It does not need its own event.
+
+Not every plan task needs an event. Flexible work may stay unscheduled. Stretch work stays unscheduled unless spare capacity is real.
+
+## Non-work time is protected
+
+`Rest / Buffer` is not hidden catch-up. Do not move missed work into it. Say so in the description: `Protected time. Not catch-up.`
+
+`Free Time` and `Unused Slack` stay free. Do not fill them later unless the owner asks to reschedule, and even then do not assume they are the default overflow.
+
+Account for transitions between unrelated blocks. Do not stack hard work back to back all day and call the gaps optional.
+
+In Light mode, protect time by leaving it unscheduled. Do not stamp `Unused Slack` across every open hour. That is a full schedule made of labels.
+
+In Structured mode, put a buffer where two demanding blocks would otherwise touch, and leave real gaps with no event.
+
+In Intensive mode, write meals, breaks, transitions, recovery, free time, wind-down, and hard stops as events so they are not squeezed out. A buffer event still is not catch-up time.
+
+## Fixed commitments
+
+Include one only if the owner reported it or it is already a fact in this repo: class, exam, lab, interview, assessment, internship or work, appointment, travel, or another known obligation.
+
+They explain why a work block cannot sit there. They are not sprint goals. Do not score them in `REVIEW.md`.
+
+If the day is known and the clock time is not, use a date-only event or omit the clock time. Do not invent 09:00.
+
+## How long a block should be
+
+No single duration.
+
+- 15–30 minutes: a real review, a buffer, a transition. Not a way to slice deep work into shards
+- 60–120 minutes: normal deep work
+- Longer than that only with a reason written in the description, and not as an unbroken four-hour concentration block by default
+
+Split a task across days if that is the better way to do it. Several honest blocks beat one fantasy block.
+
+Avoid a day of difficult work with no recovery, in any mode.
+
+## Timezone
+
+Read the working timezone from `CURRENT_STATE.md`. Until that file says otherwise, it is `Asia/Kolkata`.
+
+Use that zone for `X-WR-TIMEZONE`, for every `TZID`, and for the `VTIMEZONE` block. Do not mix zones in one file. Do not write a Kolkata clock time with a `Z` suffix. `Z` means UTC and will shift the event by 5 hours 30 minutes.
+
+If `CURRENT_STATE.md` later names a different zone, do not reuse the Asia/Kolkata offset block below. Get the right `VTIMEZONE` for that zone. Do not invent offsets.
+
+## File rules
+
+One file: `current-sprint/CALENDAR.ics` while the sprint is active. After archive, the same file lives at `sprints/sprint-NNN/CALENDAR.ics` and is the final schedule that was in force, including mid-sprint edits.
+
+- UTF-8, no BOM
+- CRLF line endings (`\r\n`), as RFC 5545 requires
+- Fold any line longer than 75 octets. Continuation lines start with a single space. That leading space is removed when the line is unfolded, so a space you want to keep must sit before the break
+- No second calendar, no `CALENDAR-old.ics`, no sidecar JSON or YAML
+- Git history is the earlier version. Do not keep versioned copies in the folder
+
+Do not rewrite the file at sprint close to match what was actually done. A missed Tuesday block stays on Tuesday.
+
+## Required shape
+
+```text
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Personal Planner//Sprint Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sprint 001
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VTIMEZONE
+...
+END:VTIMEZONE
+BEGIN:VEVENT
+...
+END:VEVENT
+END:VCALENDAR
+```
+
+`X-WR-CALNAME` is a useful sprint name, such as `Sprint 001` or `Sprint 001 · 1–10 Oct 2026`. Not a slogan and not a strategy statement.
+
+`VTIMEZONE` is required when `DTSTART` uses `TZID`. Copy this block for `Asia/Kolkata`. India has no daylight-saving transition in this zone.
+
+```text
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+```
+
+Each timed event needs at least:
+
+```text
+BEGIN:VEVENT
+UID:sprint-001-20261002-01@personal-planner
+DTSTAMP:20261001T043000Z
+DTSTART;TZID=Asia/Kolkata:20261002T093000
+DTEND;TZID=Asia/Kolkata:20261002T110000
+SEQUENCE:0
+SUMMARY:System Design — Cache-Aside Implementation
+DESCRIPTION:Plan: O1\nPurpose: Understand cache-aside under normal and failure conditions.\nWhat to do:\n- implement the normal read path\n- handle a cache miss\nOutput: Working notes on the failure path.
+END:VEVENT
+```
+
+`SEQUENCE` is required. Start at `0`. Increment by 1 when the time, title, or description of that event changes. Importers that honor `UID` plus `SEQUENCE` can update an event instead of duplicating it. Those that do not will still behave better if the UID did not change.
+
+`DTSTAMP` is UTC, `YYYYMMDDTHHMMSSZ`, at the time you write the event. Do not reuse a stale stamp after an edit.
+
+`DTEND` is the end instant, not inclusive. A 09:30–11:00 block ends at `110000`.
+
+### Date-only events
+
+Use these when the day is known and the clock time is not. `DTEND` is the next day, exclusive. A deadline on 5 October:
+
+```text
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+```
+
+Do not also put `TZID` on a `VALUE=DATE` property.
+
+## UIDs
+
+Stable and deterministic. No random values.
+
+When you create an event, assign:
+
+```text
+<sprint-id>-<original-local-date>-<sequence>@personal-planner
+```
+
+Example: `sprint-001-20261002-01@personal-planner`
+
+- `sprint-id` matches the id inside `PLAN.md`, including the `sprint-` prefix
+- `original-local-date` is `YYYYMMDD` in the calendar timezone, the day the event was first placed
+- `sequence` is `01`, `02`, … among events first created for that date. Two digits is enough
+- Never reuse a sequence number for a different event
+- If you delete an event, retire its UID. Do not give that UID to a new block
+
+Once assigned, the UID does not change. If Tuesday moves to Wednesday, keep the UID, change `DTSTART` and `DTEND`, and increment `SEQUENCE`. Do not "fix" the date inside the UID. Recomputing it creates a duplicate on import.
+
+Regenerating the file with the same UIDs is how a supporting calendar avoids duplicates. It is not a promise that every importer updates in place. Still do not mint new UIDs for the same blocks.
+
+## Escaping
+
+In `SUMMARY` and `DESCRIPTION`:
+
+| Character | Write |
+| --- | --- |
+| `\` | `\\` |
+| `;` | `\;` |
+| `,` | `\,` |
+| newline | `\n` |
+
+A real line break inside a description is the two characters `\` and `n`, not a raw newline, until you are folding a long line.
+
+Folding example. The break is CRLF plus one space. The space at the start of the next line is not part of the text. The space you want to keep is before the break:
+
+```text
+DESCRIPTION:Plan: O1\nPurpose: Understand cache-aside.\nWhat to do:\n- implement
+  the normal read path
+```
+
+Unfolded value: `Plan: O1` then a newline, then `Purpose: …`, then `- implement the normal read path`.
+
+Prefer short lines so you fold rarely. Count octets, not characters. Skip emoji if you are near the limit and do not want to fold.
+
+## Mid-sprint edits
+
+The owner can reschedule. Edit `current-sprint/CALENDAR.ics` in place.
+
+- Keep sprint goals unless the owner is explicitly changing scope
+- Do not rewrite `PLAN.md` because Tuesday moved to Wednesday
+- Moving a block is not failure and is not a review event by itself
+- Do not occupy `Rest / Buffer` or `Free Time` automatically
+- If the calendar keeps proving the plan cannot fit, leave that evidence for the review. Do not quietly delete outcomes from the plan to make the calendar look feasible
+
+## Checklist before the file is done
+
+- [ ] Mode in `PLAN.md` matches the density of this file
+- [ ] Every work event maps to an outcome or task in `PLAN.md`
+- [ ] No work event adds scope the plan does not have
+- [ ] Stretch is unscheduled, or clearly labeled and optional
+- [ ] Known fixed commitments only. None invented
+- [ ] Buffers and free time are not described as catch-up
+- [ ] Timezone matches `CURRENT_STATE.md`
+- [ ] `VTIMEZONE` matches that zone
+- [ ] Timed values use `TZID` and do not end in `Z`
+- [ ] UIDs are stable, unique, and not random
+- [ ] `DTSTAMP` is UTC
+- [ ] Commas, semicolons, backslashes, and newlines are escaped
+- [ ] Lines over 75 octets are folded
+- [ ] CRLF line endings
+- [ ] No secrets
+- [ ] No second calendar file

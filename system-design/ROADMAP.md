@@ -57,4 +57,4 @@ Which concepts come first, and what the first implementation is, are **TBD** aft
 - Backlog: [BACKLOG.md](BACKLOG.md)
 - Chosen materials: [RESOURCES.md](RESOURCES.md)
 - Project links: [projects/README.md](projects/README.md)
-- Execution: global sprints, not a folder here
+- Execution: `current-sprint/` while open, then `sprints/`. Not a folder here.

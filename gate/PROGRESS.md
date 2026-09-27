@@ -22,4 +22,4 @@ A percentage written without a dated self-assessment from you is a hallucination
 
 ## Log pointer
 
-Detail, when it exists, will be cited from `sprints/sprint-NNN/REVIEW.md` and indexed in [PROGRESS_LOG.md](../PROGRESS_LOG.md).
+Detail, when it exists, will be cited from that sprint's `REVIEW.md` (`current-sprint/REVIEW.md` until archived, then `sprints/sprint-NNN/REVIEW.md`) and indexed in [PROGRESS_LOG.md](../PROGRESS_LOG.md).

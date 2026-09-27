@@ -54,4 +54,4 @@ Default is to leave domain curricula unwritten. If you touched a domain roadmap,
 
 ## Next planning action
 
-FILL. Usually: an execution model may now create the next sprint from the new master roadmap, or a follow-up pass should write domain milestones for primary tracks only.
+FILL. Usually: an execution model may now create the next sprint as `current-sprint/`, following `AI_WORKFLOW.md`, or a follow-up pass should write domain milestones for primary tracks only. Do not pre-create `sprints/sprint-001/`.

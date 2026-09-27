@@ -49,4 +49,4 @@ Do not answer these in this file. They live in [CURRENT_STATE.md](../CURRENT_STA
 - Progress and metrics: [PROGRESS.md](PROGRESS.md)
 - Near-term unscheduled work: [BACKLOG.md](BACKLOG.md)
 - Chosen materials only: [RESOURCES.md](RESOURCES.md)
-- Execution: global sprints, not a folder here
+- Execution: `current-sprint/` while open, then `sprints/`. Not a folder here.

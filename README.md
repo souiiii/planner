@@ -2,11 +2,11 @@
 
 Personal planning repo for September 2026 through LSEG joining, around August 2027.
 
-This is a set of Markdown files, not an app. More than one AI model will read and update it over about eleven months. The structure exists so those models share one strategy, one picture of the present, and one active 10-day sprint — instead of each inventing a new plan.
+This is a set of Markdown files plus a sprint calendar, not an app. More than one AI model will read and update it over about eleven months. The structure exists so those models share one strategy, one picture of the present, and one active 10-day sprint — instead of each inventing a new plan.
 
 ## Horizon
 
-Roughly 2026-09-27 → around August 2027. Joining date and exam date are approximate. Canonical dates: [CURRENT_STATE.md](CURRENT_STATE.md).
+Roughly 2026-09-27 → around August 2027. Joining date and exam date are approximate. Canonical dates and the working timezone: [CURRENT_STATE.md](CURRENT_STATE.md).
 
 ## Goals
 
@@ -28,49 +28,64 @@ Who you are, what you refuse to do, and the goal writeups: [context/PROFILE.md](
 ## Hierarchy
 
 ```text
-MASTER_ROADMAP.md             strategy: phases, attention, milestones, non-goals
-        |
-domain roadmaps               what each track is trying to produce
-        |
-sprints/sprint-NNN/PLAN.md    the only active task list (all tracks, one sprint)
-        |
-sprints/sprint-NNN/REVIEW.md  what actually happened
+MASTER ROADMAP
+      ↓
+DOMAIN ROADMAPS
+      ↓
+current-sprint/
+   PLAN.md          what this 10 days is for
+   CALENDAR.ics     when to work on that
+      ↓
+REVIEW.md           what actually happened
+      ↓
+archive the whole directory
+      ↓
+sprints/sprint-NNN/
+      ↓
+fresh current-sprint/
 ```
 
 A domain file cannot decide that its track gets half your time. That decision belongs to the master roadmap.
 
-Sprints are global. There are no per-track sprint folders.
+The calendar cannot decide it either. More events do not make a track more important. `PLAN.md` is the sprint. `CALENDAR.ics` is only the schedule. How to write one: [templates/CALENDAR_GUIDE.md](templates/CALENDAR_GUIDE.md).
+
+Sprints are global. There are no per-track sprint folders, and there is never a second active sprint. The open sprint is the `current-sprint/` directory. Its number lives inside `PLAN.md`, not in the folder name.
 
 ## Which file wins
 
 | Question | Authoritative file |
 | --- | --- |
 | What is the strategy? | [MASTER_ROADMAP.md](MASTER_ROADMAP.md) |
-| What is true right now? | [CURRENT_STATE.md](CURRENT_STATE.md) |
-| Which sprint is active, and where is the plan? | [CURRENT_SPRINT.md](CURRENT_SPRINT.md) — a pointer, not a copy of the plan |
-| What should be done in the active sprint? | `sprints/sprint-NNN/PLAN.md` |
-| What happened in a closed sprint? | that sprint's `REVIEW.md` |
+| What is true right now, including which sprint is active? | [CURRENT_STATE.md](CURRENT_STATE.md) |
+| What should this sprint accomplish? | `current-sprint/PLAN.md` |
+| When should that work happen? | `current-sprint/CALENDAR.ics`, subordinate to the plan |
+| What happened in the sprint just closed, before it is archived? | `current-sprint/REVIEW.md` |
+| What happened in an archived sprint? | `sprints/sprint-NNN/REVIEW.md` |
 | Why was a durable choice made? | [DECISIONS.md](DECISIONS.md) |
 | What happened, in order? | [PROGRESS_LOG.md](PROGRESS_LOG.md) — index only; detail stays in reviews |
+
+There is no pointer file. If `CURRENT_STATE.md` and `current-sprint/PLAN.md` disagree about the sprint id, fix current state to match the plan. Do not open a second sprint to resolve it.
 
 Operating rules for humans and models: [AI_WORKFLOW.md](AI_WORKFLOW.md).
 
 ## Workflow
 
 1. Strategy changes only in a strategic review. That is normally Grok 4.7. See [templates/STRATEGIC_REVIEW_TEMPLATE.md](templates/STRATEGIC_REVIEW_TEMPLATE.md).
-2. Execution runs in 10-day sprints under [sprints/](sprints/README.md). One sprint covers every track that is active, not six competing sprint files.
-3. At the end, write a review. For each unfinished item, carry it, change it, or delete it. Do not copy the whole list forward.
-4. Record what happened. Do not record intentions as progress.
+2. Execution is one 10-day sprint in `current-sprint/`. The plan says what. The calendar says when. One sprint covers every track that is active.
+3. At the end, write `REVIEW.md` in that same directory. For each unfinished item, carry it, change it, or delete it. Do not copy the whole list forward. Do not edit the calendar to pretend the schedule was followed.
+4. When the next sprint starts, move the whole `current-sprint/` directory to `sprints/sprint-NNN/`, then create a fresh `current-sprint/`. Archived sprints stay put. They are not rewritten to look cleaner.
+5. Record what happened. Do not record intentions, or calendar events, as progress.
 
-Closed sprints stay in `sprints/sprint-NNN/`. They are not moved to an archive. Monthly and strategic writeups go in [reviews/](reviews/README.md).
+Monthly and strategic writeups go in [reviews/](reviews/README.md). Sprint reviews do not.
 
 ## Where to put something new
 
 | You have… | Put it in |
 | --- | --- |
-| A fact about the present (date, phase label, sprint pointer, capacity) | [CURRENT_STATE.md](CURRENT_STATE.md) |
+| A fact about the present (date, phase label, which sprint is active, capacity) | [CURRENT_STATE.md](CURRENT_STATE.md) |
 | A change of strategy | strategic review, then master roadmap + [DECISIONS.md](DECISIONS.md) |
-| Work for the current 10 days | the active sprint `PLAN.md` |
+| Outcomes for the current 10 days | `current-sprint/PLAN.md` |
+| A change to when you will do that work | `current-sprint/CALENDAR.ics` |
 | Proof that something was finished | sprint `REVIEW.md`, then that domain's `PROGRESS.md`, then one line in [PROGRESS_LOG.md](PROGRESS_LOG.md) |
 | Near-term work with no sprint slot yet | that domain's `BACKLOG.md`, or [BACKLOG.md](BACKLOG.md) if it spans tracks |
 | A book, course, or tool you have actually chosen | that domain's `RESOURCES.md` |
@@ -80,7 +95,7 @@ Empty resource and idea files mean "none chosen yet", not "fill me with suggesti
 
 ## Status of this repo
 
-Scaffolded on 2026-09-27. Master roadmap is a skeleton. No sprint has been started. No progress on the goals has been logged, and absence of a log is not a claim that prior knowledge is zero.
+Scaffolded on 2026-09-27. Master roadmap is a skeleton. No sprint has been started. `current-sprint/` does not exist yet, on purpose. No progress on the goals has been logged, and absence of a log is not a claim that prior knowledge is zero.
 
 If this paragraph disagrees with [CURRENT_STATE.md](CURRENT_STATE.md), current state wins.
 
@@ -97,4 +112,4 @@ The next task is a first strategic pass by Grok 4.7. It should read only:
 7. [DECISIONS.md](DECISIONS.md)
 8. [templates/STRATEGIC_REVIEW_TEMPLATE.md](templates/STRATEGIC_REVIEW_TEMPLATE.md)
 
-That pass writes strategy. It should not become a topic-by-topic curriculum, and it should not create `sprint-001` unless you explicitly ask.
+That pass writes strategy. It should not become a topic-by-topic curriculum, and it should not create `current-sprint/` or `sprint-001` unless you explicitly ask.

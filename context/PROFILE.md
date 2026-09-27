@@ -11,7 +11,7 @@ If a later message from the owner contradicts this file, update this file and da
 
 - Name: unknown
 - City: unknown
-- Timezone: unknown
+- Timezone: working calendar timezone lives in [CURRENT_STATE.md](../CURRENT_STATE.md). City: unknown
 
 ## Placement (owner-reported 2026-09-27)
 
@@ -49,7 +49,7 @@ The engineering tracks should use this stack unless there is a specific reason n
 
 Stored so later models do not upgrade them into biography.
 
-- Compensation in INR, plus GATE, plus an LSEG package quoted in LPA, implies an India placement context. City is still unknown. Do not assume a campus, a college, or IST.
+- Compensation in INR, plus GATE, plus an LSEG package quoted in LPA, implies an India placement context. City is still unknown. Do not assume a campus or a college. The planning timezone in current state is not a home address.
 - Joining about eleven months after September 2026 is compatible with a student who has a delayed joining date. Degree status, college, and branch were not stated. Do not plan as if a free final year is known, and do not plan as if a full-time job is known.
 
 ## What this file does not decide

@@ -1,7 +1,7 @@
 # Reviews
 
 > **Role:** where non-sprint reviews go.
-> **Sprint reviews do not go here.** They live beside the plan: `sprints/sprint-NNN/REVIEW.md`.
+> **Sprint reviews do not go here.** They are written at `current-sprint/REVIEW.md` when a sprint closes, then move with that directory to `sprints/sprint-NNN/REVIEW.md`.
 > **Last reviewed:** 2026-09-27
 
 | Kind | Path | Template |
