@@ -213,3 +213,13 @@ Ids are never reused.
 - Why: A hard stack ban would block useful learning. A free choice of stack would become the framework tour you already refused. The default keeps engineering work on ground you know, without pretending every system is best built there.
 - Changes: `context/CONSTRAINTS.md` stack section. Pointers in `context/PROFILE.md`, `context/GOALS.md`, and `system-design/ROADMAP.md`.
 - Supersedes: none. Replaces the previous stack wording in `context/CONSTRAINTS.md`, which read as a harder restriction.
+
+### D-020 — The master sets priority, timing, and role; domain passes set milestones and methods
+
+- Date: 2026-09-27
+- Status: accepted
+- Decided by: owner instruction (cleanup after the first strategic review)
+- Decision: The master roadmap decides priority, phase timing, broad role, broad maturity target, and interaction between streams. It does not decide detailed milestones, learning sequence, evidence thresholds, output cadence, implementation counts, or domain-specific teaching structure beyond the owner's stated preferences. Domain planners define those inside the master's bounds. The master may still state a guardrail taken from the owner's constraints (for example: no long private product builds, finished work over tutorials, no placement grind). Study method, kill timing, breadth boundaries, and finish cadence belong to the domain plan.
+- Why: The first pass wrote some detail that the domain passes should own. Delegating it keeps the master stable, stops it from becoming a curriculum, and avoids over-constraining later domain planning.
+- Changes: `MASTER_ROADMAP.md` cleanup (GATE preparation checklist, system-design phase balance and implementation count, product kill timing, beat finish cadence, markets competency enumeration loosened or removed). `product/ROADMAP.md` and `product/VALIDATION.md` pointers updated. Phases, bands, yield order, stack rule, and goals unchanged.
+- Supersedes: none

@@ -88,7 +88,8 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 - No sprint was allowed while the master roadmap was a skeleton (D-004). That block is lifted. Do not open `sprint-001` until the owner asks
 - First strategy: `gate-window`, then `post-gate` (D-018)
 - Existing stack is the default, not a ban (D-019)
-- Attention will be expressed in bands, not percentages, once assigned (D-005)
+- Master sets priority, timing, and role; domain passes set milestones and methods (D-020)
+- Attention is expressed in bands, not percentages (D-005)
 - Resource lists stay empty until the owner accepts them (D-006)
 
 ## Next planning action

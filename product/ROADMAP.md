@@ -30,7 +30,7 @@ Inherited from [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). Do not change it here.
 - `gate-window` (current): secondary. Discovery and small tests only. A multi-week private build is out of phase.
 - `post-gate`: primary.
 
-The kill rule (about three sprints without the evidence bar moving → kill or change, do not extend by default) is in the master roadmap. Do not loosen it here. No idea is chosen yet.
+The master roadmap sets the guardrail: outside evidence, no long private build. This domain plan defines the loop, the evidence bar, and the kill method (see [VALIDATION.md](VALIDATION.md)). Do not loosen the guardrail itself. No idea is chosen yet.
 
 ## Outcomes
 
@@ -46,7 +46,7 @@ Numeric revenue targets are **TBD** and may remain unset. Shipping something nob
 
 **TBD.**
 
-Likely shape, not a commitment: investigate a problem, run a small test, keep or kill, repeat. The kill criterion is already in the master roadmap. Do not loosen it here.
+Likely shape, not a commitment: investigate a problem, run a small test, keep or kill, repeat. The master sets the guardrail; the kill method is this domain's to define. Do not loosen the guardrail.
 
 ## How the other files split
 

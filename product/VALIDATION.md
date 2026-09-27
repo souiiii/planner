@@ -25,9 +25,11 @@ A conversation is more useful than a compliment. Write down what they already do
 
 ## Kill rule
 
-**TBD** by the strategic pass, then applied per experiment.
+The master roadmap sets the guardrail: experiments are judged on outside evidence, not effort or elapsed time, and a long private build is out of phase. It does not set a kill time. Decision D-020.
 
-Until that exists, do not let an experiment run on as an unbounded build. A sprint that extends a build with no new evidence should say so in the review and consider `delete` or `change`.
+This domain defines the method: how an experiment is time-boxed, what triggers a change or a kill, and what evidence would justify one more cycle. That method is not written yet.
+
+Until it exists, do not let an experiment run on as an unbounded build. A sprint that extends a build with no new evidence should say so in the review and consider `delete` or `change`.
 
 ## Findings
 

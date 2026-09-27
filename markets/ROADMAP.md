@@ -46,7 +46,7 @@ Intent only.
 - You can explain the core machinery in your own words
 - You know what you do not understand yet, specifically
 
-What "enough" means by joining is in the master roadmap. Do not tighten it into a syllabus here.
+The master sets only a broad target for joining. The domain pass sets breadth and checkpoints inside it. Do not turn either into a syllabus or a detailed competency checklist.
 
 ## Milestones
 

@@ -110,14 +110,11 @@ Detailed content is a later domain pass. This section is role, timing, and matur
 
 Backup and security, not the main direction. Primary only in gate-window.
 
-A serious attempt, with no score target, means all of the following:
+A serious attempt, with no score target, means: the paper is the one you are registered for (paper is `unknown` here; do not assume CS), you prepare as a real candidate rather than a symbolic registration, and you sit the exam unless you explicitly withdraw.
 
-- The paper is the one you are registered for. It is `unknown` here. Do not assume CS.
-- You can sit the whole paper, not a symbolic registration.
-- You have used past questions or mocks under exam conditions enough to know your weak areas from evidence.
-- You sit the exam, unless you explicitly withdraw.
+How preparation is organized — materials, sequence, and what role past questions or mocks play — belongs to the domain plan. The master does not set the study method.
 
-"Good" is not a number. It means you prepared as a real candidate. Current level and materials are `unknown`. The domain pass must get a baseline from you. It must not invent one, and it must not start from a fake zero.
+Current level and materials are `unknown`. The domain pass must get a baseline from you. It must not invent one, and it must not start from a fake zero.
 
 After the exam, the track closes. A result, good or bad, does not by itself change LSEG joining or the other bands.
 
@@ -133,9 +130,9 @@ The arc, in order, and comfortably paced:
 
 End capability by joining: take requirements and constraints, compare more than one viable design, explain the trade-offs, justify a choice, and do that with a repeatable process. That should be enough for the kind of system-design interview expected after some professional experience, and it should also be real engineering understanding, not only interview prep.
 
-gate-window: secondary. Keep one thread moving, mostly in the conceptual stage unless you already know you are past it. Do not open several implementation projects beside the exam. Existing depth is `unknown`. Do not assume a beginner start.
+gate-window: secondary. Keep the arc moving at a pace that fits beside the exam. How much of this phase is theory and how much is implementation is for the domain plan; the master only says the track should not go silent. Existing depth is `unknown`. Do not assume a beginner start.
 
-post-gate: primary. Move into guided practice and then independent application. Success is the capability above, plus at least one implementation that forced a constraint to be real. Not a count of topics covered.
+post-gate: primary. Give the arc room to move from guided work into independent application. How theory and implementation are balanced, and what counts as enough practice, belong to the domain plan. Success is the capability above, not a count of topics covered.
 
 Topic order, resources, and project choice belong in the domain pass. The unordered scope already listed in [context/GOALS.md](context/GOALS.md) is not a sequence and is not repeated here.
 
@@ -145,11 +142,11 @@ Stack: default to the stack you already know, where it is sufficient. Deviation 
 
 One real attempt at independent software income before joining. The work is discovery, validation, shipping, pricing, distribution, paying users, and iteration. "Build projects" does not count. No idea is chosen here.
 
-gate-window: secondary, and only as discovery and small tests. A build that needs weeks of private work is out of phase, unless a tiny test is already validated and stays small.
+gate-window: secondary, and only as discovery and small tests. A long private build is out of phase. Keep experiments small enough to test quickly.
 
 post-gate: primary. This is the window to ship and charge if the evidence says to continue.
 
-Kill rule, so a hidden build cannot happen by drift: if an experiment runs about three sprints without the evidence bar in `product/VALIDATION.md` moving, kill it or change it. Do not extend it by default. Outside evidence beats a finished private build. No revenue target is set. An honest kill counts. A repo nobody else touched does not.
+Guardrail, so a hidden build cannot happen by drift: judge experiments on outside evidence, not on effort or elapsed time, and change or kill one that stops producing it rather than extending it by default. The domain plan, with `product/VALIDATION.md`, defines the loop, the evidence bar, and how that judgment is made. The master sets no kill time. No revenue target is set. An honest kill counts. A repo nobody else touched does not.
 
 Acceptable shapes remain the ones you already named. None are selected.
 
@@ -157,7 +154,7 @@ Acceptable shapes remain the ones you already named. None are selected.
 
 A serious craft. Not a career, an audience, or an income track. Decision D-011.
 
-gate-window: maintenance. The point of the band is that the craft is not dropped and not turned into a program. Finished pieces matter more than tutorials. No beats-per-week quota. Skipping one sprint is allowed. Going the whole phase with no finishes is not.
+gate-window: maintenance. The point of the band is that the craft stays alive without becoming a program. Finished pieces matter more than tutorials. The domain plan decides practice cadence and what counts as finished work for you. No quota is set here.
 
 post-gate: secondary. More room. Same non-goals.
 
@@ -171,7 +168,7 @@ gate-window: maintenance. Warm, not a second syllabus.
 
 post-gate: secondary. Still general. Do not specialize to a guessed desk.
 
-Enough, by joining: you can explain in your own words how the main pieces fit — what the major instruments are for, how a trade becomes a settled position, what market data and risk are doing, and where a markets-infrastructure firm can sit. Not a license, a forecast record, or every subtopic mastered. Deeper, team-specific study waits until a team is known, and even then only after a review.
+Enough, by joining: practical understanding you can explain in your own words — how markets work and how the main pieces fit together. The domain pass sets the breadth and the checkpoints inside that broad target. It is not a license, a forecast record, or every subtopic mastered. Deeper, team-specific study waits until a team is known, and even then only after a review.
 
 No reading list in this file.
 
@@ -212,13 +209,13 @@ These are transitions, not tasks.
 
 ## Success by joining
 
-Around August 2027, this period went well if you can point at the following. No numeric targets were set, so none are implied.
+These are directions, not milestone definitions. Domain plans decide the checkpoints that demonstrate them. No numeric targets were set, so none are implied.
 
 - GATE: you sat the exam, or you explicitly withdrew. There is a short record of which. No score goal.
-- System design: faced with an unfamiliar problem, you can name requirements and constraints, compare more than one design, and justify a choice, including what you give up. At least one implementation exists that you can explain. A finished playlist is not this.
-- Product: at least one experiment met the evidence bar. It ended in real outside use, payment, or a written kill that cites the evidence. A private build alone does not count.
-- Beat production: finished beats exist, and you have named some you consider genuinely good. Tutorial time does not count.
-- Markets: you can give the explanation under "enough" above, in your own words.
+- System design: on an unfamiliar problem, you can reason from requirements and constraints, compare designs, and justify a choice, including what you give up — with real implementation experience behind the reasoning, not reading alone. A finished playlist is not this.
+- Product: at least one serious attempt was judged on outside evidence: real use, payment, or a kill written with what actually happened. A private build alone does not count. The evidence bar itself belongs to the domain.
+- Beat production: you can point at finished work you genuinely respect, and the craft is still alive. Tutorial time does not count.
+- Markets: you can explain how markets and their machinery work in your own words, at whatever breadth the domain pass chose to check.
 - LeetCode: you are not starting DSA over. No rating goal.
 - The LSEG path is intact, unless a later review records that you changed it on purpose.
 
@@ -273,3 +270,4 @@ Nothing else in the unknown list needs an answer before domain planning begins.
 
 - 2026-09-27 — Skeleton created. No strategic decisions.
 - 2026-09-27 — First strategy adopted. Phases `gate-window` and `post-gate`. Minutes: [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md). D-018, D-019.
+- 2026-09-27 — Cleanup: domain-level prescriptions (GATE study method, system-design phase balance and implementation count, product kill timing, beat finish cadence, markets competency boundary) delegated to domain passes. Phases, bands, stack rule, and goals unchanged. D-020.
