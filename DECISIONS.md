@@ -193,3 +193,23 @@ Ids are never reused.
 - Why: The owner already plans with importable calendars and wants that in the sprint, without turning the calendar into a second strategy or a claim that the work was done.
 - Changes: Calendar guide and sprint templates. `CURRENT_STATE.md` records `Asia/Kolkata` as the working calendar timezone. City remains unknown.
 - Supersedes: D-014
+
+### D-018 — Two phases until joining: gate-window, then post-gate
+
+- Date: 2026-09-27
+- Status: accepted
+- Decided by: strategic review
+- Decision: The horizon has two phases. `gate-window` runs from 2026-09-27 until the GATE exam day (around February 2027, exact day unknown) or an explicit withdrawal. `post-gate` runs from the next day until LSEG joining, around August 2027. Bands, yield order, the meaning of a serious GATE attempt, the system-design arc, the product kill rule, the internship contingency, and success by joining are in `MASTER_ROADMAP.md`. In short: during gate-window, GATE is primary, system design and product are secondary, and beats, markets, and LeetCode are maintenance. After the exam, GATE closes after a short close-out, system design and product are primary, beats and markets are secondary, and LeetCode stays maintenance. No time is reserved for an internship that does not exist. A GATE result does not by itself retarget the career plan. No score, revenue, beat, or problem quota was set.
+- Why: GATE is a temporary backup priority, not the career. The other intents have to survive the exam window without becoming a second exam or being dropped. Capacity and several facts are unknown, so the plan uses bands and a yield order instead of a timetable. Splitting system design and the income attempt into the post-exam window, while keeping both alive before it, is what "comfortably paced" and "do not secretly build for six months" can both survive.
+- Changes: `MASTER_ROADMAP.md` is no longer a skeleton. `CURRENT_STATE.md` phase label is `gate-window`. Domain attention lines point here. No sprint was created.
+- Supersedes: none
+
+### D-019 — Existing stack is the default, not a ban
+
+- Date: 2026-09-27
+- Status: accepted
+- Decided by: strategic review (owner instruction)
+- Decision: JavaScript / TypeScript, Node.js, Express, React / Next.js, SQL, and MongoDB are the default practical foundation, because you already know them. Use them where they are sufficient. Do not switch stack for variety. A domain plan may use another language, database, infrastructure tool, or framework when the system or the learning objective genuinely benefits. Write that reason in the domain plan. An ordinary deviation does not need a strategic review. Changing the default for the whole horizon does.
+- Why: A hard stack ban would block useful learning. A free choice of stack would become the framework tour you already refused. The default keeps engineering work on ground you know, without pretending every system is best built there.
+- Changes: `context/CONSTRAINTS.md` stack section. Pointers in `context/PROFILE.md`, `context/GOALS.md`, and `system-design/ROADMAP.md`.
+- Supersedes: none. Replaces the previous stack wording in `context/CONSTRAINTS.md`, which read as a harder restriction.

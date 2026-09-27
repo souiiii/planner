@@ -29,9 +29,12 @@ Unordered craft areas. Not a course outline.
 
 ## Attention
 
-Inherited from the master roadmap. Currently **TBD**.
+Inherited from [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). Do not change it here.
 
-The strategic pass should choose a shape that can survive GATE prep without either dropping the craft silently or turning it into a second syllabus. That choice is not made here.
+- `gate-window` (current): maintenance. Finishes, not a second program, and not neglect. No quota.
+- `post-gate`: secondary. Still not a career track.
+
+Cadence and technique sequence are not decided here.
 
 ## Outcomes
 

@@ -43,7 +43,7 @@ Already knows software development, particularly:
 
 No proficiency scores were given. Do not invent levels, years of experience, or a list of past projects.
 
-The engineering tracks should use this stack unless there is a specific reason not to. This profile is not permission to build a framework tour. See [CONSTRAINTS.md](CONSTRAINTS.md).
+This stack is the default practical foundation, not a hard restriction and not a license for a framework tour. The rule is in [CONSTRAINTS.md](CONSTRAINTS.md). Decision D-019.
 
 ## Inferences (not facts)
 

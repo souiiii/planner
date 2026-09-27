@@ -25,9 +25,12 @@ Before LSEG joining, make a real attempt at one independent source of software i
 
 ## Attention
 
-Inherited from the master roadmap. Currently **TBD**.
+Inherited from [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). Do not change it here.
 
-When experiments start relative to GATE is an open strategic question. This file must not answer it.
+- `gate-window` (current): secondary. Discovery and small tests only. A multi-week private build is out of phase.
+- `post-gate`: primary.
+
+The kill rule (about three sprints without the evidence bar moving → kill or change, do not extend by default) is in the master roadmap. Do not loosen it here. No idea is chosen yet.
 
 ## Outcomes
 
@@ -43,7 +46,7 @@ Numeric revenue targets are **TBD** and may remain unset. Shipping something nob
 
 **TBD.**
 
-Likely shape, not a commitment: investigate a problem, run a small test, keep or kill, repeat. The strategic pass should set the kill criterion so a private build cannot expand by default.
+Likely shape, not a commitment: investigate a problem, run a small test, keep or kill, repeat. The kill criterion is already in the master roadmap. Do not loosen it here.
 
 ## How the other files split
 

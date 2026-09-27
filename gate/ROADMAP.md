@@ -13,28 +13,28 @@ Prepare seriously enough for a good attempt, then largely stop. GATE is a backup
 
 - The GATE paper you are actually sitting. Paper is `unknown`. Do not build a CS syllabus by assumption
 - Coverage deep enough for a serious attempt
-- Past-year questions and mocks, once a strategic pass says they belong in this phase
+- Past-year questions and mocks, as part of a serious attempt. See the master roadmap. Not a score chase
 
 ## Out of scope
 
 - Treating a score as the career plan
 - Staying an active track after the exam, except a short wind-down if the master roadmap says so
-- Any study plan written before the master roadmap leaves skeleton status
+- A syllabus written while the paper is still unknown, or one that assumes CS
 
 ## Attention
 
-Inherited from the master roadmap. Currently **TBD**. Do not fill this in here.
+Inherited from [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). Do not change it here.
 
-Owner intent to respect: temporary priority until the exam, then largely gone. That intent is not yet a schedule.
+- `gate-window` (current): primary
+- `post-gate`: paused for a close-out only, then closed
+
+A serious attempt is defined in the master roadmap. No score target. Do not invent one here.
 
 ## Outcomes
 
-Intent only. No milestones until the strategic pass.
+Phase outcome: a real attempt at the paper you are sitting, then this track leaves active planning.
 
-- A serious attempt at the exam you are registered for
-- After the exam, this track leaves active planning
-
-What "serious" and "good" mean is an open question in the master roadmap. Do not invent a score target here.
+Domain milestones and sequencing are not written yet. Do not invent a syllabus. The paper is `unknown`.
 
 ## Milestones
 

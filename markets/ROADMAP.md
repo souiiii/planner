@@ -32,9 +32,12 @@ Unordered. Not a sequence.
 
 ## Attention
 
-Inherited from the master roadmap. Currently **TBD**.
+Inherited from [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). Do not change it here.
 
-Owner intent: slow-burn, not a second GATE. Intensity during GATE prep is an open strategic question.
+- `gate-window` (current): maintenance. Slow-burn, not a second exam.
+- `post-gate`: secondary. Still general. Do not specialize to a guessed LSEG team.
+
+What "enough" means by joining is in the master roadmap. Reading choices are not.
 
 ## Outcomes
 
@@ -43,7 +46,7 @@ Intent only.
 - You can explain the core machinery in your own words
 - You know what you do not understand yet, specifically
 
-Depth required by August 2027 is **TBD**.
+What "enough" means by joining is in the master roadmap. Do not tighten it into a syllabus here.
 
 ## Milestones
 

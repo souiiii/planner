@@ -2,7 +2,7 @@
 
 > **Role:** what you want, and the phase intents you already stated.
 > **Authority:** authoritative for intent. Not authoritative for ranking, attention, or milestones.
-> **Strategy** will live in [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). It is not written yet.
+> **Strategy** lives in [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). This file does not rank the goals or restate the bands.
 > **Working dates** live in [CURRENT_STATE.md](../CURRENT_STATE.md). Dates below are the original owner wording. If they disagree, current state wins.
 > **Last reviewed:** 2026-09-27
 
@@ -10,12 +10,12 @@ Ranking these against each other is a strategic decision. Do not rank them here.
 
 ## Phase intents (owner-stated, not a schedule)
 
-These constrain the future strategy. They are not the strategy. Attention bands, milestones, and contingencies are **TBD** in the master roadmap.
+These are the intents the first strategy had to respect. The adopted phases and bands are in the master roadmap as of 2026-09-27. If those change, they change there. This list changes only if what you want changes.
 
-- Until the GATE exam (around February 2027), GATE is a temporary priority. How much else continues beside it is not decided.
+- Until the GATE exam (around February 2027), GATE is a temporary priority.
 - After the exam, GATE should largely disappear from active planning.
-- Across the whole horizon, the other intents below still exist. Their intensity before and after GATE is not decided.
-- An LSEG internship might happen and would change the roadmap. How is not decided. No internship is currently in hand.
+- The other intents below last the whole horizon. How much attention they get is a strategy question, already answered in the master roadmap, not here.
+- An LSEG internship might happen. No internship is in hand. The contingency is in the master roadmap.
 - The judgment point for this repo is LSEG joining, around August 2027.
 
 ## 1. GATE
@@ -25,8 +25,7 @@ These constrain the future strategy. They are not the strategy. Attention bands,
 - Why it is here: backup and security, not the main career direction.
 - Time character: temporary. Active until the exam, then largely gone.
 - What it is not: the center of the career plan, or a reason to ignore every other track without a decision.
-- Success shape: a good attempt. No score target has been set. Do not invent one.
-- "Good" is still **TBD** in the strategic pass.
+- Success shape: a good attempt. No score target. What "serious" means is in the master roadmap, not a number.
 
 ## 2. System design and backend depth
 
@@ -34,9 +33,9 @@ These constrain the future strategy. They are not the strategy. Attention bands,
 - Intent: become genuinely stronger at system design and backend / production engineering.
 - Why it is here: this is a main professional development goal for the period before joining.
 - In scope as topics, unordered, not a sequence: system design, distributed systems fundamentals, databases, networking where it matters, caching, Redis, Kafka / queues / event-driven architecture, scalability, reliability, observability, Docker, AWS, CI/CD, production engineering.
-- Stack: use Node / TypeScript and the rest of the existing web background. See [CONSTRAINTS.md](CONSTRAINTS.md).
+- Stack: default to the existing Node / TypeScript background where it is sufficient. Not a hard ban. See [CONSTRAINTS.md](CONSTRAINTS.md). Decision D-019.
 - What it is not: a tour of new frameworks, or a second copy of LeetCode prep.
-- Success shape: concepts you can actually use, plus implementations. The concrete outputs are **TBD**.
+- Success shape: concepts you can actually use, plus implementations. The capability is in the master roadmap. Which implementation is not decided here.
 
 ## 3. Product, SaaS, and independent income
 
@@ -66,14 +65,14 @@ These constrain the future strategy. They are not the strategy. Attention bands,
 - In scope as topics, unordered, not a syllabus: equities, bonds, rates, FX, derivatives, market structure, clearing, settlement, market data, risk.
 - Time character: slow-burn. Not another exam syllabus.
 - What it is not: a license exam plan, day-trading practice, or a substitute for the engineering track.
-- Success shape: you can explain the machinery in your own words. Depth target is **TBD**.
+- Success shape: you can explain the machinery in your own words. The horizon's "enough" is in the master roadmap, not a deeper target invented here.
 
 ## 6. LeetCode and DSA maintenance
 
 - Folder: [leetcode/](../leetcode/MAINTENANCE_PLAN.md)
 - Intent: remain sharp.
 - Why it is here: you already know DSA and do not want to lose it. Interview optionality, not a new campaign.
-- Time character: maintenance. Topic rotation and occasional contests are enough, if the strategic pass keeps the track at all.
+- Time character: maintenance. Topic rotation and occasional contests are enough. The first strategy kept this track at maintenance, not as a campaign.
 - What it is not: a beginner course, a 300-problem sheet, or the main use of this year. Decision D-009.
 - Success shape: still fluent, weak spots named from evidence rather than from a generic list. Cadence is **TBD**.
 

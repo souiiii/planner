@@ -10,10 +10,10 @@ If you only read one file before acting, read this one, then follow its links. D
 ## Snapshot
 
 - As of: 2026-09-27
-- Planning status: scaffolded. Master roadmap is a skeleton. No strategic review has been held
+- Planning status: first strategic review held. Master roadmap is in force. Minutes: [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md)
 - Active sprint: none
-- Phase label: TBD (no phase adopted)
-- Attention bands: not assigned
+- Phase label: `gate-window`
+- Attention bands: see the table below. Full rules: [MASTER_ROADMAP.md](MASTER_ROADMAP.md)
 
 ## Timeline
 
@@ -31,16 +31,16 @@ Sprint date boundaries are calendar dates. Clock times, once a sprint exists, li
 
 ## Tracks
 
-Bands are not assigned. "Not started" means this repo has no logged work. It does not mean the owner has no prior skill. See [context/PROFILE.md](context/PROFILE.md).
+"Not started" means this repo has no logged work. It does not mean the owner has no prior skill. See [context/PROFILE.md](context/PROFILE.md). Bands are the current phase only. Post-gate bands live in the master roadmap, not here.
 
 | Track | Repo status | Attention | Latest evidence |
 | --- | --- | --- | --- |
-| GATE | not started in this repo | TBD | none logged |
-| System design | not started in this repo | TBD | none logged |
-| Product | not started in this repo | TBD | none logged |
-| Beat production | not started in this repo | TBD | none logged |
-| Markets | not started in this repo | TBD | none logged |
-| LeetCode | not started in this repo | TBD | owner reports existing DSA ability; no maintenance log yet |
+| GATE | not started in this repo | primary | none logged |
+| System design | not started in this repo | secondary | none logged |
+| Product | not started in this repo | secondary | none logged |
+| Beat production | not started in this repo | maintenance | none logged |
+| Markets | not started in this repo | maintenance | none logged |
+| LeetCode | not started in this repo | maintenance | owner reports existing DSA ability; no maintenance log yet |
 | LSEG notes | placeholder only | not a track | no internship, no joining prep written |
 
 ## Timezone
@@ -59,7 +59,7 @@ Do not assume hours per day or that every day is productive. Until the owner rep
 
 | Kind | When | Where |
 | --- | --- | --- |
-| Strategic | none | — |
+| Strategic | 2026-09-27 | [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md) |
 | Monthly | none | — |
 | Sprint | none | — |
 
@@ -85,17 +85,22 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 - One integrated sprint, not per-track sprints (D-001)
 - The open sprint is the `current-sprint/` directory, then moved into `sprints/` (D-016). That directory does not exist yet
 - Timed work lives in `CALENDAR.ics`, not in the plan (D-017)
-- No sprint until the master roadmap leaves skeleton status (D-004)
+- No sprint was allowed while the master roadmap was a skeleton (D-004). That block is lifted. Do not open `sprint-001` until the owner asks
+- First strategy: `gate-window`, then `post-gate` (D-018)
+- Existing stack is the default, not a ban (D-019)
 - Attention will be expressed in bands, not percentages, once assigned (D-005)
 - Resource lists stay empty until the owner accepts them (D-006)
 
 ## Next planning action
 
-Grok 4.7 writes the first master roadmap using the read set at the top of [MASTER_ROADMAP.md](MASTER_ROADMAP.md).
+Domain planning for this phase, not a sprint. Do not create `current-sprint/` or `sprint-001` until the owner asks.
 
-Until that happens, do not create `current-sprint/` or `sprints/sprint-001/`.
+1. GATE — identify the paper and a coarse baseline. Do not write a syllabus while the paper is unknown.
+2. System design — first thread of the arc in the master roadmap. Do not assume a zero baseline.
+3. Product — the experiment loop. Do not invent an idea.
 
 ## Recent changes
 
 - 2026-09-27 — Repository created. No goal work logged.
 - 2026-09-27 — Sprint execution switched to `current-sprint/` plus `CALENDAR.ics`. No sprint opened. Working calendar timezone set to `Asia/Kolkata`.
+- 2026-09-27 — First strategic review. Phase is `gate-window`. No sprint opened.

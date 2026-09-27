@@ -15,7 +15,7 @@ You already know DSA. The aim is to remain fluent: topic rotation, a look at wea
 
 - Maintenance practice on patterns you already know
 - A small rotating set of weak areas, once evidence names them
-- Occasional contests, if the strategic pass keeps this track awake
+- Occasional contests. The track is maintenance, not paused. Contests may still be skipped
 
 ## Out of scope
 
@@ -26,15 +26,16 @@ You already know DSA. The aim is to remain fluent: topic rotation, a look at wea
 
 ## Attention
 
-Inherited from the master roadmap. Currently **TBD**.
+Inherited from [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). Do not change it here.
 
-If the band becomes `paused` through GATE, this file stays as is. Do not sneak problems into other tracks' tasks.
+- `gate-window` (current): maintenance
+- `post-gate`: maintenance
+
+Contests are optional and may be skipped for the whole GATE window. Do not sneak a placement sheet into other tracks' tasks.
 
 ## Shape
 
-**TBD** by the strategic pass.
-
-Write the eventual shape as a cadence and a rotation rule, not as a list of 200 problem ids. Problem ids belong in a sprint plan or in [PROGRESS.md](PROGRESS.md) after you solve them.
+The ceiling is set: rotation, occasional contests, no sheet, no daily quota, no rating target. A small cadence may be chosen in a later pass. It must not become the identity of a sprint. Problem ids belong in a sprint plan or in [PROGRESS.md](PROGRESS.md) after you solve them.
 
 ## Weak areas
 

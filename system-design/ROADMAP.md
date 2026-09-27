@@ -23,7 +23,7 @@ Unordered topics. Not a sequence, and not permission to start all of them.
 - Docker, AWS, CI/CD
 - Production engineering
 
-Primary stack: JavaScript / TypeScript, Node.js, and the web/backend skills in [context/PROFILE.md](../context/PROFILE.md). SQL and MongoDB count. A different stack needs a reason recorded in [DECISIONS.md](../DECISIONS.md).
+Default stack: the JavaScript / TypeScript and backend skills in [context/PROFILE.md](../context/PROFILE.md). The rule, including when a deviation is allowed, is the stack constraint in [context/CONSTRAINTS.md](../context/CONSTRAINTS.md). Decision D-019. An ordinary deviation is explained in this domain plan. It does not need a strategic decision.
 
 ## Out of scope
 
@@ -34,9 +34,12 @@ Primary stack: JavaScript / TypeScript, Node.js, and the web/backend skills in [
 
 ## Attention
 
-Inherited from the master roadmap. Currently **TBD**. Do not fill this in here.
+Inherited from [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). Do not change it here.
 
-Whether this track runs during GATE prep is an open strategic question, not a domain decision.
+- `gate-window` (current): secondary. One thread, comfortably paced, mostly conceptual unless you already know you are past that. Not several implementation projects.
+- `post-gate`: primary. Guided practice, then independent application.
+
+The arc and the end capability are in the master roadmap. Topic order is not decided here.
 
 ## Outcomes
 
@@ -45,7 +48,7 @@ Intent only.
 - Concepts you can explain and apply, not a watched-playlist count
 - Implementations or small projects that force the concept to be real
 
-Which concepts come first, and what the first implementation is, are **TBD** after the strategic pass. Do not sequence them in a sprint before that.
+Which concepts come first, and what the first implementation is, are for a later domain pass. Do not sequence them in a sprint before that.
 
 ## Milestones
 

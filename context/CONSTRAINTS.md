@@ -4,6 +4,7 @@
 > **Authority:** authoritative for non-goals and planning limits listed here.
 > **Not a schedule.** Capacity is unknown; see [CURRENT_STATE.md](../CURRENT_STATE.md).
 > **Last reviewed:** 2026-09-27
+> **Stack rule:** revised in the first strategic review. Decision D-019.
 
 ## Horizon
 
@@ -33,7 +34,13 @@ These came from the owner. They are not optional style advice.
 
 ## Stack constraint
 
-System design and product engineering should primarily use the existing JavaScript / TypeScript, Node, React / Next, and SQL / MongoDB background. Docker, AWS, CI/CD, Redis, Kafka, and similar topics are in scope when they serve backend depth. Switching stacks for variety is not a goal.
+The default practical foundation is the stack you already know: JavaScript / TypeScript, Node.js, Express, React / Next.js, SQL, and MongoDB. Use it where it is sufficient. Do not switch language, framework, database, or infrastructure for variety. That would be the framework tour this repo already refuses.
+
+This is not a hard ban. A domain plan may use another language, technology, database, infrastructure tool, or framework when there is a genuine reason: the system cannot be understood or built honestly on the default stack, or the learning objective is that different tool, not novelty. Write the reason in the domain plan. An ordinary deviation does not need a strategic review.
+
+A new default for the whole horizon does need a strategic review and a decision.
+
+Docker, AWS, CI/CD, Redis, Kafka, and similar production topics are allowed when they serve backend depth. They are not a required checklist, and adopting one of them is not "switching stacks for variety." The domain pass decides whether any of them belongs in a given phase. This file does not sequence them.
 
 ## Creative constraint
 

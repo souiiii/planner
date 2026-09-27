@@ -348,10 +348,11 @@ These are hard rules:
 - When a backlog item is done, delete it or move one line to progress. Do not leave a growing graveyard of checked boxes. The history is the sprint review and `PROGRESS_LOG.md`
 - Carried work does not automatically become calendar blocks in the next sprint
 
-## First-run state (as of 2026-09-27)
+## First-run state (historical, 2026-09-27)
 
-- Master roadmap is a skeleton. No attention bands have been assigned
-- No sprint exists. `current-sprint/` does not exist. Do not create it, and do not create `sprint-001`, until a strategic review has written the master roadmap, unless the owner explicitly overrides that
+The skeleton condition below was true at scaffolding and was lifted the same day by the first strategic review. Do not treat the roadmap as a skeleton. Current phase and bands: `CURRENT_STATE.md` and `MASTER_ROADMAP.md`.
+
+- No sprint exists. `current-sprint/` does not exist. Do not create it, and do not create `sprint-001`, unless the owner asks
 - No goal progress has been logged. Do not treat that as a zero baseline
 - Resource files are intentionally empty
 - Working calendar timezone is `Asia/Kolkata`, recorded in `CURRENT_STATE.md`

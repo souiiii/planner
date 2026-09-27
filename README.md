@@ -10,7 +10,7 @@ Roughly 2026-09-27 → around August 2027. Joining date and exam date are approx
 
 ## Goals
 
-Intents, not a ranked plan. Ranking is **not decided yet**. It will live in [MASTER_ROADMAP.md](MASTER_ROADMAP.md).
+Intents, not the ranking. Ranking lives in [MASTER_ROADMAP.md](MASTER_ROADMAP.md).
 
 | Track | What you want |
 | --- | --- |
@@ -95,21 +95,10 @@ Empty resource and idea files mean "none chosen yet", not "fill me with suggesti
 
 ## Status of this repo
 
-Scaffolded on 2026-09-27. Master roadmap is a skeleton. No sprint has been started. `current-sprint/` does not exist yet, on purpose. No progress on the goals has been logged, and absence of a log is not a claim that prior knowledge is zero.
+Scaffolded on 2026-09-27. First strategy adopted the same day: phase `gate-window`. No sprint has been started. `current-sprint/` does not exist yet, on purpose. No progress on the goals has been logged, and absence of a log is not a claim that prior knowledge is zero.
 
 If this paragraph disagrees with [CURRENT_STATE.md](CURRENT_STATE.md), current state wins.
 
 ## Next step
 
-The next task is a first strategic pass by Grok 4.7. It should read only:
-
-1. [AI_WORKFLOW.md](AI_WORKFLOW.md) — strategic review section
-2. [MASTER_ROADMAP.md](MASTER_ROADMAP.md)
-3. [CURRENT_STATE.md](CURRENT_STATE.md)
-4. [context/PROFILE.md](context/PROFILE.md)
-5. [context/CONSTRAINTS.md](context/CONSTRAINTS.md)
-6. [context/GOALS.md](context/GOALS.md)
-7. [DECISIONS.md](DECISIONS.md)
-8. [templates/STRATEGIC_REVIEW_TEMPLATE.md](templates/STRATEGIC_REVIEW_TEMPLATE.md)
-
-That pass writes strategy. It should not become a topic-by-topic curriculum, and it should not create `current-sprint/` or `sprint-001` unless you explicitly ask.
+The strategy exists. The next useful pass is domain planning for the current primary and secondary tracks (GATE, system design, product), using [MASTER_ROADMAP.md](MASTER_ROADMAP.md) as the constraint. Do not create `current-sprint/` or `sprint-001` unless you explicitly ask. Do not turn those passes into syllabi the master roadmap refused to write.
