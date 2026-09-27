@@ -12,14 +12,15 @@ Do not log a session that did not happen. Do not describe a tutorial as a finish
 
 ```text
 ### YYYY-MM-DD — short title
-- Kind: session | finished beat | finished song | vocal recording | recreation | listening
+- Kind: session | finished beat | finished song | vocal recording | recreation | listening | analysis | ear drill
+- Stage: S1 | S2 | S3 | S4 | S5 | S6 (see [ROADMAP.md](ROADMAP.md))
 - Technique targeted:
 - What you finished, if anything:
 - Good, by your standard? yes | no | not a finish
 - Note:
 ```
 
-Listening belongs here only when it was deliberate ear work, not as a way to pad the log.
+Analysis and ear-drill sessions count as practice and belong here. Listening belongs here only when it was deliberate ear work, not as a way to pad the log.
 
 ## Entries
 
