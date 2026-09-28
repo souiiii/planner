@@ -36,7 +36,7 @@ Sprint date boundaries are calendar dates. Clock times, once a sprint exists, li
 | Track | Repo status | Attention | Latest evidence |
 | --- | --- | --- | --- |
 | GATE | domain roadmap complete; Stage 0 light setup pending | primary | owner: paper CS/IT, target AIR < 400; no level logged |
-| System design | not started in this repo | secondary | none logged |
+| System design | domain roadmap complete; execution not started | secondary | none logged |
 | Product | not started in this repo | secondary | none logged |
 | Music | domain roadmap written; no sessions logged | maintenance | owner reports tools understood; setup recorded; gap is translating ideas into convincing records. Folder is `beat-production/`. D-021 |
 | Markets | not started in this repo | maintenance | none logged |
@@ -97,8 +97,7 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 Domain planning for this phase, not a sprint. Do not create `current-sprint/` or `sprint-001` until the owner asks.
 
 1. GATE — Stage 0 light setup only (syllabus + real-PYQ source + notes/log system). No diagnostic. Path: `gate/ROADMAP.md`. Execution waits for sprint-001.
-2. System design — first thread of the arc in the master roadmap. Do not assume a zero baseline.
-3. Product — the experiment loop. Do not invent an idea.
+2. Product — the experiment loop. Do not invent an idea.
 
 ## Recent changes
 
