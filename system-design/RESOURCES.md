@@ -3,7 +3,8 @@
 > **Role:** materials you have actually chosen.
 > **Empty means none chosen yet.**
 > **Rule:** do not add books, courses, or talk lists unless you asked or explicitly accepted them. Decision D-006.
-> **Last reviewed:** 2026-09-27
+> **Policy:** no material is required to start. One per topic at a time, added only to unblock a demonstrated gap. See [ROADMAP.md](ROADMAP.md).
+> **Last reviewed:** 2026-09-28
 
 ## Chosen
 
