@@ -21,16 +21,17 @@ This is not a terminology roadmap, not a memorized set of standard interview dia
 - Software-development experience is real: JavaScript / TypeScript, Node.js, Express, React / Next.js, SQL / MongoDB, general web and backend work. [context/PROFILE.md](../context/PROFILE.md).
 - The default stack is the default where it is sufficient — not a restriction. Deviations are allowed with a stated reason. [context/CONSTRAINTS.md](../context/CONSTRAINTS.md), D-019.
 - Current system-design depth is `unknown`. No proficiency level, no project inventory, and no production exposure were reported.
-- Therefore: **the early stages double as calibration, not as beginner teaching.** If the evidence says you already reason at a stage's level, that stage becomes a short compression pass and you move on. Nothing here assumes a zero baseline, and nothing assumes you are past the stage gates.
+- Therefore: **each stage's learning phase doubles as calibration.** If the concepts and guided material are already familiar and you can pass the gate, that stage compresses to a verification pass and you move on. Nothing here assumes a zero baseline, and nothing assumes you are past the stage gates.
 
 ## How this path works
 
 - **Ability-gated, not calendar-gated.** Stages are ordered by dependency and by the difficulty of the reasoning each demands. The pace is not scheduled. Move on when a stage's criteria are demonstrated, not when time has passed. No dates, quotas, or project counts.
-- **Conceptual first, implementation when it forces a claim.** You reason about a mechanism before you build it, and you build to settle a question that reasoning alone could not settle — "would this hold," "what does this actually cost," "how does this fail." Implementation is not deferred to the end, and it is never "build an app to have built one."
+- **Learn, see it applied, practice, build where useful, then apply.** Every stage follows the same order: concepts first, then guided examples and worked walkthroughs, then hands-on exercises, then implementation where it makes the capability real, and only then an independent version on unfamiliar material. You are never expected to produce a cold design at the start of a stage.
+- **Guided learning is real learning.** Courses, books, tutorials, video walkthroughs, and documented case studies are valid teaching tools here, not emergency gap-fillers. They count when consumed actively: notes, reproductions, extensions, explain-it-back. Watching or reading without any of that is not practice.
 - **Requirements before solutions.** Every synthesizing exercise starts from a brief: users, traffic shape, data shape, scale, latency, cost, operational constraints. Constraints are separated into hard constraints, preferences, and invented assumptions.
 - **At least two viable designs, always compared.** A design without an alternative is not a design decision; it is a preference. Trade-offs are named in terms of what each option makes easy, hard, and expensive.
 - **Every added component must justify itself** (a load balancer, a cache, a queue): what it buys, what it costs, and what new failure mode it introduces. "Standard practice" is not a reason.
-- **Written artifacts and implemented proof.** Designs and teardowns are written and formatting does not matter. An implementation is proof only when it tests a specific claim from the design.
+- **Written artifacts and implemented proof.** Designs, teardowns, and notes are written; formatting does not matter. An implementation counts as evidence when it demonstrates the stage capability or settles a claim you could not settle on paper.
 - **Evidence over feelings.** Claims like "this scales" or "this is consistent enough" are settled by measurement, a written argument, or a small build. Not by confidence.
 - **Stack default, deliberate deviations.** Use the Node/TypeScript stack where it is sufficient. Deviate when the exercise genuinely requires another tool or the learning objective is that tool; record the reason in [projects/README.md](projects/README.md) or [RESOURCES.md](RESOURCES.md). Not for variety.
 - **Interview practice is validation, not the curriculum.** It activates only after independent design reasoning exists, and it never dominates. See the section below.
@@ -50,7 +51,7 @@ Out of scope:
 
 ## Stages
 
-The arc moves from precision to judgment to independent synthesis: exactness about requirements → cost judgment on one machine → reasoning across the network → data decisions → asynchronous systems → reliability and operations → independent, defended design.
+The arc moves from precision to judgment to independent synthesis: exactness about requirements → cost judgment on one machine → reasoning across the network → data decisions → asynchronous systems → reliability and operations → independent, defended design. Every stage runs the same internal order: learn, see it applied, practice, build where useful, apply independently.
 
 ### S1 — Requirements and constraints
 
@@ -58,10 +59,10 @@ The arc moves from precision to judgment to independent synthesis: exactness abo
 
 **Work**
 
-- Take briefs from systems you know or use. Before any design, write down: who uses it; read/write shape; latency and consistency needs; scale as an estimate with a stated basis; cost ceiling if one exists; operational constraints.
-- Separate hard constraints (physics, money, compliance, team) from preferences. Mark anything you invented as an assumption, and say what would falsify it.
-- Reuse the sharp question list on fresh briefs: what breaks if the system is 10× bigger, 10× slower, or down for an hour? Which requirement would you cut first if forced?
-- Batch systems with a shared constraint (all chat, all feeds, all payments) to see which requirements are specific to the domain and which are generic procedure.
+- **Learn:** functional versus non-functional requirements; the constraint categories (scale, latency, consistency, cost, compliance, operational); how experienced designers separate hard constraints from preferences; how a brief becomes a problem statement. A course, a book chapter, or a worked walkthrough is a fine way to learn this.
+- **See it applied:** study worked requirement analyses for systems that are documented — a public design doc, a case study, a course example. For each, note what the designers treated as fixed, what they assumed, and which requirement dominated.
+- **Practice (guided):** reproduce that analysis on a system you know or use, then check it against how the system actually behaves or against a documented account. Repeat on systems with a shared constraint (all chat, all feeds, all payments) to separate domain requirements from generic procedure.
+- **Apply (independent):** take a short brief you have not seen and produce the constraint list, labeled assumptions, and the dominant requirement without a worked example in front of you. Ask the sharp questions: what breaks if the system is 10× bigger, 10× slower, or down for an hour; which requirement would you cut first if forced.
 
 **Move on when**
 
@@ -74,10 +75,10 @@ The arc moves from precision to judgment to independent synthesis: exactness abo
 
 **Work**
 
-- Build a measurement habit on systems you can actually run: request latency distributions (p50/p95/p99), throughput ceilings, error rates, resource saturation (CPU, memory, disk, connection pools).
-- Read and reason about execution paths: what happens to one request from socket to response, which outbound calls exist, where memory is allocated, what all the queues are.
-- Run deliberate experiments on your stack: increase concurrency until behavior degrades, add an index, add a pool, find the knee of the curve. Write down what was expected, what happened, and why.
-- Back-of-envelope estimation as a practical skill: data volume, bandwidth, memory per connection, request rate versus capacity. Estimates carry stated assumptions, orders of magnitude are enough, and they get checked against measurement when possible.
+- **Learn:** latency versus throughput; percentiles and why averages lie; queueing and saturation; profiling concepts; how to read a latency distribution and find the knee of the curve. Back-of-envelope estimation: data volume, bandwidth, memory per connection, request rate versus capacity, with stated assumptions.
+- **See it applied:** follow a guided profiling or performance walkthrough on your stack — a tutorial, a course lab, or a documented teardown — and watch how an experienced engineer finds the bottleneck and justifies the fix.
+- **Practice (guided):** reproduce that walkthrough on your own machine: request latency distributions (p50/p95/p99), throughput ceilings, error rates, resource saturation (CPU, memory, disk, connection pools). Run controlled changes — concurrency, an index, a connection pool — and write down what was expected, what happened, and why.
+- **Apply (independent):** find a real bottleneck in a system you run and justify the fix with a measurement; estimate the next limit with stated assumptions, then check the estimate against what you measure.
 
 **Move on when**
 
@@ -91,29 +92,27 @@ The arc moves from precision to judgment to independent synthesis: exactness abo
 
 **Work**
 
-- Teardown real request paths: from client through DNS and CDN or edge, load balancer, application instances, cache, database, external services, back. Every hop gets a reason and a cost.
-- Load balancing and capacity: stateless services, session handling, health checks, draining, autoscaling behavior. What changes when instances are ephemeral.
-- Caching as a layer: client, edge, application, database. Hit/miss economics, key design, invalidation, stale reads, cache stampedes. When a cache is the wrong answer.
-- Communication choices: synchronous request/response versus asynchronous handoff — name when each is appropriate; failure propagation, timeouts, retries, idempotency keys, backpressure, retry storms, and where duplicate work is acceptable.
-- Write, for one realistic system, the request-to-response narrative with alternatives at each hop and the choice defended in one line. Prove one critical claim with a small implementation (a cache, a queue handoff, a throttling layer), linked from [projects/README.md](projects/README.md).
+- **Learn:** what each hop in a request path is for — DNS, CDN or edge, load balancer, application instances, caches, databases, external services; load balancing and stateless services; caching economics, key design, invalidation, stale reads, cache stampedes; synchronous versus asynchronous handoff; failure propagation, timeouts, retries, idempotency keys, backpressure, retry storms; when a cache is the wrong answer.
+- **See it applied:** study a documented architecture — an engineering blog, a tech talk, a course case study — and trace its request path hop by hop. Follow a guided lab that adds a cache or a load balancer to a small service and shows the effect.
+- **Practice (guided):** reproduce the lab on your stack; add caching, load balancing, and throttling step by step; observe hit/miss behavior, duplicate work, and what breaks when you kill a dependency.
+- **Apply (independent):** write the request-to-response narrative for a realistic system, with the alternatives at each hop and each choice defended in a line. Build or extend an implementation far enough to prove the claims the narrative rests on, and link it from [projects/README.md](projects/README.md).
 
 **Move on when**
 
 - you can explain a real request path end to end, noting what is load-balanced, cached, or queued, and why, including the failure and duplicate-work cases;
 - you can defend the synchronous/asynchronous split and name the operational cost of each new component you add;
-- a small implementation exists that tests one claim you could not settle on paper.
+- an implementation exists that proves the claims the narrative relies on.
 
 ### S4 — Data as a first-class design decision
 
-**Develops:** the durable half of most designs — storage choice, transaction boundaries, and consistency judgment. This is where interviews and production both separate people who "use a database" from people who reason about one.
+**Develops:** the durable half of most designs — storage choice, transaction boundaries, and consistency judgment. This is where production and interview rounds both separate people who "use a database" from people who reason about one.
 
 **Work**
 
-- Storage selection from access patterns: relational, document, key-value, and when each fits; schema design; indexing; query plans and why a query is slow.
-- Transactions and isolation: read/write anomalies, locking versus MVCC, what your database guarantees and what your application must handle.
-- Replication and partitioning: leader/follower, failover, replication lag and reads, sharding keys and hotspots, resharding pain.
-- Consistency judgment: strong versus eventual for a given feature; idempotency; what "correct enough" means in the brief.
-- Hands-on: one implementation in which the storage decision is defensible (an explicit index design, a transaction boundary, or a modest replication/sharding setup), plus a written version of the same design with the alternative storage choice argued against.
+- **Learn:** storage models and when each fits (relational, document, key-value); schema design; indexing; reading query plans; transactions and isolation — read/write anomalies, locking versus MVCC, what the database guarantees versus what the application must handle; replication and partitioning — leader/follower, failover, replication lag and reads, sharding keys and hotspots, resharding pain; strong versus eventual consistency for a given feature.
+- **See it applied:** take a guided example (a course, a book, a documented case study) where the storage decision is explained, and follow how the access pattern drove the choice. Walk through query-plan and index examples before writing your own.
+- **Practice (guided):** on your own database, inspect query plans, change an index and measure the difference, and observe a transaction or isolation behavior in the docs' guided examples. If replication or sharding matters to the brief, set up a modest guided version.
+- **Apply (independent):** design the data layer for a realistic brief and defend the storage choice against the alternative with index, query, and consistency reasoning; implement enough of it to demonstrate the decision's consequences — an explicit index design, a transaction boundary, or a modest replication/sharding setup — and note the result.
 
 **Move on when**
 
@@ -127,10 +126,10 @@ The arc moves from precision to judgment to independent synthesis: exactness abo
 
 **Work**
 
-- When to queue: synchronous request/response versus a queue, an event log, or a stream. Ordering, delivery semantics (at-least-once, at-most-once, effectively-once), replay, dead letters, poison messages.
-- Idempotent consumers, deduplication, and outbox/inbox patterns as practical mechanisms, not trivia.
-- Streaming and event-driven design: event schemas, versioning, producer/consumer evolution, and when events should be commands instead.
-- Hands-on: an implementation with a producer, a durable queue or log, and an idempotent consumer, including a retry/backoff policy and a dead-letter path. Prove duplicate delivery is safe.
+- **Learn:** when to queue — synchronous request/response versus a queue, an event log, or a stream; ordering; delivery semantics (at-least-once, at-most-once, effectively-once); replay, dead letters, poison messages; idempotent consumers, deduplication, and outbox/inbox patterns; event schemas and versioning; when an event should be a command instead.
+- **See it applied:** follow a guided walkthrough of a producer/consumer flow — a course lab, a tutorial, or a documented system — and note where it handles retries, duplicates, and poison messages.
+- **Practice (guided):** build that flow on your stack with a durable queue or log; then extend it with retry/backoff and a dead-letter path, and observe what duplicate delivery actually does.
+- **Apply (independent):** decide synchronous versus queued for a realistic feature and defend it against a counterexample; build the flow far enough to demonstrate idempotent, retryable consumers and duplicate-safe delivery rather than asserting it.
 
 **Move on when**
 
@@ -144,11 +143,10 @@ The arc moves from precision to judgment to independent synthesis: exactness abo
 
 **Work**
 
-- Delivery pipeline: containers, environments, configuration, secrets, migrations, rollbacks, and what deploys look like when something in the schema changes.
-- Observability: the difference between logs, metrics, and traces; recording what you would need at 3 a.m.; alerting on symptoms rather than causes; dashboards that answer a real question.
-- Failure design: graceful degradation, timeouts and circuit breakers, bulkheads, rate limiting, and the difference between "unavailable" and "wrong."
-- Incident reasoning: from an alert or an outage to a hypothesis to a mitigation — recent-change check, dependency check, saturation check, data corruption check. Failure drills: kill a dependency, saturate a pool, add latency, split the network, and write down what broke versus what you expected.
-- Operational readiness for a system you own: backup/restore, migration safety, on-call runbook basics, and cost behavior under load.
+- **Learn:** containers, environments, configuration and secrets, migrations and rollbacks; logs, metrics, and traces and what each answers; alerting on symptoms rather than causes; graceful degradation, timeouts, circuit breakers, bulkheads, rate limiting; the difference between "unavailable" and "wrong"; incident reasoning — recent-change, dependency, saturation, and data-corruption checks; backup/restore and cost behavior under load.
+- **See it applied:** read public incident write-ups and postmortems with a fixed question list: what was expected, what happened, what signal would have caught it earlier, what changed after. Follow a guided observability setup for a small service.
+- **Practice (guided):** on a sample or your own system, run staged failure drills — kill a dependency, saturate a pool, add latency, split the network — and compare what broke with what the guided material says should happen. Set up the logs, metrics, and traces you would want at 3 a.m.
+- **Apply (independent):** for a system you own, name the top failure modes and the intended behavior under each; survive or degrade correctly in a staged drill and explain what you fixed; reconstruct an incident from observability signals and write a short blameless postmortem ending in concrete changes.
 
 **Move on when**
 
@@ -162,11 +160,10 @@ The arc moves from precision to judgment to independent synthesis: exactness abo
 
 **Work**
 
-- Take fresh briefs, unfamiliar to you, one at a time. Run the process end to end without scaffolding: requirements → sketches of two or three viable designs → comparison → decision with stated trade-offs → failure analysis → cost and operational notes.
-- Defend the design against challenge prompts: change one requirement (scale, budget, latency, consistency) and revise the design; break one component and say what happens; halve the cost and say what you cut.
-- Keep a design log for each system: the brief, the alternatives, the decision, what you were unsure about, and what evidence would change your mind. Written form is fine; formatting does not matter.
-- Rotate domains deliberately so the repetition is in the process, not in the same familiar app: feeds and social, messaging, payments and ledgers, market or trading data, media and storage, workflow and integrations. Revisit an earlier brief later with a different technology assumption and note what changes.
-- When a claim is checkable cheaply, build a probe rather than argue: a benchmark, a tiny prototype, a spike on the uncertain part.
+- **Learn:** study how senior designers structure a design document — how they frame requirements, present alternatives, and state trade-offs. Work through published case studies and note the reasoning, not the diagrams.
+- **See it applied:** walk through fully worked designs with a rubric beside you (requirements clarity, alternatives compared, trade-offs named, failure analysis, decision defended). Compare their reasoning with what you would have said at each fork.
+- **Practice (guided):** apply the process to briefs close to systems you know, with the rubric and a critique from a peer, mentor, or model acting as reviewer; revise from the critique. Then retell a rehearsed brief cold.
+- **Apply (independent):** take fresh briefs, unfamiliar to you, one at a time. Run the process end to end without scaffolding: requirements → sketches of two or three viable designs → comparison → decision with stated trade-offs → failure analysis → cost and operational notes. Defend the design against challenge prompts: change one requirement (scale, budget, latency, consistency) and revise the design; break one component and say what happens; halve the cost and say what you cut. Keep a design log for each system: the brief, the alternatives, the decision, what you were unsure about, and what evidence would change your mind. When a claim is checkable cheaply, build a probe rather than argue: a benchmark, a tiny prototype, a spike on the uncertain part. Rotate domains so the repetition is in the process, not the same familiar app: feeds and social, messaging, payments and ledgers, market or trading data, media and storage, workflow and integrations.
 
 **Move on (graduation)**
 
@@ -190,7 +187,7 @@ Interview-style system design is a validation format for S7, not a stage of its 
 | --- | --- | --- |
 | M1 | A short brief becomes a precise constraint list with labeled assumptions; the dominant requirement is named | S1 |
 | M2 | A real bottleneck is found and fixed with measurement and estimation backing it | S2 |
-| M3 | A real request path is explained with justified hops; one claim is proven by a small build | S3 |
+| M3 | A real request path is explained with justified hops; its claims are proven by a build | S3 |
 | M4 | A data decision is defended with index, query, and consistency reasoning, and implemented | S4 |
 | M5 | A queue/event flow with idempotent, retryable consumers is defended and running | S5 |
 | M6 | A system degrades as designed in a failure drill; an incident is reconstructed from observability signals | S6 |
@@ -201,23 +198,24 @@ Interview-style system design is a validation format for S7, not a stage of its 
 The master left the evidence bar to the domain. Progress is:
 
 - a written brief + design with alternatives, a defended decision, and stated trade-offs; or
-- a working implementation that settles a specific claim from a design; or
+- a working implementation or reproduced guided exercise that demonstrates the stage capability or settles a claim you could not settle on paper; or
 - measured behavior of a system under a stated condition — before/after, or versus a failure injected on purpose.
 
-Not progress: a diagram with no requirements, a design with no alternatives, a build with no question it was meant to answer, or a list of terms you have heard.
+Not progress: a diagram with no requirements, a design with no alternatives, a build with no question it was meant to answer, a tutorial merely watched, or a list of terms you have heard.
 
 ## Calibration (unknown depth, handled honestly)
 
-- Start at the earliest stage whose gate you cannot already pass by producing the artifact, not by feeling sure.
-- If an early gate is passed immediately with real evidence, the stage is done; move on without ceremony.
-- If a later gate fails, the fix is to drop back to the stage that trains the missing judgment, not to repeat the whole path.
-- A stage is never "checked off" from a model's syllabus. The artifact, the defense, or the measurement is the check.
+- Start at Stage 1 and let the learning phase calibrate: familiar concepts move quickly, unfamiliar ones get the full treatment. Do not skip the learning phase to prove a point, and do not sit in it after it stops teaching you something.
+- If a stage gate is comfortably passable with real evidence, the stage is done; move on without ceremony.
+- If a later gate fails, the underlying judgment is missing; drop back to the stage that trains it rather than repeating the whole path.
+- The artifact, the defense, or the measurement is the check — never a model's say-so.
 
 ## How resources may be used
 
 - No specific book, course, or talk list is chosen yet. When you accept one, it goes to [RESOURCES.md](RESOURCES.md) with what topic it serves. D-006.
-- One material per topic at a time. A second is added only to unblock a demonstrated gap.
-- Reading about a system is useful only when turned into a written teardown or a build. Passive video consumption is not practice.
+- Materials are the normal teaching layer at the start of each stage — courses, books, tutorials, walkthroughs, and case studies, used actively. A resource counts when it produces notes, reproductions, extensions, or explain-it-back.
+- One primary material per topic at a time; add another when the topic needs a second angle or a gap persists. Do not collect a shelf.
+- A resource is done when you can use its ideas without it, not when you reach the last page or video.
 - Implementations live outside this repo; links and short notes go to [projects/README.md](projects/README.md).
 - Deviations from the default stack are allowed when the exercise or the objective needs them. Record the reason where the project or resource is recorded.
 
