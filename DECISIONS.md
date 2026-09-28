@@ -233,3 +233,13 @@ Ids are never reused.
 - Why: The goal changed from making instrumentals to making finished music. Framing the stream as beats only would under-plan the vocal and song side and misread progress.
 - Changes: `MASTER_ROADMAP.md` stream section, tables, yield order, success, and non-goals. `context/GOALS.md` goal 4. `context/CONSTRAINTS.md` creative constraint. `README.md` track table. `beat-production/ROADMAP.md`, `PROGRESS.md`, `PRACTICE_LOG.md`, `RESOURCES.md`. `CURRENT_STATE.md` track row and unknown facts. `AI_WORKFLOW.md` log wording. `templates/CALENDAR_GUIDE.md` example title. Strategic minutes amendment appended.
 - Supersedes: none. Broadens the stream named in D-011; the no-career, no-audience, no-monetization rule in D-011 remains in force. Detailed learning sequence, resources, DAW choice, milestones, and practice cadence remain for the domain-planning pass.
+
+### D-022 — GATE paper and target reconciled into the master
+
+- Date: 2026-09-28
+- Status: accepted
+- Decided by: owner instruction (non-Grok strategy edit; owner-directed exception to D-015)
+- Decision: Record the owner-stated GATE CS/IT paper and AIR < 400 target for PSU optionality in `MASTER_ROADMAP.md`, and remove the stale "no score target" / paper-unknown wording.
+- Why: The owner explicitly asked for this reconciliation. The paper and target were owner-stated 2026-09-27 and already in `gate/ROADMAP.md`, but the master still said "no score target" and treated the paper as unknown.
+- Changes: `MASTER_ROADMAP.md` attention row, GATE stream, success-by-joining, non-goals exception, assumptions, unresolved, changelog. `CURRENT_STATE.md` track status and next planning action (Stage 0 light setup only, no diagnostic; execution waits for sprint-001). `gate/ROADMAP.md` reconciliation note and explicit Stage 1 section note bundle. Phases, attention bands, yield order, and other non-goals unchanged.
+- Supersedes: none. Clarifies wording left by D-018/D-020 without changing phases or bands.

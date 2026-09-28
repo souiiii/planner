@@ -3,10 +3,10 @@
 > **Authority:** authoritative for strategy.
 > **Owner of edits:** strategic reviews only, normally Grok 4.7. Sprint planning must not edit this file.
 > **Status:** active
-> **Last reviewed:** 2026-09-27
-> **Review minutes:** [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md)
+> **Last reviewed:** 2026-09-28
+> **Review minutes:** [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md), [reviews/strategic/2026-09-28.md](reviews/strategic/2026-09-28.md)
 > **Procedure:** [AI_WORKFLOW.md](AI_WORKFLOW.md)
-> **Decisions:** D-018, D-019
+> **Decisions:** D-018, D-019, D-022
 
 This is the high-level plan from 2026-09-27 until LSEG joining, around August 2027. It decides phases, attention, and what a good end to the period looks like.
 
@@ -62,7 +62,7 @@ If joining moves into the GATE window, stop and review. Do not quietly compress 
 
 | Track | Band | Role in this phase |
 | --- | --- | --- |
-| GATE | primary | A serious attempt at the paper you are actually sitting. Not a score chase |
+| GATE | primary | A serious attempt at GATE CS/IT, target AIR < 400 for PSU optionality |
 | System design | secondary | Keep the learning arc moving. Conceptual continuity. Not a second full-time program |
 | Product | secondary | Discovery and small tests only. Not a multi-week private build |
 | Music | maintenance | The craft stays alive through finished work, not through a second syllabus |
@@ -110,7 +110,7 @@ Detailed content is a later domain pass. This section is role, timing, and matur
 
 Backup and security, not the main direction. Primary only in gate-window.
 
-A serious attempt, with no score target, means: the paper is the one you are registered for (paper is `unknown` here; do not assume CS), you prepare as a real candidate rather than a symbolic registration, and you sit the exam unless you explicitly withdraw.
+A serious attempt means: the paper is GATE CS/IT (owner-stated 2026-09-27), the target is AIR < 400 for PSU optionality (owner-stated 2026-09-27), you prepare as a real candidate rather than a symbolic registration, and you sit the exam unless you explicitly withdraw.
 
 How preparation is organized — materials, sequence, and what role past questions or mocks play — belongs to the domain plan. The master does not set the study method.
 
@@ -211,9 +211,9 @@ These are transitions, not tasks.
 
 ## Success by joining
 
-These are directions, not milestone definitions. Domain plans decide the checkpoints that demonstrate them. No numeric targets were set, so none are implied.
+These are directions, not milestone definitions. Domain plans decide the checkpoints that demonstrate them. No numeric targets were set except the owner-stated GATE AIR < 400, so none others are implied.
 
-- GATE: you sat the exam, or you explicitly withdrew. There is a short record of which. No score goal.
+- GATE: you sat the exam, or you explicitly withdrew. There is a short record of which. Owner-stated target: AIR < 400 for PSU optionality.
 - System design: on an unfamiliar problem, you can reason from requirements and constraints, compare designs, and justify a choice, including what you give up — with real implementation experience behind the reasoning, not reading alone. A finished playlist is not this.
 - Product: at least one serious attempt was judged on outside evidence: real use, payment, or a kill written with what actually happened. A private build alone does not count. The evidence bar itself belongs to the domain.
 - Music: you can point at finished music you genuinely respect, songs included, and the craft is still alive. Knowing tools or watching tutorials does not count.
@@ -227,7 +227,7 @@ Standing non-goals in [context/CONSTRAINTS.md](context/CONSTRAINTS.md) stay in f
 
 Also out, for this horizon:
 
-- Score targets, revenue targets, music output quotas, and problem quotas
+- Score targets outside the owner-stated GATE AIR < 400, revenue targets, music output quotas, and problem quotas
 - A reserved empty block for a hypothetical internship
 - Specializing markets to an unknown LSEG team
 - Treating a good GATE result as an automatic change of career plan
@@ -246,7 +246,7 @@ Labeled so a later review can drop them.
 - The exam stays around February 2027 and joining stays around August 2027. Both are owner-reported and approximate.
 - No internship will be scheduled until one exists.
 - Unlogged skill is not zero. Domain passes must not invent a beginner baseline.
-- The GATE paper is not CS until you say it is.
+- The GATE paper is CS/IT and the target is AIR < 400 for PSU optionality (both owner-stated 2026-09-27).
 - Two post-gate primaries are intentional. If life cannot hold them, the response is a review, not a quiet cut.
 - Node/TypeScript remains the default practical foundation, not a cage. D-019.
 
@@ -256,7 +256,7 @@ Decided around, not invented:
 
 - Exact exam day, joining day, team, role, office, whether the package figure is CTC
 - Weekly capacity and other obligations. Sprints stay small until you report this. It blocks a honest sprint more than it blocks a domain pass
-- GATE paper and current preparation level. These block a GATE syllabus. They do not block the other domain passes. The GATE domain pass should start by establishing the paper and a coarse baseline, and should stop there until you supply them
+- GATE current preparation level and materials. The paper (CS/IT) and target (AIR < 400) are owner-stated and no longer block the syllabus. Level and materials do not block the other domain passes
 - Music setup (DAW, samples, monitoring, recording gear), budget, and existing depth in system design or markets. Domain passes ask or work with what you have. They do not shop, and they do not assume zero
 
 Nothing else in the unknown list needs an answer before domain planning begins.
@@ -274,3 +274,4 @@ Nothing else in the unknown list needs an answer before domain planning begins.
 - 2026-09-27 — First strategy adopted. Phases `gate-window` and `post-gate`. Minutes: [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md). D-018, D-019.
 - 2026-09-27 — Cleanup: domain-level prescriptions (GATE study method, system-design phase balance and implementation count, product kill timing, beat finish cadence, markets competency boundary) delegated to domain passes. Phases, bands, stack rule, and goals unchanged. D-020.
 - 2026-09-27 — Amendment: the beat-production stream is broadened to music-making. Mainly rap, some melodic attempts; vocals, recording, vocal mixing, and full songs over existing beats are part of the craft. Bands and phases unchanged. Folder name kept. D-021.
+- 2026-09-28 — Reconciliation (owner-directed non-Grok edit, D-022): GATE paper recorded as CS/IT and target as AIR < 400 for PSU optionality. Removed "no score target" wording. Phases, attention bands, yield order, and non-goals otherwise unchanged.

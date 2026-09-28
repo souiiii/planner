@@ -13,7 +13,7 @@ A serious, exam-oriented attempt at GATE CS/IT, targeting AIR < 400, as a backup
 
 Preparation is PYQ-driven and built for fast syllabus coverage without overlearning. Real GATE PYQs decide what to study, how deep to go, and when a subject is done.
 
-Reconciliation note: the master roadmap was written before the paper and target were known, so it still says "no score target" and lists the paper as unknown. The paper and target below are owner-stated. The next strategic review should reconcile the master's wording. No master edit was made in this pass.
+Reconciliation note: paper CS/IT and target AIR < 400 are owner-stated (2026-09-27) and now recorded in the master roadmap (D-022). No wording gap remains.
 
 ## Scope
 
@@ -134,6 +134,7 @@ For each subject in the order, run this loop:
 
 Rules inside the loop:
 
+- **Section note bundle (explicit):** for each section, the living notes hold: (1) section, (2) compact required theory (minimum to solve its PYQs), (3) formulas/patterns/traps, (4) mapped real PYQs, (5) solutions/explanations with official keys, (6) note patches from mistakes. No textbook expansion.
 - Strong sections compress: clean PYQ solves mean short notes and move on. No extra theory.
 - Weak sections expand only on evidence: a miss triggers a targeted patch, then a re-test on a fresh PYQ or variant.
 - Log every miss with its cause.
@@ -228,7 +229,7 @@ Subject completion = sections covered + PYQs attempted + weaknesses recorded. Le
 
 ## Assumptions and unknowns
 
-- Paper CS/IT and target AIR < 400 are owner-stated. The target lives in this file until a strategic pass reconciles the master's wording.
+- Paper CS/IT and target AIR < 400 are owner-stated and now recorded in the master roadmap (D-022).
 - Current level per subject is `unknown` and is revealed by PYQ attempts in Stage 1, not by a diagnostic. Also unknown: prior exposure, materials, capacity.
 - Exact exam date is `unknown`; roughly February 2027 per the repo. The owner's calendar holds the real date.
 - Capacity `unknown` affects mock cadence and how long the stages take; it does not change the sequence.

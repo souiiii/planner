@@ -3,7 +3,7 @@
 > **Authority:** authoritative snapshot of what is true right now.
 > **Not authoritative for:** strategy. If this file and [MASTER_ROADMAP.md](MASTER_ROADMAP.md) disagree about priorities or phases, the master roadmap wins and this file should be corrected.
 > **Update rule:** any model may update facts, the phase *label* (to match the master, not to invent one), the active sprint id, capacity, and review dates. Do not copy plans, calendars, or metric tables into here.
-> **Last reviewed:** 2026-09-27
+> **Last reviewed:** 2026-09-28
 
 If you only read one file before acting, read this one, then follow its links. Do not treat empty progress files as proof that prior skill is zero.
 
@@ -35,7 +35,7 @@ Sprint date boundaries are calendar dates. Clock times, once a sprint exists, li
 
 | Track | Repo status | Attention | Latest evidence |
 | --- | --- | --- | --- |
-| GATE | domain roadmap written; baseline not established | primary | owner: paper CS/IT, target AIR < 400; no level logged |
+| GATE | domain roadmap complete; Stage 0 light setup pending | primary | owner: paper CS/IT, target AIR < 400; no level logged |
 | System design | not started in this repo | secondary | none logged |
 | Product | not started in this repo | secondary | none logged |
 | Music | domain roadmap written; no sessions logged | maintenance | owner reports tools understood; setup recorded; gap is translating ideas into convincing records. Folder is `beat-production/`. D-021 |
@@ -96,7 +96,7 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 
 Domain planning for this phase, not a sprint. Do not create `current-sprint/` or `sprint-001` until the owner asks.
 
-1. GATE — run the Stage 0 diagnostic and record the per-subject baseline. Path: `gate/ROADMAP.md`.
+1. GATE — Stage 0 light setup only (syllabus + real-PYQ source + notes/log system). No diagnostic. Path: `gate/ROADMAP.md`. Execution waits for sprint-001.
 2. System design — first thread of the arc in the master roadmap. Do not assume a zero baseline.
 3. Product — the experiment loop. Do not invent an idea.
 
@@ -109,3 +109,4 @@ Domain planning for this phase, not a sprint. Do not create `current-sprint/` or
 - 2026-09-27 — Music domain roadmap written: six ability-gated stages, milestones, and a finished-piece definition. No dates or quotas. No sessions logged.
 - 2026-09-27 — Music roadmap cleanup: vocal/song stages moved earlier (S3, S4); beat craft is S5. Setup facts recorded. Six owner-chosen references recorded in `beat-production/REFERENCES.md`.
 - 2026-09-27 — GATE domain roadmap written: Stage 0 baseline, concept pass, PYQ mastery, mock consolidation, exam mode. Paper CS/IT and target AIR < 400 recorded. No preparation logged.
+- 2026-09-28 — GATE roadmap revised to PYQ-driven loop with Stage 0 as light setup only (no diagnostic). Paper CS/IT and target AIR < 400 confirmed. No preparation logged; execution waits for sprint-001.
