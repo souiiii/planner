@@ -1,7 +1,7 @@
 # LeetCode / DSA progress
 
 > **Role:** evidence and metric rollup for the recognition program. Raw entries live in [ATTEMPTS.md](ATTEMPTS.md).
-> **Strategy note:** the master still describes this track as maintenance. See the strategy conflict in [MAINTENANCE_PLAN.md](MAINTENANCE_PLAN.md). Nothing here authorizes a band change.
+> **Strategy note:** recognition-first goal reconciled 2026-09-28 (D-023). Attention stays `maintenance`; the progression is ability-gated. See [MAINTENANCE_PLAN.md](MAINTENANCE_PLAN.md).
 > **Baseline:** unlogged, not zero. Owner-reported DSA fluency is not a contest rating and not a problem count. Decision D-012.
 > **Last reviewed:** 2026-09-28
 

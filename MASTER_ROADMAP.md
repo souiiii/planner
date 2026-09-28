@@ -6,7 +6,7 @@
 > **Last reviewed:** 2026-09-28
 > **Review minutes:** [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md), [reviews/strategic/2026-09-28.md](reviews/strategic/2026-09-28.md)
 > **Procedure:** [AI_WORKFLOW.md](AI_WORKFLOW.md)
-> **Decisions:** D-018, D-019, D-022
+> **Decisions:** D-018, D-019, D-022, D-023
 
 This is the high-level plan from 2026-09-27 until LSEG joining, around August 2027. It decides phases, attention, and what a good end to the period looks like.
 
@@ -67,7 +67,7 @@ If joining moves into the GATE window, stop and review. Do not quietly compress 
 | Product | secondary | Discovery and small tests only. Not a multi-week private build |
 | Music | maintenance | The craft stays alive through finished work, not through a second syllabus |
 | Markets | maintenance | Slow-burn stays warm. Not another exam |
-| LeetCode | maintenance | Stay fluent. No sheet, no quota, no required contest |
+| LeetCode | maintenance | Recognition-first DSA progression (D-023). No sheet, no quota, no required contest |
 
 ### post-gate
 
@@ -78,7 +78,7 @@ If joining moves into the GATE window, stop and review. Do not quietly compress 
 | Product | primary | The real income attempt: ship, price, distribute, or kill on evidence |
 | Music | secondary | More room for finished music and technique. Still not a career track |
 | Markets | secondary | Broader practical understanding. Still not a syllabus, and not team-specific |
-| LeetCode | maintenance | Same ceiling as before. Contests stay occasional and optional |
+| LeetCode | maintenance | Same progression and attention as gate-window. Contests stay occasional and optional |
 
 A domain file copies the current band from this table. It does not edit the table.
 
@@ -176,9 +176,11 @@ No reading list in this file.
 
 ### LeetCode
 
-Maintenance only. Decision D-009. You already know DSA. The ceiling is fluency, topic rotation, and occasional contests. No beginner course, no placement sheet, no daily quota, no rating target.
+Goal: substantially better recognition on unseen problems — read an unfamiliar problem, interpret its constraints, identify possible approaches, choose or derive the right one, and implement it — progressing toward FAANG-level interview questions. You already know DSA; a beginner course, a placement grind, and a numbered sheet remain refused. Decision D-023 supersedes D-009.
 
-Both phases: maintenance. Contests are optional in both, and may be skipped for the whole GATE window without that counting as abandoning the track. Weak areas must come from problems you actually missed, not from a generic list. Cadence is a domain detail, and it must stay small enough that it cannot become the identity of a sprint.
+The ability-gated progression and practice method live in [leetcode/MAINTENANCE_PLAN.md](leetcode/MAINTENANCE_PLAN.md) (file name kept for stability). No problem quotas, no rating target, no dates.
+
+Both phases: maintenance attention, unchanged. The progression advances as the band allows. Contests are optional in both, and may be skipped for the whole GATE window without that counting as abandoning the track. Weak areas must come from problems you actually missed, not from a generic list. Cadence is a domain detail, and it must stay small enough that it cannot become the identity of a sprint.
 
 ### LSEG notes
 
@@ -218,7 +220,7 @@ These are directions, not milestone definitions. Domain plans decide the checkpo
 - Product: at least one serious attempt was judged on outside evidence: real use, payment, or a kill written with what actually happened. A private build alone does not count. The evidence bar itself belongs to the domain.
 - Music: you can point at finished music you genuinely respect, songs included, and the craft is still alive. Knowing tools or watching tutorials does not count.
 - Markets: you can explain how markets and their machinery work in your own words, at whatever breadth the domain pass chose to check.
-- LeetCode: you are not starting DSA over. No rating goal.
+- LeetCode: you are not starting DSA over. You can take an unseen problem, find and justify an approach, and implement it; no rating goal.
 - The LSEG path is intact, unless a later review records that you changed it on purpose.
 
 ## What should not receive attention
@@ -275,3 +277,4 @@ Nothing else in the unknown list needs an answer before domain planning begins.
 - 2026-09-27 — Cleanup: domain-level prescriptions (GATE study method, system-design phase balance and implementation count, product kill timing, beat finish cadence, markets competency boundary) delegated to domain passes. Phases, bands, stack rule, and goals unchanged. D-020.
 - 2026-09-27 — Amendment: the beat-production stream is broadened to music-making. Mainly rap, some melodic attempts; vocals, recording, vocal mixing, and full songs over existing beats are part of the craft. Bands and phases unchanged. Folder name kept. D-021.
 - 2026-09-28 — Reconciliation (owner-directed non-Grok edit, D-022): GATE paper recorded as CS/IT and target as AIR < 400 for PSU optionality. Removed "no score target" wording. Phases, attention bands, yield order, and non-goals otherwise unchanged.
+- 2026-09-28 — Reconciliation (owner-directed non-Grok edit, D-023): LeetCode goal raised from maintenance-only to a recognition-first progression toward FAANG-level interview questions. Attention bands and yield order unchanged; the domain plan file name is kept.

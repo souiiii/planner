@@ -40,7 +40,7 @@ Sprint date boundaries are calendar dates. Clock times, once a sprint exists, li
 | Product | not started in this repo | secondary | none logged |
 | Music | domain roadmap written; no sessions logged | maintenance | owner reports tools understood; setup recorded; gap is translating ideas into convincing records. Folder is `beat-production/`. D-021 |
 | Markets | not started in this repo | maintenance | none logged |
-| LeetCode | not started in this repo | maintenance | owner reports existing DSA ability; no maintenance log yet |
+| LeetCode | domain plan complete; execution not started | maintenance | owner reports existing DSA fluency; no attempts logged yet |
 | LSEG notes | placeholder only | not a track | no internship, no joining prep written |
 
 ## Timezone
@@ -109,3 +109,4 @@ Domain planning for this phase, not a sprint. Do not create `current-sprint/` or
 - 2026-09-27 — Music roadmap cleanup: vocal/song stages moved earlier (S3, S4); beat craft is S5. Setup facts recorded. Six owner-chosen references recorded in `beat-production/REFERENCES.md`.
 - 2026-09-27 — GATE domain roadmap written: Stage 0 baseline, concept pass, PYQ mastery, mock consolidation, exam mode. Paper CS/IT and target AIR < 400 recorded. No preparation logged.
 - 2026-09-28 — GATE roadmap revised to PYQ-driven loop with Stage 0 as light setup only (no diagnostic). Paper CS/IT and target AIR < 400 confirmed. No preparation logged; execution waits for sprint-001.
+- 2026-09-28 — LeetCode track reconciled: goal is recognition improvement toward FAANG-level (D-023). Domain plan complete; execution not started. Attention unchanged.

@@ -2,24 +2,15 @@
 
 > **Role:** domain plan and practice method for DSA. The objective is substantially better recognition on unseen problems and independent solving — not maintenance alone.
 > **Authority:** subordinate to [MASTER_ROADMAP.md](../MASTER_ROADMAP.md) for phases, attention bands, and non-goals. This file does not set how much time the track gets.
-> **Status:** revised 2026-09-28 — written against an owner-stated goal that exceeds the master's current wording. See the strategy conflict below. Not reconciled with the master yet.
+> **Status:** active, reconciled 2026-09-28 (D-023). The goal below is the track's goal; the master's LeetCode section now matches it.
 > **Last reviewed:** 2026-09-28
-> **File name:** historical, from D-009's "maintenance plan" framing. Renaming is part of the reconciliation below, not done silently.
+> **File name:** historical, kept for stability. Decision D-023.
 
-## Strategy conflict (flagged, not resolved)
+## Reconciliation (D-023, 2026-09-28)
 
-The current master roadmap and D-009 describe this track as maintenance-only:
+The owner-stated goal below — substantially better recognition on unseen problems, progressing toward FAANG-level interview questions — is now the track's stated goal in the master roadmap. D-023 supersedes D-009, and the earlier conflict is resolved.
 
-- master, LeetCode stream: "Maintenance only ... The ceiling is fluency, topic rotation, and occasional contests." Cadence "must stay small enough that it cannot become the identity of a sprint." Contests "may be skipped for the whole GATE window."
-- D-009: "LeetCode is a maintenance plan, not a learning roadmap." Its decision names `leetcode/MAINTENANCE_PLAN.md` as the domain plan and forbids a beginner curriculum or placement-grind sheet.
-- [context/GOALS.md](../context/GOALS.md): "Interview optionality, not a new campaign"; "not the main use of this year."
-
-Owner-stated goal (2026-09-28): become substantially better at recognizing the correct approach on new, unseen problems, progressing toward comfort with FAANG-level interview questions.
-
-That is a learning program, not maintenance. The conflict is material and is not resolved here. This file does not edit the master or its bands.
-
-- Resolution needs a strategic review (or an owner-directed non-Grok strategy edit, per D-015). Two coherent outcomes: (a) the master's LeetCode section is amended — role, ceiling, and band — and this file (and its name) becomes the active plan; or (b) the track stays maintenance where the master says so, and this program runs only where a future master allows it (for example, after the exam).
-- Until then: the master wins on attention and yield order. This plan describes the method; it does not authorize extra attention, and it does not change the band.
+Attention bands are unchanged: this track stays `maintenance` in both phases, and the master's yield order still applies. The progression here is ability-gated, so it advances as the band allows. A beginner course, a placement grind, and a numbered sheet remain refused.
 
 ## Purpose
 
@@ -150,5 +141,5 @@ None yet. They come from the log only.
 - Attempts, failure tags, revisit queue: [ATTEMPTS.md](ATTEMPTS.md)
 - Evidence and rollup: [PROGRESS.md](PROGRESS.md)
 - Practice pool: https://github.com/souiiii/dsa-pool
-- Strategy and bands: [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). This plan exceeds D-009's framing and awaits a strategy decision.
+- Strategy and bands: [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). Reconciled by D-023, which supersedes D-009.
 - Execution: `current-sprint/` while open, then `sprints/`. Not a folder here.

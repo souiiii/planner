@@ -107,7 +107,7 @@ Ids are never reused.
 ### D-009 — LeetCode is a maintenance plan, not a learning roadmap
 
 - Date: 2026-09-27
-- Status: accepted
+- Status: superseded by D-023
 - Decided by: scaffolding (owner instruction)
 - Decision: `leetcode/MAINTENANCE_PLAN.md` is the domain plan. Do not create a beginner DSA curriculum or a placement-grind sheet.
 - Why: The owner already knows DSA and explicitly rejected a restart of placement prep.
@@ -243,3 +243,13 @@ Ids are never reused.
 - Why: The owner explicitly asked for this reconciliation. The paper and target were owner-stated 2026-09-27 and already in `gate/ROADMAP.md`, but the master still said "no score target" and treated the paper as unknown.
 - Changes: `MASTER_ROADMAP.md` attention row, GATE stream, success-by-joining, non-goals exception, assumptions, unresolved, changelog. `CURRENT_STATE.md` track status and next planning action (Stage 0 light setup only, no diagnostic; execution waits for sprint-001). `gate/ROADMAP.md` reconciliation note and explicit Stage 1 section note bundle. Phases, attention bands, yield order, and other non-goals unchanged.
 - Supersedes: none. Clarifies wording left by D-018/D-020 without changing phases or bands.
+
+### D-023 — LeetCode is a recognition-improvement track, not maintenance-only
+
+- Date: 2026-09-28
+- Status: accepted
+- Decided by: owner instruction (non-Grok strategy edit; owner-directed exception per D-015)
+- Decision: The LeetCode/DSA goal is substantially better recognition on unseen problems — read an unfamiliar problem, interpret its constraints, identify possible approaches, choose or derive the right one, and implement it — progressing toward FAANG-level interview questions. `leetcode/MAINTENANCE_PLAN.md` remains the domain plan and keeps its file name for stability; it is now an ability-gated learning progression (practice pool → review of actual misses → cold revisits → minimally primed fresh questions → harder unseen problems → interview level), with no quotas, rating targets, or dates. Weak areas still come only from actual misses. Attention bands (maintenance in both phases) and yield order are unchanged. A beginner course, a placement grind, and a numbered sheet remain refused.
+- Why: The owner's goal exceeds "stay fluent". Maintenance alone would not build the recognition skill, and the flagged conflict between the master's maintenance-only wording and the domain plan needed reconciling rather than leaving the plan marked as not in force.
+- Changes: `MASTER_ROADMAP.md` attention rows, LeetCode stream, success by joining, decisions header, and changelog. `DECISIONS.md`: D-009 marked superseded. `CURRENT_STATE.md` track row. `leetcode/MAINTENANCE_PLAN.md` conflict section replaced with a reconciliation note; `leetcode/PROGRESS.md` strategy note updated. `AI_WORKFLOW.md` authority-map row updated. No band, yield-order, or quota change; no sprint or calendar created.
+- Supersedes: D-009

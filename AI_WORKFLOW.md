@@ -39,7 +39,7 @@ File headers repeat this. If a header and this table disagree, the header wins, 
 | `context/GOALS.md` | What the owner wants and the phase *intents* they already stated | Attention bands or milestones (strategy) |
 | `BACKLOG.md` | Near-term items that span tracks or have no track yet | A shadow roadmap |
 | `<domain>/ROADMAP.md` | How that track produces outcomes, subordinate to the master | A new life-priority for that track |
-| `leetcode/MAINTENANCE_PLAN.md` | Same role as a domain roadmap, for maintenance rather than learning | A beginner or placement curriculum |
+| `leetcode/MAINTENANCE_PLAN.md` | Same role as a domain roadmap: a recognition-first DSA progression (D-023) | A beginner or placement curriculum |
 | `<domain>/PROGRESS.md` | Latest owner-reported progress and the metric rollup | A task list for next week |
 | `<domain>/BACKLOG.md` | Near-term unscheduled work for that track | Every unfinished idea forever |
 | `<domain>/RESOURCES.md` | Materials the owner has chosen | The model's recommended curriculum |
