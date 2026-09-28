@@ -3,8 +3,8 @@
 > **Role:** materials you have actually chosen.
 > **Empty means none chosen yet,** not "pick a popular course".
 > **Rule:** a model must not add items unless you asked or explicitly accepted them. Decision D-006.
-> **Policy:** one primary resource per subject, plus PYQs and official keys. Supplements only to unblock a stuck topic. See [ROADMAP.md](ROADMAP.md).
-> **Last reviewed:** 2026-09-27
+> **Policy:** real PYQs plus official keys and the official syllabus are the spine. Theory resources are on-demand patches for specific stuck topics only. See [ROADMAP.md](ROADMAP.md).
+> **Last reviewed:** 2026-09-28
 
 ## Chosen
 
