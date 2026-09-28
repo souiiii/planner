@@ -1,27 +1,37 @@
-# LeetCode progress
+# LeetCode / DSA progress
 
-> **Role:** maintenance evidence.
-> **Baseline:** unlogged, not zero. Owner-reported existing DSA ability is not a contest rating and not a problem count. Decision D-012.
-> **Last reviewed:** 2026-09-27
+> **Role:** evidence and metric rollup for the recognition program. Raw entries live in [ATTEMPTS.md](ATTEMPTS.md).
+> **Strategy note:** the master still describes this track as maintenance. See the strategy conflict in [MAINTENANCE_PLAN.md](MAINTENANCE_PLAN.md). Nothing here authorizes a band change.
+> **Baseline:** unlogged, not zero. Owner-reported DSA fluency is not a contest rating and not a problem count. Decision D-012.
+> **Last reviewed:** 2026-09-28
 
 ## Where things stand
 
-No maintenance session has been logged in this repo.
+No attempt has been logged in this repo. Pool progress: none logged yet (of 92). Actual unseen-problem hit rate: `unknown` — the pool attempts are the calibration.
+
+## Current stage
+
+**Pool pass and initial consolidation (M1 → M2).** Not started.
+
+Stages are ability-gated, not calendar-gated. See [MAINTENANCE_PLAN.md](MAINTENANCE_PLAN.md).
 
 ## Metrics
 
 | Metric | Value | Why it is here | Source |
 | --- | --- | --- | --- |
-| Problems solved in maintenance, logged | unlogged | Shows the habit is real. Not a target by itself | sprint reviews |
-| Contests entered | unlogged | Optional sharpness check | your report |
-| Weak areas, named from evidence | none yet | Tells the next rotation what to touch | a miss you actually had |
+| Pool questions attempted with a log entry | none yet | Shows the first pass is real, not watched | ATTEMPTS.md |
+| Failure mix: recognition vs selection vs derivation vs implementation | unlogged | The point of the program: recognition should stop being the dominant miss | ATTEMPTS.md |
+| Problems closed by a cold unaided re-solve | none yet | Distinguishes learning from re-reading | ATTEMPTS.md |
+| Revisit queue length | none yet | Keeps revisits honest | ATTEMPTS.md |
+| Fresh, minimally primed problems attempted | none yet | Evidence the program moved past the pool | ATTEMPTS.md |
+| Contests entered | none | Optional sharpness check | your report |
 
-Do not set a rating target. Do not treat a streak as a metric.
+Counts here are evidence, not targets. Do not set a rating target. Do not treat a streak as a metric.
 
 ## Weak areas
 
-None recorded.
+None recorded. They must come from actual misses, never from a generic topic list.
 
 ## Recent log
 
-None. Keep this section short. Older detail stays in sprint reviews. When this section gets long, collapse it to the last few sessions and leave the rest in the reviews.
+None. Keep this short; detail belongs in [ATTEMPTS.md](ATTEMPTS.md).
