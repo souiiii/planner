@@ -64,7 +64,7 @@ The unit of work is a **record**, not a lesson. Skills improve in parallel by ma
 7. **Arrange and tweak around the vocal.** Make space for it. Ride levels, use mutes or arrangement holes, add drops or switches that answer the vocal. This is where beat craft and production improve — in service of the song.
 8. **Mix.** Rough or full. Work in passes: balance, then depth and space, then tone and color, then automation.
 9. **Export.** Bounce it. A record that is not exported is not a record.
-10. **Compare against a professional reference.** Same system, matched loudness. Write down the differences. This step is the lesson.
+10. **Compare against a professional reference.** Three inputs, in this order: (a) matched-loudness listening on the same system — write down the differences; (b) technical or reference-analysis tools where available, to check specifics like tonal imbalance, vocal level, compression and dynamics, stereo width, masking, or low-end buildup; (c) your judgment, which is final. Tool output guides what to listen for next — it never overrides what you decide sounds right. This step is the lesson.
 11. **Name the biggest weakness.** One, specific, actionable. Not a list of everything.
 12. **Improve it deliberately.** The next pass or the next record targets that weakness. Targeted practice happens inside the loop, not as a side quest.
 
@@ -107,9 +107,9 @@ Owner judgment is final. A model must not mark a capability demonstrated; only y
 
 The six owner-chosen references in [REFERENCES.md](REFERENCES.md) are the teaching method. Owner-chosen only; models must not add tracks (D-006).
 
-Comparison is central. Every record you call finished gets compared against a reference at matched loudness on the same system. The biggest gap becomes the next cycle's focus. Reference teardowns — sections, energy, drums and groove, bass and harmony, vocal placement and doubles and ad-libs, space and depth, the "expensive" moments — are done as the loop needs them, not as a prerequisite stage. Longer teardowns live in [REFERENCES.md](REFERENCES.md).
+Comparison is central. Every record you call finished gets compared against a reference: matched-loudness listening on the same system, technical or reference-analysis tools where available, and your judgment as final. The biggest gap becomes the next cycle's focus. Reference teardowns — sections, energy, drums and groove, bass and harmony, vocal placement and doubles and ad-libs, space and depth, the "expensive" moments — are done as the loop needs them, not as a prerequisite stage. Longer teardowns live in [REFERENCES.md](REFERENCES.md).
 
-Technical reference-analysis tools (spectrum comparison, level or LUFS matching, and similar) may support the process later. None is chosen, and no model adds or recommends one (D-006). A tool is a lens, not the method: your ear against a reference decides.
+Technical reference-analysis tools (spectrum comparison, level or LUFS matching, and similar) may support the process now or later. They are useful for checking things ears alone struggle to pin down — tonal imbalance, vocal level, compression and dynamics, stereo width, masking, low-end buildup. None is chosen, and no model adds or recommends one (D-006). A tool guides what to listen for; it never overrides artistic judgment: your ear against a reference decides.
 
 ## Practice inside the loop
 
@@ -121,10 +121,10 @@ Technical reference-analysis tools (spectrum comparison, level or LUFS matching,
 ## How this path works
 
 - **Record-first.** The loop runs on real records. Skills improve in parallel inside them. No isolated stages, no prerequisite gates, no linear curriculum.
-- **Reference-anchored.** Comparison at matched loudness is the lesson. Name the biggest gap; fix one thing next.
+- **Reference-anchored.** Comparison is the lesson: matched-loudness listening, technical tools where available, your judgment final. Name the biggest gap; fix one thing next.
 - **Finish before polish.** A finished rough record teaches more than a perfect loop. Pass limits are honored.
 - **Decisions get limits.** Set a small limit before a session. If the choice is still open when the limit is reached, take the simplest option that fits and move. Note every urge to keep tweaking; the urge is data about workflow, not a reason to reopen the plugin.
-- **Proof over feelings.** Keep bounces. Compare before and after, and against the reference at matched loudness.
+- **Proof over feelings.** Keep bounces. Compare before and after, and against the reference at matched loudness, with technical tools where available to check what ears alone cannot pin down.
 - **Active, not passive.** Watching is not practice. During `gate-window`, the maintenance band means slow is fine and stopped is not.
 - **No quotas.** No weekly output target, no songs-per-week, no beats-per-week, no forced cadence. Log sessions when they happen.
 - **Owner judgment is final.** "Convincing," "professional," and "genuinely good" are your calls, not a model's grade.
