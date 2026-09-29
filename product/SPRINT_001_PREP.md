@@ -1,7 +1,8 @@
 # Product input for Sprint 001
 
-> **Status:** proposal pending owner acceptance under D-006.
+> **Status:** accepted candidate input for the later integrated Sprint 001 planner.
 > **Prepared:** 2026-09-29.
+> **Accepted:** owner acceptance recorded 2026-09-29 under D-006.
 > **Purpose:** candidate input for the later integrated, approximately 10-day sprint. No active sprint or product idea is created.
 > **Authority:** the previously read [MASTER_ROADMAP.md](../MASTER_ROADMAP.md), [CURRENT_STATE.md](../CURRENT_STATE.md), and [AI_WORKFLOW.md](../AI_WORKFLOW.md), plus [ROADMAP.md](ROADMAP.md), [PROGRESS.md](PROGRESS.md), [IDEAS.md](IDEAS.md), [EXPERIMENTS.md](EXPERIMENTS.md), [VALIDATION.md](VALIDATION.md), and [RESOURCES.md](RESOURCES.md), read for this pass. `EXPERIMENTS.md` was read once as required; it contains no started experiments, and it is not modified here — no experiment is opened or created.
 
@@ -84,10 +85,10 @@ Observable evidence from the slice would be owner-created candidate entries supp
 
 Explicitly deferred: choosing a product or niche; AI-generated problems; feature lists; E3 landing pages, prototypes, pricing/payment tests, and experiment design; E4–E7 work; implementation plans and builds; courses, competitor databases, and broad trend research.
 
-## Decisions awaiting acceptance
+## Decisions accepted 2026-09-29
 
-- Accept this bounded E1 approach and the balanced surface set above; start where the owner's actual familiarity and paid-workflow visibility are strongest.
-- Accept the linked surfaces as proposed sources. `RESOURCES.md` remains unchanged.
+- Accepted this bounded E1 approach and the balanced surface set above; start where the owner's actual familiarity and paid-workflow visibility are strongest.
+- Accepted the linked surfaces as proposed sources. `RESOURCES.md` remains unchanged.
 - At integrated planning, fit discovery around real capacity and GATE. Include an E2 conversation only if an evidence-backed candidate and reachable person naturally emerge.
 
-Only `product/SPRINT_001_PREP.md` is added. Ideas, experiments, validation findings, progress, resources, roadmap, strategy, and active-sprint files remain unchanged. All selections remain proposals.
+Only `product/SPRINT_001_PREP.md` is added. Ideas, experiments, validation findings, progress, resources, roadmap, strategy, and active-sprint files remain unchanged. All selections are accepted candidate input for the later integrated Sprint 001 planner; no active sprint or product idea is created.
