@@ -61,11 +61,11 @@ Stage 0 sets up the syllabus, the real-PYQ source, and the notes/log system only
 
 ## How this path works
 
-- **PYQs are the primary learning and validation tool.** They drive what is studied, not just what is tested afterward.
+- **PYQs are the primary learning and validation tool.** They establish scope before studying and validate after solving — not a license to attempt blind or to skip theory.
 - **Theory depth is the minimum needed to solve real PYQs and nearby variants.** If a concept has no PYQ footprint, it gets a thin pass.
 - **Strong areas get compressed treatment; weak areas expand only when evidence demands it.** Evidence means missed PYQs, failed checkpoints, or mock analysis — never a feeling or a generic hard-topics list.
 - **Real GATE PYQs and official answers where possible, not AI-generated substitutes.** AI material, if ever used, is at most a stopgap for extra drills — never the spine.
-- **Notes are living, compact exam notes, not textbook-style material.** Built from PYQs plus syllabus: patterns, formulas, traps, one-line fixes. Tightened on every miss.
+- **Notes are living, compact exam notes, not textbook-style material.** First-pass from theory + mapped PYQ patterns (both inputs), then tightened on every miss.
 - **Subject completion means syllabus sections covered + relevant PYQs attempted + unresolved weaknesses recorded,** not "finished all lectures."
 - **Progression is independent PYQ solving → mixed/sectional practice → full papers/mocks.** Each step is gated by the previous step's evidence.
 - **Errors are the curriculum.** Every miss is logged by cause, and patching targets the log.
@@ -121,19 +121,23 @@ No diagnostic test. No mock. No topic pre-assessment.
 
 ### Stage 1 — PYQ-driven subject coverage (the core loop)
 
-For each subject in the order, run this loop:
+For each subject in the order, run the canonical topic loop from [PREP_METHOD.md](PREP_METHOD.md), which governs the detailed method. In outline, per topic:
 
-1. Take the official syllabus for the subject.
-2. Inspect/map its real GATE PYQs by topic — see what GATE actually asks before studying deep.
-3. Create compact exam-oriented notes from those PYQs + the syllabus (patterns, formulas, traps, one-line conclusions).
-4. Study one section slice.
-5. Immediately solve that section's real PYQs.
-6. Patch only the concepts exposed as weak by those misses; update the notes.
-7. Continue to the next section.
-8. Finish with a subject-level PYQ checkpoint; record unresolved weaknesses and carry them forward.
+1. Map the topic's real GATE PYQs first — scope and depth come from what GATE actually asks, not from attempting blind.
+2. Learn concise-but-sufficient theory from the topic's chosen primary teaching resource (video preferred when suitable; text fine when clearer).
+3. Prepare first-pass compact notes from that theory + the mapped PYQ patterns.
+4. Solve the topic's real PYQs independently.
+5. Diagnose misses by cause; patch the specific theory/application gaps.
+6. Update and tighten the notes.
+7. Add extra good GATE-level practice only when PYQ volume is insufficient.
+8. Cold re-test on a fresh PYQ or variant, record weaknesses, and continue.
+9. Finish the subject with its subject-level PYQ checkpoint; carry unresolved weaknesses forward.
 
 Rules inside the loop:
 
+- **PYQ-first means scoping, not blind attempting.** Map first, solve after learning.
+- **PYQ-focused does not mean theory-light:** enough theory to understand the concept, know when/why it applies, and solve standard variants without memorized tricks.
+- **Theory resources are valid primary teaching resources for near-term topics,** one coherent primary per topic, supplements only for genuine gaps — and selected only for near-term topics.
 - **Section note bundle (explicit):** for each section, the living notes hold: (1) section, (2) compact required theory (minimum to solve its PYQs), (3) formulas/patterns/traps, (4) mapped real PYQs, (5) solutions/explanations with official keys, (6) note patches from mistakes. No textbook expansion.
 - Strong sections compress: clean PYQ solves mean short notes and move on. No extra theory.
 - Weak sections expand only on evidence: a miss triggers a targeted patch, then a re-test on a fresh PYQ or variant.
@@ -222,10 +226,12 @@ Subject completion = sections covered + PYQs attempted + weaknesses recorded. Le
 ## Resources: policy without overload
 
 - Real PYQs plus official keys and the official syllabus are the spine.
-- Theory resources are on-demand patches for specific stuck topics only — not one primary resource per subject collected upfront. Existing materials first.
-- A supplement is added only when a specific topic is stuck, and it goes to [RESOURCES.md](RESOURCES.md) once the owner accepts it. Decision D-006.
+- **Theory resources are valid primary teaching resources for near-term topics** — one coherent primary per topic, chosen when the topic becomes near-term, not collected upfront. Video preferred when suitable; text fine when clearer or more efficient.
+- Supplements are only for genuine gaps or unclear explanations, and they go to [RESOURCES.md](RESOURCES.md) once the owner accepts them. Decision D-006.
 - Avoid: multiple standard books per subject, lecture binges, passive video watching, AI question banks presented as PYQs, and switching resources when a topic feels hard.
 - Mock series: needed by Stage 3. Choose one and use it properly. Do not subscribe to several.
+
+The detailed resource-selection rules (what "suitable" means, how quality is judged) live in [PREP_METHOD.md](PREP_METHOD.md).
 
 ## Assumptions and unknowns
 

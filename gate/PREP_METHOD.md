@@ -28,7 +28,7 @@ Time spent without a question being attempted, understood, or re-tested is suspe
 
 ## 3. Resources
 
-- **Video-based teaching is preferred when suitable.** Text resources are fine, and chosen over video when they are clearer or more efficient for the topic at hand. Suitability comes first: no medium is chosen for its own sake.
+- **Video-based teaching is preferred when suitable; text is fine when clearer or more efficient for the topic at hand.** A primary teaching resource for a near-term topic is normal, planned material — not an emergency patch. Suitability comes first: no medium is chosen for its own sake.
 - **One coherent primary resource per topic.** Not per subject, and not a stack. Choose one resource that teaches the topic well end to end, and stay with it. Add a second only to patch a genuine gap or an unclear explanation.
 - **No resource stack built in advance.** Select material only for the near-term topics actually being prepared. Future topics pick their material when they become near-term.
 - **Materials the owner already owns come first** where they serve. New purchases wait for a concrete gap.
@@ -38,7 +38,12 @@ Time spent without a question being attempted, understood, or re-tested is suspe
 
 ## 4. PYQ-focused does not mean theory-light
 
-PYQs are the primary validation mechanism. They decide what to study and prove that it worked — they do not license thin theory.
+PYQs are the primary validation mechanism and the main guide to required depth. They establish what to study and prove that it worked — they do not license thin theory.
+
+Two readings of "PYQ-first" must be kept apart:
+
+- **PYQ-first as scoping: yes.** Inspect and map the topic's real PYQs *before* studying, so scope, weightage, and question style come from what GATE actually asks.
+- **PYQ-first as attempting-everything-blind: no.** Solving happens after learning the theory and preparing first-pass notes. Walking cold into a topic with no teaching is not a gate and not a badge.
 
 For each topic, learn enough theory to:
 
@@ -53,15 +58,17 @@ Tricks learned as shortcuts on top of understanding are fine. Tricks substituted
 
 Run this loop per topic (or tightly related topic cluster), inside the stages of [ROADMAP.md](ROADMAP.md):
 
-1. **Concise theory.** Learn the concept from the chosen primary resource, at the depth bar in section 4. Concise means no padding — not shallow.
-2. **Worked examples and numericals.** See the concept applied before attempting questions. GATE is heavily numerical and applied; watching a correct solve before doing one is part of learning, not cheating.
-3. **Real GATE PYQs.** Attempt the actual previous-year questions for that topic first, using official answers and explanations where possible. AI-generated substitutes do not validate (see [ROADMAP.md](ROADMAP.md)).
-4. **Identify gaps.** Every miss gets a cause, not just a topic: concept gap, recall gap, application error, misread, or carelessness. The error log in [PROGRESS.md](PROGRESS.md) fields these.
-5. **Targeted theory patch.** Revisit the exact concept(s) the misses expose, from the primary resource or a chosen supplement if the explanation is genuinely unclear. Patching is surgical; do not re-study the whole topic on one miss.
-6. **More GATE-level practice if required.** If reinforcement is needed beyond available PYQ volume, use additional good GATE-level questions — same style, difficulty, and syllabus. Do not fill the gap with unrelated competitive-programming problems or unnecessarily advanced material.
-7. **Compact revision notes.** Close the loop by writing the topic's exam notes (section 7).
+1. **Map the real GATE PYQs first.** Inspect the topic's actual previous-year questions — what GATE asks, how often, at what depth, and which sub-parts recur — before studying anything. This establishes scope and the depth target; it is not an attempt to solve them blind. Keep a short map: pattern list with years.
+2. **Learn concise-but-sufficient theory from the chosen primary teaching resource.** At the depth bar in section 4, guided by step 1's map. Concise means no padding — not shallow. Seeing worked examples and numericals is part of this step: watch or study corrected solves before doing one; it is learning, not cheating.
+3. **Prepare first-pass compact notes.** Built from BOTH the theory just learned AND the PYQ map from step 1: required concepts, formulas and their conditions, methods, traps, and the recurring PYQ patterns observed. First-pass, not final — this note gets patched later in the loop.
+4. **Solve the topic's real GATE PYQs independently.** The actual previous-year questions, official answers and explanations checked only after attempting. AI-generated substitutes do not validate (see [ROADMAP.md](ROADMAP.md)).
+5. **Diagnose misses.** Every miss gets a cause, not just a topic: concept gap, recall gap, application error, misread, or carelessness. The error log in [PROGRESS.md](PROGRESS.md) fields these.
+6. **Patch the specific theory or application gaps.** Revisit the exact concept(s) the misses expose, from the primary resource or a chosen supplement if the explanation is genuinely unclear. Patching is surgical; do not re-study the whole topic on one miss.
+7. **Update and tighten the notes.** Fold in what diagnosis revealed: the missed pattern, the trap, the corrected formula condition, the fix. Notes converge here, not only at the end.
+8. **Add extra good GATE-level practice only when PYQ volume is insufficient.** If reinforcement beyond the available PYQs is needed, use additional good GATE-level questions — same style, difficulty, and syllabus. Do not fill the gap with unrelated competitive-programming problems or unnecessarily advanced material. When PYQ volume is sufficient, this step is skipped.
+9. **Cold re-test / checkpoint, then continue.** Re-test on a fresh PYQ or variant without notes before calling the topic done. On passing: move to the next topic. On failing: the topic is recorded weak and revisited (section 6).
 
-Then move to the next topic's section. The loop repeats per topic; a subject finishes when its sections and relevant PYQs are done and its weaknesses are recorded, per [ROADMAP.md](ROADMAP.md).
+The loop repeats per topic; a subject finishes when its sections and relevant PYQs are done and its weaknesses are recorded, per [ROADMAP.md](ROADMAP.md).
 
 ## 6. Validation and the stop rule
 
@@ -75,7 +82,7 @@ Then move to the next topic's section. The loop repeats per topic; a subject fin
 
 ## 7. Notes
 
-Notes are the compact, exam-oriented record, built and tightened throughout the loop. They are not a second textbook.
+Notes are the compact, exam-oriented record, evolving through the topic loop: first-pass notes come from theory + the PYQ map (section 5, step 3), then get updated and tightened after each diagnosis (section 5, step 7). They are not a second textbook.
 
 Each topic's notes converge toward:
 
@@ -89,14 +96,14 @@ Each topic's notes converge toward:
 Rules:
 
 - Written to support solving a question — readable while practicing, skim-able before the exam. If a note would not help solve a PYQ, it does not belong in the notes.
-- Notes start as they are built and get tightened; final compactness is a goal, not a first-draft requirement.
+- Notes start as first-pass drafts (theory + PYQ patterns) and tighten with every diagnosis; final compactness is the goal, not a first-draft requirement.
 - AI may generate initial drafts of, or refine, topic notes from accepted resources and solved PYQs — but the source pool is [RESOURCES.md](RESOURCES.md) materials and real PYQs, and the notes must serve problem solving, not become another textbook to read.
 - Notes live with the notes system set up in Stage 0 of [ROADMAP.md](ROADMAP.md); they are the revision spine for Stage 2 onward.
 
 ## 8. What runs the plan
 
 - **Efficiency and low confusion are major priorities.** When two paths reach the same solving ability, take the clearer one. When an explanation causes confusion, fix or replace it early; confusion compounds.
-- **Sprint planners:** GATE tasks in a sprint should name topic(s) and the loop step being executed (theory, worked PYQs, patching, notes). Do not name generic outcomes like "study OS".
+- **Sprint planners:** GATE tasks in a sprint should name topic(s) and the loop step being executed (mapping PYQs, theory, notes, solving, patching, re-testing). Do not name generic outcomes like "study OS".
 - **Study assistants:** follow the loop, respect the depth bar, and never substitute AI-generated PYQs for real ones or pad practice with off-syllabus problems.
 - Nothing in this file changes subject order, stage gates, milestones, or the AIR < 400 objective in [ROADMAP.md](ROADMAP.md). This file governs the how; the roadmap governs the what and when.
 
