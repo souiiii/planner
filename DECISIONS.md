@@ -253,3 +253,13 @@ Ids are never reused.
 - Why: The owner's goal exceeds "stay fluent". Maintenance alone would not build the recognition skill, and the flagged conflict between the master's maintenance-only wording and the domain plan needed reconciling rather than leaving the plan marked as not in force.
 - Changes: `MASTER_ROADMAP.md` attention rows, LeetCode stream, success by joining, decisions header, and changelog. `DECISIONS.md`: D-009 marked superseded. `CURRENT_STATE.md` track row. `leetcode/MAINTENANCE_PLAN.md` conflict section replaced with a reconciliation note; `leetcode/PROGRESS.md` strategy note updated. `AI_WORKFLOW.md` authority-map row updated. No band, yield-order, or quota change; no sprint or calendar created.
 - Supersedes: D-009
+
+### D-024 — LeetCode uses pool + company questions in parallel, ~50/50 by attempts
+
+- Date: 2026-09-29
+- Status: accepted
+- Decided by: execution (owner instruction)
+- Decision: From Sprint 001 onward, LeetCode practice draws roughly half its attempts from the existing shuffled 92-question pool (kept in order, never regrouped or cherry-picked) and roughly half from genuine company OA/interview questions as fresh-transfer practice. 50/50 is counted by attempts within the sprint's LeetCode work, not by sprint time. Both sources share the same attempt protocol, logging, failure taxonomy, and cold-revisit rules. Company questions may start in Sprint 001; no pool consolidation is required first. Sources must be credible actual/reported material; leaked or confidential active-assessment material, cheating tools, answer dumps, and bypass-oriented sources are refused.
+- Why: The old "pool first, company after M2" sequencing delayed transfer practice the goal depends on. Parallel practice exercises recognition on both calibrated and fresh material from the start; M1 still records the full pool pass as evidence.
+- Changes: `leetcode/MAINTENANCE_PLAN.md` (parallel-sources section, ladder framing), `leetcode/PROGRESS.md` (current-stage wording, transfer metric), `leetcode/ATTEMPTS.md` (pool/company id scheme). No master, band, milestone, or goal change.
+- Supersedes: the "pool first, company later" sequencing only. D-023 remains in force.

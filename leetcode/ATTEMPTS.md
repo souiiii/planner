@@ -2,17 +2,18 @@
 
 > **Role:** raw attempt and review log for the unseen-problem recognition program. The method is in [MAINTENANCE_PLAN.md](MAINTENANCE_PLAN.md).
 > **Rule:** log the attempt before checking the answer key. No invented entries: a model must not backfill results, and nothing here is marked done without your report.
-> **Last reviewed:** 2026-09-28
+> **Last reviewed:** 2026-09-29
 
 Keep entries short and honest. The log is the evidence; [PROGRESS.md](PROGRESS.md) only rolls it up.
 
 ## How to log an attempt
 
-Copy this block for each pool question:
+Copy this block for each attempt — pool or company:
 
 ```text
-## #<pool number> <Title>
+## P<pool number> <Title>  —  or  ## C<company id> <Title> (<Company>, <Round/Year if known>)
 - Date:
+- Source: pool | company
 - Outcome: solved clean | solved with struggle | stalled | wrong approach | failed
 - Approach before validation, in your words + confidence (low/med/high):
 - Genuine stall reached? What you tried and where it failed:
@@ -26,7 +27,7 @@ Copy this block for each pool question:
 And when a revisit happens:
 
 ```text
-## #<pool number> <Title> — revisit
+## P<pool number> <Title> — revisit  —  or  ## C<company id> <Title> — revisit
 - Cold solve before the key: pass | fail
 - Approach and complexity stated up front (in your words):
 - Closed? yes | no. If no, what changed in the notes and why it was queued again:
@@ -34,7 +35,7 @@ And when a revisit happens:
 
 ## Revisit queue
 
-None yet. Add pool numbers here when queued; remove one only after a clean cold solve.
+None yet. Add pool numbers (P) or company ids (C) here when queued; remove one only after a clean cold solve.
 
 ## Consolidation reviews
 

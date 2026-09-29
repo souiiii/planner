@@ -3,7 +3,7 @@
 > **Role:** domain plan and practice method for DSA. The objective is substantially better recognition on unseen problems and independent solving — not maintenance alone.
 > **Authority:** subordinate to [MASTER_ROADMAP.md](../MASTER_ROADMAP.md) for phases, attention bands, and non-goals. This file does not set how much time the track gets.
 > **Status:** active, reconciled 2026-09-28 (D-023). The goal below is the track's goal; the master's LeetCode section now matches it.
-> **Last reviewed:** 2026-09-28
+> **Last reviewed:** 2026-09-29
 > **File name:** historical, kept for stability. Decision D-023.
 
 ## Reconciliation (D-023, 2026-09-28)
@@ -84,18 +84,27 @@ Near-misses count as review material: solved only after a long struggle, or solv
 - If a revisit fails, do not simply retry. Re-derive the trigger from the problem, compare with the key, fix the note, and queue it again.
 - The queue is worked before or alongside new attempts. It has no calendar and no interval schedule.
 
-## Fresh company questions
+## Practice sources: pool + company questions in parallel
 
-Enter after the first cold closures and the pool consolidation (milestone M2), not during the initial pool pass. This is where minimal priming matters most.
+From Sprint 001 onward, LeetCode practice uses **both** sources in parallel:
 
-- Choose by title from a set. Do not read company tags, pattern tags, acceptance rates, editorials, discussions, or solutions before the attempt. If a page shows tags, do not look at them.
-- Same attempt protocol, same log. Validate with the platform editorial or discussion after the attempt; note where your approach differed and why.
-- A problem you have seen or solved before is a revisit, not fresh evidence. Log it as such.
-- No source is chosen yet. When one is chosen, have it recorded in `RESOURCES.md` (created then).
+- **Roughly 50% of LeetCode attempts from the existing 92-question pool**, in its existing shuffled order. Never regroup or cherry-pick it by pattern, topic, or difficulty — the shuffle is the anti-priming design.
+- **Roughly 50% from genuine company OA/interview papers and questions.** Interpret 50/50 by number of attempts within the LeetCode work selected for a sprint, not as 50% of total sprint time. An odd count may differ by one.
+
+Company questions are **fresh-transfer practice**, not a replacement pool and not another generic DSA sheet.
+
+- Prefer credible actual or reported company OA/interview material. No pattern tags, acceptance rates, editorials, discussions, or solutions before the attempt. If a page shows tags, do not look at them.
+- Never use leaked or confidential active-assessment material, cheating tools, answer dumps, or bypass-oriented sources.
+- Both sources use the **same** recognition-first attempt protocol, logging, failure taxonomy, and cold-revisit rules. No hints, editorials, discussions, or AI before a genuine attempt or genuine stall.
+- Validate a company question with the platform editorial or discussion **after** the attempt; note where your approach differed and why.
+- A problem seen or solved before is a revisit, not fresh evidence. Log it as such.
+- Company questions may start in Sprint 001. There is no requirement to finish or consolidate the pool first.
+
+No company source is chosen yet. When one is chosen, record it here as an accepted-source line after owner acceptance (D-006). Do not create a separate `leetcode/RESOURCES.md`.
 
 ## Difficulty progression
 
-Increase difficulty only on ability evidence — never by completion count, boredom, or a target. Levels:
+Increase difficulty only on ability evidence — never by completion count, boredom, or a target. The ladder below describes difficulty and priming, **not source order**: both the pool and company questions feed it from Sprint 001 onward. Levels:
 
 1. **The pool:** mixed medium/hard, shuffled. Calibration plus the first recognition reps.
 2. **Fresh medium, single clear trigger, minimally primed:** focus on writing candidate approaches before coding and solving unaided.
