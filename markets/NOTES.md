@@ -2,8 +2,8 @@
 
 > **Role:** working notes from markets reading and questions.
 > **Not a progress record.** If understanding changed, update [PROGRESS.md](PROGRESS.md) from what you can explain.
-> **Not a second reading list.** Chosen titles live in [READING.md](READING.md).
-> **Last reviewed:** 2026-09-27
+> **Not a second reading list.** Chosen titles live in [READING.md](READING.md). Explanations follow [ROADMAP.md](ROADMAP.md).
+> **Last reviewed:** 2026-09-29
 
 If a note starts to look like a syllabus, move the commitment to the roadmap or delete it.
 
