@@ -3,7 +3,7 @@
 > **Role:** your reference set and teardown notes for the music stream. The roadmap's teaching method is comparison against these.
 > **Authority:** owner-chosen only. Models must not add tracks, artists, or recommendations here. Decision D-006.
 > **Not a playlist to copy.** These are analysis subjects. Learn the shape, not the melody.
-> **Last reviewed:** 2026-09-27
+> **Last reviewed:** 2026-09-29
 
 A small set is enough, and it can change as your goals move. Keep rap-led and melodic examples that match the sound you are aiming at. Add a track only when you can say why it is there.
 
@@ -23,7 +23,7 @@ Ids are never reused. Replace tracks over time. Do not grow the list forever.
 
 ## Reference set
 
-Owner-chosen, recorded 2026-09-27. This is the set the roadmap compares against. Blank teardown fields belong to the owner's S1 work; a model must not fill them in.
+Owner-chosen, recorded 2026-09-27. This is the set the roadmap compares against. Blank teardown fields belong to the owner's work in the record loop; a model must not fill them in.
 
 ### R-001 — Major Distribution, Drake & 21 Savage
 
@@ -81,4 +81,4 @@ Owner-chosen, recorded 2026-09-27. This is the set the roadmap compares against.
 
 ## Teardowns
 
-None yet. Longer analysis notes from S1 go here. Short analysis and ear-drill sessions go in [PRACTICE_LOG.md](PRACTICE_LOG.md).
+None yet. Longer analysis notes from reference comparisons and teardowns go here. Short analysis, ear-drill, and comparison sessions go in [PRACTICE_LOG.md](PRACTICE_LOG.md).

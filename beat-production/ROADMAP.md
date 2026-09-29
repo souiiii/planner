@@ -1,14 +1,16 @@
 # Music (folder: beat-production)
 
-> **Role:** domain roadmap and learning path for music-making as a craft. Mainly rap, with some melodic attempts.
-> **Authority:** subordinate to [MASTER_ROADMAP.md](../MASTER_ROADMAP.md) for phases, attention bands, and non-goals. This file designs the learning sequence inside those bounds.
+> **Role:** domain roadmap and improvement loop for music-making as a craft. Mainly rap, with some melodic attempts. Record-first, reference-anchored.
+> **Authority:** subordinate to [MASTER_ROADMAP.md](../MASTER_ROADMAP.md) for phases, attention bands, and non-goals. This file designs the method inside those bounds.
 > **Status:** active
-> **Last reviewed:** 2026-09-27
+> **Last reviewed:** 2026-09-29
 > **Note:** the folder name is historical. The stream is broader than beat-making. Decision D-021.
 
 ## Purpose
 
-Learn to make finished music you respect: rap-led, with some melodic attempts, vocals included, over your own beats or existing ones. The outcome is records that sound convincing, not tool knowledge. Decisions D-011 and D-021.
+Learn to make finished records you respect: rap-led songs, with some melodic attempts, vocals included, over existing beats or your own. The outcome is records that sound convincing and professional to you — not DAW knowledge, not tool familiarity. Decisions D-011 and D-021.
+
+The craft is the song and the vocal. Beat-making, sampling, and production are part of it and improve through it, but they do not block song-making and do not dominate the early work.
 
 ## Current baseline (owner-reported 2026-09-27)
 
@@ -27,158 +29,107 @@ Learn to make finished music you respect: rap-led, with some melodic attempts, v
 - Gear purchases: none wanted right now. Do not push them.
 - Still unknown: sample sources, and any setup detail not listed here.
 
+## Priorities (owner-stated 2026-09-29)
+
+In rough order of emphasis. They are practiced together inside real records, not as separate sequential stages.
+
+1. **Writing better songs, verses, and hooks.** Rap-led, with some melodic writing. Flow, pocket, phrasing, structure. Finishing lyrics instead of endlessly rewriting or discarding them.
+2. **Recording and vocal performance.** Getting convincing takes. Delivery, timing, doubles, ad-libs, comping. Learning how to make your voice work with the beat.
+3. **Vocal processing and mixing.** A major focus. EQ, compression, de-essing, saturation, tuning where appropriate, reverb and delay, automation, vocal layers, width and depth. Fitting vocals professionally into an existing beat. Understanding why your vocal sounds amateur or cheap next to a professional reference, and how to fix it.
+4. **Finishing complete records.** Mainly songs over existing beats at first. Making your own beats, sampling, and production stay part of the craft, but they must not block song-making and must not dominate the early loop. The goal is finished records that sound convincing and professional to you — not DAW knowledge.
+
 ## End capability
 
 At the end of this path you can:
 
-- take an idea to a finished record, with vocals sitting naturally inside it;
-- hear what a reference record is doing and name it in your own words;
-- choose sounds, arrangements, and processing that serve the song instead of the plugin;
+- take a song idea to a finished record, with the vocal sitting convincingly inside it;
+- hear what a professional reference is doing, compare your record against it, and name the biggest gap in your own words;
+- write and finish verses and hooks you believe in, and get vocal performances you can rely on;
+- process a vocal intentionally — tone, depth, effects, dynamics — and explain each move;
 - make decisive choices on a limit instead of tweaking endlessly;
-- do it again, repeatably, over your own beats or existing beats.
+- do it again, repeatably, over existing beats or your own.
 
 Not required or implied: a career, an audience, releases, a schedule, or gear purchases.
 
+## The record-first loop
+
+The unit of work is a **record**, not a lesson. Skills improve in parallel by making real records and comparing them against references. One pass through the loop:
+
+1. **Reference or song idea.** Pick what you are chasing this cycle — a reference from [REFERENCES.md](REFERENCES.md), or an idea you have.
+2. **Beat.** Choose an existing beat, or make or tweak one. Either is valid. Beat-making does not block the song; if you want to write now, write over an existing beat.
+3. **Write.** Verse and hook to the beat. Flow, pocket, phrasing, structure. Finish the lyric. Rewriting is allowed; discarding a finished lyric to start a "better" one is the habit to break.
+4. **Record.** Get convincing takes. Delivery and timing first; doubles and ad-libs where the song wants them. Multiple takes and punch-ins are normal.
+5. **Comp / performance cleanup.** Assemble the best moments into a main take. Fix timing where it helps; keep feel where it matters.
+6. **Vocal processing.** The major focus. EQ, compression, de-essing, saturation, tuning where appropriate, reverb and delay sends, layers, width and depth. Build the chain by ear, not by preset.
+7. **Arrange and tweak around the vocal.** Make space for it. Ride levels, use mutes or arrangement holes, add drops or switches that answer the vocal. This is where beat craft and production improve — in service of the song.
+8. **Mix.** Rough or full. Work in passes: balance, then depth and space, then tone and color, then automation.
+9. **Export.** Bounce it. A record that is not exported is not a record.
+10. **Compare against a professional reference.** Same system, matched loudness. Write down the differences. This step is the lesson.
+11. **Name the biggest weakness.** One, specific, actionable. Not a list of everything.
+12. **Improve it deliberately.** The next pass or the next record targets that weakness. Targeted practice happens inside the loop, not as a side quest.
+
+Not every cycle touches every step at the same depth. The loop is the shape, not a checklist to complete perfectly. A cycle may stop early as a sketch — that is fine — but the compare-and-name step happens on anything you call finished.
+
+A useful session shape: a short ear warm-up, one focused task from the current record's loop step, a bounce or a note, and a log entry. Not every session needs all four.
+
+## Skill areas (parallel, not sequential)
+
+These improve together, through actual records. None is a prerequisite for another, and none is locked behind a stage.
+
+- **Writing** — verses, hooks, flow, pocket, phrasing, structure, finishing lyrics.
+- **Vocal performance** — delivery, timing, doubles, ad-libs, comping, voice working with the beat.
+- **Vocal processing and mixing** — the chain, space, depth, width, automation, fitting the vocal professionally.
+- **Ear and reference analysis** — hearing what a reference does, comparing at matched loudness, naming gaps.
+- **Production** — beat-making, sampling, chopping, drums, sound selection, arrangement.
+- **Final mixing** — balance, depth, tone, automation, translation, polish.
+
+How to keep balance: each cycle, pick one focus area (or two) to push deliberately, and do the rest at "good enough for this record" quality. Rotate over records so nothing rots. The weakness named at step 11 usually picks the focus for you.
+
+## Capability milestones
+
+These are capabilities you demonstrate on real records, not gates you pass before touching another skill. They can be achieved in any order, and most come out of finished records rather than drills.
+
+| Id | Capability | Evidence |
+| --- | --- | --- |
+| C1 | Write and finish convincing verses and hooks — rap-led, some melodic — and actually finish lyrics instead of rewriting or discarding them | a finished lyric on a record; you can say why the flow and phrasing work |
+| C2 | Repeatable, usable vocal performances — takes you can comp into something convincing, with delivery and timing under control | several records with takes you are happy with; you can get there without a lucky session |
+| C3 | A vocal sits professionally over an existing beat, and you can explain why it does or does not | a vocal over a beat you did not make that you would call convincing |
+| C4 | Vocal tone, depth, effects, and dynamics are intentional — you can say what each move does and why | a processing log with reasons; you can reproduce a sound you liked |
+| C5 | Finish songs without endless tweaking — decisions get limits; you bounce, name, and archive | a finished record where you stopped on purpose, with a pass limit honored |
+| C6 | Produce or tweak beats around vocals convincingly — space, arrangement, and energy that answer the vocal | a record where the beat serves the vocal and you can explain the choices |
+| C7 | Complete records repeatedly at a standard you respect — the loop is repeatable, not lucky | a small body of finished records you genuinely consider convincing |
+
+The thread through all of them: **why does my vocal sound amateur or cheap next to a professional reference, and what fixes it.** That question is answered by comparison, not by theory.
+
+Owner judgment is final. A model must not mark a capability demonstrated; only you can, from a real record.
+
+## References
+
+The six owner-chosen references in [REFERENCES.md](REFERENCES.md) are the teaching method. Owner-chosen only; models must not add tracks (D-006).
+
+Comparison is central. Every record you call finished gets compared against a reference at matched loudness on the same system. The biggest gap becomes the next cycle's focus. Reference teardowns — sections, energy, drums and groove, bass and harmony, vocal placement and doubles and ad-libs, space and depth, the "expensive" moments — are done as the loop needs them, not as a prerequisite stage. Longer teardowns live in [REFERENCES.md](REFERENCES.md).
+
+Technical reference-analysis tools (spectrum comparison, level or LUFS matching, and similar) may support the process later. None is chosen, and no model adds or recommends one (D-006). A tool is a lens, not the method: your ear against a reference decides.
+
+## Practice inside the loop
+
+- **Drills are allowed, but they serve a weakness.** Ear drills (match a band by ear with EQ, hear compression and saturation, recognize reverb tails, name frequency ranges), pocket and phrasing reps against a reference verse, chain-literacy A/B on your own voice. Small, targeted, tied to a named weakness.
+- A drill session counts as practice and gets logged. It is not a substitute for records.
+- **Sessions are active.** You wrote, recorded, comped, processed, arranged, mixed, bounced, or analyzed with notes. Watching is not practice.
+- **Recreations and studies count.** Rebuilding a reference's structure with your own sounds, or matching a reference vocal chain, trains ear, arrangement, and vocals without pretending to be original releases.
+
 ## How this path works
 
-- **Ability-gated, not calendar-gated.** The sequence is ordered. The pace is not scheduled. Move on when a stage's criteria are demonstrated, not when time has passed.
-- **Songs early.** Writing, recording, and vocal work start before deep beat craft. Making convincing songs over existing beats is valid, early progress. Beat-making stays important and deepens at S5; it is not a prerequisite for making songs.
-- **Finish before polish.** A finished rough piece teaches more than a perfect loop. The master delegated "what counts as finished" to this file; see the definition below.
-- **References do the teaching.** Analyze, then imitate, then invent. Every active piece has at least one reference.
-- **Decisions get limits.** Commit to a choice rather than auditioning seventeen. Set a small limit before the session. If the choice is still open when the limit is reached, take the simplest option that fits and move.
-- **Proof over feelings.** Keep bounces. Compare before and after, and against the reference at matched loudness. The comparison is the lesson.
-- **Active, not passive.** Watching is not practice. A session means you made, recorded, wrote, mixed, bounced, or analyzed with notes. During `gate-window`, the maintenance band means slow is fine and stopped is not.
-- **No quotas.** No weekly output target, no beats-per-week, no problem counts. Log sessions when they happen.
-
-A useful session shape: a short ear warm-up, one focused task from the current stage, a bounce or a note, and a log entry. Not every session needs all four.
-
-## Stages
-
-### S1 — Hearing and describing
-
-**Develops:** ears, arrangement and mix vocabulary, and the ability to diagnose your own work against a reference.
-
-**Work**
-
-1. Work from the six owner-chosen references recorded in [REFERENCES.md](REFERENCES.md). Keep the set small; add or replace a track only deliberately. Only the owner adds tracks.
-2. Tear references down with a fixed question list:
-   - sections: what happens, in what order, roughly how long each part;
-   - energy: what enters and leaves to keep it moving;
-   - drums and groove: pattern, feel, swing, layering;
-   - bass and harmony: what they do under the vocal;
-   - vocal: placement, doubles, ad-libs, and the space around it;
-   - space and depth: reverb and delay tails, width, front to back;
-   - "expensive" moments: point at the seconds and say why they work.
-3. Short ear drills on your own material: match a band by ear with EQ; hear compression and saturation; recognize reverb tails; name frequency ranges.
-4. A/B every bounce against a reference on the same system at matched loudness. Write one sentence per difference.
-
-**Move on when**
-
-- you can describe a reference's arrangement and mix in your own words and point at the moments that create its effect;
-- you can compare your own piece to it and name your biggest gap without guessing.
-
-### S2 — Finishing short pieces
-
-**Develops:** arrangement, decision discipline, and the habit of finishing instead of perfecting.
-
-**Work**
-
-- Single-session loops: 8–16 bars that are good enough to continue, not perfect.
-- Structural reps: turn a loop into a full arrangement (intro, verse, hook, and so on). Create movement with mutes and arrangement edits rather than new sounds.
-- Structural recreation: rebuild the structure of a reference with your own sounds. Take the shape, not the melody.
-- Revision limits: one piece at a time. Set your own pass limit before starting; when it is reached, bounce, name, and archive.
-- Note every urge to keep tweaking. The urge is data about workflow, not a reason to reopen the plugin.
-
-**Move on when**
-
-- several finished rough arrangements exist;
-- you make structural decisions within your pass limit instead of circling one element.
-
-### S3 — Writing, performance, recording, comping
-
-**Develops:** getting rap and melodic takes written, performed, and recorded in a believable, usable state. This is where songs become possible, over your own beats or existing ones.
-
-**Work**
-
-- Writing reps: write to a beat or loop. Sixteen-bar verses and hooks. Practice pocket and phrasing against a metronome and against a reference verse.
-- Recording path: the Razer Seiren Mini or whatever else you have set up. No purchase required. Get clean, unclipped takes, and use multiple takes and punch-ins.
-- Comping: assemble the best moments into one main take. Fix timing where it helps; keep feel where it matters.
-- Layers: doubles, ad-libs, and stacks where the style calls for them. Melodic attempts with tuning only as much as needed.
-- Record, pick, move: do not spend a session on one syllable.
-
-**Move on when**
-
-- a full rap and a simple melodic idea are recorded and comped;
-- they sit on a beat, yours or an existing beat, without timing or level problems you can hear.
-
-### S4 — Vocal processing and fitting the vocal to a record
-
-**Develops:** making a vocal sound natural, present, and part of the record, including over beats you did not make.
-
-**Work**
-
-- Chain literacy by ear, not by preset: gain staging, corrective EQ, compression for control and for tone, de-essing, tuning, saturation, and reverb or delay sends. Learn each move by A/B on your own voice.
-- Space: place the vocal in the same room as the beat. Use sends and automation, not only inserts.
-- Fitting to an existing beat: take a beat you did not make and make the vocal sit naturally in it. Subtract where the vocal needs room, use mutes or arrangement holes where possible, ride levels, and use sends.
-- Reference matching: move your vocal toward a reference character. Write down what you changed and what it did.
-- Keep a processing log per piece: chain, settings, reason, result.
-
-**Move on when**
-
-- vocals sit convincingly in a full mix over an existing beat, and the choices are explainable;
-- differences from the reference are choices you can explain, not mysteries.
-
-### S5 — Beat craft: sampling, chopping, drums, sound selection, arrangement
-
-**Develops:** beats that work as raw material for songs, and choices you can explain. The deep beat-making stage, now that songs are already possible over existing beats.
-
-**Work**
-
-- Sample flips: chop one source several ways; compare which flip carries a song best.
-- Drums and groove: pocket, velocity, swing, layering. Program a groove, then recreate a reference groove and compare feel.
-- Sound selection first: pick the sound that fits and commit before reaching for design. Write one line on why you chose it.
-- Bass and simple harmony for the lane. Keep it simple enough to finish.
-- Space for a vocal: build beats with intentional gaps; mute or cut elements where the vocal will sit.
-- Production around vocals: arrangement that supports the vocal, not just the beat — drops, switches, and energy that answers the vocal.
-- Beat tweaking: take beats you did not make (practice beats, loops, or an existing beat) and adjust arrangement, drops, EQ space, and energy.
-- Melodic attempts: write simple melodic parts where the song wants them, not everywhere.
-
-**Move on when**
-
-- your beats stand as raw material for a song, with space for vocals;
-- you can explain the groove, the around-vocal choices, and the sound choices you made, and which alternatives you rejected.
-
-### S6 — Complete-record production, mixing, polish, repeatability
-
-**Develops:** finished songs at your standard, and a workflow that repeats.
-
-**Work**
-
-- Mix in passes, one at a time: balance, then depth and space, then tone and color, then automation. Do not do all of it at once.
-- Automation as the main "expensive" tool: level rides, filter moves, effect throws, transitions. This replaces static over-tweaking.
-- Translation checks: phone, laptop, car, headphones. Match references at similar loudness. Do not chase numbers.
-- Finalize: one structured comparison against references, a short fix list, one revision pass, then done and archived.
-- Rotate entries: your own beats, existing beats, rap, melodic. Different entries, same path.
-- Self-review in your own words: arrangement, groove, sound choice, vocal, space, mix, and "does this sound convincing."
-
-**Move on (graduation)**
-
-- a small body of finished records you consider convincing;
-- a workflow you can repeat without starting over each time;
-- you hear the cheap or artificial habit early enough to fix it before the end.
-
-## Milestones
-
-The gates, in order. These are checkpoints, not stages to rush.
-
-| Id | Checkpoint | After |
-| --- | --- | --- |
-| M1 | Map a reference and name your own gap | S1 |
-| M2 | Finished rough arrangements; decisions within limits | S2 |
-| M3 | Rap verse and simple melodic idea recorded and comped | S3 |
-| M4 | Vocal sits convincingly over an existing beat | S4 |
-| M5 | Beats with space and around-vocal arrangement; choices explained | S5 |
-| M6 | A small body of convincing finished records, repeatably | S6 |
+- **Record-first.** The loop runs on real records. Skills improve in parallel inside them. No isolated stages, no prerequisite gates, no linear curriculum.
+- **Reference-anchored.** Comparison at matched loudness is the lesson. Name the biggest gap; fix one thing next.
+- **Finish before polish.** A finished rough record teaches more than a perfect loop. Pass limits are honored.
+- **Decisions get limits.** Set a small limit before a session. If the choice is still open when the limit is reached, take the simplest option that fits and move. Note every urge to keep tweaking; the urge is data about workflow, not a reason to reopen the plugin.
+- **Proof over feelings.** Keep bounces. Compare before and after, and against the reference at matched loudness.
+- **Active, not passive.** Watching is not practice. During `gate-window`, the maintenance band means slow is fine and stopped is not.
+- **No quotas.** No weekly output target, no songs-per-week, no beats-per-week, no forced cadence. Log sessions when they happen.
+- **Owner judgment is final.** "Convincing," "professional," and "genuinely good" are your calls, not a model's grade.
+- **Personal craft.** Not a career, not an audience, not an income track. D-011.
+- **Bands respected.** `gate-window`: maintenance — keep the craft alive through finished work. `post-gate`: secondary — more room, same non-goals. The master owns bands and yield order.
 
 ## What counts as finished
 
@@ -195,20 +146,21 @@ Loops, unmixed sketches, and "almost done" files are not finished. No count and 
 - Reference tracks are the primary resource. They live in [REFERENCES.md](REFERENCES.md).
 - Analysis beats consumption: breakdowns, isolated stems, and producer commentary are useful as subjects of analysis with notes, not as background watching.
 - Ear-training drills and one or two materials you actually work through can live in [RESOURCES.md](RESOURCES.md).
-- Rule from D-006: no model adds books, courses, or tutorial lists. You choose. Passive watching does not count as practice.
+- Technical reference-analysis tools may be added later, only if you choose or accept them. None is selected now.
+- Rule from D-006: no model adds books, courses, tools, or tutorial lists. You choose. Passive watching does not count as practice.
 - Gear: no purchase requirement and no current desire. If the process later shows a concrete bottleneck, that is a decision for you, not a prerequisite.
 
 ## What this file does not decide
 
 - DAW and tools. Yours. Ableton and FL Studio are both available; the repo does not mandate one.
-- Specific resources and reference tracks. Owner-chosen only.
+- Specific resources, tools, and reference tracks. Owner-chosen only.
 - Calendar, cadence, quotas, and output counts.
 - Career, audience, release, or monetization. D-011.
 
 ## Related
 
 - Reference set and teardowns: [REFERENCES.md](REFERENCES.md)
-- Progress and current stage: [PROGRESS.md](PROGRESS.md)
+- Progress, capabilities, and current focus: [PROGRESS.md](PROGRESS.md)
 - Session, analysis, and finish log: [PRACTICE_LOG.md](PRACTICE_LOG.md)
 - Chosen materials: [RESOURCES.md](RESOURCES.md)
 - Strategy and bands: [MASTER_ROADMAP.md](../MASTER_ROADMAP.md)
