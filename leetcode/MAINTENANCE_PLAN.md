@@ -100,7 +100,7 @@ Company questions are **fresh-transfer practice**, not a replacement pool and no
 - A problem seen or solved before is a revisit, not fresh evidence. Log it as such.
 - Company questions may start in Sprint 001. There is no requirement to finish or consolidate the pool first.
 
-No company source is chosen yet. When one is chosen, record it here as an accepted-source line after owner acceptance (D-006). Do not create a separate `leetcode/RESOURCES.md`.
+Accepted Sprint-001 company practice set (owner-accepted 2026-09-29; full provenance in [SPRINT_001_PREP.md](SPRINT_001_PREP.md)): C1 LC 1239 — Microsoft OA report; C2 LC 1647 — Plume Design OA report; C3 LC 1353 — Goldman Sachs interview report; C4 LC 907 — PhonePe interview report; C5 LC 947 — Google onsite report; C6 LC 410 — PhonePe OA report. All are moderate-confidence public reports about completed processes, accepted as practice material only. No further company bank is accepted. Do not create a separate `leetcode/RESOURCES.md`.
 
 ## Difficulty progression
 

@@ -1,7 +1,7 @@
 # LeetCode / DSA input for Sprint 001
 
-> **Status:** proposal pending owner acceptance; D-006 applies.
-> **Prepared:** 2026-09-29.
+> **Status:** accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-29; accepted selections are recorded here and in [MAINTENANCE_PLAN.md](MAINTENANCE_PLAN.md)). Not an active sprint plan.
+> **Prepared:** 2026-09-29. **Accepted:** 2026-09-29.
 > **Purpose:** candidate input for the later integrated, approximately 10-day sprint. No sprint is opened.
 > **Authority:** [MASTER_ROADMAP.md](../MASTER_ROADMAP.md), [CURRENT_STATE.md](../CURRENT_STATE.md), [AI_WORKFLOW.md](../AI_WORKFLOW.md), [MAINTENANCE_PLAN.md](MAINTENANCE_PLAN.md), [PROGRESS.md](PROGRESS.md), [ATTEMPTS.md](ATTEMPTS.md), and D-023/D-024 in [DECISIONS.md](../DECISIONS.md).
 
@@ -75,10 +75,10 @@ Reserve room for validation, repairs, and cold revisits. Twelve is the requested
 
 Expected evidence is up to twelve honest pre-validation logs, candidate approaches and complexity judgments stated before coding, independently attempted implementations, and a justified revisit queue or cold closures where achieved. This first sample should help distinguish repeated recognition/selection difficulties from derivation or implementation failures, while retaining problem-level context and help disclosures. A question count alone does not pass a milestone or establish a stable hit rate. No weakness, solve, closure, or progress is recorded during preparation.
 
-## Deferred and awaiting acceptance
+## Deferred; acceptance recorded
 
 Deferred: further pool draws, additional company research, difficulty escalation, contests, mock interviews, broad consolidation, new trackers, pattern catalogs, and study notes or solutions generated in advance.
 
-The owner has requested the 12-question, 6/6 candidate shape and blind pool draw. The final drawn set and company selections/sources remain proposals pending acceptance—especially C1's partially retrievable provenance and the reported-equivalent mappings for C2/C6. Actual capacity and prior familiarity determine final integration. No execution authorization or source acceptance is inferred from writing this file.
+**Accepted 2026-09-29:** the 12-question, 6/6 candidate workload exactly as recorded above — random pool draw P32, P16, P6, P59, P78, P17 (no redraw), and company selections C1–C6 with their provenance as accepted Sprint-001 practice material. No replacements researched or assumed. Cold revisits remain execution-time review generated only by actual misses; they may displace unstarted new questions if capacity tightens. Actual capacity and prior familiarity determine final integration.
 
-Only this candidate document is revised. `MAINTENANCE_PLAN.md`, `PROGRESS.md`, `ATTEMPTS.md`, `DECISIONS.md`, all master/strategy files, and the pool remain unchanged. No `leetcode/RESOURCES.md`, `current-sprint/`, `PLAN.md`, `CALENDAR.ics`, solutions, notes, or progress entries are created.
+Only this candidate document is revised. `MAINTENANCE_PLAN.md` gains only the accepted-source record; `PROGRESS.md`, `ATTEMPTS.md`, `DECISIONS.md`, all master/strategy files, and the pool remain unchanged. No `leetcode/RESOURCES.md`, `current-sprint/`, `PLAN.md`, `CALENDAR.ics`, solutions, notes, or progress entries are created.
