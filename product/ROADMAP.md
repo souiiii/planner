@@ -140,7 +140,7 @@ Seven stages, each ending at an evidence gate. Repeat stages rather than pushing
 
 | Id | Checkpoint | After |
 | --- | --- | --- |
-| M1 | Opportunity pipeline: candidates with named users, current behavior, and outside sources | E1 |
+| M1 | Opportunity pipeline: candidates with named users, current behavior, and a recorded source or observation | E1 |
 | M2 | Problem validated with a real person in their own words; more of the same people reachable | E2 |
 | M3 | Demand test run with a real ask; willingness-to-pay evidence, or an honest no | E3 |
 | M4 | Build decision recorded from evidence; smallest shippable scope defined | E4 |

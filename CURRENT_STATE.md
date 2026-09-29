@@ -97,7 +97,7 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 Domain planning for this phase, not a sprint. Do not create `current-sprint/` or `sprint-001` until the owner asks.
 
 1. GATE — Stage 0 light setup only (syllabus + real-PYQ source + notes/log system). No diagnostic. Path: `gate/ROADMAP.md`. Execution waits for sprint-001.
-2. Product — the experiment loop. Do not invent an idea.
+2. Markets — slow-burn domain plan. Not another exam syllabus.
 
 ## Recent changes
 
