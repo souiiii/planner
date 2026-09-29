@@ -37,7 +37,7 @@ Sprint date boundaries are calendar dates. Clock times, once a sprint exists, li
 | --- | --- | --- | --- |
 | GATE | domain roadmap complete; Stage 0 light setup pending | primary | owner: paper CS/IT, target AIR < 400; no level logged |
 | System design | domain roadmap complete; execution not started | secondary | none logged |
-| Product | not started in this repo | secondary | none logged |
+| Product | domain roadmap complete; execution not started | secondary | none logged |
 | Music | domain roadmap written; no sessions logged | maintenance | owner reports tools understood; setup recorded; gap is translating ideas into convincing records. Folder is `beat-production/`. D-021 |
 | Markets | not started in this repo | maintenance | none logged |
 | LeetCode | domain plan complete; execution not started | maintenance | owner reports existing DSA fluency; no attempts logged yet |

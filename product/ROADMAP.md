@@ -38,13 +38,14 @@ Seven stages, each ending at an evidence gate. Repeat stages rather than pushing
 
 ### E1 — Problem discovery (opportunity hunting)
 
-**Develops:** a pipeline of candidate problems grounded in outside signal, not imagination.
+**Develops:** a pipeline of candidate problems grounded in observed pain — outside signal or a recurring problem of your own — not imagination.
 
 **Work**
 
-- Hunt where problems are visible and money already moves: your own real workflows; communities where people complain or ask for tools; paid tools with unhappy users; spreadsheets and manual processes that exist only because nothing better does; services sold by hand.
-- For each candidate, record in [IDEAS.md](IDEAS.md): who has the problem, what they do today, what it costs them (time, money, risk), and where you saw it. No candidate enters without an outside signal.
-- Prefer problem-shaped evidence: people already paying for a worse solution, already hacking a workaround, or publicly asking for this.
+- Hunt where problems are visible and expensive: your own real workflows; communities where people complain or ask for tools; paid tools with unhappy users; spreadsheets and manual processes that exist only because nothing better does; services sold by hand.
+- Record each candidate in [IDEAS.md](IDEAS.md): who has the problem, what they do today, what it costs them (time, money, risk), and where you saw it. A recurring problem from your own workflow may enter as a hypothesis, labeled as a personal observation, even before any outside evidence exists.
+- Prefer problem-shaped evidence: people already paying for a worse solution, already hacking a workaround, publicly asking for this, or visibly tolerating the pain — manual effort, time loss, risk, repeated frustration.
+- **Hypotheses do not advance on their own.** Owner-observed candidates are welcome here, but they need outside evidence to pass E2 and to reach any build decision. The gates and [VALIDATION.md](VALIDATION.md) enforce this.
 - Reject ideas that are only interesting to build. Delete without ceremony.
 
 **Move on when:** a small pipeline of candidates exists, each with a named user, current behavior, and a source — not a list of features.
@@ -59,7 +60,7 @@ Seven stages, each ending at an evidence gate. Repeat stages rather than pushing
 - Understand the buyer, not only the user, when they differ. Who pays, who decides, and who suffers are often three people.
 - Cheapest permissible tests: the conversation itself, a manual offer to solve the problem for someone, a waitlist with a real ask. No product yet.
 - Record each finding in [VALIDATION.md](VALIDATION.md) as `F-NNN`, including what it does not prove.
-- Kill candidates nobody will discuss, no one currently spends on, or whose people cannot be reached.
+- Kill candidates nobody will discuss, whose people cannot be reached, or where no one can describe a concrete cost. Absence of current spending is not by itself a kill reason: manual workarounds, tolerated pain, time loss, risk, and repeated frustration all count as problem evidence.
 
 **Move on when:** a specific person describes the problem in their own words, says what they do today, and would notice a solution — and you know where to find more people like them.
 
@@ -151,7 +152,7 @@ Seven stages, each ending at an evidence gate. Repeat stages rather than pushing
 
 Even if the attempt is eventually killed:
 
-- The loop ran: discovery on outside signal, validation with real people, a real demand test, a decision based on evidence.
+- The loop ran: discovery from real signal, validation with real people, a real demand test, a decision based on evidence.
 - A written record: findings, experiments, and the continuation or kill with what it did and did not prove.
 - New capability: finding problems, talking to users, testing demand, pricing, shipping, distributing, and killing without a sunk-cost rescue.
 - Payments or sustained use are the stronger outcome, not the only one. No revenue target is set and none is implied.
