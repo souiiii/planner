@@ -40,6 +40,7 @@ File headers repeat this. If a header and this table disagree, the header wins, 
 | `BACKLOG.md` | Near-term items that span tracks or have no track yet | A shadow roadmap |
 | `<domain>/ROADMAP.md` | How that track produces outcomes, subordinate to the master | A new life-priority for that track |
 | `gate/PREP_METHOD.md` | The method for executing GATE preparation (topic loop, resource rules, validation) | A syllabus, a resource list, or a plan change |
+| `system-design/PREP_METHOD.md` | The method for learning system design (concept loop, component justification, implementation scope) | A syllabus, a resource list, or a plan change |
 | `leetcode/MAINTENANCE_PLAN.md` | Same role as a domain roadmap: a recognition-first DSA progression (D-023) | A beginner or placement curriculum |
 | `<domain>/PROGRESS.md` | Latest owner-reported progress and the metric rollup | A task list for next week |
 | `<domain>/BACKLOG.md` | Near-term unscheduled work for that track | Every unfinished idea forever |
@@ -144,7 +145,7 @@ Otherwise read:
 
 Then, only for tracks the master roadmap currently marks `primary`, `secondary`, or (if you are including a maintenance task) `maintenance`:
 
-6. That track's `ROADMAP.md` or `leetcode/MAINTENANCE_PLAN.md`. If GATE study is in the sprint, also read `gate/PREP_METHOD.md` before choosing GATE tasks or resources. Planning chooses GATE topics and resources; it must not generate GATE study notes — note creation is study-execution work defined in that file.
+6. That track's `ROADMAP.md` or `leetcode/MAINTENANCE_PLAN.md`. If GATE study is in the sprint, also read `gate/PREP_METHOD.md` before choosing GATE tasks or resources. Planning chooses GATE topics and resources; it must not generate GATE study notes — note creation is study-execution work defined in that file. If System Design work is in the sprint, also read `system-design/PREP_METHOD.md` before choosing tasks or resources; planning selects concepts, resources, and exercises, but must not pre-solve them or write the owner's design reasoning in advance.
 7. That track's `BACKLOG.md`, if it has one
 8. That track's `PROGRESS.md`, if you need the latest evidence
 

@@ -1,9 +1,9 @@
 # System design projects
 
-> **Role:** links and short notes for implementations. Not a codebase. Decision D-013.
-> **Last reviewed:** 2026-09-28
+> **Role:** links and short notes for implementations and probes. Not a codebase. Decision D-013.
+> **Last reviewed:** 2026-09-29
 
-Code belongs in its own repository unless you explicitly want an exception. This folder records what was built, why it was the right exercise, and where it lives.
+Code belongs in its own repository unless you explicitly want an exception. This folder records what was built, why it was the right exercise, and where it lives. Builds stay small and targeted: a design claim it settles, not an application for its own sake. Full scope rules: [PREP_METHOD.md](../PREP_METHOD.md).
 
 A project note should say:
 

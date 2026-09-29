@@ -3,15 +3,15 @@
 > **Role:** domain roadmap and learning path for backend and production depth. Future interview competence is a supported outcome, validated late and never the center.
 > **Authority:** subordinate to [MASTER_ROADMAP.md](../MASTER_ROADMAP.md) for phases, attention bands, non-goals, and the end capability. This file designs the sequence, exercises, and gates inside those bounds.
 > **Status:** active
-> **Last reviewed:** 2026-09-28
+> **Last reviewed:** 2026-09-29
 
 ## Purpose
 
-Become genuinely stronger at system design and backend / production engineering, on the stack you already use, so that you can take requirements and constraints, compare more than one viable design, explain the trade-offs, justify a choice, and do that with a repeatable process. Intent: [context/GOALS.md](../context/GOALS.md). End capability: master roadmap, System design stream.
+Become genuinely stronger at system design and backend / production engineering, on the stack you already use, so that you can take requirements and constraints, compare more than one viable design, explain the trade-offs, justify a choice, and do that with a repeatable process. Intent: [context/GOALS.md](../context/GOALS.md). End capability: master roadmap, System design stream. The detailed learning method — the concept loop, the component-justification rule, and when implementation is warranted — lives in [PREP_METHOD.md](PREP_METHOD.md), which sprint planners and study assistants must follow for System Design work.
 
 Two outcomes, equally required:
 
-- **Real engineering understanding.** You can reason about a system that exists or is proposed — where it breaks, what it costs, what you give up — and you can prove key parts by building them.
+- **Real engineering understanding.** You can reason about a system that exists or is proposed — where it breaks, what it costs, what you give up — and you can settle the open claims by argument, calculation, or, where they genuinely clarify, a small build.
 - **Future interview competence.** You can defend a design out loud in an interview-style round. This is a validation of the first outcome, not a separate curriculum.
 
 This is not a terminology roadmap, not a memorized set of standard interview diagrams, and not a framework tour.
@@ -31,7 +31,7 @@ This is not a terminology roadmap, not a memorized set of standard interview dia
 - **Requirements before solutions.** Every synthesizing exercise starts from a brief: users, traffic shape, data shape, scale, latency, cost, operational constraints. Constraints are separated into hard constraints, preferences, and invented assumptions.
 - **At least two viable designs, always compared.** A design without an alternative is not a design decision; it is a preference. Trade-offs are named in terms of what each option makes easy, hard, and expensive.
 - **Every added component must justify itself** (a load balancer, a cache, a queue): what it buys, what it costs, and what new failure mode it introduces. "Standard practice" is not a reason.
-- **Written artifacts and implemented proof.** Designs, teardowns, and notes are written; formatting does not matter. An implementation counts as evidence when it demonstrates the stage capability or settles a claim you could not settle on paper.
+- **Written artifacts and implemented proof.** Designs, teardowns, and notes are written; formatting does not matter. An implementation counts as evidence when it demonstrates the stage capability or settles a claim you could not settle on paper — and stays small and targeted. Implementation is supporting evidence, not the objective ([PREP_METHOD.md](PREP_METHOD.md)).
 - **Evidence over feelings.** Claims like "this scales" or "this is consistent enough" are settled by measurement, a written argument, or a small build. Not by confidence.
 - **Stack default, deliberate deviations.** Use the Node/TypeScript stack where it is sufficient. Deviate when the exercise genuinely requires another tool or the learning objective is that tool; record the reason in [projects/README.md](projects/README.md) or [RESOURCES.md](RESOURCES.md). Not for variety.
 - **Interview practice is validation, not the curriculum.** It activates only after independent design reasoning exists, and it never dominates. See the section below.
@@ -163,7 +163,7 @@ The arc moves from precision to judgment to independent synthesis: exactness abo
 - **Learn:** study how senior designers structure a design document — how they frame requirements, present alternatives, and state trade-offs. Work through published case studies and note the reasoning, not the diagrams.
 - **See it applied:** walk through fully worked designs with a rubric beside you (requirements clarity, alternatives compared, trade-offs named, failure analysis, decision defended). Compare their reasoning with what you would have said at each fork.
 - **Practice (guided):** apply the process to briefs close to systems you know, with the rubric and a critique from a peer, mentor, or model acting as reviewer; revise from the critique. Then retell a rehearsed brief cold.
-- **Apply (independent):** take fresh briefs, unfamiliar to you, one at a time. Run the process end to end without scaffolding: requirements → sketches of two or three viable designs → comparison → decision with stated trade-offs → failure analysis → cost and operational notes. Defend the design against challenge prompts: change one requirement (scale, budget, latency, consistency) and revise the design; break one component and say what happens; halve the cost and say what you cut. Keep a design log for each system: the brief, the alternatives, the decision, what you were unsure about, and what evidence would change your mind. When a claim is checkable cheaply, build a probe rather than argue: a benchmark, a tiny prototype, a spike on the uncertain part. Rotate domains so the repetition is in the process, not the same familiar app: feeds and social, messaging, payments and ledgers, market or trading data, media and storage, workflow and integrations.
+- **Apply (independent):** take fresh briefs, unfamiliar to you, one at a time. Run the process end to end without scaffolding: requirements → sketches of two or three viable designs → comparison → decision with stated trade-offs → failure analysis → cost and operational notes. Defend the design against challenge prompts: change one requirement (scale, budget, latency, consistency) and revise the design; break one component and say what happens; halve the cost and say what you cut. Keep a design log for each system: the brief, the alternatives, the decision, what you were unsure about, and what evidence would change your mind. When a claim is cheaper to check than to argue, build a small probe: a benchmark, a tiny prototype, a spike on the uncertain part. If a design argument, comparison, or calculation settles it, do not write code merely to have an artifact ([PREP_METHOD.md](PREP_METHOD.md)). Rotate domains so the repetition is in the process, not the same familiar app: feeds and social, messaging, payments and ledgers, market or trading data, media and storage, workflow and integrations.
 
 **Move on (graduation)**
 
@@ -226,4 +226,5 @@ Not progress: a diagram with no requirements, a design with no alternatives, a b
 - Chosen materials: [RESOURCES.md](RESOURCES.md)
 - Implementations: [projects/README.md](projects/README.md)
 - Strategy and bands: [MASTER_ROADMAP.md](../MASTER_ROADMAP.md)
+- How learning is executed: [PREP_METHOD.md](PREP_METHOD.md)
 - Execution: `current-sprint/` while open, then `sprints/`. Not a folder here.
