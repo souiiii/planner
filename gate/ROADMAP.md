@@ -11,7 +11,7 @@
 
 A serious, exam-oriented attempt at GATE CS/IT, targeting AIR < 400, as a backup that keeps PSU options open. Not the main career direction. Primary only during `gate-window`; the track closes after the exam (master roadmap). This roadmap makes the attempt real without turning GATE into a permanent study identity.
 
-Preparation is PYQ-driven and built for fast syllabus coverage without overlearning. Real GATE PYQs decide what to study, how deep to go, and when a subject is done.
+Preparation is PYQ-driven and built for fast syllabus coverage without overlearning. Real GATE PYQs decide what to study, how deep to go, and when a subject is done. The detailed preparation and resource-selection methodology — including the default topic loop, the theory depth bar, and how notes are built — lives in [PREP_METHOD.md](PREP_METHOD.md), which sprint planners and study assistants must follow for GATE work.
 
 Reconciliation note: paper CS/IT and target AIR < 400 are owner-stated (2026-09-27) and now recorded in the master roadmap (D-022). No wording gap remains.
 
@@ -244,3 +244,4 @@ Nothing here should be treated as evidence that preparation is at zero, or that 
 - Strategy and bands: [MASTER_ROADMAP.md](../MASTER_ROADMAP.md)
 - Official syllabus and previous papers: owner's chosen sources, recorded in [RESOURCES.md](RESOURCES.md)
 - Execution: `current-sprint/` while open, then `sprints/`. Not a folder here.
+- How preparation is executed: [PREP_METHOD.md](PREP_METHOD.md)
