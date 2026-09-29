@@ -263,3 +263,13 @@ Ids are never reused.
 - Why: The old "pool first, company after M2" sequencing delayed transfer practice the goal depends on. Parallel practice exercises recognition on both calibrated and fresh material from the start; M1 still records the full pool pass as evidence.
 - Changes: `leetcode/MAINTENANCE_PLAN.md` (parallel-sources section, ladder framing), `leetcode/PROGRESS.md` (current-stage wording, transfer metric), `leetcode/ATTEMPTS.md` (pool/company id scheme). No master, band, milestone, or goal change.
 - Supersedes: the "pool first, company later" sequencing only. D-023 remains in force.
+
+### D-025 — Pool questions are drawn randomly from remaining unseen; no fixed consumption order
+
+- Date: 2026-09-29
+- Status: accepted
+- Decided by: execution (owner instruction)
+- Decision: The 92-question pool is a candidate pool, not a sequence. Whenever a sprint selects pool questions, they are drawn randomly from the remaining unseen pool questions — by ID only, blind to pattern, topic, difficulty, company tags, or intended technique. The selector must not inspect hidden metadata, answer keys, or pattern labels to influence the draw. Previously attempted questions are excluded from the fresh draw unless explicitly scheduled as cold revisits. Randomness serves anti-priming and variety, not difficulty balancing: never cherry-pick, rebalance, or replace a drawn question for looking too hard or too easy. The ~50/50 pool/company split by attempts (D-024) is unchanged, and M1 still requires all 92 eventually attempted.
+- Why: Treating the shuffled list as a fixed consumption order front-loads whatever the shuffle happened to place first (here, two Hards) and invites prefix-preservation habits. Random blind draws keep every slice pattern-neutral.
+- Changes: `leetcode/MAINTENANCE_PLAN.md` (draw rule in pool section and 50/50 bullet), `leetcode/SPRINT_001_PREP.md` (pool side reselected as random draw P1 + P87; fixed-order language removed). `leetcode/PROGRESS.md` needed no sequencing correction. No method, milestone, band, or strategy change.
+- Supersedes: the "kept in order" pool-consumption wording in D-024. D-023 and the rest of D-024 remain in force.

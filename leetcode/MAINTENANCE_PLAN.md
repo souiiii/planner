@@ -26,7 +26,7 @@ Existing evidence: owner-reported DSA fluency is real. The dsa-pool repo was bui
 
 [souiiii/dsa-pool](https://github.com/souiiii/dsa-pool) — 92 shuffled, pattern-blind questions, mostly medium with some hard and a few easy. Built for exactly this skill.
 
-- **Practice from:** `Output/practice_questions.md`. Use the given order. The shuffle is the design; re-sorting, grouping, or picking "by mood" destroys the anti-priming property.
+- **Practice from:** `Output/practice_questions.md`. The 92 questions are the candidate pool. Whenever a sprint selects pool questions, draw them **randomly from the remaining unseen pool questions** — by ID number only, blind to pattern, topic, difficulty, company tags, or intended technique. Do not open `answer_key.md`, `State/question_pool.json`, or pattern labels to influence the draw. Exclude previously attempted questions from the fresh draw unless explicitly scheduling a cold revisit. Randomness is for anti-priming and variety, not difficulty balancing: never cherry-pick, rebalance, or replace a drawn question for looking too hard or too easy. The original shuffled order is not a consumption sequence.
 - **Validate after the attempt with:** `Output/answer_key.md` (concise trigger and why, not a full editorial).
 - **Do not open before or during an attempt:** `answer_key.md`, `State/question_pool.json` (internal pattern metadata), and the trigger→technique lookup table in `Sources/DSA_Pattern_Index.md`. They reveal the intended approach and would turn recognition practice into reading.
 - The solving method in `Sources/DSA_Pattern_Index.md` (reverse-read; restate; constraints → feasible complexity; brute-force baseline; find the bottleneck and scan for triggers; state the approach aloud before coding) **is** the attempt method. Its lookup table is for validation and connection-making after an attempt.
@@ -88,7 +88,7 @@ Near-misses count as review material: solved only after a long struggle, or solv
 
 From Sprint 001 onward, LeetCode practice uses **both** sources in parallel:
 
-- **Roughly 50% of LeetCode attempts from the existing 92-question pool**, in its existing shuffled order. Never regroup or cherry-pick it by pattern, topic, or difficulty — the shuffle is the anti-priming design.
+- **Roughly 50% of LeetCode attempts from the existing 92-question pool**, drawn randomly from remaining unseen questions per the rule above. M1 still requires all 92 eventually attempted.
 - **Roughly 50% from genuine company OA/interview papers and questions.** Interpret 50/50 by number of attempts within the LeetCode work selected for a sprint, not as 50% of total sprint time. An odd count may differ by one.
 
 Company questions are **fresh-transfer practice**, not a replacement pool and not another generic DSA sheet.

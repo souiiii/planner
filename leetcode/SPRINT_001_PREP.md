@@ -7,9 +7,9 @@
 
 ## Recommended scope and mix
 
-**Propose four new attempts: the first two pool entries plus two company-reported questions.** This is 2 + 2 by attempt count, not a share of sprint time. LeetCode remains maintenance while GATE is primary. No attempt is logged yet, and unseen-problem performance remains unknown.
+**Propose four new attempts: two randomly drawn pool entries plus two company-reported questions.** This is 2 + 2 by attempt count, not a share of sprint time. LeetCode remains maintenance while GATE is primary. No attempt is logged yet, and unseen-problem performance remains unknown.
 
-The pool opens with two Hard questions. Preserve that order and keep the total small; do not replace them with easier entries or add more questions to manufacture breadth. The company pair is Medium, selected for constraint interpretation and defensible reasoning rather than maximum difficulty or topic balance.
+The pool pair was drawn randomly by ID from all 92 unseen questions, without inspecting hidden metadata. Keep the draw as drawn and the total small; do not replace an entry for looking too hard or too easy, and do not add more questions to manufacture breadth. The company pair is Medium, selected for constraint interpretation and defensible reasoning rather than maximum difficulty or topic balance.
 
 ## Exact pool slice
 
@@ -18,9 +18,9 @@ Source: `Output/practice_questions.md` in [souiiii/dsa-pool](https://github.com/
 | Pool ID | Problem | Difficulty |
 | --- | --- | --- |
 | P1 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | Hard |
-| P2 | [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | Hard |
+| P87 | [Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/) | Medium |
 
-P1 precedes P2 even when company attempts are interleaved. No regrouping, skipping ahead, or pattern classification. Only the beginning of the practice list and its `AGENTS.md` were inspected; the answer key, internal state, and pattern index were not opened. The owner's explicit prohibition on hidden material governs this preparation task.
+No fixed attempt order between the pool entries, including when company attempts are interleaved. No regrouping or pattern classification. Only `practice_questions.md` and its `AGENTS.md` were inspected; the answer key, internal state, and pattern index were not opened. The owner's explicit prohibition on hidden material governs this preparation task.
 
 ## Company selection
 
@@ -33,7 +33,7 @@ Open the **problem links** to practice. The provenance links document selection;
 
 Both public LeetCode statement pages were inspected and are available without opening an editorial. Difficulty labels come from those pages; the recognition-value judgments are planning assessments. Neither selection rests only on a company tag. The role seniority in a report does not establish this owner's level or the question's difficulty.
 
-These two historical reports are enough for this candidate set. No extra company bank, alternative shortlist, or paid resource is proposed. Freshness is still owner-dependent: a previously seen or solved question is a revisit, not fresh-transfer evidence. If a company selection is already familiar, propose a replacement before counting it as a fresh attempt; do not silently relabel it. A familiar pool item keeps its position and is recorded honestly as a revisit.
+These two historical reports are enough for this candidate set. No extra company bank, alternative shortlist, or paid resource is proposed. Freshness is still owner-dependent: a previously seen or solved question is a revisit, not fresh-transfer evidence. If a company selection is already familiar, propose a replacement before counting it as a fresh attempt; do not silently relabel it. A familiar pool item is recorded honestly as a revisit.
 
 ## Execution and logging
 
@@ -44,7 +44,7 @@ Use the same protocol for both sources:
 3. List plausible candidate approaches with rough complexity. Choose and justify one; state it aloud or in writing **before coding**.
 4. Implement independently and test normally. A genuine stall means being able to explain what was tried, where it failed, and what is missing; difficulty alone is not a stall.
 5. **Log in `ATTEMPTS.md` before consulting the key, editorial, discussion, or other outside reasoning.** Capture source/ID, date, outcome, pre-validation approach, confidence, stall details, and help used. Leave post-validation fields pending until validation actually happens.
-6. Validate afterward: the pool's answer key for P1/P2; the platform editorial or an explanatory discussion for C1/C2. Compare reasoning, not just acceptance by the judge. Close outside material and independently reconstruct/re-implement when repair is needed; then complete the validation fields.
+6. Validate afterward: the pool's answer key for the drawn pool entries; the platform editorial or an explanatory discussion for C1/C2. Compare reasoning, not just acceptance by the judge. Close outside material and independently reconstruct/re-implement when repair is needed; then complete the validation fields.
 
 No hints, tags, acceptance rates, solutions, discussions, or AI assistance before a genuine attempt or genuine stall. Any assistance must be recorded; an assisted solve is a miss for independent-recognition evidence, even if the submitted code passes. Do not inspect related-question recommendations. No solution or intended technique is supplied in this document.
 
@@ -55,19 +55,19 @@ No hints, tags, acceptance rates, solutions, discussions, or AI assistance befor
 - Revisit cold: blank editor, no notes or key, approach and complexity stated before coding. Close only after a clean, explainable solve. After a failed revisit, repair the reasoning and queue it again.
 - Work revisits before or alongside new attempts, without fixed intervals. Any trigger notes are written during execution, in the owner's words, from actual misses; no pattern sheet is prepared now.
 
-The initial selection is four first attempts. At replanning, **count scheduled cold revisits on their source's side as attempts too**; reduce unstarted new work as needed to retain approximately 50/50, allowing a difference of one for an odd total. Keep the pool prefix intact. Do not fabricate review work or add questions just to balance a ratio; unresolved review may remain queued for the next slice.
+The initial selection is four first attempts. At replanning, **count scheduled cold revisits on their source's side as attempts too**; reduce unstarted new work as needed to retain approximately 50/50, allowing a difference of one for an odd total. New pool questions are drawn randomly from the remaining unseen set; there is no fixed sequence to preserve. Do not fabricate review work or add questions just to balance a ratio; unresolved review may remain queued for the next slice.
 
 ## Pacing and observable evidence
 
-Treat this as a few separated practice opportunities across the integrated ten days, not daily work. Interleave the two sources while preserving P1 → P2. Reserve attention for validation and a later cold revisit if the evidence calls for one. The two Hard pool entries may dominate the effort; four attempts is a bounded proposal, not a completion quota or assumed hourly budget.
+Treat this as a few separated practice opportunities across the integrated ten days, not daily work. Interleave the two sources in any order. Reserve attention for validation and a later cold revisit if the evidence calls for one. The drawn pool entries may dominate the effort; four attempts is a bounded proposal, not a completion quota or assumed hourly budget.
 
-If integration cannot comfortably hold the full set, reduce to **P1 + C1**, retaining both sources and leaving P2 as the next pool entry. Do not take time from GATE to finish the list. No contest or timer is added.
+If integration cannot comfortably hold the full set, reduce to **one drawn pool entry + C1**, retaining both sources; the unattempted pool entry stays in the unseen set. Do not take time from GATE to finish the list. No contest or timer is added.
 
 Expected evidence is a small set of honest pre-validation logs, explicit candidate approaches and complexity judgments, independently attempted implementations, and a justified revisit queue or clean closures where achieved. Four attempts cannot establish a stable weakness profile or pass M1–M5 by themselves. No progress is recorded during preparation.
 
 ## Deferred and awaiting acceptance
 
-Deferred: P3 onward, additional company research, difficulty escalation, contests, mock interviews, broad consolidation, new trackers, pattern catalogs, and study notes or solutions generated in advance.
+Deferred: further pool draws, additional company research, difficulty escalation, contests, mock interviews, broad consolidation, new trackers, pattern catalogs, and study notes or solutions generated in advance.
 
 Owner acceptance is still needed for the four-attempt scope and the company selections/sources—especially C1's partially retrievable provenance and C2's explicitly reported variant mapping. Actual capacity and prior familiarity determine final integration. No acceptance is inferred from writing this file.
 
