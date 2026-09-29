@@ -13,6 +13,6 @@ When a title is accepted:
 
 | Title | Status | Accepted | Why it was chosen | Stopped at |
 | --- | --- | --- | --- | --- |
-| — | — | — | — | — |
+| SEBI, *Securities Market: Understanding from Investor's Perspective* | `not started` | 2026-09-29 | Accepted primary bounded resource for Sprint 001 S1 slice; bounded sections defined in `SPRINT_001_PREP.md` | — |
 
 Status values: `not started`, `reading`, `done`, `dropped`.

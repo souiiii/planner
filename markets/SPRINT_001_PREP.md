@@ -1,7 +1,8 @@
 # Markets — Sprint 001 preparation
 
-> **Status:** proposal pending owner acceptance under D-006.
+> **Status:** accepted candidate input for the later integrated Sprint 001 planner.
 > **Prepared:** 2026-09-29.
+> **Accepted:** owner acceptance recorded 2026-09-29 under D-006.
 > **Context:** `gate-window`; GATE primary, Markets maintenance. Capacity and prior knowledge are `unknown`.
 > Preparation for later integrated planning only. No sprint opened, resources accepted, or progress claimed.
 
@@ -63,4 +64,4 @@ Useful evidence is the owner's initial and later explanation, challenge reasonin
 
 Ceiling: the excerpts, four case paragraphs, one compact artifact, and one challenge/checkpoint loop. No stretch work or daily news habit. Markets may be omitted if higher-priority work leaves no room; partial work creates no catch-up debt.
 
-Both resources remain proposed under D-006. Owner acceptance and later integrated planning decide adoption and scheduling. [READING.md](READING.md), [NOTES.md](NOTES.md), and [PROGRESS.md](PROGRESS.md) remain unchanged.
+Both resources are accepted candidate input for the later integrated Sprint 001 planner under D-006. Owner acceptance recorded 2026-09-29; later integrated planning decides scheduling. [READING.md](READING.md) is updated to record the accepted reading choice; [NOTES.md](NOTES.md) and [PROGRESS.md](PROGRESS.md) remain unchanged.
