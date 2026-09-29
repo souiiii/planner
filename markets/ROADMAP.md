@@ -63,7 +63,7 @@ Out of scope:
 **Work**
 
 - **Learn, one at a time, always as "what claim is this and why does it exist":** equities (ownership, dividends, voting, what a share price means); bonds (promise to pay, coupons, maturity, yield, why prices move when rates move); rates (what an interest rate is, who sets which ones, how they propagate); FX (currency pairs, why conversion and hedging exist).
-- **See it applied:** for each instrument, find one real current example — a stock price move with a stated reason, a bond yield quote, a rate decision, an FX move — and explain it in your own words.
+- **See it applied:** for each instrument, find one real current example — a stock price move with its reported drivers, a bond yield quote, a rate decision, an FX move — and explain it in your own words. Treat the reported drivers as attributed explanations, not proven single causes; the mechanism (how the price moved) is what you must be able to explain, separately from why commentators say it moved.
 - **Practice the connections:** how a rate change reaches bond prices, equities, and currencies. Draw the causal chain yourself before checking it against any source.
 - **Note what you do not need:** pricing models, valuation formulas beyond intuition, and trading strategies. This stage is "what it is and why it moves," not "how to trade it."
 
@@ -109,7 +109,7 @@ Out of scope:
 
 **Work**
 
-- **Learn:** what happens after matching — clearing (novation, the clearinghouse as counterparty to both sides), settlement (delivery versus payment, T+1/T+2 as concepts), custody (who holds what for whom), and why each step exists: counterparty risk, failed trades, and what "settled" actually guarantees.
+- **Learn:** what happens after matching — clearing (where central counterparty clearing is used: novation, the clearinghouse becoming counterparty to both sides — not every trade works this way), settlement (delivery versus payment, T+1/T+2 as concepts), custody (who holds what for whom), and why each step exists: counterparty risk, failed trades, and what "settled" actually guarantees.
 - **See it applied:** trace one real trade lifecycle end to end — order, match, clear, settle — naming who bears risk at each point. Find one real settlement failure or clearing event and explain what went wrong in your own words.
 - **Connect back:** how clearing and settlement touch every earlier stage, and where they sit on the S1 map.
 
@@ -147,7 +147,7 @@ Out of scope:
 
 **Move on (graduation — "good enough by joining")**
 
-- you can take an unfamiliar market story and explain the mechanisms behind it, connecting instruments, structure, data, clearing, and risk, in your own words;
+- you can take an unfamiliar market story and explain the mechanisms involved, connecting instruments, structure, data, clearing, and risk, in your own words — distinguishing reported or attributed drivers from the underlying mechanism;
 - someone without a finance background could follow your explanation;
 - you know specifically what you do not understand yet, and it is bounded — named topics, not fog.
 
