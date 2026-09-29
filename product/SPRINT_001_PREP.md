@@ -3,7 +3,7 @@
 > **Status:** proposal pending owner acceptance under D-006.
 > **Prepared:** 2026-09-29.
 > **Purpose:** candidate input for the later integrated, approximately 10-day sprint. No active sprint or product idea is created.
-> **Authority:** the previously read [MASTER_ROADMAP.md](../MASTER_ROADMAP.md), [CURRENT_STATE.md](../CURRENT_STATE.md), and [AI_WORKFLOW.md](../AI_WORKFLOW.md), plus [ROADMAP.md](ROADMAP.md), [PROGRESS.md](PROGRESS.md), [IDEAS.md](IDEAS.md), [VALIDATION.md](VALIDATION.md), and [RESOURCES.md](RESOURCES.md), read for this pass. `EXPERIMENTS.md` was left unopened in accordance with the request's specific prohibition.
+> **Authority:** the previously read [MASTER_ROADMAP.md](../MASTER_ROADMAP.md), [CURRENT_STATE.md](../CURRENT_STATE.md), and [AI_WORKFLOW.md](../AI_WORKFLOW.md), plus [ROADMAP.md](ROADMAP.md), [PROGRESS.md](PROGRESS.md), [IDEAS.md](IDEAS.md), [EXPERIMENTS.md](EXPERIMENTS.md), [VALIDATION.md](VALIDATION.md), and [RESOURCES.md](RESOURCES.md), read for this pass. `EXPERIMENTS.md` was read once as required; it contains no started experiments, and it is not modified here — no experiment is opened or created.
 
 ## Starting point and intended outcome
 
@@ -17,17 +17,18 @@ Follow one narrow thread: **observe ordinary work → capture concrete behavior 
 
 Start with one recurring workflow the owner already performs. Observe it while doing real work rather than staging a problem hunt. Note interruptions, repeated manual steps, workarounds, and actual consequences when they occur. Personal inconvenience is a discovery clue; it is not outside validation.
 
-Then inspect **one** public surface below, choosing the one whose users and context the owner understands. The second is a fallback, not another mandatory research stream. Follow a promising observation far enough to understand what happened and whether it still happens; stop browsing when a concrete follow-up is available. Do not collect a large bookmark backlog.
+Then inspect the public surfaces below: the owner's workflow plus a small balanced set, not a dev-tool-only diet. Developer-tool discussions are kept to **one** surface — they observe real friction but overproduce technical annoyance rather than economically meaningful pain. The commercial-workflow surface is where paid plans, manual processes, and switching behavior are visible; the review-aggregator fallback is for corroboration, not a second research stream. Follow a promising observation far enough to understand what happened and whether it still happens; stop browsing when a concrete follow-up is available. Do not collect a large bookmark backlog.
 
 ## Concrete discovery surfaces
 
-These are observation locations, not selected markets or recommendations to build developer tools. Only the public listing pages were checked during preparation; no individual issue was mined into a candidate.
+These are observation locations, not selected markets or product recommendations. Only the public listing pages were checked during preparation (all returned live pages); no individual thread or review was mined into a candidate.
 
 | Surface | Why it is useful | Bounded execution guidance and limitation |
 | --- | --- | --- |
 | The owner's existing workflow, observed during normal use | Direct access to the sequence of actions, recurrence, and effort; no new audience or domain needs to be invented | Choose a workflow actually repeated, not a hypothetical one. Record the occasion and what happened. Label it **owner observation only** until outside evidence exists. |
-| [Next.js GitHub Discussions](https://github.com/vercel/next.js/discussions) — proposed first public surface | Public user discussions are accessible, and the owner's existing React/Next.js background can reduce the effort of understanding the context | Inspect recent user questions describing actual work, attempted remedies, or unresolved constraints. Follow the discussion through its latest response. Skip showcases, vague feature wishes, and questions resolved by a straightforward documented answer unless independent evidence shows continuing friction. Familiarity makes observation easier; it does not establish commercial demand. |
-| [VS Code GitHub issues](https://github.com/microsoft/vscode/issues) — fallback if this is a tool the owner knows | Reports and follow-up comments can document affected workflows, repeated symptoms, and workarounds; the inspected listing had current September 2026 activity | Search within a familiar workflow and sort by recent updates. Read the original report and latest resolution together. Distinguish individual user accounts from maintainer/bot activity. A transient upstream defect or popular feature request is not automatically an independent product opportunity. Issue creation is restricted on the inspected listing; do not assume posting or access to affected people. |
+| [Shopify Community](https://community.shopify.com/) — commercial-workflow surface | Merchants on paid plans discussing store operations: manual processes, app subscriptions they keep or cancel, workarounds, and switching between apps or plans | Look for threads describing what the merchant currently does, repeated operational effort, and concrete business consequences (lost orders, hours spent, fees paid). Distinguish merchant accounts from staff/partner replies. A complaint about one app's pricing is not automatically a product opportunity; switching or paying behavior is the stronger signal. |
+| [Next.js GitHub Discussions](https://github.com/vercel/next.js/discussions) — the one developer-tool surface | Public user discussions are accessible, and the owner's existing React/Next.js background can reduce the effort of understanding the context | Inspect recent user questions describing actual work, attempted remedies, or unresolved constraints. Follow the discussion through its latest response. Skip showcases, vague feature wishes, and questions resolved by a straightforward documented answer unless independent evidence shows continuing friction. Familiarity makes observation easier; it does not establish commercial demand. Keep this surface subordinate to the two above; it observes friction, rarely spending. |
+| [G2 software categories and reviews](https://www.g2.com/categories) — fallback for corroboration | Public reviews of paid software routinely state what the reviewer switched from, what they pay for, and what still hurts | Use only to corroborate a behavior already observed elsewhere: switching statements, named substitutes, and concrete complaints tied to workflow consequences. Do not browse categories for inspiration. Review depth varies and some content sits behind login walls; record what was actually visible. |
 
 Use dates and the current resolution status rather than upvotes to judge whether a signal remains relevant. Public posts make behavior observable; they do not guarantee that a user is reachable, willing to talk, or willing to pay. No outreach is sent during preparation.
 
@@ -46,12 +47,12 @@ An unsupported request, compliment, or interesting implementation challenge shou
 
 ## Candidate execution activities and relative pacing
 
-1. **Opening:** choose one familiar workflow and one public surface. Revisit the E1 section of `ROADMAP.md` and the evidence table in `VALIDATION.md`; no additional course is needed.
+1. **Opening:** choose one familiar workflow and start with the commercial-workflow surface above. Revisit the E1 section of `ROADMAP.md` and the evidence table in `VALIDATION.md`; no additional course is needed.
 2. **During ordinary work:** capture concrete episodes as they happen. Use one focused public observation pass to look for accounts of current behavior, not broad startup inspiration.
 3. **Later return:** check the most credible observations against the full source, current status, and any independent corroboration. Discard weak or already-resolved leads. If evidence merits it, consider the focused conversation below.
 4. **Close the slice:** review what was actually learned, which candidates warrant continued discovery, and what remains unknown. If no candidate qualifies, retain an honest account of the inspected scope and why its signals were insufficient in the later sprint review; do not claim that a whole market has no problems.
 
-These are a few small discovery activities spread across approximately ten days, with no daily quota, idea target, or assumed hourly budget. Observation can accompany existing work. Source checking and a conditional conversation should take precedence over browsing more communities. If capacity tightens, drop the fallback surface and further browsing first; do not borrow from GATE to fill an idea list.
+These are a few small discovery activities spread across approximately ten days, with no daily quota, idea target, or assumed hourly budget. Observation can accompany existing work. Source checking and a conditional conversation should take precedence over browsing more communities. If capacity tightens, drop the fallback and dev-tool browsing first; do not borrow from GATE to fill an idea list.
 
 ## Recording findings during execution
 
@@ -85,7 +86,7 @@ Explicitly deferred: choosing a product or niche; AI-generated problems; feature
 
 ## Decisions awaiting acceptance
 
-- Accept this bounded E1 approach and choose the public observation surface that fits the owner's actual familiarity; the fallback is optional.
+- Accept this bounded E1 approach and the balanced surface set above; start where the owner's actual familiarity and paid-workflow visibility are strongest.
 - Accept the linked surfaces as proposed sources. `RESOURCES.md` remains unchanged.
 - At integrated planning, fit discovery around real capacity and GATE. Include an E2 conversation only if an evidence-backed candidate and reachable person naturally emerge.
 
