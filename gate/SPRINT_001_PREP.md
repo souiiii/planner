@@ -1,7 +1,7 @@
 # GATE input for Sprint 001
 
-> **Status:** proposal — awaiting owner acceptance under D-006.
-> **Prepared:** 2026-09-29.
+> **Status:** accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-29; accepted resources are recorded in [RESOURCES.md](RESOURCES.md)). Not an active sprint plan.
+> **Prepared:** 2026-09-29. **Accepted:** 2026-09-29.
 > **Purpose:** candidate input for the later integrated, approximately 10-day Sprint 001. This is not an active sprint plan.
 > **Authority:** [MASTER_ROADMAP.md](../MASTER_ROADMAP.md), [CURRENT_STATE.md](../CURRENT_STATE.md), [AI_WORKFLOW.md](../AI_WORKFLOW.md), [ROADMAP.md](ROADMAP.md), and [PREP_METHOD.md](PREP_METHOD.md). [PROGRESS.md](PROGRESS.md), [BACKLOG.md](BACKLOG.md), and [RESOURCES.md](RESOURCES.md) were also read.
 
@@ -126,7 +126,7 @@ If that still leaves a genuine practice gap, the free **GO Classes compact cours
 
 These are ordered candidate work packages for integration, not dated tasks or calendar blocks.
 
-1. **Light Stage 0 setup.** After acceptance and when execution is opened, record the official syllabus and PYQ source, establish the empty notes location, error log and revision register, and record the existing starting order. Use the roadmap's fields. No diagnostic, mock, or pre-assessment. This preparation document does not complete M0.
+1. **Light Stage 0 setup.** When execution is opened, record the official syllabus and PYQ source, establish the empty notes location, error log and revision register, and record the existing starting order. Use the roadmap's fields. No diagnostic, mock, or pre-assessment. This preparation document does not complete M0.
 2. **Core A loop.** Inspect the nonreserved propositional stems and map their patterns → study the selected primary lessons and worked examples → create first-pass notes during execution from theory plus that map → solve the mapped real PYQs independently.
 3. **Diagnose and repair A.** Log every miss as concept, recall, application, misread/carelessness, or timing as appropriate → revisit the exact explanation → tighten the notes → add practice only if needed → cold-test using the reserved propositional question after a gap.
 4. **Core B loop.** Repeat mapping → theory → execution-time first-pass notes → independent PYQs for quantification and translation. Include uniqueness teaching and the short induction bridge before their corresponding attempts. Split this into smaller topic loops if quantifier scope needs more attention.
@@ -162,10 +162,13 @@ If clean solves compress the loops, admit the extension rather than deepen logic
 - Full GA coverage, mixed-subject tests, full papers/mocks, and purchasing a test series.
 - The disputed [2019 logic question, GO Q35](https://gateoverflow.in/302813/gate-cse-2019-question-35) as first-sprint validation: its interpretation discussion makes it an inefficient clean checkpoint.
 
-## Decisions still awaiting acceptance
+## Acceptance (2026-09-29)
 
-1. Accept the **logic core plus light GA** as the GATE candidate scope, with sets/basic relations conditional rather than promised.
-2. Accept the **selected Neso lessons**, **GO uniqueness lesson**, and **short induction video**, plus the official-paper/GO source arrangement. Optional repairs or extra practice remain conditional proposals.
-3. Before integrated Sprint 001 is created, provide actual capacity/commitments so the planner can decide whether the extension fits. No additional diagnostic is required.
+Accepted by the owner:
 
-The owner authorized recommendations in this file only. D-006 still applies: this document does not register any resource as chosen. `gate/RESOURCES.md`, strategy, milestones, attention bands, progress, and the preparation method remain unchanged. Sprint 001 has not been created.
+1. The **logic core plus light GA** as the GATE candidate scope for the first slice, with sets/basic relations **conditional** rather than promised.
+2. The **selected Neso lessons**, the **GO uniqueness lesson**, the **short induction video**, and the **official-paper/GO source arrangement**. Optional repairs and the extra-practice fallback remain **conditional proposals**.
+
+Still needed before integrated Sprint 001 is created: actual capacity/commitments so the planner can decide whether the extension fits. No additional diagnostic is required.
+
+Owner acceptance is recorded here and in [RESOURCES.md](RESOURCES.md); conditional resources remain conditional. Strategy, milestones, attention bands, progress, the roadmap, and the preparation method are unchanged by this acceptance. Sprint 001 has not been created, and no study notes were generated in this pass.
