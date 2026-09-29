@@ -144,7 +144,7 @@ Otherwise read:
 
 Then, only for tracks the master roadmap currently marks `primary`, `secondary`, or (if you are including a maintenance task) `maintenance`:
 
-6. That track's `ROADMAP.md` or `leetcode/MAINTENANCE_PLAN.md`. If GATE study is in the sprint, also read `gate/PREP_METHOD.md` before choosing GATE tasks or resources.
+6. That track's `ROADMAP.md` or `leetcode/MAINTENANCE_PLAN.md`. If GATE study is in the sprint, also read `gate/PREP_METHOD.md` before choosing GATE tasks or resources. Planning chooses GATE topics and resources; it must not generate GATE study notes — note creation is study-execution work defined in that file.
 7. That track's `BACKLOG.md`, if it has one
 8. That track's `PROGRESS.md`, if you need the latest evidence
 

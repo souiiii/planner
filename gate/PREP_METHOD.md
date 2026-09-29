@@ -97,13 +97,14 @@ Rules:
 
 - Written to support solving a question — readable while practicing, skim-able before the exam. If a note would not help solve a PYQ, it does not belong in the notes.
 - Notes start as first-pass drafts (theory + PYQ patterns) and tighten with every diagnosis; final compactness is the goal, not a first-draft requirement.
-- AI may generate initial drafts of, or refine, topic notes from accepted resources and solved PYQs — but the source pool is [RESOURCES.md](RESOURCES.md) materials and real PYQs, and the notes must serve problem solving, not become another textbook to read.
+- **Sprint planning is not note generation.** Sprint-planning and resource-research models must not write the actual study notes while preparing a sprint. They may choose topics and resources and state that note-making is part of the topic loop — nothing more.
+- **AI-assisted note creation happens during study execution only:** when the owner reaches that topic's note step (section 5, step 3) — after learning the relevant theory, with the mapped PYQ context in hand. Notes are then tightened after solving and diagnosing PYQs (section 5, step 7). The source pool is [RESOURCES.md](RESOURCES.md) materials and real PYQs, and the notes must serve problem solving, not become another textbook to read.
 - Notes live with the notes system set up in Stage 0 of [ROADMAP.md](ROADMAP.md); they are the revision spine for Stage 2 onward.
 
 ## 8. What runs the plan
 
 - **Efficiency and low confusion are major priorities.** When two paths reach the same solving ability, take the clearer one. When an explanation causes confusion, fix or replace it early; confusion compounds.
-- **Sprint planners:** GATE tasks in a sprint should name topic(s) and the loop step being executed (mapping PYQs, theory, notes, solving, patching, re-testing). Do not name generic outcomes like "study OS".
+- **Sprint planners:** GATE tasks in a sprint should name topic(s) and the loop step being executed (mapping PYQs, theory, notes, solving, patching, re-testing). Do not name generic outcomes like "study OS". Planning chooses topics and resources; it never generates the study notes themselves (section 7).
 - **Study assistants:** follow the loop, respect the depth bar, and never substitute AI-generated PYQs for real ones or pad practice with off-syllabus problems.
 - Nothing in this file changes subject order, stage gates, milestones, or the AIR < 400 objective in [ROADMAP.md](ROADMAP.md). This file governs the how; the roadmap governs the what and when.
 
