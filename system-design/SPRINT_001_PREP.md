@@ -1,7 +1,7 @@
 # System Design input for Sprint 001
 
-> **Status:** proposal, awaiting owner acceptance under D-006.
-> **Prepared:** 2026-09-29.
+> **Status:** accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-29; accepted materials are recorded in [RESOURCES.md](RESOURCES.md)). Not an active sprint plan.
+> **Prepared:** 2026-09-29. **Accepted:** 2026-09-29.
 > **Purpose:** candidate input for the later integrated, approximately 10-day Sprint 001. This is not an active sprint plan.
 > **Authority read:** [MASTER_ROADMAP.md](../MASTER_ROADMAP.md), [CURRENT_STATE.md](../CURRENT_STATE.md), [AI_WORKFLOW.md](../AI_WORKFLOW.md), [ROADMAP.md](ROADMAP.md), [PREP_METHOD.md](PREP_METHOD.md), [PROGRESS.md](PROGRESS.md), [BACKLOG.md](BACKLOG.md), and [RESOURCES.md](RESOURCES.md).
 
@@ -105,10 +105,14 @@ The scope is intentionally much smaller than a second course alongside GATE. Lea
 - Tool/framework study, the remaining arc42 template, additional case collections, purchases, and backend projects.
 - Owner notes, completed requirement analyses, option comparisons, designs, decisions, and answers: all remain execution-time artifacts.
 
-## Decisions awaiting owner acceptance
+## Acceptance (owner-accepted 2026-09-29)
 
-1. Accept the bounded **S1 requirements-and-constraints slice**, including the guided loop and conditional-on-capacity independent checkpoint.
-2. Accept the **selected arc42 readings and HtmlSanityCheck excerpts** as the teaching/case material, and the proposed exercise briefs. No paid material or additional source is proposed.
-3. At integrated planning, establish actual capacity and commitments to decide how much fits. This does not block preparing the candidate document.
+Accepted:
 
-D-006 remains in force. Only this proposal is recorded; [RESOURCES.md](RESOURCES.md) remains unchanged. No sprint, calendar, progress claim, or execution artifact is created, and no strategy, stage, milestone, attention band, or learning method is changed.
+1. The bounded **S1 requirements-and-constraints slice**, including the guided loop. The independent checkpoint (section C) stays **conditional on capacity** — kept only if the guided loop stays coherent; deferred rather than rushed, never claimed without passing.
+2. The **selected arc42 readings and HtmlSanityCheck excerpts** as the teaching and case material. No paid material or additional source was proposed or accepted.
+3. The exercise briefs (A, B, C) as **candidate work** for the later integrated planner — not as completed work, notes, or solutions.
+
+Still open at integrated planning: actual capacity and commitments, which decide how much fits. This does not block preparing the candidate document.
+
+D-006 remains in force: acceptance is recorded here and in [RESOURCES.md](RESOURCES.md). No sprint, calendar, progress claim, execution artifact, note, design, or solution is created, and no strategy, stage, milestone, attention band, or learning method is changed.
