@@ -109,6 +109,10 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 
 All domain plans are complete, including Open Source. [opensource/SPRINT_001_PREP.md](opensource/SPRINT_001_PREP.md) is accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-30). Acceptance does not guarantee inclusion; integrated planning follows only when the owner asks. The planner must follow [SPRINT_PLANNING_METHOD.md](SPRINT_PLANNING_METHOD.md) and the D-029 universal default (moderate Structured, labeled 09:00–22:30 days, accepted prep as candidate pool not quota), reserve the known commitments above, and include calendar-only college-project blocks while that project is active. Do not create `current-sprint/` or `sprint-001` until then.
 
+### Sprint 001 workload preference (owner-reported execution preference, Sprint 001 only)
+
+For Sprint 001 the owner wants a fuller moderate/Structured workload than the previous estimate: roughly 47–50 hours of actual planned work across the 10 days, with GATE at roughly 12–13 hours and the remainder distributed across System Design, Product, LeetCode, Music, Open Source, Markets, and generic calendar-only college-project time per the master priorities, domain progress, accepted prep, and yield rules. This is a planning target, not a completion quota and not a requirement to consume every accepted prep item; do not equalize track priority merely to hit the hours. Daily hours may vary substantially; do not force equal days. D-029 still applies in full (09:00–22:30 visible window, lunch 13:00–14:00, dinner 19:30–20:30, protected breaks/free/buffer time, no anonymous gaps), the 2026-10-08 10:00–12:00 Lab Quiz stays fixed, and College Project blocks stay generic reservations only. If 47–50 hours would destroy meaningful slack or violate master priorities, prefer a slightly lower total over artificially filling time.
+
 ## Recent changes
 
 - 2026-09-27 — Repository created. No goal work logged.
@@ -124,3 +128,4 @@ All domain plans are complete, including Open Source. [opensource/SPRINT_001_PRE
 - 2026-09-30 — Owner accepted Open Source Sprint 001 candidate prep with its existing scope and resource selections. Execution remains not started; no repository selected or sprint opened.
 - 2026-09-30 — Owner Sprint 001 execution preference recorded (D-028): moderate Structured sprint with meaningful slack; accepted prep as candidate pool. No bands changed; no sprint opened.
 - 2026-09-30 — Scheduling universalized (D-029, supersedes D-028 scope): moderate Structured default, labeled 09:00–22:30 days with explicit lunch/dinner, calendar-only college-project blocks, lab quiz 2026-10-08 10:00–12:00 recorded. No bands changed; no sprint opened.
+- 2026-09-30 — Sprint 001 workload preference recorded (execution only, not strategy): roughly 47–50 hours planned work with GATE at roughly 12–13 hours, remainder per master priorities; planning target, not quota. No sprint opened.
