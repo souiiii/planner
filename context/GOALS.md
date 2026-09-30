@@ -21,11 +21,11 @@ These are the intents the first strategy had to respect. The adopted phases and 
 ## 1. GATE
 
 - Folder: [gate/](../gate/ROADMAP.md)
-- Intent: prepare seriously enough for a good attempt at GATE 2027.
+- Intent: prepare seriously for GATE 2027 CS/IT, with the owner-stated target AIR < 400 for PSU optionality (D-022).
 - Why it is here: backup and security, not the main career direction.
 - Time character: temporary. Active until the exam, then largely gone.
 - What it is not: the center of the career plan, or a reason to ignore every other track without a decision.
-- Success shape: a good attempt. No score target. What "serious" means is in the master roadmap, not a number.
+- Success shape: a serious attempt toward that target. The master's definition of a serious attempt and GATE's temporary role remain in force.
 
 ## 2. System design and backend depth
 
@@ -67,14 +67,15 @@ These are the intents the first strategy had to respect. The adopted phases and 
 - What it is not: a license exam plan, day-trading practice, or a substitute for the engineering track.
 - Success shape: you can explain the machinery in your own words. The horizon's "enough" is in the master roadmap, not a deeper target invented here.
 
-## 6. LeetCode and DSA maintenance
+## 6. LeetCode and DSA recognition improvement
 
 - Folder: [leetcode/](../leetcode/MAINTENANCE_PLAN.md)
-- Intent: remain sharp.
-- Why it is here: you already know DSA and do not want to lose it. Interview optionality, not a new campaign.
-- Time character: maintenance. Topic rotation and occasional contests are enough. The first strategy kept this track at maintenance, not as a campaign.
-- What it is not: a beginner course, a 300-problem sheet, or the main use of this year. Decision D-009.
-- Success shape: still fluent, weak spots named from evidence rather than from a generic list. Cadence is **TBD**.
+- Intent: improve recognition and approach selection on unseen problems toward FAANG-level interview comfort (D-023).
+- Why it is here: build on existing DSA knowledge to interpret constraints, derive and justify an approach, and implement it independently.
+- Time character: the attention band remains maintenance under the master roadmap; that limits attention, not the capability goal. Contests remain optional.
+- Practice basis: pool and genuine company questions in parallel, roughly 50/50 by attempts (D-024); fresh pool questions are drawn randomly from the remaining unseen questions, blind to pattern and difficulty, not consumed in a fixed order (D-025). Details live in the domain plan.
+- What it is not: a beginner course, a placement grind, a numbered sheet, or the main use of this year. D-023 supersedes the old maintenance-only framing.
+- Success shape: stronger independent reasoning on unfamiliar problems, with weak spots and improvement demonstrated by actual attempts and cold revisits. No problem quota or rating target.
 
 ## 7. Open Source Contribution
 

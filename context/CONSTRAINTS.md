@@ -56,7 +56,7 @@ Useful work and sustained involvement in a small number of healthy repositories 
 
 ## What is not known, and must not be filled in
 
-Time available, other obligations, GATE paper, budget, music setup, LSEG team. Canonical list: [CURRENT_STATE.md](../CURRENT_STATE.md).
+Time available, other obligations, GATE's exact exam date, current preparation level and materials, budget, music setup, LSEG team. GATE CS/IT is known. Canonical list: [CURRENT_STATE.md](../CURRENT_STATE.md).
 
 ## Superseding a constraint
 

@@ -72,7 +72,7 @@ Operating rules for humans and models: [AI_WORKFLOW.md](AI_WORKFLOW.md).
 ## Workflow
 
 1. Strategy changes only in a strategic review. That is normally Grok 4.7. See [templates/STRATEGIC_REVIEW_TEMPLATE.md](templates/STRATEGIC_REVIEW_TEMPLATE.md).
-2. Execution is one 10-day sprint in `current-sprint/`. The plan says what. The calendar says when. One sprint covers every track that is active.
+2. Execution is one integrated 10-day sprint in `current-sprint/`, never per-domain sprints. The plan says what; the calendar says when. Inclusion follows the master's bands and yield rules, actual capacity, and accepted candidate prep; every active track need not appear (D-027).
 3. At the end, write `REVIEW.md` in that same directory. For each unfinished item, carry it, change it, or delete it. Do not copy the whole list forward. Do not edit the calendar to pretend the schedule was followed. The `PROGRESS_LOG.md` entry is written once, with the permanent path `sprints/sprint-NNN/REVIEW.md`, so the later archive move never requires rewriting the append-only log.
 4. When the next sprint starts, move the whole `current-sprint/` directory to `sprints/sprint-NNN/`, then create a fresh `current-sprint/`. Archived sprints stay put. They are not rewritten to look cleaner.
 5. Record what happened. Do not record intentions, or calendar events, as progress.

@@ -3,9 +3,9 @@
 > **Role:** convention for archived global sprints, and for how a sprint gets here.
 > **Authority:** naming and archive rules. The active sprint, when one exists, is the directory `current-sprint/` at the repo root. It is not a file in this folder.
 > **Which sprint is active:** stated in [CURRENT_STATE.md](../CURRENT_STATE.md) and inside that sprint's `PLAN.md`. Those two must match. There is no pointer file.
-> **Last reviewed:** 2026-09-27
+> **Last reviewed:** 2026-09-30
 
-Sprints integrate every track that is currently active. Do not create `gate/sprints`, `product/sprints`, or any other per-track sprint tree. Decision D-001. Where the open sprint lives is decision D-016.
+There is one integrated sprint, not a requirement to include every active track. Inclusion follows the master's bands and yield rules, actual capacity, and accepted candidate prep (D-027). Do not create `gate/sprints`, `product/sprints`, or any other per-track sprint tree; that core rule of D-001 remains. Where the open sprint lives is decision D-016.
 
 ## Lifecycle
 

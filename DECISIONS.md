@@ -283,3 +283,13 @@ Ids are never reused.
 - Why: The owner explicitly wants to become a recurring useful contributor, including repository navigation, scoped fixes, validation, and maintainer collaboration. Neither product work nor employer notes substitutes for this goal.
 - Changes: Master track tables, yield rules, internship contingency, and success direction; current state, goals, constraints, README, and workflow integration; five Open Source domain files. Contribution code stays in separate checkouts, with evidence linked here, consistent with D-013. Selected Piyush Garg sections are persisted at the owner's explicit request under D-006; Sprint 001 prep remains proposal pending owner acceptance. No sprint or calendar is created.
 - Supersedes: none. Extends D-018's track set and adds an owner-authorized track within the no-invented-tracks constraint. Existing phases, other bands, and the rest of D-018/D-019/D-020 remain in force.
+
+### D-027 — One integrated sprint does not require every active track
+
+- Date: 2026-09-30
+- Status: accepted
+- Decided by: execution (explicit owner-directed consistency clarification; no strategy change)
+- Decision: Keep one integrated sprint and no per-domain sprints. Track inclusion follows `MASTER_ROADMAP.md` bands and yield rules, actual capacity, and accepted candidate prep. An active track or accepted prep does not guarantee inclusion in a particular sprint. Record deliberate omissions and their reasons; the master's phase-level continuity requirements still apply.
+- Why: D-001's original inclusion wording conflicts with the master's allowance for omitted maintenance tracks and would overfill a sprint when capacity is limited or unknown.
+- Changes: `AI_WORKFLOW.md`, `README.md`, and `sprints/README.md` inclusion wording reconciled. Existing sprint templates already allow deliberate omissions. No phase, attention band, domain design, or Open Source scope/resource change; no sprint created.
+- Supersedes: only D-001's requirement to cover every active track. Its one-integrated-sprint/no-per-domain-sprints rule remains in force; D-016 still governs the execution directories. D-001 is retained unchanged as history. D-026 is unchanged.

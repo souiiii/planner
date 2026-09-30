@@ -216,7 +216,7 @@ Do this only when a new sprint is requested, and only after the master roadmap h
 4. Create `current-sprint/`. Copy `templates/SPRINT_TEMPLATE.md` to `current-sprint/PLAN.md`. Write the sprint id in the plan. The folder name stays `current-sprint/`.
 5. Set dates. Default length is 10 calendar days, start and end inclusive. If you use a different length, write why in the plan.
 6. Name the master phase and the attention band of each included track.
-7. Choose a few outcomes that can be finished in this window under the capacity you actually know. If capacity is `unknown`, plan a small sprint and say so.
+7. Choose included tracks and a few finishable outcomes using the master's bands and yield rules, actual capacity, and accepted candidate prep. One integrated sprint does not require every active track; accepted prep is eligible input, not guaranteed inclusion (D-027). If capacity is `unknown`, plan a small sprint and say so.
 8. Every outcome needs a reason tied to the current phase, a definition of done that can be observed, and tasks. "Study X" is not a definition of done.
 9. List what is deliberately not in the sprint, especially tracks that are `paused` or that lost a priority fight.
 10. Stretch tasks are optional. Missing them is not a failure. Leave them off the calendar unless there is spare capacity.
@@ -335,7 +335,7 @@ These are hard rules:
 - Do not mark work complete unless the owner said it was done, or an artifact they produced is in the repo or linked
 - Do not treat a calendar event as proof the work happened
 - Do not invent mock scores, revenue, user counts, music finish counts, chapters read, or problems solved
-- Do not invent a weekly hour budget, a GATE score target, a revenue target, or a joining team
+- Do not invent a weekly hour budget, a revenue target, or a joining team. Do not invent or alter targets: GATE CS/IT with AIR < 400 for PSU optionality is already owner-stated and accepted (D-022)
 - Do not invent classes, labs, exams, interviews, travel, or other fixed commitments
 - Do not add books, courses, problem lists, or product ideas to repo files unless the owner asked or explicitly accepted a suggestion. Suggestions stay in the chat until then
 - Do not backfill logs with a plausible history
