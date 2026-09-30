@@ -54,6 +54,7 @@ File headers repeat this. If a header and this table disagree, the header wins, 
 | `markets/READING.md` | Reading actually chosen or finished | An unsolicited syllabus |
 | `markets/NOTES.md` | Working notes | A second progress file |
 | `lseg/*` | Employer-specific facts and later notes | A generic engineering curriculum |
+| `SPRINT_PLANNING_METHOD.md` | Sprint-composition style for all future sprints | Strategy, domain execution detail, schedules |
 | `templates/*` | Blank forms, including the calendar guide | Filled-in plans or a live sprint calendar |
 | `reviews/strategic/*` | Minutes of a strategy pass | A second master roadmap |
 | `reviews/monthly/*` | Drift check | A quiet strategy rewrite |
@@ -142,7 +143,7 @@ Otherwise read:
 1. This file, sprint and calendar sections
 2. `CURRENT_STATE.md`
 3. `MASTER_ROADMAP.md` (read only)
-4. `templates/CALENDAR_GUIDE.md`
+4. `templates/CALENDAR_GUIDE.md` and `SPRINT_PLANNING_METHOD.md` (composition style; subordinate to the master, domain methods for execution)
 5. The previous review, if one exists. That is `current-sprint/REVIEW.md` if the last sprint has not been archived yet, otherwise the latest `sprints/sprint-NNN/REVIEW.md`
 
 Then, only for tracks the master roadmap currently marks `primary`, `secondary`, or (if you are including a maintenance task) `maintenance`:
@@ -158,7 +159,7 @@ If `current-sprint/PLAN.md` exists and `REVIEW.md` does not, a sprint is already
 
 ### Reviewing a sprint
 
-1. This file, the close section
+1. This file, the close section, and the review lens in `SPRINT_PLANNING_METHOD.md`
 2. `current-sprint/PLAN.md`
 3. `current-sprint/CALENDAR.ics`, as the schedule that was in force, not as a log of what was done
 4. `CURRENT_STATE.md`
@@ -191,6 +192,7 @@ Read `CURRENT_STATE.md` and the relevant domain `PROGRESS.md`. Append to the pra
 - Attention bands, phase definitions, or success criteria anywhere
 - `context/GOALS.md`, except to fix a misquote of the owner
 - `templates/*`, except when the owner asks to improve a blank form
+- `SPRINT_PLANNING_METHOD.md`, except when the owner asks to change the planning method
 - Archived `sprints/sprint-NNN/PLAN.md` or `CALENDAR.ics`, except to fix a broken link elsewhere. Do not tidy them
 - Closed sprint reviews, except to append a dated correction
 - `CALENDAR.ics` at close, if the edit would make the schedule look like it was followed
@@ -226,7 +228,7 @@ Do this only when a new sprint is requested, and only after the master roadmap h
 14. Do not create `REVIEW.md` yet.
 15. Do not add resources, books, or problem lists the owner has not accepted.
 
-Prefer fewer outcomes. A sprint that finishes is more informative than a sprint that rehearses ambition.
+Prefer fewer outcomes. A sprint that finishes is more informative than a sprint that rehearses ambition. Compose per `SPRINT_PLANNING_METHOD.md`.
 
 ## Generate the calendar
 
@@ -234,7 +236,7 @@ Read `templates/CALENDAR_GUIDE.md` and follow it. Short version, not a substitut
 
 - `PLAN.md` is what. `CALENDAR.ics` is when. The calendar cannot add scope or raise a priority.
 - Mode is Light, Structured, or Intensive, as the plan states. Unknown capacity → Light, except Sprint 001 follows D-028 (Structured unless a concrete constraint makes that unrealistic). Intensive only with a named reason. Never Intensive just to fill the grid.
-- Work-event titles are concise (`GATE — DBMS PYQ Set`). Descriptions carry purpose, what to do, and the definition of done for that block. Do not paste the whole plan into every event.
+- Work-event titles are concise (`GATE — DBMS PYQ Set`). Descriptions follow `SPRINT_PLANNING_METHOD.md`: only what that block needs, no fixed form. Do not paste the whole plan into every event.
 - Protect breaks, buffers, meals, free time, and wind-down when the mode includes them. A buffer is not catch-up time.
 - Timezone comes from `CURRENT_STATE.md` (`Asia/Kolkata` until that file changes). `TZID` on timed `DTSTART` and `DTEND`. UTC `DTSTAMP`. Stable UIDs. CRLF. RFC 5545 escaping.
 - Every meaningful work event maps to a plan outcome or task. Not every task needs an event.

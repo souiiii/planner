@@ -11,7 +11,7 @@
 
 If `MASTER_ROADMAP.md` is still a skeleton, stop. Do not fill this in. Decision D-004.
 
-Delete every `FILL:` marker you replace. Leave `unknown` or `TBD` where you do not know. Do not invent capacity, scores, resources, or fixed commitments.
+Delete every `FILL:` marker you replace. Leave `unknown` or `TBD` where you do not know. Do not invent capacity, scores, resources, or fixed commitments. Compose per `../SPRINT_PLANNING_METHOD.md` (style), subordinate to the master (strategy) and domain methods (execution).
 
 ## Context used
 
@@ -72,9 +72,10 @@ Known fixed commitments:
 
 Scheduling principles:
 
-- The schedule lives only in `./CALENDAR.ics`. Follow `templates/CALENDAR_GUIDE.md`.
+- The schedule lives only in `./CALENDAR.ics`. Follow `templates/CALENDAR_GUIDE.md` and `../SPRINT_PLANNING_METHOD.md`.
 - Timezone: the working timezone in `CURRENT_STATE.md`.
 - Every meaningful work event maps to an outcome or task above. Not every task needs an event.
+- Write each block description per the planning method: only what that block needs, no fixed form.
 - Flexible work may stay unscheduled. Buffers and free time are not catch-up slots.
 - More events do not make a track more important than the master roadmap says it is.
 

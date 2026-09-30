@@ -68,7 +68,7 @@ Still not permission to delete free time. A hard stop is a hard stop. If you can
 
 ## Titles
 
-Concise and useful. Emoji prefixes are optional, not the default.
+Concise and useful. Category emoji prefixes are welcome when useful, consistent with the owner's previous calendars.
 
 Work:
 
@@ -114,9 +114,9 @@ Missing a stretch block is not a miss.
 
 ## Descriptions
 
-Enough to do that block without reopening five planning files. Not a paste of the sprint plan.
+Write each description per `../SPRINT_PLANNING_METHOD.md`: only what that block needs for good execution, no fixed form. Enough to do that block without reopening five planning files. Not a paste of the sprint plan.
 
-Usual shape:
+One possible shape, not a required one:
 
 ```text
 Plan: O1
@@ -129,11 +129,9 @@ What to do:
 Output: Working implementation plus short failure-mode notes.
 ```
 
-Add a line only when it earns its place:
+Add a field or line only when it adds value for that task; see the planning method for the field set and per-track examples.
 
-- `Workflow:` or constraints, if the order matters
 - `Resources:` only for material already chosen in the repo. Do not introduce a book or course here
-- `Hard rule:` a stop condition, when one would otherwise be ignored
 
 `Plan: O1` (or the task it covers) is how a work event maps back to `PLAN.md`. Fixed commitments and non-work events do not need an outcome id. Their description should say they are not sprint outcomes.
 
