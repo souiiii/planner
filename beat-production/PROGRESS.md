@@ -11,7 +11,7 @@ No practice has been logged in this repo. Owner-reported baseline: tools are und
 
 ## Current record / cycle
 
-None started. The unit of work is a record pass through the loop in [ROADMAP.md](ROADMAP.md) — not a stage. Update this from logged sessions: the record you are working, which loop step it is at, and whether it was exported and compared.
+None started. The unit of work is a record pass through the loop in [ROADMAP.md](ROADMAP.md) — not a stage. Update this from logged sessions: the record you are working, which loop step it is at, and whether it was exported and listened to, and optionally whether a reference was used.
 
 ## Current focus area
 
@@ -41,7 +41,7 @@ Capabilities are demonstrated on real records, in any order — not passed as pr
 | --- | --- | --- | --- |
 | Finished music pieces (beats or songs, by your standard) | unlogged | Output is the point | practice log |
 | Songs with vocals finished | unlogged | Tracks the part of the craft that beats alone miss | practice log |
-| Reference comparisons done (records compared at matched loudness) | unlogged | The loop's teaching step | practice log |
+| Bounces reviewed with weakness named from listening | unlogged | The loop's listening step | practice log |
 | Techniques actually practiced, named | unlogged | Shows whether practice is targeted | practice log |
 | Recreations or studies completed | unlogged | Trains ear, arrangement, and vocals without pretending to be original releases | practice log |
 | Pieces you consider genuinely good | unlogged | Your taste, not a model's grade | your note in the practice log |
