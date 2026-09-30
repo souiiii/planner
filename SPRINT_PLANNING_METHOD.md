@@ -14,7 +14,7 @@
 
 ## Composition principles
 
-- Prefer active execution over passive consumption. Attempt, recall, design, write, solve, record, or investigate first where the domain method calls for it; use resources to learn or repair.
+- Prefer active execution over passive consumption. Attempt, recall, design, write, solve, record, or investigate first where the domain method calls for it, before checking answers; use resources to learn or repair.
 - Reading or watching is not the outcome when the domain expects demonstrated understanding.
 - Use observable evidence where useful: solved attempts, explain-backs, diagrams, observations, bounces, code traces, reproductions, decisions.
 - Bound sessions. An unfinished task does not automatically consume the next block. Use reasonable stopping points; do not let work expand indefinitely.
@@ -29,7 +29,7 @@
 - Within 09:00–22:30 every period is visibly labeled: work, fixed commitment, or a protected non-work block (`☕ Break`, `🧭 Buffer`, `Free Time`, `Rest / Buffer`, `Transition`, `🌙 Wind Down`). No anonymous gaps. Slack exists as protected labeled blocks, not invisible space. Labeled slots are visibility, not a claim of productive hours.
 - Titles are concise, specific, and human-readable (`Track — specific block`). Emoji/category prefixes are preferred where they improve scanning, consistent with the owner's previous calendars.
 - Place fixed commitments first only when actually known. Reserve owner-reported commitments from `CURRENT_STATE.md` (e.g. the 2026-10-08 lab quiz) with no overlapping work. Do not infer classes, meals, sleep, or other commitments from historical calendars.
-- While the college final-year project remains active, include calendar-only blocks such as `🛠️ College Project — Planning` and `🛠️ College Project — Work`, placed around the main workload and fixed commitments. Never invent project content, tasks, technologies, milestones, or study material inside them. They are time reservations, not a roadmap track and not a sprint outcome unless the owner later makes them one.
+- While the college final-year project remains active, reserve a reasonable amount of calendar-only time for it in each normal sprint, such as `🛠️ College Project` (or `— Planning` / `— Work` when that split is useful). No fixed number or duration is prescribed; choose reasonable placement around the main workload and fixed commitments. Never invent project content, tasks, technologies, milestones, deadlines, implementation steps, or study material inside them. They are time reservations, not a roadmap track and not a sprint outcome unless the owner later makes them one. The owner decides what to do during those blocks. Do not manage the project through this planner.
 - A Structured sprint means organized, not packed from waking to sleep. Preserve genuine slack.
 - Inherit previous-calendar planning quality — specific titles, substantial focus blocks, clear resources where needed, active work, targeted repair, useful debriefs, explicit meals/breaks/buffers, hard boundaries, review feeding the next sprint — not the extreme density of old deadline-driven Intensive calendars.
 
@@ -38,7 +38,7 @@
 A description contains only what that block needs for good execution. No fixed template. Include a field or prose only when it adds value.
 
 - A meaningful work block normally makes clear what is to be done, and how when the method is not obvious, including exact accepted resources where relevant.
-- Add only what helps that task, for example: expected evidence/output, attempt protocol, scope boundary, stop condition, prerequisite/context, debrief instructions, what to avoid.
+- Add only what helps that task, for example: expected evidence/output, attempt protocol, scope boundary, hint rule, hard stop, prerequisite/context, debrief instructions, what to avoid.
 
 Examples of fit-to-task shape:
 
@@ -47,7 +47,7 @@ Examples of fit-to-task shape:
 - LeetCode: selected problems, attempt protocol, hint rule.
 - Music: current stage of the record, what to listen/work for.
 - Product / Open Source: investigation target, evidence to capture.
-- Break, meal, buffer, college-project block, or simple continuation: little or no description needed.
+- Break, meal, buffer, free-time, college-project block, or simple continuation: little or no description needed.
 
 Descriptions read written for the task, not generated from a form.
 

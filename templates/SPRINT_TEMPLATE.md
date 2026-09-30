@@ -75,7 +75,7 @@ Scheduling principles:
 - The schedule lives only in `./CALENDAR.ics`. Follow `templates/CALENDAR_GUIDE.md` and `../SPRINT_PLANNING_METHOD.md`.
 - Normal days 09:00–22:30; lunch 13:00–14:00 and dinner 19:30–20:30 as explicit events; every period in the window visibly labeled (no anonymous gaps); slack as protected labeled blocks, never catch-up.
 - Timezone: the working timezone in `CURRENT_STATE.md`.
-- Reserve known fixed commitments from `CURRENT_STATE.md` (e.g. the 2026-10-08 lab quiz) with no overlapping work. Include calendar-only college-project blocks while that project is active; never invent project content inside them.
+- Reserve known fixed commitments from `CURRENT_STATE.md` (e.g. the 2026-10-08 lab quiz) with no overlapping work. Reserve a reasonable amount of calendar-only college-project time while that project is active (no fixed number or duration; never invent project content inside it; never a plan outcome).
 - Every meaningful work event maps to an outcome or task above. Not every task needs an event.
 - Write each block description per the planning method: only what that block needs, no fixed form.
 - Not every plan task needs its own event; a small task may live inside a larger labeled block. Inside 09:00–22:30 there are no anonymous gaps. Buffers and free time are not catch-up slots.

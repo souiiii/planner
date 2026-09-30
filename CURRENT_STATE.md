@@ -58,7 +58,7 @@ Owner-reported fixed commitments the sprint planner must reserve with no overlap
 
 Do not infer any other class timetable or college commitment from this fact or from historical calendars.
 
-While the college final-year project remains active (owner-reported 2026-09-30), future sprints include calendar-only time reservations for it (e.g. `🛠️ College Project — Planning`, `🛠️ College Project — Work`). No project content, tasks, technologies, milestones, or study material is invented; these blocks are not a roadmap track and not a sprint outcome unless the owner later makes them one.
+While the college final-year project remains active (owner-reported 2026-09-30), future sprints reserve a reasonable amount of calendar-only time for it (e.g. `🛠️ College Project`, with `— Planning` / `— Work` only when useful; no fixed number or duration). No project content, tasks, technologies, milestones, deadlines, implementation steps, or study material is invented; these blocks are time reservations, not a roadmap track and not a sprint outcome unless the owner later makes them one. The owner decides what to do during those blocks.
 
 ## Capacity
 

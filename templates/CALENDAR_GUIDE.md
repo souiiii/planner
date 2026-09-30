@@ -2,7 +2,7 @@
 
 > **Role:** how to write a sprint `CALENDAR.ics`. Format rules in this file win over summaries elsewhere.
 > **When to create or move a sprint:** [AI_WORKFLOW.md](../AI_WORKFLOW.md). This file does not decide sprint scope.
-> **Last reviewed:** 2026-09-27
+> **Last reviewed:** 2026-09-30
 
 The planning model writes the `.ics` file directly. Do not add a generator script, a second calendar file, or a JSON copy of the schedule.
 
@@ -12,7 +12,7 @@ The planning model writes the `.ics` file directly. Do not add a generator scrip
 
 - Invent a strategic priority, or make a track matter more because it has more events
 - Treat every free hour as available work
-- Schedule the entire day, except in Intensive mode, and even then protected free time stays free
+- Fill the entire day with work. Labeling every period is visibility, not permission to pack the day; protected non-work time stays protected in every mode
 - Turn unfinished tasks into extra blocks on its own
 - Silently add scope that is not in `PLAN.md`
 - Stand in for completion. An event is a block, not evidence the work happened. Completion is `REVIEW.md`
@@ -28,7 +28,7 @@ The active `PLAN.md` must name the mode and why. One mode per sprint.
 
 ### Light
 
-Use when life is uncertain, capacity is unknown, or the sprint does not need a rigid schedule.
+Use when there is a real reason for a lighter sprint (D-029). Unknown exact hours alone do not force Light.
 
 Include:
 
@@ -37,7 +37,7 @@ Include:
 - deadlines or assessments, if a real date is known
 - a few protected sessions, if something would otherwise be crowded out
 
-Leave most of the time off the calendar. Do not create an event for every empty hour. Absence is the slack.
+Fewer work blocks and more labeled Free / Rest / Buffer time. The 09:00–22:30 labeling rule still applies: labeling is visibility, not work.
 
 ### Structured
 
@@ -55,7 +55,7 @@ Do not schedule the entire day as work. Organized is not packed.
 
 ### Intensive
 
-Only when the plan names a real reason:
+Only when the plan names a real reason for a genuine short high-pressure period:
 
 - important exam preparation
 - interview preparation
@@ -63,7 +63,7 @@ Only when the plan names a real reason:
 - a deadline
 - another period the owner has explicitly called intensive
 
-May include a detailed day: fixed commitments, focus blocks, meals, breaks, transition time, recovery, free time, wind-down, and hard stops.
+May include a detailed day: fixed commitments, focus blocks, meals, breaks, transition time, recovery, free time, wind-down, and hard stops. More work and detail than Structured, only for the high-pressure period.
 
 Still not permission to delete free time. A hard stop is a hard stop. If you cannot name the circumstance in `PLAN.md`, you are not in Intensive mode.
 
@@ -153,11 +153,11 @@ Not every plan task needs its own event; a small task may live inside a larger l
 
 `Rest / Buffer` is not hidden catch-up. Do not move missed work into it. Say so in the description: `Protected time. Not catch-up.`
 
-`Free Time` and `Unused Slack` stay free. Do not fill them later unless the owner asks to reschedule, and even then do not assume they are the default overflow.
+`Free Time`, `Rest / Buffer`, and `Buffer` stay free. Do not fill them later unless the owner asks to reschedule, and even then do not assume they are the default overflow.
 
 Account for transitions between unrelated blocks. Do not stack hard work back to back all day and call the gaps optional.
 
-In Light mode, protect time by leaving it unscheduled. Do not stamp `Unused Slack` across every open hour. That is a full schedule made of labels.
+In Light mode, use fewer work blocks and more labeled Free / Rest / Buffer time. Labeling still applies: it is visibility, not work.
 
 In Structured mode, put a buffer where two demanding blocks would otherwise touch, and label every non-work period in the 09:00–22:30 window (no anonymous gaps). Slack is protected labeled time, not invisible space.
 
@@ -171,9 +171,9 @@ They explain why a work block cannot sit there. They are not sprint goals. Do no
 
 ## College final-year project blocks
 
-While the college final-year project remains active, include calendar-only blocks such as `🛠️ College Project — Planning` and `🛠️ College Project — Work`, placed around the main workload and fixed commitments. Never invent project content, tasks, technologies, milestones, or study material inside them. They are time reservations, not a roadmap track and not a sprint outcome unless the owner later makes them one.
+While the college final-year project remains active, reserve a reasonable amount of calendar-only time for it in each normal sprint, such as `🛠️ College Project` (or `🛠️ College Project — Planning` / `🛠️ College Project — Work` when that split is useful). No fixed number or duration is prescribed; choose reasonable placement around the main workload and fixed commitments. Never invent project content, tasks, technologies, milestones, deadlines, implementation steps, or study material inside them. They are time reservations, not a roadmap track and not a sprint outcome unless the owner later makes them one. The owner decides what to do during those blocks. A college-project block needs little or no description. Do not manage the project through this planner.
 
-If the day is known and the clock time is not, use a date-only event or omit the clock time. Do not invent 09:00.
+If the day is known and the clock time is not, use a date-only event or omit the clock time. Do not invent a clock time for it.
 
 ## How long a block should be
 
@@ -346,6 +346,8 @@ The owner can reschedule. Edit `current-sprint/CALENDAR.ics` in place.
 ## Checklist before the file is done
 
 - [ ] Mode in `PLAN.md` matches the density of this file
+- [ ] Normal days stay inside 09:00–22:30; lunch 13:00–14:00 and dinner 19:30–20:30 are explicit events
+- [ ] Every period in the window is labeled; no anonymous gaps; labeled time is visibility, not work
 - [ ] Every work event maps to an outcome or task in `PLAN.md`
 - [ ] No work event adds scope the plan does not have
 - [ ] Stretch is unscheduled, or clearly labeled and optional

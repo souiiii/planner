@@ -237,7 +237,7 @@ Read `templates/CALENDAR_GUIDE.md` and follow it. Short version, not a substitut
 - `PLAN.md` is what. `CALENDAR.ics` is when. The calendar cannot add scope or raise a priority.
 - Mode is Light, Structured, or Intensive, as the plan states. Default to moderate Structured per D-029; unknown exact hours alone do not force a sparse or Light sprint. Light needs a real reason. Intensive only with a named genuine short high-pressure reason. Never Intensive just to fill the grid.
 - Work-event titles are concise (`GATE — DBMS PYQ Set`). Descriptions follow `SPRINT_PLANNING_METHOD.md`: only what that block needs, no fixed form. Do not paste the whole plan into every event.
-- Protect breaks, buffers, meals, free time, and wind-down when the mode includes them. A buffer is not catch-up time.
+- Protect breaks, buffers, meals, free time, and wind-down. Labeled non-work time is never catch-up. Never interpret labeling every period as filling every period with work.
 - Timezone comes from `CURRENT_STATE.md` (`Asia/Kolkata` until that file changes). `TZID` on timed `DTSTART` and `DTEND`. UTC `DTSTAMP`. Stable UIDs. CRLF. RFC 5545 escaping.
 - Every meaningful work event maps to a plan outcome or task. Not every task needs an event.
 - Do not write a script to do this.
