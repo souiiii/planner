@@ -11,7 +11,9 @@ If you only read one file before acting, read this one, then follow its links. D
 
 - As of: 2026-09-30
 - Planning status: master roadmap in force; Open Source track added by owner-directed strategic amendment (D-026). Latest minutes: [reviews/strategic/2026-09-30.md](reviews/strategic/2026-09-30.md)
-- Active sprint: none
+- Active sprint: sprint-001 (2026-10-01 through 2026-10-10)
+- Plan: [current-sprint/PLAN.md](current-sprint/PLAN.md)
+- Calendar: [current-sprint/CALENDAR.ics](current-sprint/CALENDAR.ics)
 - Phase label: `gate-window`
 - Attention bands: see the table below. Full rules: [MASTER_ROADMAP.md](MASTER_ROADMAP.md)
 
@@ -94,9 +96,9 @@ Do not invent these. Do not let a domain file answer them locally. If one become
 Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.md).
 
 - One integrated sprint, not per-track sprints (D-001)
-- The open sprint is the `current-sprint/` directory, then moved into `sprints/` (D-016). That directory does not exist yet
+- The open sprint is the `current-sprint/` directory, then moved into `sprints/` (D-016). It now contains sprint-001
 - Timed work lives in `CALENDAR.ics`, not in the plan (D-017)
-- No sprint was allowed while the master roadmap was a skeleton (D-004). That block is lifted. Do not open `sprint-001` until the owner asks
+- No sprint was allowed while the master roadmap was a skeleton (D-004). That block is lifted; the owner has requested sprint-001
 - First strategy: `gate-window`, then `post-gate` (D-018)
 - Existing stack is the default, not a ban (D-019)
 - Master sets priority, timing, and role; domain passes set milestones and methods (D-020)
@@ -107,7 +109,7 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 
 ## Next planning action
 
-All domain plans are complete, including Open Source. [opensource/SPRINT_001_PREP.md](opensource/SPRINT_001_PREP.md) is accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-30). Acceptance does not guarantee inclusion; integrated planning follows only when the owner asks. The planner must follow [SPRINT_PLANNING_METHOD.md](SPRINT_PLANNING_METHOD.md) and the D-029 universal default (moderate Structured, labeled 09:00–22:30 days, accepted prep as candidate pool not quota), reserve the known commitments above, and include calendar-only college-project blocks while that project is active. Do not create `current-sprint/` or `sprint-001` until then.
+Sprint 001 is active for 2026-10-01 through 2026-10-10 at the owner's request. Follow [the plan](current-sprint/PLAN.md) and [calendar](current-sprint/CALENDAR.ics); record evidence only after actual work. Review outcomes and capacity at sprint close. Accepted prep remains candidate input, not a completion quota or automatic carry-forward.
 
 ### Sprint 001 workload preference (owner-reported execution preference, Sprint 001 only)
 
@@ -129,3 +131,4 @@ For Sprint 001 the owner wants a fuller moderate/Structured workload than the pr
 - 2026-09-30 — Owner Sprint 001 execution preference recorded (D-028): moderate Structured sprint with meaningful slack; accepted prep as candidate pool. No bands changed; no sprint opened.
 - 2026-09-30 — Scheduling universalized (D-029, supersedes D-028 scope): moderate Structured default, labeled 09:00–22:30 days with explicit lunch/dinner, calendar-only college-project blocks, lab quiz 2026-10-08 10:00–12:00 recorded. No bands changed; no sprint opened.
 - 2026-09-30 — Sprint 001 workload preference recorded (execution only, not strategy): roughly 47–50 hours planned work with GATE at roughly 12–13 hours, remainder per master priorities; planning target, not quota. No sprint opened.
+- 2026-09-30 — Sprint 001 opened at the owner's request for 2026-10-01 through 2026-10-10. Plan and calendar created; no execution progress claimed.
