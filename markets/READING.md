@@ -7,8 +7,6 @@
 
 ## List
 
-None yet.
-
 When a title is accepted:
 
 | Title | Status | Accepted | Why it was chosen | Stopped at |

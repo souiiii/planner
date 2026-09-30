@@ -4,7 +4,7 @@
 > **Prepared:** 2026-09-29.
 > **Accepted:** owner acceptance recorded 2026-09-29 under D-006.
 > **Context:** `gate-window`; GATE primary, Markets maintenance. Capacity and prior knowledge are `unknown`.
-> Preparation for later integrated planning only. No sprint opened, resources accepted, or progress claimed.
+> Preparation for later integrated planning only. Sprint-001 Markets resources are accepted candidate input; no sprint opened and no progress claimed.
 
 ## Small S1 slice
 
