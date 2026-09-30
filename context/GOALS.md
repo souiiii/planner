@@ -4,7 +4,7 @@
 > **Authority:** authoritative for intent. Not authoritative for ranking, attention, or milestones.
 > **Strategy** lives in [MASTER_ROADMAP.md](../MASTER_ROADMAP.md). This file does not rank the goals or restate the bands.
 > **Working dates** live in [CURRENT_STATE.md](../CURRENT_STATE.md). Dates below are the original owner wording. If they disagree, current state wins.
-> **Last reviewed:** 2026-09-27
+> **Last reviewed:** 2026-09-30
 
 Ranking these against each other is a strategic decision. Do not rank them here. Do not let a domain file rank itself.
 
@@ -76,9 +76,19 @@ These are the intents the first strategy had to respect. The adopted phases and 
 - What it is not: a beginner course, a 300-problem sheet, or the main use of this year. Decision D-009.
 - Success shape: still fluent, weak spots named from evidence rather than from a generic list. Cadence is **TBD**.
 
+## 7. Open Source Contribution
+
+- Folder: [opensource/](../opensource/ROADMAP.md)
+- Intent: become genuinely good at contributing to open-source software and make it a long-term habit (owner-stated 2026-09-30, D-026).
+- Starting point: already knows software development; restarting the contribution process. Previously learned from Piyush Garg and wants his relevant material for the initial slice.
+- Success shape: enter unfamiliar repositories, understand conventions and relevant architecture, find useful work, reproduce issues, make scoped changes, communicate with maintainers, respond to review, and contribute repeatedly.
+- Preference: sustained involvement in a small number of healthy repositories, using the existing JS/TS/Node/React background by default.
+- What it is not: beginner programming, contribution farming, PR-count chasing, typo spam, swag hunting, or collecting random issue labels. Maintainers control merges.
+- Time character: durable beyond this repo's horizon; current planning still stops at joining. This is a real track, unlike employer notes in `lseg/`.
+
 ## Not goals
 
-- Inventing more tracks
+- Inventing tracks without an owner-directed strategic decision
 - Maximizing the number of courses finished
 - Building a planning app to manage this planning repo
 

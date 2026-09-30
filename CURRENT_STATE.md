@@ -3,14 +3,14 @@
 > **Authority:** authoritative snapshot of what is true right now.
 > **Not authoritative for:** strategy. If this file and [MASTER_ROADMAP.md](MASTER_ROADMAP.md) disagree about priorities or phases, the master roadmap wins and this file should be corrected.
 > **Update rule:** any model may update facts, the phase *label* (to match the master, not to invent one), the active sprint id, capacity, and review dates. Do not copy plans, calendars, or metric tables into here.
-> **Last reviewed:** 2026-09-28
+> **Last reviewed:** 2026-09-30
 
 If you only read one file before acting, read this one, then follow its links. Do not treat empty progress files as proof that prior skill is zero.
 
 ## Snapshot
 
-- As of: 2026-09-27
-- Planning status: first strategic review held. Master roadmap is in force. Minutes: [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md)
+- As of: 2026-09-30
+- Planning status: master roadmap in force; Open Source track added by owner-directed strategic amendment (D-026). Latest minutes: [reviews/strategic/2026-09-30.md](reviews/strategic/2026-09-30.md)
 - Active sprint: none
 - Phase label: `gate-window`
 - Attention bands: see the table below. Full rules: [MASTER_ROADMAP.md](MASTER_ROADMAP.md)
@@ -41,6 +41,7 @@ Sprint date boundaries are calendar dates. Clock times, once a sprint exists, li
 | Music | domain roadmap written; no sessions logged | maintenance | owner reports tools understood; setup recorded; gap is translating ideas into convincing records. Folder is `beat-production/`. D-021 |
 | Markets | domain roadmap complete; execution not started | maintenance | none logged |
 | LeetCode | domain plan complete; execution not started | maintenance | owner reports existing DSA fluency; no attempts logged yet |
+| Open Source | roadmap and contribution method written; Sprint 001 prep proposed; execution not started | maintenance | owner: restarting contribution workflow, existing JS/TS/Node/React skills; no contribution evidence logged |
 | LSEG notes | placeholder only | not a track | no internship, no joining prep written |
 
 ## Timezone
@@ -59,7 +60,7 @@ Do not assume hours per day or that every day is productive. Until the owner rep
 
 | Kind | When | Where |
 | --- | --- | --- |
-| Strategic | 2026-09-27 | [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md) |
+| Strategic | 2026-09-30 | [reviews/strategic/2026-09-30.md](reviews/strategic/2026-09-30.md) |
 | Monthly | none | — |
 | Sprint | none | — |
 
@@ -90,11 +91,12 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 - Existing stack is the default, not a ban (D-019)
 - Master sets priority, timing, and role; domain passes set milestones and methods (D-020)
 - Attention is expressed in bands, not percentages (D-005)
-- Resource lists stay empty until the owner accepts them (D-006)
+- Resources are recorded when the owner asks or accepts them (D-006). Open Source selections were explicitly requested; its prep remains a proposal.
+- Open Source is a durable track: maintenance now, secondary post-gate (D-026)
 
 ## Next planning action
 
-All domain plans are complete. The next planning step is sprint-001 (integrated sprint planning) when the owner asks. Do not create `current-sprint/` or `sprint-001` until then.
+All domain plans are complete, including Open Source. Review [opensource/SPRINT_001_PREP.md](opensource/SPRINT_001_PREP.md), which remains proposal pending owner acceptance. Integrated Sprint 001 planning follows only when the owner asks. Do not create `current-sprint/` or `sprint-001` until then.
 
 ## Recent changes
 
@@ -107,3 +109,4 @@ All domain plans are complete. The next planning step is sprint-001 (integrated 
 - 2026-09-27 — GATE domain roadmap written: Stage 0 baseline, concept pass, PYQ mastery, mock consolidation, exam mode. Paper CS/IT and target AIR < 400 recorded. No preparation logged.
 - 2026-09-28 — GATE roadmap revised to PYQ-driven loop with Stage 0 as light setup only (no diagnostic). Paper CS/IT and target AIR < 400 confirmed. No preparation logged; execution waits for sprint-001.
 - 2026-09-28 — LeetCode track reconciled: goal is recognition improvement toward FAANG-level (D-023). Domain plan complete; execution not started. Attention unchanged.
+- 2026-09-30 — Open Source Contribution added (D-026); domain method and prep written, selected initial resources recorded by owner request. No repository chosen, contribution logged, or sprint opened.

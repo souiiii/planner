@@ -3,7 +3,7 @@
 > **Authority:** append-only log of durable choices and why they were made.
 > **Current strategy** still lives in [MASTER_ROADMAP.md](MASTER_ROADMAP.md), once that file leaves skeleton status. This log is history and rationale, not a second roadmap.
 > **Update rule:** append a new id. Never rewrite an accepted decision in place. Mark it `superseded` and point at the new id. A superseded decision is history. Follow the newer id, not the old body.
-> **Last reviewed:** 2026-09-27
+> **Last reviewed:** 2026-09-30
 
 Execution models may append execution decisions. Strategic decisions (priorities, phases, success definition) are accepted only in a strategic review. A sprint model may append a `proposed` decision and escalate; proposed is not in force.
 
@@ -273,3 +273,13 @@ Ids are never reused.
 - Why: Treating the shuffled list as a fixed consumption order front-loads whatever the shuffle happened to place first (here, two Hards) and invites prefix-preservation habits. Random blind draws keep every slice pattern-neutral.
 - Changes: `leetcode/MAINTENANCE_PLAN.md` (draw rule in pool section and 50/50 bullet), `leetcode/SPRINT_001_PREP.md` (pool side reselected as random draw P1 + P87; fixed-order language removed). `leetcode/PROGRESS.md` needed no sequencing correction. No method, milestone, band, or strategy change.
 - Supersedes: the "kept in order" pool-consumption wording in D-024. D-023 and the rest of D-024 remain in force.
+
+### D-026 — Open Source Contribution is a durable track
+
+- Date: 2026-09-30
+- Status: accepted
+- Decided by: strategic review, explicitly owner-directed non-Grok edit under D-015. Minutes: [2026-09-30](reviews/strategic/2026-09-30.md).
+- Decision: Add `opensource/` as a real track: maintenance in gate-window, secondary post-gate. Build a long-term habit of useful contributions in a small number of healthy repositories. Restart the contribution workflow, not programming; use the existing JS/TS/Node/React background. Capability, useful work, and learning from review are the evidence, not PR counts or guaranteed merges.
+- Why: The owner explicitly wants to become a recurring useful contributor, including repository navigation, scoped fixes, validation, and maintainer collaboration. Neither product work nor employer notes substitutes for this goal.
+- Changes: Master track tables, yield rules, internship contingency, and success direction; current state, goals, constraints, README, and workflow integration; five Open Source domain files. Contribution code stays in separate checkouts, with evidence linked here, consistent with D-013. Selected Piyush Garg sections are persisted at the owner's explicit request under D-006; Sprint 001 prep remains proposal pending owner acceptance. No sprint or calendar is created.
+- Supersedes: none. Extends D-018's track set and adds an owner-authorized track within the no-invented-tracks constraint. Existing phases, other bands, and the rest of D-018/D-019/D-020 remain in force.

@@ -3,7 +3,7 @@
 > **Role:** operating manual for any model editing this repo.
 > **Authority:** authoritative for procedure. It is not a plan, a status file, or a decision log.
 > **Calendar file format:** [templates/CALENDAR_GUIDE.md](templates/CALENDAR_GUIDE.md). If this file and that guide disagree about ICS syntax, the guide wins.
-> **Last reviewed:** 2026-09-27
+> **Last reviewed:** 2026-09-30
 
 You are one of several models that will touch this repo between now and about August 2027. Read this before editing. Do not rely on memory of an older plan. The files are the plan.
 
@@ -41,6 +41,8 @@ File headers repeat this. If a header and this table disagree, the header wins, 
 | `<domain>/ROADMAP.md` | How that track produces outcomes, subordinate to the master | A new life-priority for that track |
 | `gate/PREP_METHOD.md` | The method for executing GATE preparation (topic loop, resource rules, validation) | A syllabus, a resource list, or a plan change |
 | `system-design/PREP_METHOD.md` | The method for learning system design (concept loop, component justification, implementation scope) | A syllabus, a resource list, or a plan change |
+| `opensource/CONTRIBUTION_METHOD.md` | Repository evaluation, contribution workflow, review, and responsible AI assistance | A PR quota, a tutorial course, or permission to invent owner understanding |
+| `opensource/PROGRESS.md` | Current capability evidence and dated contribution outcomes | Planned work presented as completed; contribution code |
 | `leetcode/MAINTENANCE_PLAN.md` | Same role as a domain roadmap: a recognition-first DSA progression (D-023) | A beginner or placement curriculum |
 | `<domain>/PROGRESS.md` | Latest owner-reported progress and the metric rollup | A task list for next week |
 | `<domain>/BACKLOG.md` | Near-term unscheduled work for that track | Every unfinished idea forever |
@@ -146,6 +148,7 @@ Otherwise read:
 Then, only for tracks the master roadmap currently marks `primary`, `secondary`, or (if you are including a maintenance task) `maintenance`:
 
 6. That track's `ROADMAP.md` or `leetcode/MAINTENANCE_PLAN.md`. If GATE study is in the sprint, also read `gate/PREP_METHOD.md` before choosing GATE tasks or resources. Planning chooses GATE topics and resources; it must not generate GATE study notes — note creation is study-execution work defined in that file. If System Design work is in the sprint, also read `system-design/PREP_METHOD.md` before choosing tasks or resources; planning selects concepts, resources, and exercises, but must not pre-solve them or write the owner's design reasoning in advance.
+   For Open Source work, also read `opensource/CONTRIBUTION_METHOD.md`. Its `SPRINT_001_PREP.md` is candidate input, not an active plan; `RESOURCES.md` owns the exact selected learning sections.
 7. That track's `BACKLOG.md`, if it has one
 8. That track's `PROGRESS.md`, if you need the latest evidence
 
@@ -288,6 +291,7 @@ The archived calendar is the final schedule that was in force. Do not regenerate
 - Music sessions go in `beat-production/PRACTICE_LOG.md` first. Beats and vocals both count. `PROGRESS.md` holds counts and current focus, derived from the log.
 - Product experiments go in `product/EXPERIMENTS.md`. Ideas that were not run stay in `IDEAS.md`.
 - Markets notes are not progress. If understanding changed, say so in `markets/PROGRESS.md` in the owner's words, or mark it as the model's summary of owner-reported reading.
+- Open Source evidence goes in `opensource/PROGRESS.md`, linked to the repository revision, issue, local artifact, PR, or review. Distinguish reproduced, fixed locally, submitted, reviewed, merged, and dropped; do not infer completion or usefulness from a PR count. Contribution code stays outside this planning repo.
 - Do not increase a metric because it would be motivating to do so.
 
 ## Record a decision
@@ -338,7 +342,7 @@ These are hard rules:
 - Do not describe an inference as something the owner said
 - If a file is empty, it is empty. Do not "helpfully" flesh out a curriculum during a sprint edit
 - If you do not know, write `unknown` or `not reported`
-- Do not create extra tracks
+- Do not invent unapproved tracks; owner-directed additions require a strategic decision
 - Do not create a second active sprint, a pointer file, or a calendar-generator script
 
 ## Backlog rules

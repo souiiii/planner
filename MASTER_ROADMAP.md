@@ -3,10 +3,10 @@
 > **Authority:** authoritative for strategy.
 > **Owner of edits:** strategic reviews only, normally Grok 4.7. Sprint planning must not edit this file.
 > **Status:** active
-> **Last reviewed:** 2026-09-28
-> **Review minutes:** [reviews/strategic/2026-09-27.md](reviews/strategic/2026-09-27.md), [reviews/strategic/2026-09-28.md](reviews/strategic/2026-09-28.md)
+> **Last reviewed:** 2026-09-30
+> **Review minutes:** [2026-09-27](reviews/strategic/2026-09-27.md), [2026-09-28](reviews/strategic/2026-09-28.md), [2026-09-30](reviews/strategic/2026-09-30.md)
 > **Procedure:** [AI_WORKFLOW.md](AI_WORKFLOW.md)
-> **Decisions:** D-018, D-019, D-022, D-023
+> **Decisions:** D-018, D-019, D-022, D-023, D-026
 
 This is the high-level plan from 2026-09-27 until LSEG joining, around August 2027. It decides phases, attention, and what a good end to the period looks like.
 
@@ -33,7 +33,7 @@ Bands are not percentages and not weekly quotas. Capacity is unknown. A band is 
 Two phases, plus a contingency that is not a phase.
 
 1. **gate-window** — now until the GATE exam. GATE is the temporary priority. Other tracks continue only at the bands below, so the exam does not erase the rest of the year and the rest of the year does not erase the exam.
-2. **post-gate** — after the exam, until joining. GATE leaves. System design and the income attempt become the center. Markets and music get more room. Neither becomes a new exam.
+2. **post-gate** — after the exam, until joining. GATE leaves. System design and the income attempt become the center. Markets, music, and Open Source get more room. None becomes a new exam.
 
 An LSEG internship, if it appears, is an overlay. It does not have a reserved block of time now. See below.
 
@@ -68,6 +68,7 @@ If joining moves into the GATE window, stop and review. Do not quietly compress 
 | Music | maintenance | The craft stays alive through finished work, not through a second syllabus |
 | Markets | maintenance | Slow-burn stays warm. Not another exam |
 | LeetCode | maintenance | Recognition-first DSA progression (D-023). No sheet, no quota, no required contest |
+| Open Source | maintenance | Learn the contribution process through small, useful repository work. No PR quota |
 
 ### post-gate
 
@@ -79,6 +80,7 @@ If joining moves into the GATE window, stop and review. Do not quietly compress 
 | Music | secondary | More room for finished music and technique. Still not a career track |
 | Markets | secondary | Broader practical understanding. Still not a syllabus, and not team-specific |
 | LeetCode | maintenance | Same progression and attention as gate-window. Contests stay occasional and optional |
+| Open Source | secondary | Grow into repeated, useful contributions in a small number of healthy repositories |
 
 A domain file copies the current band from this table. It does not edit the table.
 
@@ -90,14 +92,14 @@ Capacity is `unknown`. Do not invent hours. If a sprint cannot hold every band, 
 
 1. Keep GATE.
 2. Keep some system-design continuity. The arc should not go to zero for months.
-3. Music, markets, and LeetCode may be omitted for a sprint. Omitting them for the whole phase is not allowed.
+3. Music, markets, LeetCode, and Open Source may be omitted for a sprint. Omitting them for the whole phase is not allowed. Open Source yields before GATE or either secondary track.
 4. Product discovery yields before system-design continuity. It does not yield before GATE.
 
 **post-gate**
 
 1. Keep system design and the product attempt if both can be real. They are both primary on purpose.
 2. If both cannot fit, do not silently demote one. Escalate to a strategic review.
-3. Music and markets yield before either primary is dropped.
+3. Music, markets, and Open Source yield before either primary is dropped. Existing maintainer conversations inform a small follow-up, not an automatic promotion of Open Source.
 4. LeetCode yields first.
 
 Unknown capacity is not a reason to mark ordinary weeks Intensive. A mock week, the exam week, or a real deadline may justify Intensive. Ordinary weeks should not. Calendar mode is still chosen in the sprint plan, not here.
@@ -182,6 +184,16 @@ The ability-gated progression and practice method live in [leetcode/MAINTENANCE_
 
 Both phases: maintenance attention, unchanged. The progression advances as the band allows. Contests are optional in both, and may be skipped for the whole GATE window without that counting as abandoning the track. Weak areas must come from problems you actually missed, not from a generic list. Cadence is a domain detail, and it must stay small enough that it cannot become the identity of a sprint.
 
+### Open Source Contribution
+
+A durable craft and habit: become useful in unfamiliar repositories and contribute repeatedly to a small number of healthy projects. This is a real track, separate from product, system design, and `lseg/`. Decision D-026.
+
+The owner already knows software development and is restarting the contribution process, not programming. Use the existing JS/TS/Node/React background by default; a popular repository is not a reason to switch stack.
+
+gate-window: maintenance. Small repository work yields to GATE and the secondary tracks. post-gate: secondary, with room for sustained involvement and deeper changes. No PR-count target, contribution farming, typo spam, swag hunting, or random issue collecting.
+
+Enough by joining: enter a repository, understand the relevant conventions and code, identify useful work, reproduce a problem, make and validate a scoped change, explain it to maintainers, and learn from review across repeated attempts. Merge decisions belong to maintainers; useful evidence is broader than merged PRs. The domain defines the capability gates and contribution method in [opensource/ROADMAP.md](opensource/ROADMAP.md). The long-term intent continues beyond this planning horizon; no post-joining schedule is invented.
+
 ### LSEG notes
 
 Not a stream. No curriculum. Internship notes and joining logistics go in `lseg/` only when there is something real to put there.
@@ -193,8 +205,8 @@ None is offered or accepted. Do not hold time empty for one.
 When an offer exists, update [CURRENT_STATE.md](CURRENT_STATE.md) and hold a strategic review before changing bands. Until that review, this default applies:
 
 - Internship hours are fixed commitments. They are not sprint achievements and not a new study track.
-- If it falls in gate-window: GATE stays primary. Shrink system design and product first. Do not cancel the exam attempt to make the internship comfortable.
-- If it falls in post-gate: system design stays at least secondary, so the arc does not go to zero. Product may have to drop from primary; a live experiment with evidence is time-boxed harder, not automatically killed. Music drops to maintenance, not to nothing. Markets and LeetCode may pause.
+- If it falls in gate-window: GATE stays primary. Shrink system design and product first. Do not cancel the exam attempt to make the internship comfortable. Open Source may pause; it does not displace these priorities.
+- If it falls in post-gate: system design stays at least secondary, so the arc does not go to zero. Product may have to drop from primary; a live experiment with evidence is time-boxed harder, not automatically killed. Music drops to maintenance, not to nothing. Markets, LeetCode, and Open Source may pause.
 - Refused even then: a framework tour, a placement grind, a secret product build, or an `lseg/` folder that becomes a second engineering curriculum.
 
 ## Checkpoints
@@ -221,11 +233,12 @@ These are directions, not milestone definitions. Domain plans decide the checkpo
 - Music: you can point at finished music you genuinely respect, songs included, and the craft is still alive. Knowing tools or watching tutorials does not count.
 - Markets: you can explain how markets and their machinery work in your own words, at whatever breadth the domain pass chose to check.
 - LeetCode: you are not starting DSA over. You can take an unseen problem, find and justify an approach, and implement it; no rating goal.
+- Open Source: you can enter unfamiliar repositories and make useful, scoped contributions repeatedly, explaining your changes and handling review. Sustained involvement matters; merge counts do not define success.
 - The LSEG path is intact, unless a later review records that you changed it on purpose.
 
 ## What should not receive attention
 
-Standing non-goals in [context/CONSTRAINTS.md](context/CONSTRAINTS.md) stay in force, including: no framework tourism, no placement grind, no music career or audience plan, no second engineering curriculum in `lseg/`, no hidden six-month product, no extra tracks.
+Standing non-goals in [context/CONSTRAINTS.md](context/CONSTRAINTS.md) stay in force, including: no framework tourism, no placement grind, no music career or audience plan, no second engineering curriculum in `lseg/`, no hidden six-month product, no unapproved extra tracks. Open Source is owner-approved under D-026.
 
 Also out, for this horizon:
 
@@ -236,6 +249,7 @@ Also out, for this horizon:
 - Life after joining, except light logistics once a date or team is real
 - Certifications, licenses, and day-trading, unless you later ask
 - Filling ordinary weeks as if capacity were known
+- Open Source PR quotas, superficial contribution farming, or a language/framework detour chosen for project popularity
 
 gate-window specifically: no second exam out of markets or LeetCode, and no product build that crowds the attempt.
 
@@ -278,3 +292,4 @@ Nothing else in the unknown list needs an answer before domain planning begins.
 - 2026-09-27 — Amendment: the beat-production stream is broadened to music-making. Mainly rap, some melodic attempts; vocals, recording, vocal mixing, and full songs over existing beats are part of the craft. Bands and phases unchanged. Folder name kept. D-021.
 - 2026-09-28 — Reconciliation (owner-directed non-Grok edit, D-022): GATE paper recorded as CS/IT and target as AIR < 400 for PSU optionality. Removed "no score target" wording. Phases, attention bands, yield order, and non-goals otherwise unchanged.
 - 2026-09-28 — Reconciliation (owner-directed non-Grok edit, D-023): LeetCode goal raised from maintenance-only to a recognition-first progression toward FAANG-level interview questions. Attention bands and yield order unchanged; the domain plan file name is kept.
+- 2026-09-30 — Owner-directed strategic amendment, D-026: added Open Source Contribution as maintenance in gate-window and secondary post-gate; integrated its yield rules, internship contingency, and success direction. Existing bands, phases, and goals are unchanged. No sprint opened.

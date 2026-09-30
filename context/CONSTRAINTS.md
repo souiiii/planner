@@ -3,7 +3,7 @@
 > **Role:** standing limits. These stay in force across phases unless a strategic review supersedes one and records a decision.
 > **Authority:** authoritative for non-goals and planning limits listed here.
 > **Not a schedule.** Capacity is unknown; see [CURRENT_STATE.md](../CURRENT_STATE.md).
-> **Last reviewed:** 2026-09-27
+> **Last reviewed:** 2026-09-30
 > **Stack rule:** revised in the first strategic review. Decision D-019.
 
 ## Horizon
@@ -29,7 +29,7 @@ These came from the owner. They are not optional style advice.
 - Do not turn `lseg/` into a second generic software curriculum
 - Do not treat GATE as the main career direction. It is a backup attempt
 - Do not spend months secretly building a product nobody has been asked about. Fast experiments beat a hidden six-month build
-- Do not invent extra life tracks to make the system look complete
+- Do not invent extra life tracks to make the system look complete. Open Source is explicitly owner-authorized under D-026; further additions still require a strategic decision
 - Do not accumulate endless TODO lists that are never deleted
 
 ## Stack constraint
@@ -49,6 +49,10 @@ Music-making is a personal passion and a serious craft. Finished music matters m
 ## Product constraint
 
 Independent income is a real goal before joining, not a slogan. The bias is small products with obvious utility: desktop utilities, browser extensions, micro-SaaS, creator tools, developer tools, workflow tools, and similar. The skills to practice are problem discovery, validation, shipping, pricing, distribution, getting paying users, and iterating. "Build projects" by itself does not count.
+
+## Open Source constraint
+
+Useful work and sustained involvement in a small number of healthy repositories are the aim. No contribution farming, PR-count targets, typo spam, swag hunting, or random `good first issue` collecting. Use the existing stack by default; project popularity alone does not justify a new language/framework. A merge is a maintainer decision, not an owner-controlled deadline. This track must respect the master's bands and yield rules. D-026.
 
 ## What is not known, and must not be filled in
 
