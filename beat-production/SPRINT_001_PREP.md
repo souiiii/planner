@@ -1,7 +1,8 @@
 # Music — Sprint 001 preparation
 
-> **Status:** proposal pending owner acceptance.
+> **Status:** accepted candidate input for the later integrated Sprint 001 planner.
 > **Prepared:** 2026-09-30.
+> **Accepted:** owner acceptance recorded 2026-09-30.
 > **Context:** `gate-window`; Music maintenance, GATE primary. Capacity is `unknown`.
 > No sprint or calendar created. No practice, finish, or capability claimed.
 

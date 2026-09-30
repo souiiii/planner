@@ -19,7 +19,7 @@ None started. The unit of work is a record pass through the loop in [ROADMAP.md]
 
 ## Open weakness
 
-None yet. The biggest gap against a reference, named from a real comparison at matched loudness. One at a time; it drives the next cycle's focus.
+None yet. The biggest gap heard in your own bounce, named from listening to it; an optional reference comparison may help. One at a time; it drives the next cycle's focus.
 
 ## Capability progress
 

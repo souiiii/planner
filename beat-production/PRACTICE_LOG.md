@@ -15,7 +15,7 @@ Do not log a session that did not happen. Do not describe a tutorial as a finish
 - Kind: session | finished beat | finished song | vocal recording | recreation | listening | analysis | ear drill | reference comparison
 - Loop step(s): reference/idea | beat | write | record | comp | vocal processing | arrange around vocal | mix | export | compare | name weakness (see [ROADMAP.md](ROADMAP.md))
 - Focus area: writing | vocal performance | vocal processing & mixing | ear/reference | production | final mixing
-- Weakness named (if the compare step was done):
+- Weakness named (from listening to your own bounce; reference compare optional):
 - What you finished, if anything:
 - Good, by your standard? yes | no | not a finish
 - Note:
