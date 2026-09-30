@@ -50,11 +50,21 @@ Working timezone for sprint calendars: `Asia/Kolkata`.
 
 Owner-instructed 2026-09-27. Use this for every `CALENDAR.ics` unless this section is later changed. City is still unknown. The timezone is not a home address, a college, or a class timetable. Do not invent those from it.
 
+## Known commitments
+
+Owner-reported fixed commitments the sprint planner must reserve with no overlapping work:
+
+- 2026-10-08, 10:00–12:00 — Lab quiz. When the sprint covering that date is created, reserve it as a fixed calendar event (e.g. `🏫 Lab Quiz`).
+
+Do not infer any other class timetable or college commitment from this fact or from historical calendars.
+
+While the college final-year project remains active (owner-reported 2026-09-30), future sprints include calendar-only time reservations for it (e.g. `🛠️ College Project — Planning`, `🛠️ College Project — Work`). No project content, tasks, technologies, milestones, or study material is invented; these blocks are not a roadmap track and not a sprint outcome unless the owner later makes them one.
+
 ## Capacity
 
 `unknown`.
 
-Do not assume hours per day or that every day is productive. Until the owner reports a real constraint, sprints should be small and say that capacity is unknown, except Sprint 001 follows D-028 (moderate Structured workload; unknown exact hours alone do not require an extremely sparse sprint; meaningful slack remains). College load, a job, health, and other obligations were not stated. Do not infer a free final year.
+Do not assume hours per day or that every day is productive. Default to a moderate Structured sprint per D-029; unknown exact weekly hours alone do not force an extremely sparse or Light sprint. `Light` needs a real reason. College load, a job, health, and other obligations were not stated beyond the commitments above. Do not infer a free final year.
 
 ## Last reviews
 
@@ -93,11 +103,11 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 - Attention is expressed in bands, not percentages (D-005)
 - Resources are recorded when the owner asks or accepts them (D-006). Open Source selections were explicitly requested; its candidate prep was owner-accepted 2026-09-30.
 - Open Source is a durable track: maintenance now, secondary post-gate (D-026)
-- Sprint 001 execution preference is moderate Structured with subordinate continuity slices considered (D-028); bands and strategy unchanged
+- Sprint planning defaults to moderate Structured with labeled 09:00–22:30 days (D-029); bands and strategy unchanged
 
 ## Next planning action
 
-All domain plans are complete, including Open Source. [opensource/SPRINT_001_PREP.md](opensource/SPRINT_001_PREP.md) is accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-30). Acceptance does not guarantee inclusion; integrated planning follows only when the owner asks. The Sprint 001 planner must honor the D-028 execution preference (moderate Structured workload with meaningful slack; GATE primary, System Design and Product secondary; small subordinate continuity slices for LeetCode, Music, Open Source, and possibly Markets considered; accepted prep as candidate pool, not quota). Do not create `current-sprint/` or `sprint-001` until then.
+All domain plans are complete, including Open Source. [opensource/SPRINT_001_PREP.md](opensource/SPRINT_001_PREP.md) is accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-30). Acceptance does not guarantee inclusion; integrated planning follows only when the owner asks. The planner must follow [SPRINT_PLANNING_METHOD.md](SPRINT_PLANNING_METHOD.md) and the D-029 universal default (moderate Structured, labeled 09:00–22:30 days, accepted prep as candidate pool not quota), reserve the known commitments above, and include calendar-only college-project blocks while that project is active. Do not create `current-sprint/` or `sprint-001` until then.
 
 ## Recent changes
 
@@ -113,3 +123,4 @@ All domain plans are complete, including Open Source. [opensource/SPRINT_001_PRE
 - 2026-09-30 — Open Source Contribution added (D-026); domain method and prep written, selected initial resources recorded by owner request. No repository chosen, contribution logged, or sprint opened.
 - 2026-09-30 — Owner accepted Open Source Sprint 001 candidate prep with its existing scope and resource selections. Execution remains not started; no repository selected or sprint opened.
 - 2026-09-30 — Owner Sprint 001 execution preference recorded (D-028): moderate Structured sprint with meaningful slack; accepted prep as candidate pool. No bands changed; no sprint opened.
+- 2026-09-30 — Scheduling universalized (D-029, supersedes D-028 scope): moderate Structured default, labeled 09:00–22:30 days with explicit lunch/dinner, calendar-only college-project blocks, lab quiz 2026-10-08 10:00–12:00 recorded. No bands changed; no sprint opened.

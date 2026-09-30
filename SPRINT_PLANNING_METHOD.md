@@ -7,9 +7,10 @@
 ## What a sprint is
 
 - One integrated ~10-day sprint. No per-track sprints.
-- Master bands and yield rules decide priority. Accepted domain prep supplies candidate work, not mandatory scope.
+- Default to a moderate `Structured` sprint (D-029). Unknown exact weekly hours alone must not force an extremely sparse or `Light` sprint. `Light` remains available with a real reason; `Intensive` is reserved for genuine short high-pressure periods such as an exam, interview, or deadline.
+- Master bands and yield rules decide priority; this preference never makes tracks equal. Maintenance tracks still get serious consideration for small real continuity work; inclusion still depends on the current phase, actual conflicts, domain progress, and yield rules.
+- Accepted domain prep supplies candidate work, not a quota. Conditional extensions stay conditional.
 - Build a coherent sprint, not a pile of unrelated tasks. Fewer finishable outcomes beat rehearsed ambition.
-- Conditional extensions stay conditional. Do not turn every accepted prep item into required work.
 
 ## Composition principles
 
@@ -24,10 +25,13 @@
 ## Calendar blocks
 
 - Default work blocks are substantial enough for real focus, commonly around 60–120 minutes where appropriate. Short blocks are for genuinely small work, warm-up, review, debrief, or transitions.
-- Titles are concise and specific (`Track — specific block`). Category emoji prefixes are welcome when useful, consistent with the owner's previous calendars.
-- Place fixed commitments first only when actually known. Do not infer classes, meals, sleep, or commitments from historical calendars.
+- Normal sprint days run 09:00–22:30. No study/work before 09:00 or after 22:30 without an explicit per-day owner override. Lunch 13:00–14:00 and dinner 19:30–20:30 are explicit events. These are owner-provided preferences, not inferred from old calendars.
+- Within 09:00–22:30 every period is visibly labeled: work, fixed commitment, or a protected non-work block (`☕ Break`, `🧭 Buffer`, `Free Time`, `Rest / Buffer`, `Transition`, `🌙 Wind Down`). No anonymous gaps. Slack exists as protected labeled blocks, not invisible space. Labeled slots are visibility, not a claim of productive hours.
+- Titles are concise, specific, and human-readable (`Track — specific block`). Emoji/category prefixes are preferred where they improve scanning, consistent with the owner's previous calendars.
+- Place fixed commitments first only when actually known. Reserve owner-reported commitments from `CURRENT_STATE.md` (e.g. the 2026-10-08 lab quiz) with no overlapping work. Do not infer classes, meals, sleep, or other commitments from historical calendars.
+- While the college final-year project remains active, include calendar-only blocks such as `🛠️ College Project — Planning` and `🛠️ College Project — Work`, placed around the main workload and fixed commitments. Never invent project content, tasks, technologies, milestones, or study material inside them. They are time reservations, not a roadmap track and not a sprint outcome unless the owner later makes them one.
 - A Structured sprint means organized, not packed from waking to sleep. Preserve genuine slack.
-- Historical 9 AM–late-night placement/interview calendars were deadline-driven Intensive examples: inherit their planning quality, not their density.
+- Inherit previous-calendar planning quality — specific titles, substantial focus blocks, clear resources where needed, active work, targeted repair, useful debriefs, explicit meals/breaks/buffers, hard boundaries, review feeding the next sprint — not the extreme density of old deadline-driven Intensive calendars.
 
 ## Block descriptions
 
@@ -43,20 +47,16 @@ Examples of fit-to-task shape:
 - LeetCode: selected problems, attempt protocol, hint rule.
 - Music: current stage of the record, what to listen/work for.
 - Product / Open Source: investigation target, evidence to capture.
-- Short review or continuation: one or two sentences suffice.
+- Break, meal, buffer, college-project block, or simple continuation: little or no description needed.
 
 Descriptions read written for the task, not generated from a form.
 
 ## Protection and limits
 
-- Meals, rest, transitions, buffers, free time, and wind-down are protected when scheduled. Never hidden catch-up.
+- Meals, rest, transitions, buffers, free time, and wind-down are protected when scheduled. Never hidden catch-up. Missed work never auto-consumes them.
 - Do not automatically move missed work into buffers.
 - If the calendar repeatedly cannot fit the plan, leave that evidence for the review.
 
 ## Review lens
 
 Inspect outcomes/evidence, partial/missed work, actual weaknesses exposed, unrealistic blocks, and workload calibration. Decide what continues, changes, or deletes. Review evidence informs the next sprint. Do not auto-carry unfinished work.
-
-## Sprint 001 note
-
-Preserve D-028: moderate Structured workload with meaningful slack; GATE primary, System Design/Product secondary; LeetCode, Music, and Open Source receive serious consideration for small real continuity slices, with Markets considered but more readily yielding.

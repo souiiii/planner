@@ -218,12 +218,12 @@ Do this only when a new sprint is requested, and only after the master roadmap h
 4. Create `current-sprint/`. Copy `templates/SPRINT_TEMPLATE.md` to `current-sprint/PLAN.md`. Write the sprint id in the plan. The folder name stays `current-sprint/`.
 5. Set dates. Default length is 10 calendar days, start and end inclusive. If you use a different length, write why in the plan.
 6. Name the master phase and the attention band of each included track.
-7. Choose included tracks and a few finishable outcomes using the master's bands and yield rules, actual capacity, and accepted candidate prep. One integrated sprint does not require every active track; accepted prep is eligible input, not guaranteed inclusion (D-027). If capacity is `unknown`, plan a small sprint and say so, except Sprint 001 follows D-028: a moderate workload where unknown exact hours alone do not require an extremely sparse sprint, with small continuity slices for LeetCode, Music, Open Source, and possibly Markets considered subordinate to the bands.
+7. Choose included tracks and a few finishable outcomes using the master's bands and yield rules, actual capacity, and accepted candidate prep. One integrated sprint does not require every active track; accepted prep is eligible input, not guaranteed inclusion (D-027). Default to a moderate workload per D-029: unknown exact hours alone do not require an extremely sparse sprint. Give maintenance tracks serious consideration for small continuity slices subordinate to the bands, per the phase, conflicts, progress, and yield rules.
 8. Every outcome needs a reason tied to the current phase, a definition of done that can be observed, and tasks. "Study X" is not a definition of done.
 9. List what is deliberately not in the sprint, especially tracks that are `paused` or that lost a priority fight.
 10. Stretch tasks are optional. Missing them is not a failure. Leave them off the calendar unless there is spare capacity.
-11. State the calendar mode and why, plus known fixed commitments. Do not invent commitments.
-12. Write `current-sprint/CALENDAR.ics` from `templates/CALENDAR_GUIDE.md`. The hourly schedule does not go in `PLAN.md`.
+11. State the calendar mode and why, plus known fixed commitments from `CURRENT_STATE.md` (including the 2026-10-08 lab quiz when the sprint covers that date). Do not invent commitments.
+12. Write `current-sprint/CALENDAR.ics` from `templates/CALENDAR_GUIDE.md` and `SPRINT_PLANNING_METHOD.md`: normal days 09:00–22:30 with lunch 13:00–14:00 and dinner 19:30–20:30 as explicit events, every period in the window visibly labeled, plus calendar-only college-project blocks while that project is active. The hourly schedule does not go in `PLAN.md`.
 13. Update `CURRENT_STATE.md` to the active-sprint form. Do not create a pointer file.
 14. Do not create `REVIEW.md` yet.
 15. Do not add resources, books, or problem lists the owner has not accepted.
@@ -235,7 +235,7 @@ Prefer fewer outcomes. A sprint that finishes is more informative than a sprint 
 Read `templates/CALENDAR_GUIDE.md` and follow it. Short version, not a substitute for the guide:
 
 - `PLAN.md` is what. `CALENDAR.ics` is when. The calendar cannot add scope or raise a priority.
-- Mode is Light, Structured, or Intensive, as the plan states. Unknown capacity → Light, except Sprint 001 follows D-028 (Structured unless a concrete constraint makes that unrealistic). Intensive only with a named reason. Never Intensive just to fill the grid.
+- Mode is Light, Structured, or Intensive, as the plan states. Default to moderate Structured per D-029; unknown exact hours alone do not force a sparse or Light sprint. Light needs a real reason. Intensive only with a named genuine short high-pressure reason. Never Intensive just to fill the grid.
 - Work-event titles are concise (`GATE — DBMS PYQ Set`). Descriptions follow `SPRINT_PLANNING_METHOD.md`: only what that block needs, no fixed form. Do not paste the whole plan into every event.
 - Protect breaks, buffers, meals, free time, and wind-down when the mode includes them. A buffer is not catch-up time.
 - Timezone comes from `CURRENT_STATE.md` (`Asia/Kolkata` until that file changes). `TZID` on timed `DTSTART` and `DTEND`. UTC `DTSTAMP`. Stable UIDs. CRLF. RFC 5545 escaping.

@@ -20,7 +20,7 @@ The planning model writes the `.ics` file directly. Do not add a generator scrip
 - Put secrets, passwords, tokens, or private credentials in a description
 - Select Intensive mode just because the calendar can be filled
 
-If capacity is `unknown`, use Light, except Sprint 001 follows D-028 (Structured unless a concrete constraint makes that unrealistic). Do not guess a full week.
+Default to a moderate Structured sprint per D-029; unknown exact hours alone do not force a sparse or Light sprint. Light needs a real reason. Do not guess a full week.
 
 ## Modes
 
@@ -41,16 +41,17 @@ Leave most of the time off the calendar. Do not create an event for every empty 
 
 ### Structured
 
-Default when availability is reasonably known and the sprint is ordinary.
+The normal default: a moderate, organized sprint (D-029).
 
 Include:
 
 - planned work sessions for the outcomes that need a time
 - known fixed commitments
 - breaks or buffers where work would otherwise stack with no recovery
-- deliberate slack, mostly as unscheduled gaps rather than a labeled event in every hole
+- lunch 13:00–14:00 and dinner 19:30–20:30 as explicit events
+- labeled slack: every period in the 09:00–22:30 window gets an event, so unused time is a protected `Free Time`, `Buffer`, or `Rest` block rather than an anonymous gap
 
-Do not schedule the entire day.
+Do not schedule the entire day as work. Organized is not packed.
 
 ### Intensive
 
@@ -66,9 +67,18 @@ May include a detailed day: fixed commitments, focus blocks, meals, breaks, tran
 
 Still not permission to delete free time. A hard stop is a hard stop. If you cannot name the circumstance in `PLAN.md`, you are not in Intensive mode.
 
+## Daily window
+
+Owner-provided preferences for normal sprint days, not inferred from old calendars:
+
+- Work blocks begin no earlier than 09:00 and end by 22:30 at the latest.
+- Do not schedule study/work before 09:00 or after 22:30 unless the owner explicitly overrides it for that day.
+- Lunch 13:00–14:00 and dinner 19:30–20:30 are explicit calendar events.
+- Within 09:00–22:30, label every period with an event. No anonymous gaps: unused time is `☕ Break`, `🧭 Buffer`, `Free Time`, `Rest / Buffer`, `Transition`, or `🌙 Wind Down`. Labeled slots are visibility, not productive hours.
+
 ## Titles
 
-Concise and useful. Category emoji prefixes are welcome when useful, consistent with the owner's previous calendars.
+Concise, specific, and human-readable. Emoji/category prefixes are preferred where they improve scanning, consistent with the owner's previous calendars.
 
 Work:
 
@@ -91,17 +101,17 @@ Exam — GATE mock
 
 Use the specific name when it is clearer (`Class — DBMS`). The point is that a review can see it was not an outcome.
 
-Non-work, when the mode actually includes them:
+Non-work, labeled explicitly on Structured days:
 
 ```text
-Break
+☕ Break
+🧭 Buffer
 Rest / Buffer
 Lunch
 Dinner
 Transition
 Free Time
-Wind Down
-Unused Slack
+🌙 Wind Down
 ```
 
 Stretch, only if there is real spare capacity and the plan already lists it:
@@ -133,11 +143,11 @@ Add a field or line only when it adds value for that task; see the planning meth
 
 - `Resources:` only for material already chosen in the repo. Do not introduce a book or course here
 
-`Plan: O1` (or the task it covers) is how a work event maps back to `PLAN.md`. Fixed commitments and non-work events do not need an outcome id. Their description should say they are not sprint outcomes.
+`Plan: O1` (or the task it covers) is how a work event maps back to `PLAN.md`. Fixed commitments and non-work events do not need an outcome id. Their description should say they are not sprint outcomes. A break, meal, buffer, college-project block, or simple continuation needs little or no description.
 
 A tiny follow-up can live inside a larger block. It does not need its own event.
 
-Not every plan task needs an event. Flexible work may stay unscheduled. Stretch work stays unscheduled unless spare capacity is real.
+Not every plan task needs its own event; a small task may live inside a larger labeled block. Inside 09:00–22:30 there are no anonymous gaps: time without a work event carries a labeled non-work event. Stretch work stays unscheduled unless spare capacity is real.
 
 ## Non-work time is protected
 
@@ -149,7 +159,7 @@ Account for transitions between unrelated blocks. Do not stack hard work back to
 
 In Light mode, protect time by leaving it unscheduled. Do not stamp `Unused Slack` across every open hour. That is a full schedule made of labels.
 
-In Structured mode, put a buffer where two demanding blocks would otherwise touch, and leave real gaps with no event.
+In Structured mode, put a buffer where two demanding blocks would otherwise touch, and label every non-work period in the 09:00–22:30 window (no anonymous gaps). Slack is protected labeled time, not invisible space.
 
 In Intensive mode, write meals, breaks, transitions, recovery, free time, wind-down, and hard stops as events so they are not squeezed out. A buffer event still is not catch-up time.
 
@@ -157,7 +167,11 @@ In Intensive mode, write meals, breaks, transitions, recovery, free time, wind-d
 
 Include one only if the owner reported it or it is already a fact in this repo: class, exam, lab, interview, assessment, internship or work, appointment, travel, or another known obligation.
 
-They explain why a work block cannot sit there. They are not sprint goals. Do not score them in `REVIEW.md`.
+They explain why a work block cannot sit there. They are not sprint goals. Do not score them in `REVIEW.md`. Reserve owner-reported times from `CURRENT_STATE.md` with no overlapping work — e.g. when the sprint covers 2026-10-08, `🏫 Lab Quiz` 10:00–12:00 sits there and no sprint work overlaps it. Do not infer any other class timetable or college commitment from one fact or from historical calendars.
+
+## College final-year project blocks
+
+While the college final-year project remains active, include calendar-only blocks such as `🛠️ College Project — Planning` and `🛠️ College Project — Work`, placed around the main workload and fixed commitments. Never invent project content, tasks, technologies, milestones, or study material inside them. They are time reservations, not a roadmap track and not a sprint outcome unless the owner later makes them one.
 
 If the day is known and the clock time is not, use a date-only event or omit the clock time. Do not invent 09:00.
 

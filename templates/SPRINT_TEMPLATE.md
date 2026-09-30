@@ -24,7 +24,7 @@ Delete every `FILL:` marker you replace. Leave `unknown` or `TBD` where you do n
 
 ## Capacity assumption
 
-FILL one or two sentences. If hours are unknown, say `unknown` and keep the sprint small, except Sprint 001 follows D-028 (moderate workload; unknown exact hours alone do not require an extremely sparse sprint). Do not assume every day is free. The clock times, if any, go in `CALENDAR.ics`, not here.
+FILL one or two sentences. Default to a moderate workload per D-029; unknown exact hours alone do not require an extremely sparse sprint. Do not assume every day is free. The clock times, if any, go in `CALENDAR.ics`, not here.
 
 ## Outcomes
 
@@ -64,7 +64,7 @@ Optional. Missing these is not a miss. Delete this section if there is no slack.
 
 Mode: Light | Structured | Intensive
 
-Why this mode: FILL. Intensive needs a real circumstance (exam, interview, deadline, short high-pressure window, or a period the owner called intensive). Unknown capacity means Light, except Sprint 001 follows D-028 (Structured unless a concrete constraint makes that unrealistic). Do not pick Intensive because a full calendar is possible.
+Why this mode: FILL. Default to moderate Structured per D-029. Light needs a real reason; Intensive needs a genuine short high-pressure circumstance (exam, interview, deadline, or a period the owner called intensive). Do not pick Intensive because a full calendar is possible.
 
 Known fixed commitments:
 
@@ -73,10 +73,12 @@ Known fixed commitments:
 Scheduling principles:
 
 - The schedule lives only in `./CALENDAR.ics`. Follow `templates/CALENDAR_GUIDE.md` and `../SPRINT_PLANNING_METHOD.md`.
+- Normal days 09:00–22:30; lunch 13:00–14:00 and dinner 19:30–20:30 as explicit events; every period in the window visibly labeled (no anonymous gaps); slack as protected labeled blocks, never catch-up.
 - Timezone: the working timezone in `CURRENT_STATE.md`.
+- Reserve known fixed commitments from `CURRENT_STATE.md` (e.g. the 2026-10-08 lab quiz) with no overlapping work. Include calendar-only college-project blocks while that project is active; never invent project content inside them.
 - Every meaningful work event maps to an outcome or task above. Not every task needs an event.
 - Write each block description per the planning method: only what that block needs, no fixed form.
-- Flexible work may stay unscheduled. Buffers and free time are not catch-up slots.
+- Not every plan task needs its own event; a small task may live inside a larger labeled block. Inside 09:00–22:30 there are no anonymous gaps. Buffers and free time are not catch-up slots.
 - More events do not make a track more important than the master roadmap says it is.
 
 ## Risks
