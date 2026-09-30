@@ -137,9 +137,35 @@ DESCRIPTION:Choose an existing beat and write your own roughly 60–90-seco
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261001-11@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261001T173000
+DTEND;TZID=Asia/Kolkata:20261001T180000
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261001-11-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261001T180000
+DTEND;TZID=Asia/Kolkata:20261001T191500
+SUMMARY:LeetCode — Minimum Interval to Include Each Query
+DESCRIPTION:https://leetcode.com/problems/minimum-interval-to-include-each-
+ query/\nRead output → input → constraints → story. Restate\, estimat
+ e feasible complexity\, compare brute force and alternatives\, then choose
+  an approach before coding. Attempt/test independently\; save reasoning an
+ d result before validation. No hints\, tags\, editorials or AI before a ge
+ nuine attempt or a stall you can explain. Record help\; familiar questions
+  are revisits. The block ending is not permission to reveal a solution.\nA
+ fter attempting only\, check this problem in the pool key: https://github.
+ com/souiiii/dsa-pool/blob/HEAD/Output/answer_key.md
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261001-11-exp-2@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261001T191500
 DTEND;TZID=Asia/Kolkata:20261001T193000
 SUMMARY:Free Time
 DESCRIPTION:Protected time. Not catch-up.
@@ -229,9 +255,35 @@ SUMMARY:College Project
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261002-08@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261002T173000
+DTEND;TZID=Asia/Kolkata:20261002T180000
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261002-08-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261002T180000
+DTEND;TZID=Asia/Kolkata:20261002T191500
+SUMMARY:LeetCode — Maximum Number of Events That Can Be Attended
+DESCRIPTION:https://leetcode.com/problems/maximum-number-of-events-that-can
+ -be-attended/description/\nRead output → input → constraints → story
+ . Restate\, estimate feasible complexity\, compare brute force and alterna
+ tives\, then choose an approach before coding. Attempt/test independently\
+ ; save reasoning and result before validation. No hints\, tags\, editorial
+ s or AI before a genuine attempt or a stall you can explain. Record help\;
+  familiar questions are revisits. The block ending is not permission to re
+ veal a solution.\nAfter attempting\, check the problem page’s editorial 
+ or explanatory discussion.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261002-08-exp-2@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261002T191500
 DTEND;TZID=Asia/Kolkata:20261002T193000
 SUMMARY:Free Time
 DESCRIPTION:Protected time. Not catch-up.
@@ -311,9 +363,35 @@ DESCRIPTION:Read the two aptitude questions below. Recall the implication/i
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-06@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261003T111500
+DTEND;TZID=Asia/Kolkata:20261003T113000
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261003-06-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261003T113000
+DTEND;TZID=Asia/Kolkata:20261003T124500
+SUMMARY:LeetCode — 4Sum II
+DESCRIPTION:https://leetcode.com/problems/4sum-ii/\nRead output → input 
+ → constraints → story. Restate\, estimate feasible complexity\, compar
+ e brute force and alternatives\, then choose an approach before coding. At
+ tempt/test independently\; save reasoning and result before validation. No
+  hints\, tags\, editorials or AI before a genuine attempt or a stall you c
+ an explain. Record help\; familiar questions are revisits. The block endin
+ g is not permission to reveal a solution.\nAfter attempting only\, check t
+ his problem in the pool key: https://github.com/souiiii/dsa-pool/blob/HEAD
+ /Output/answer_key.md
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261003-06-exp-2@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261003T124500
 DTEND;TZID=Asia/Kolkata:20261003T130000
 SUMMARY:Free Time
 DESCRIPTION:Protected time. Not catch-up.
@@ -499,9 +577,35 @@ DESCRIPTION:Follow your strongest observation through the full thread and l
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261004-08@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261004T171500
+DTEND;TZID=Asia/Kolkata:20261004T174500
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261004-08-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261004T174500
+DTEND;TZID=Asia/Kolkata:20261004T190000
+SUMMARY:LeetCode — Sum of Subarray Minimums
+DESCRIPTION:https://leetcode.com/problems/sum-of-subarray-minimums/descript
+ ion/\nRead output → input → constraints → story. Restate\, estimate 
+ feasible complexity\, compare brute force and alternatives\, then choose a
+ n approach before coding. Attempt/test independently\; save reasoning and 
+ result before validation. No hints\, tags\, editorials or AI before a genu
+ ine attempt or a stall you can explain. Record help\; familiar questions a
+ re revisits. The block ending is not permission to reveal a solution.\nAft
+ er attempting\, check the problem page’s editorial or explanatory discus
+ sion.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261004-08-exp-2@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261004T190000
 DTEND;TZID=Asia/Kolkata:20261004T193000
 SUMMARY:Free Time
 DESCRIPTION:Protected time. Not catch-up.
@@ -549,12 +653,30 @@ DESCRIPTION:Finish bookmarked Neso lessons within positions 32–47\, 52–
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261005-04@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261005T113000
-DTEND;TZID=Asia/Kolkata:20261005T130000
-SUMMARY:Free Time
+DTEND;TZID=Asia/Kolkata:20261005T114500
+SUMMARY:Break
 DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261005-04-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261005T114500
+DTEND;TZID=Asia/Kolkata:20261005T130000
+SUMMARY:LeetCode — Count Subarrays Where Max Element Appears at Least K T
+ imes
+DESCRIPTION:https://leetcode.com/problems/count-subarrays-where-max-element
+ -appears-at-least-k-times/\nRead output → input → constraints → stor
+ y. Restate\, estimate feasible complexity\, compare brute force and altern
+ atives\, then choose an approach before coding. Attempt/test independently
+ \; save reasoning and result before validation. No hints\, tags\, editoria
+ ls or AI before a genuine attempt or a stall you can explain. Record help\
+ ; familiar questions are revisits. The block ending is not permission to r
+ eveal a solution.\nAfter attempting only\, check this problem in the pool 
+ key: https://github.com/souiiii/dsa-pool/blob/HEAD/Output/answer_key.md
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261005-05@personal-planner
@@ -663,8 +785,8 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-05@personal-planner
-DTSTAMP:20260930T181214Z
-SEQUENCE:1
+DTSTAMP:20260930T185135Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Kolkata:20261006T110000
 DTEND;TZID=Asia/Kolkata:20261006T121500
 SUMMARY:LeetCode — Smallest Range Covering Elements from K Lists
@@ -677,9 +799,9 @@ DESCRIPTION:Smallest Range Covering Elements from K Lists\nhttps://leetcode
  tall you can explain. Assisted solves are not independent recognition\; fa
  miliar problems count as revisits.\nAfter attempting only\, check the pool
   answer key for this problem: https://github.com/souiiii/dsa-pool/blob/HEA
- D/Output/answer_key.md\nIf earlier repair needs this block\, defer this ne
- w attempt and the Oct 9 company question together\; do not borrow protecte
- d time.
+ D/Output/answer_key.md\nUse existing review slots for actual misses. All t
+ welve new candidates remain scheduled\; only a genuine execution-time reas
+ on may displace an attempt\, keeping the retained source mix balanced.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-06@personal-planner
@@ -734,9 +856,35 @@ DESCRIPTION:Finish evaluating your chosen repository if needed. Read its co
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-10@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261006T173000
+DTEND;TZID=Asia/Kolkata:20261006T180000
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261006-10-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261006T180000
+DTEND;TZID=Asia/Kolkata:20261006T191500
+SUMMARY:LeetCode — Most Stones Removed with Same Row or Column
+DESCRIPTION:https://leetcode.com/problems/most-stones-removed-with-same-row
+ -or-column/description/\nRead output → input → constraints → story. 
+ Restate\, estimate feasible complexity\, compare brute force and alternati
+ ves\, then choose an approach before coding. Attempt/test independently\; 
+ save reasoning and result before validation. No hints\, tags\, editorials 
+ or AI before a genuine attempt or a stall you can explain. Record help\; f
+ amiliar questions are revisits. The block ending is not permission to reve
+ al a solution.\nAfter attempting\, check the problem page’s editorial or
+  explanatory discussion.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261006-10-exp-2@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261006T191500
 DTEND;TZID=Asia/Kolkata:20261006T193000
 SUMMARY:Free Time
 DESCRIPTION:Protected time. Not catch-up.
@@ -836,9 +984,35 @@ DESCRIPTION:Read only the first four body paragraphs of CAVA's June 20\, 20
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261007-08@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261007T164500
+DTEND;TZID=Asia/Kolkata:20261007T170000
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261007-08-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261007T170000
+DTEND;TZID=Asia/Kolkata:20261007T181500
+SUMMARY:LeetCode — Replace Non-Coprime Numbers in Array
+DESCRIPTION:https://leetcode.com/problems/replace-non-coprime-numbers-in-ar
+ ray/\nRead output → input → constraints → story. Restate\, estimate 
+ feasible complexity\, compare brute force and alternatives\, then choose a
+ n approach before coding. Attempt/test independently\; save reasoning and 
+ result before validation. No hints\, tags\, editorials or AI before a genu
+ ine attempt or a stall you can explain. Record help\; familiar questions a
+ re revisits. The block ending is not permission to reveal a solution.\nAft
+ er attempting only\, check this problem in the pool key: https://github.co
+ m/souiiii/dsa-pool/blob/HEAD/Output/answer_key.md
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261007-08-exp-2@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261007T181500
 DTEND;TZID=Asia/Kolkata:20261007T193000
 SUMMARY:Free Time
 DESCRIPTION:Protected time. Not catch-up.
@@ -918,9 +1092,26 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261008-08@personal-planner
-DTSTAMP:20260930T181214Z
-SEQUENCE:1
+DTSTAMP:20260930T185135Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Kolkata:20261008T160000
+DTEND;TZID=Asia/Kolkata:20261008T171500
+SUMMARY:LeetCode — Split Array Largest Sum
+DESCRIPTION:https://leetcode.com/problems/split-array-largest-sum/descripti
+ on/\nRead output → input → constraints → story. Restate\, estimate f
+ easible complexity\, compare brute force and alternatives\, then choose an
+  approach before coding. Attempt/test independently\; save reasoning and r
+ esult before validation. No hints\, tags\, editorials or AI before a genui
+ ne attempt or a stall you can explain. Record help\; familiar questions ar
+ e revisits. The block ending is not permission to reveal a solution.\nAfte
+ r attempting\, check the problem page’s editorial or explanatory discuss
+ ion.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261008-08-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261008T171500
 DTEND;TZID=Asia/Kolkata:20261008T180000
 SUMMARY:Free Time
 DESCRIPTION:Protected time. Not catch-up.
@@ -964,8 +1155,8 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-03@personal-planner
-DTSTAMP:20260930T181214Z
-SEQUENCE:1
+DTSTAMP:20260930T185135Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Kolkata:20261009T100000
 DTEND;TZID=Asia/Kolkata:20261009T111500
 SUMMARY:LeetCode — Minimum Deletions to Make Character Frequencies Unique
@@ -978,18 +1169,34 @@ DESCRIPTION:Minimum Deletions to Make Character Frequencies Unique\nhttps:/
  I before a real attempt or a stall you can explain. Assisted solves are no
  t independent recognition\; familiar problems count as revisits.\nAfter at
  tempting\, use this problem page’s editorial or an explanatory discussio
- n to check your reasoning.\nIf the Oct 6 new pool attempt was deferred for
-  repair\, use this block for repair too\, keeping roughly equal numbers of
-  new pool/company attempts.
+ n to check your reasoning.\nUse existing review slots for actual misses. A
+ ll twelve new candidates remain scheduled\; only a genuine execution-time 
+ reason may displace an attempt\, keeping the retained source mix balanced.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-04@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261009T111500
-DTEND;TZID=Asia/Kolkata:20261009T130000
-SUMMARY:Free Time
+DTEND;TZID=Asia/Kolkata:20261009T113000
+SUMMARY:Break
 DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261009-04-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261009T113000
+DTEND;TZID=Asia/Kolkata:20261009T130000
+SUMMARY:GATE — Sets: statements and new theory
+DESCRIPTION:Start only if logic is stable after its checkpoint and the full
+  extension still fits\; otherwise leave the whole extension as protected f
+ ree time.\nInspect only 2015 CS set 3 Q23\, keeping answers hidden: https:
+ //gateoverflow.in/8426/gate-cse-2015-set-3-question-23\nBegin Neso Academy
+  set lessons\, playlist positions 73–79\, 81–82 and 85–93. Make comp
+ act notes on definitions\, conditions and examples\; bookmark your stoppin
+ g point.\nStart: https://www.youtube.com/watch?v=Ql7pHnavYSA\nPlaylist: ht
+ tps://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-05@personal-planner
@@ -1031,12 +1238,56 @@ DESCRIPTION:Listen to the rough bounce before reopening edits. Name the mos
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-08@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261009T170000
-DTEND;TZID=Asia/Kolkata:20261009T193000
-SUMMARY:Free Time
+DTEND;TZID=Asia/Kolkata:20261009T171500
+SUMMARY:Break
 DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261009-08-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261009T171500
+DTEND;TZID=Asia/Kolkata:20261009T181500
+SUMMARY:GATE — Finish selected set theory
+DESCRIPTION:If the extension was admitted\, finish your bookmarked Neso set
+  lessons within positions 73–79\, 81–82 and 85–93. Complete first-pa
+ ss notes on membership/inclusion\, set operations\, cardinality and Cartes
+ ian products. Explain the conditions yourself\; stop before unassigned mat
+ erial.\nhttps://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh3
+ 7L89g3\nIf the full extension no longer fits\, defer it rather than consum
+ e protected time.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261009-08-exp-2@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261009T181500
+DTEND;TZID=Asia/Kolkata:20261009T183000
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261009-08-exp-3@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261009T183000
+DTEND;TZID=Asia/Kolkata:20261009T193000
+SUMMARY:GATE — Begin basic relation properties
+DESCRIPTION:If the extension is running\, inspect these question statements
+  without solutions\, then begin the selected Neso Academy lessons:\n2016 C
+ S set 2 Q26: https://gateoverflow.in/39603/gate-cse-2016-set-2-question-26
+ \n2021 CS set 1 Q43: https://gateoverflow.in/357408/gate-cse-2021-set-1-qu
+ estion-43\nChapter 4: Introduction to Relations\; Types of Relations Parts
+  1–2\; Types of Relations (Solved Problem)\; Representation of Relations
+ \; Equivalence Relation\; Equivalence Relation (Solved Problems)\; Equival
+ ence Classes\; Equivalence Classes and Partitions.\nStart: https://www.you
+ tube.com/watch?v=4Caxyh0zt_o\nPlaylist: https://www.youtube.com/playlist?l
+ ist=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3\nTake compact notes on conditions/c
+ ounterexamples and bookmark your stopping point. Keep the later checkpoint
+  unopened.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-01@personal-planner
@@ -1106,12 +1357,29 @@ DESCRIPTION:Review your actual observations and source links. Decide which
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-06@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261010T120000
-DTEND;TZID=Asia/Kolkata:20261010T130000
-SUMMARY:Free Time
+DTEND;TZID=Asia/Kolkata:20261010T121500
+SUMMARY:Break
 DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261010-06-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261010T121500
+DTEND;TZID=Asia/Kolkata:20261010T130000
+SUMMARY:GATE — Finish basic relation theory
+DESCRIPTION:Continue only the admitted extension. Finish the bookmarked Nes
+ o relation lessons and first-pass notes before attempting the questions.\n
+ Chapter 4: Introduction to Relations\; Types of Relations Parts 1–2\; Ty
+ pes of Relations (Solved Problem)\; Representation of Relations\; Equivale
+ nce Relation\; Equivalence Relation (Solved Problems)\; Equivalence Classe
+ s\; Equivalence Classes and Partitions.\nhttps://www.youtube.com/playlist?
+ list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3\nExplain why a relation satisfies 
+ or violates each property from its definition. No partial orders\, lattice
+ s or further topics.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-07@personal-planner
@@ -1136,11 +1404,105 @@ DESCRIPTION:Without sources\, explain your offering/resale map and answer:\
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-08@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T185135Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261010T143000
-DTEND;TZID=Asia/Kolkata:20261010T193000
-SUMMARY:Free Time
+DTEND;TZID=Asia/Kolkata:20261010T144500
+SUMMARY:Break
 DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261010-08-exp-1@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261010T144500
+DTEND;TZID=Asia/Kolkata:20261010T154500
+SUMMARY:GATE — Solve sets and relations past questions
+DESCRIPTION:After the extension teaching/notes\, solve these independently 
+ before opening answers:\n2015 CS set 3 Q23: https://gateoverflow.in/8426/g
+ ate-cse-2015-set-3-question-23\n2016 CS set 2 Q26: https://gateoverflow.in
+ /39603/gate-cse-2016-set-2-question-26\n2021 CS set 1 Q43: https://gateove
+ rflow.in/357408/gate-cse-2021-set-1-question-43\nCheck matching official k
+ eys afterward: https://gate2026.iitg.ac.in/download.html\nMatch year\, ses
+ sion and wording\; flag unmatched/disputed answers. Use linked discussions
+  afterward to diagnose errors. Justify accepted/rejected multiple-select o
+ ptions. Keep the 2026 relation checkpoint unopened.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261010-08-exp-2@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261010T154500
+DTEND;TZID=Asia/Kolkata:20261010T160000
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261010-08-exp-3@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261010T160000
+DTEND;TZID=Asia/Kolkata:20261010T163000
+SUMMARY:GATE — Repair actual sets or relations errors
+DESCRIPTION:Use only errors or unclear reasoning from the three extension a
+ ttempts. Revisit the matching selected Neso lesson\, close it\, and recons
+ truct the reasoning. Sets: positions 73–79\, 81–82\, 85–93\; relatio
+ ns: the selected Chapter 4 definitions/properties/equivalence lessons.\nht
+ tps://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3\nIf
+  nothing needs repair\, release the block to free time\; no extra drills o
+ r notes to fill it.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261010-08-exp-4@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261010T163000
+DTEND;TZID=Asia/Kolkata:20261010T164500
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261010-08-exp-5@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261010T164500
+DTEND;TZID=Asia/Kolkata:20261010T184500
+SUMMARY:Open Source — Attempt one small useful contribution
+DESCRIPTION:Proceed only if the chosen repository runs\, the code path is u
+ nderstood and a useful scoped change is available. Otherwise this is prote
+ cted free time.\nRecheck existing work and follow project claiming/contrib
+ ution rules. On a task branch\, make the smallest coherent fix\, test or s
+ ubstantive documentation improvement for that same issue. Run relevant che
+ cks\; show the original fault and fix when feasible. Inspect the diff and 
+ explain the change and actual results. Follow repository AI rules and veri
+ fy every change yourself. Submit only if ready and understood\; a local te
+ sted change is enough. No new repository hunt\, unrelated refactor\, force
+ d PR or merge.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261010-08-exp-6@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261010T184500
+DTEND;TZID=Asia/Kolkata:20261010T190000
+SUMMARY:Break
+DESCRIPTION:Protected time. Not catch-up.
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-001-20261010-08-exp-7@personal-planner
+DTSTAMP:20260930T185135Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Kolkata:20261010T190000
+DTEND;TZID=Asia/Kolkata:20261010T193000
+SUMMARY:GATE — Cold relation checkpoint
+DESCRIPTION:If extension practice is complete\, solve 2026 CS set 2 officia
+ l Q26 without notes or solution prompts. Explain every accepted/rejected o
+ ption.\nPaper: https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf\n
+ After attempting\, check Q26: https://gate2026.iitg.ac.in/doc/download/202
+ 6/Keys/CS2_Keys.pdf\nExplanation afterward: https://gateoverflow.in/523130
+ /gate-cse-2026-set-2-question-16\nIf previously exposed\, label it a re-so
+ lve\; fresh evidence needs an unexposed equivalent real question with a ve
+ rified key. State remaining gaps without claiming complete subject coverag
+ e.
 END:VEVENT
 END:VCALENDAR
