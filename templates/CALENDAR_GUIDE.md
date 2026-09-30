@@ -20,7 +20,7 @@ The planning model writes the `.ics` file directly. Do not add a generator scrip
 - Put secrets, passwords, tokens, or private credentials in a description
 - Select Intensive mode just because the calendar can be filled
 
-If capacity is `unknown`, use Light. Do not guess a full week.
+If capacity is `unknown`, use Light, except Sprint 001 follows D-028 (Structured unless a concrete constraint makes that unrealistic). Do not guess a full week.
 
 ## Modes
 

@@ -24,7 +24,7 @@ Delete every `FILL:` marker you replace. Leave `unknown` or `TBD` where you do n
 
 ## Capacity assumption
 
-FILL one or two sentences. If hours are unknown, say `unknown` and keep the sprint small. Do not assume every day is free. The clock times, if any, go in `CALENDAR.ics`, not here.
+FILL one or two sentences. If hours are unknown, say `unknown` and keep the sprint small, except Sprint 001 follows D-028 (moderate workload; unknown exact hours alone do not require an extremely sparse sprint). Do not assume every day is free. The clock times, if any, go in `CALENDAR.ics`, not here.
 
 ## Outcomes
 
@@ -64,7 +64,7 @@ Optional. Missing these is not a miss. Delete this section if there is no slack.
 
 Mode: Light | Structured | Intensive
 
-Why this mode: FILL. Intensive needs a real circumstance (exam, interview, deadline, short high-pressure window, or a period the owner called intensive). Unknown capacity means Light. Do not pick Intensive because a full calendar is possible.
+Why this mode: FILL. Intensive needs a real circumstance (exam, interview, deadline, short high-pressure window, or a period the owner called intensive). Unknown capacity means Light, except Sprint 001 follows D-028 (Structured unless a concrete constraint makes that unrealistic). Do not pick Intensive because a full calendar is possible.
 
 Known fixed commitments:
 

@@ -293,3 +293,13 @@ Ids are never reused.
 - Why: D-001's original inclusion wording conflicts with the master's allowance for omitted maintenance tracks and would overfill a sprint when capacity is limited or unknown.
 - Changes: `AI_WORKFLOW.md`, `README.md`, and `sprints/README.md` inclusion wording reconciled. Existing sprint templates already allow deliberate omissions. No phase, attention band, domain design, or Open Source scope/resource change; no sprint created.
 - Supersedes: only D-001's requirement to cover every active track. Its one-integrated-sprint/no-per-domain-sprints rule remains in force; D-016 still governs the execution directories. D-001 is retained unchanged as history. D-026 is unchanged.
+
+### D-028 — Sprint 001 is a moderate Structured sprint; unknown hours alone do not force Light/sparse
+
+- Date: 2026-09-30
+- Status: accepted
+- Decided by: execution (owner instruction 2026-09-30; no strategy change)
+- Decision: For Sprint 001 only, plan a moderate workload, not an intentionally minimal/light sprint. Use `Structured` calendar mode unless a concrete constraint makes that unrealistic. Unknown exact weekly hours, by itself, is not a reason to produce an extremely sparse Sprint 001. Still leave meaningful slack and do not fill the whole day. GATE remains primary; System Design and Product remain secondary. Seriously consider small but real continuity slices for LeetCode, Music, and Open Source rather than omitting them merely because they are maintenance; their inclusion stays subordinate to the master priorities and must not expand into equal-priority tracks. Consider Markets as well, but it may yield more readily if the integrated plan becomes crowded. Accepted domain prep remains candidate input, not a requirement to consume its full scope: for example, LeetCode's 12 accepted questions are a candidate pool, not a Sprint 001 quota.
+- Why: The owner explicitly requested a moderate Structured Sprint 001. The existing `unknown capacity → Light/small` defaults would otherwise force a minimal sprint from unknown hours alone, which is not what the owner wants for this sprint.
+- Changes: `AI_WORKFLOW.md` (Sprint 001 exception to the unknown-capacity small-sprint and Light defaults), `templates/CALENDAR_GUIDE.md` and `templates/SPRINT_TEMPLATE.md` (same exception), `CURRENT_STATE.md` (capacity exception pointer and next-planning-action pointer to this decision). No master, band, yield-order, roadmap, resource, or accepted-prep change; no sprint created.
+- Supersedes: none. Sprint-001-scoped clarification of how to apply the unknown-capacity defaults. D-027, prior capacity wording, and all bands remain in force for other sprints.

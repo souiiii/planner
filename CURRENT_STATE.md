@@ -54,7 +54,7 @@ Owner-instructed 2026-09-27. Use this for every `CALENDAR.ics` unless this secti
 
 `unknown`.
 
-Do not assume hours per day or that every day is productive. Until the owner reports a real constraint, sprints should be small and say that capacity is unknown. College load, a job, health, and other obligations were not stated. Do not infer a free final year.
+Do not assume hours per day or that every day is productive. Until the owner reports a real constraint, sprints should be small and say that capacity is unknown, except Sprint 001 follows D-028 (moderate Structured workload; unknown exact hours alone do not require an extremely sparse sprint; meaningful slack remains). College load, a job, health, and other obligations were not stated. Do not infer a free final year.
 
 ## Last reviews
 
@@ -93,10 +93,11 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 - Attention is expressed in bands, not percentages (D-005)
 - Resources are recorded when the owner asks or accepts them (D-006). Open Source selections were explicitly requested; its candidate prep was owner-accepted 2026-09-30.
 - Open Source is a durable track: maintenance now, secondary post-gate (D-026)
+- Sprint 001 execution preference is moderate Structured with subordinate continuity slices considered (D-028); bands and strategy unchanged
 
 ## Next planning action
 
-All domain plans are complete, including Open Source. [opensource/SPRINT_001_PREP.md](opensource/SPRINT_001_PREP.md) is accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-30). Acceptance does not guarantee inclusion; integrated planning follows only when the owner asks. Do not create `current-sprint/` or `sprint-001` until then.
+All domain plans are complete, including Open Source. [opensource/SPRINT_001_PREP.md](opensource/SPRINT_001_PREP.md) is accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-30). Acceptance does not guarantee inclusion; integrated planning follows only when the owner asks. The Sprint 001 planner must honor the D-028 execution preference (moderate Structured workload with meaningful slack; GATE primary, System Design and Product secondary; small subordinate continuity slices for LeetCode, Music, Open Source, and possibly Markets considered; accepted prep as candidate pool, not quota). Do not create `current-sprint/` or `sprint-001` until then.
 
 ## Recent changes
 
@@ -111,3 +112,4 @@ All domain plans are complete, including Open Source. [opensource/SPRINT_001_PRE
 - 2026-09-28 — LeetCode track reconciled: goal is recognition improvement toward FAANG-level (D-023). Domain plan complete; execution not started. Attention unchanged.
 - 2026-09-30 — Open Source Contribution added (D-026); domain method and prep written, selected initial resources recorded by owner request. No repository chosen, contribution logged, or sprint opened.
 - 2026-09-30 — Owner accepted Open Source Sprint 001 candidate prep with its existing scope and resource selections. Execution remains not started; no repository selected or sprint opened.
+- 2026-09-30 — Owner Sprint 001 execution preference recorded (D-028): moderate Structured sprint with meaningful slack; accepted prep as candidate pool. No bands changed; no sprint opened.
