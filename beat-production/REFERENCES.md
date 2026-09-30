@@ -1,13 +1,13 @@
 # References
 
-> **Role:** your reference set and teardown notes for the music stream. The roadmap's teaching method is comparison against these.
+> **Role:** owner-provided song examples and taste references. Listening and analysis are optional aids to making music, not the roadmap's teaching method.
 > **Authority:** owner-chosen only. Models must not add tracks, artists, or recommendations here. Decision D-006.
-> **Not a playlist to copy.** These are analysis subjects. Learn the shape, not the melody.
-> **Last reviewed:** 2026-09-29
+> **Not a required study set.** No teardown, matched-loudness analysis, or reference-study session is mandatory.
+> **Last reviewed:** 2026-09-30
 
 A small set is enough, and it can change as your goals move. Keep rap-led and melodic examples that match the sound you are aiming at. Add a track only when you can say why it is there.
 
-## How to add one
+## How to add one (notes optional)
 
 ```text
 ### R-NNN — title, artist
@@ -23,7 +23,7 @@ Ids are never reused. Replace tracks over time. Do not grow the list forever.
 
 ## Reference set
 
-Owner-chosen, recorded 2026-09-27. This is the set the roadmap compares against. Blank teardown fields belong to the owner's work in the record loop; a model must not fill them in.
+Six owner-provided examples, recorded 2026-09-27. Clarified 2026-09-30: these were songs that came to mind, not an assigned analysis set. Use them casually when useful. Blank fields are optional, not unfinished work; a model must not fill them in for the owner.
 
 ### R-001 — Major Distribution, Drake & 21 Savage
 
@@ -79,6 +79,6 @@ Owner-chosen, recorded 2026-09-27. This is the set the roadmap compares against.
 - What it does (arrangement, groove, vocal, space, mix):
 - What to try next from it:
 
-## Teardowns
+## Optional analysis
 
-None yet. Longer analysis notes from reference comparisons and teardowns go here. Short analysis, ear-drill, and comparison sessions go in [PRACTICE_LOG.md](PRACTICE_LOG.md).
+None recorded. If the owner chooses to do analysis, longer notes may go here and actual sessions may be logged in [PRACTICE_LOG.md](PRACTICE_LOG.md). None is required to make or finish a record.

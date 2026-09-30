@@ -37,6 +37,6 @@ Keep the existing stack unless the work genuinely requires otherwise. No beginne
 
 - [RESOURCES.md](RESOURCES.md): exact selected learning portions; reading is an input.
 - [PROGRESS.md](PROGRESS.md): current state and dated evidence, including dropped attempts and why.
-- [SPRINT_001_PREP.md](SPRINT_001_PREP.md): proposal for later integrated planning.
+- [SPRINT_001_PREP.md](SPRINT_001_PREP.md): owner-accepted candidate input (2026-09-30) for later integrated planning.
 
 Work in separate repository checkouts; this planning repo keeps links and short explanations. Product and system-design work may inform a contribution, but do not double-count one artifact as unrelated achievements or turn this track into their replacement.

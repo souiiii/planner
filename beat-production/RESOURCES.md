@@ -4,7 +4,7 @@
 > **Empty means none chosen yet.**
 > **Rule:** no model adds books, courses, tools, or tutorial lists unless you asked or accepted them. Decision D-006.
 > **Reference tracks live in** [REFERENCES.md](REFERENCES.md), not here.
-> **Last reviewed:** 2026-09-29
+> **Last reviewed:** 2026-09-30
 
 ## Chosen
 
@@ -12,6 +12,6 @@ None yet.
 
 What belongs here: a small number of materials you actually work with, used deliberately rather than watched in the background. Decision D-020 says the master does not prescribe these, and neither does this file until you choose.
 
-Technical reference-analysis tools (spectrum comparison, level or LUFS matching, and similar) may support the record loop later. None is selected now, and a model must not add or recommend one. A tool is a lens, not the method: your ear against a reference decides. See [ROADMAP.md](ROADMAP.md).
+Resources serve problems encountered while making records. Reference listening, analysis, and technical tools are optional aids; none is required or selected here. The owner judges the record through making, listening, and improving, without a mandatory reference comparison. See [ROADMAP.md](ROADMAP.md).
 
-Setup is recorded in [ROADMAP.md](ROADMAP.md). Still `unknown`: sample sources. Do not write a shopping list here.
+DAWs, laptop, microphone, and headphones are known and recorded in [ROADMAP.md](ROADMAP.md). Still `unknown`: sample sources and the eventual primary DAW. Do not write a shopping list here.

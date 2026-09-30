@@ -10,7 +10,7 @@
 - Current stage: S1 — contribution workflow; not yet assessed.
 - Repository and issue: none selected.
 - Demonstrated stages, setup results, contributions, and review outcomes: unlogged, not zero.
-- Initial resources: [selected](RESOURCES.md), not started; [Sprint 001 prep](SPRINT_001_PREP.md) pending owner acceptance.
+- Initial resources: [selected](RESOURCES.md), not started; [Sprint 001 prep](SPRINT_001_PREP.md) owner-accepted 2026-09-30 as candidate input. Acceptance is planning status, not contribution progress.
 
 ## Evidence log
 

@@ -19,7 +19,7 @@ Intents, not the ranking. Ranking lives in [MASTER_ROADMAP.md](MASTER_ROADMAP.md
 | [Product](product/ROADMAP.md) | A real attempt at independent software income, through small validated experiments |
 | [Music](beat-production/ROADMAP.md) | Rap-first music-making: beats, vocals, and finished songs. A personal craft, not a career plan |
 | [Markets](markets/ROADMAP.md) | Slow practical understanding of markets. Personally interesting, also relevant to LSEG |
-| [LeetCode](leetcode/MAINTENANCE_PLAN.md) | Stay sharp. Not another placement grind |
+| [LeetCode](leetcode/MAINTENANCE_PLAN.md) | Improve recognition and approach selection on unseen problems toward FAANG-level interview comfort, with maintenance attention |
 | [Open Source](opensource/ROADMAP.md) | Become a recurring useful contributor in a small number of healthy repositories |
 
 [lseg/](lseg/README.md) is notes about the employer. It is not a goal track or a second software curriculum. Open Source is a separate, durable track (D-026).
@@ -102,4 +102,4 @@ If this paragraph disagrees with [CURRENT_STATE.md](CURRENT_STATE.md), current s
 
 ## Next step
 
-Domain plans and first-slice inputs exist. Review the proposed [Open Source slice](opensource/SPRINT_001_PREP.md), then request integrated Sprint 001 planning when ready. Prep files do not schedule work or guarantee that every track fits. Do not create `current-sprint/` or `sprint-001` until explicitly requested.
+Domain plans and first-slice inputs exist, including the [Open Source candidate](opensource/SPRINT_001_PREP.md) accepted by the owner on 2026-09-30. Request integrated Sprint 001 planning when ready. Prep files do not schedule work or guarantee that every track fits. Do not create `current-sprint/` or `sprint-001` until explicitly requested.

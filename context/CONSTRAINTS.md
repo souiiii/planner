@@ -24,7 +24,7 @@ Plan from September 2026 until LSEG joining, around August 2027. Do not build a 
 These came from the owner. They are not optional style advice.
 
 - Do not make the main engineering activity "learn random new frameworks"
-- Do not restart a placement-style DSA grind. Maintenance is the ceiling unless the owner later asks otherwise
+- Do not restart a placement-style DSA grind. Maintenance is the attention ceiling, not the capability goal: D-023's recognition and approach improvement toward FAANG-level interview comfort remains in force
 - Do not turn music-making into career optimization, audience growth, or an income project
 - Do not turn `lseg/` into a second generic software curriculum
 - Do not treat GATE as the main career direction. It is a backup attempt
@@ -56,7 +56,7 @@ Useful work and sustained involvement in a small number of healthy repositories 
 
 ## What is not known, and must not be filled in
 
-Time available, other obligations, GATE's exact exam date, current preparation level and materials, budget, music setup, LSEG team. GATE CS/IT is known. Canonical list: [CURRENT_STATE.md](../CURRENT_STATE.md).
+Time available, other obligations, GATE's exact exam date, current preparation level and materials, budget, music sample sources and eventual primary DAW, LSEG team. GATE CS/IT and the music DAWs, laptop, microphone, and headphones are known. Canonical list: [CURRENT_STATE.md](../CURRENT_STATE.md).
 
 ## Superseding a constraint
 

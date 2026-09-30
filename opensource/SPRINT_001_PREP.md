@@ -1,9 +1,10 @@
 # Open Source — Sprint 001 preparation
 
-> **Status:** proposal pending owner acceptance.
+> **Status:** accepted candidate input for the later integrated Sprint 001 planner.
+> **Owner accepted:** 2026-09-30; scope, selected resources, repository-selection method, evidence rules, AI boundaries, and maintenance size unchanged.
 > **Prepared:** 2026-09-30.
 > **Context:** `gate-window`; maintenance. GATE remains primary; capacity is unknown.
-> No sprint, calendar, repository selection, or contribution has been created by this proposal.
+> Acceptance does not create a sprint, calendar, repository selection, or contribution.
 
 ## Small candidate slice
 
@@ -28,4 +29,4 @@ If setup is unreasonable, the issue is already handled, no useful scoped change 
 
 Record actual evidence later in [PROGRESS.md](PROGRESS.md). Finish with a brief owner explanation: where the behavior lives, what was attempted, what the evidence supports, and whether to continue, narrow, or drop it. Do not claim progress from watching the videos.
 
-This is input for the eventual integrated approximately ten-day sprint. Scheduling waits for acceptance and integrated planning. Open Source yields to GATE, system design, and product during this phase and may be omitted for a sprint. An unfinished attempt creates no automatic catch-up quota.
+This is accepted input for the eventual integrated approximately ten-day sprint. Scheduling waits for integrated planning when the owner requests it. Open Source yields to GATE, system design, and product during this phase and may be omitted for a sprint. An unfinished attempt creates no automatic catch-up quota.

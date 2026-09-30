@@ -41,7 +41,7 @@ Sprint date boundaries are calendar dates. Clock times, once a sprint exists, li
 | Music | domain roadmap written; no sessions logged | maintenance | owner reports tools understood; setup recorded; gap is translating ideas into convincing records. Folder is `beat-production/`. D-021 |
 | Markets | domain roadmap complete; execution not started | maintenance | none logged |
 | LeetCode | domain plan complete; execution not started | maintenance | owner reports existing DSA fluency; no attempts logged yet |
-| Open Source | roadmap and contribution method written; Sprint 001 prep proposed; execution not started | maintenance | owner: restarting contribution workflow, existing JS/TS/Node/React skills; no contribution evidence logged |
+| Open Source | roadmap and contribution method written; Sprint 001 candidate prep accepted 2026-09-30; execution not started | maintenance | owner: restarting contribution workflow, existing JS/TS/Node/React skills; no contribution evidence logged |
 | LSEG notes | placeholder only | not a track | no internship, no joining prep written |
 
 ## Timezone
@@ -91,12 +91,12 @@ Planning-system choices, not life strategy. Full text: [DECISIONS.md](DECISIONS.
 - Existing stack is the default, not a ban (D-019)
 - Master sets priority, timing, and role; domain passes set milestones and methods (D-020)
 - Attention is expressed in bands, not percentages (D-005)
-- Resources are recorded when the owner asks or accepts them (D-006). Open Source selections were explicitly requested; its prep remains a proposal.
+- Resources are recorded when the owner asks or accepts them (D-006). Open Source selections were explicitly requested; its candidate prep was owner-accepted 2026-09-30.
 - Open Source is a durable track: maintenance now, secondary post-gate (D-026)
 
 ## Next planning action
 
-All domain plans are complete, including Open Source. Review [opensource/SPRINT_001_PREP.md](opensource/SPRINT_001_PREP.md), which remains proposal pending owner acceptance. Integrated Sprint 001 planning follows only when the owner asks. Do not create `current-sprint/` or `sprint-001` until then.
+All domain plans are complete, including Open Source. [opensource/SPRINT_001_PREP.md](opensource/SPRINT_001_PREP.md) is accepted candidate input for the later integrated Sprint 001 planner (owner-accepted 2026-09-30). Acceptance does not guarantee inclusion; integrated planning follows only when the owner asks. Do not create `current-sprint/` or `sprint-001` until then.
 
 ## Recent changes
 
@@ -105,8 +105,9 @@ All domain plans are complete, including Open Source. Review [opensource/SPRINT_
 - 2026-09-27 — First strategic review. Phase is `gate-window`. No sprint opened.
 - 2026-09-27 — Music stream broadened from beat production to finished songs (rap-first, vocals included). Bands unchanged. Folder name kept. D-021.
 - 2026-09-27 — Music domain roadmap written: six ability-gated stages, milestones, and a finished-piece definition. No dates or quotas. No sessions logged.
-- 2026-09-27 — Music roadmap cleanup: vocal/song stages moved earlier (S3, S4); beat craft is S5. Setup facts recorded. Six owner-chosen references recorded in `beat-production/REFERENCES.md`.
+- 2026-09-27 — Music roadmap cleanup: vocal/song stages moved earlier (S3, S4); beat craft is S5. Setup facts recorded. Six owner-provided song examples/references recorded in `beat-production/REFERENCES.md`; these are not a mandated analysis set (clarified 2026-09-30).
 - 2026-09-27 — GATE domain roadmap written: Stage 0 baseline, concept pass, PYQ mastery, mock consolidation, exam mode. Paper CS/IT and target AIR < 400 recorded. No preparation logged.
 - 2026-09-28 — GATE roadmap revised to PYQ-driven loop with Stage 0 as light setup only (no diagnostic). Paper CS/IT and target AIR < 400 confirmed. No preparation logged; execution waits for sprint-001.
 - 2026-09-28 — LeetCode track reconciled: goal is recognition improvement toward FAANG-level (D-023). Domain plan complete; execution not started. Attention unchanged.
 - 2026-09-30 — Open Source Contribution added (D-026); domain method and prep written, selected initial resources recorded by owner request. No repository chosen, contribution logged, or sprint opened.
+- 2026-09-30 — Owner accepted Open Source Sprint 001 candidate prep with its existing scope and resource selections. Execution remains not started; no repository selected or sprint opened.

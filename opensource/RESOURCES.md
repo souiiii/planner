@@ -3,7 +3,7 @@
 > **Role:** exact initial learning selections and their use.
 > **Selected:** 2026-09-30, persisted at the owner's explicit request under D-006.
 > **Learning status:** not started; prior Piyush learning is owner-reported, exact coverage unknown.
-> **Sprint acceptance:** [the whole prep](SPRINT_001_PREP.md) remains proposal pending owner acceptance.
+> **Sprint acceptance:** [the whole prep](SPRINT_001_PREP.md) was owner-accepted 2026-09-30 as candidate input for the later integrated Sprint 001 planner. Resource selections unchanged.
 
 ## Sprint 001 selection — 19 minutes 45 seconds
 

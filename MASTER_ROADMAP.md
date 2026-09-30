@@ -215,7 +215,6 @@ These are transitions, not tasks.
 
 | When | What changes |
 | --- | --- |
-| GATE paper becomes known | Date update in current state, plus the domain plan. Strategy does not assume the paper |
 | Exam date becomes known | Date update. Review only if it moves by more than about a month |
 | Exam day | gate-window ends. Next sprint uses post-gate bands, plus at most a GATE close-out |
 | You withdraw from GATE | Same transition as exam day. Record the withdrawal. Do not invent a replacement exam |
@@ -273,7 +272,7 @@ Decided around, not invented:
 - Exact exam day, joining day, team, role, office, whether the package figure is CTC
 - Weekly capacity and other obligations. Sprints stay small until you report this. It blocks a honest sprint more than it blocks a domain pass
 - GATE current preparation level and materials. The paper (CS/IT) and target (AIR < 400) are owner-stated and no longer block the syllabus. Level and materials do not block the other domain passes
-- Music setup (DAW, samples, monitoring, recording gear), budget, and existing depth in system design or markets. Domain passes ask or work with what you have. They do not shop, and they do not assume zero
+- Music sample sources and eventual primary DAW, budget, and existing depth in system design or markets. Ableton and FL Studio, the i3-1220P laptop, Razer Seiren Mini, and headphones are owner-reported in [beat-production/ROADMAP.md](beat-production/ROADMAP.md). Domain passes work with that setup; they do not shop or assume zero
 
 Nothing else in the unknown list needs an answer before domain planning begins.
 
