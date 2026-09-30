@@ -6,7 +6,7 @@
 
 ## Capacity and scope
 
-Moderate **Structured** sprint: **48.5 planned work hours**, including generic college-project reservations. The Lab Quiz is a separate fixed commitment. Actual availability and learning pace remain unmeasured; these are planning allocations, not completion quotas.
+Moderate **Structured** sprint: **46.5 planned work hours**, including generic college-project reservations. The Lab Quiz is a separate fixed commitment. Actual availability and learning pace remain unmeasured; these are planning allocations, not completion quotas.
 
 The phase remains `gate-window`. All seven tracks have a small selected slice this time; inclusion is not a rule for later sprints. Accepted prep remains a candidate pool.
 
@@ -19,7 +19,7 @@ The phase remains `gate-window`. All seven tracks have a small selected slice th
 | Music | maintenance | 6 |
 | Open Source | maintenance | 4.5 |
 | Markets | maintenance | 2 |
-| College Project | calendar-only reservation | 5 |
+| College Project | calendar-only reservation | 3 |
 
 ## Outcomes
 

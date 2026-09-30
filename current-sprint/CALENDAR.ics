@@ -45,16 +45,18 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261001-04@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261001T090000
 DTEND;TZID=Asia/Kolkata:20261001T093000
-SUMMARY:GATE — Light Stage 0 setup
-DESCRIPTION:Plan: O1. Record syllabus/PYQ sources and starting order\; esta
- blish empty notes\, error log and revision register per gate/ROADMAP.md St
- age 0. Use gate/SPRINT_001_PREP.md — PYQ source and answer handling. No 
- diagnostic.\nSyllabus: https://gate2027.iitm.ac.in/static/doc/GATE2027_Syl
- labus/CS_GATE2027_Syllabus.pdf
+SUMMARY:GATE — Set up notes and question sources
+DESCRIPTION:Set up a place for compact notes\, mistakes and later rechecks.
+  Save the official CS syllabus and paper/key sources below. Start with pro
+ positional logic\, then first-order logic\, with a little aptitude inferen
+ ce practice. No diagnostic test.\nCS syllabus: https://gate2027.iitm.ac.in
+ /static/doc/GATE2027_Syllabus/CS_GATE2027_Syllabus.pdf\nPast papers/keys: 
+ https://gate2026.iitg.ac.in/download.html\n2026 papers/keys: https://gate2
+ 026.iitg.ac.in/QPs-answer-keys.html
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261001-05@personal-planner
@@ -67,17 +69,22 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261001-06@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261001T094500
 DTEND;TZID=Asia/Kolkata:20261001T113000
-SUMMARY:GATE — Map propositional PYQs and begin theory
-DESCRIPTION:Plan: O1. Map stems only: 2017 CS1 GO Q1\, 2017 CS2 GO Q11\, 20
- 21 CS1 GO Q7\, 2024 CS2 official Q12. Links/numbering: gate/SPRINT_001_PRE
- P.md — Core practice and checkpoint pool. Keep reserved questions closed
- . Begin Neso positions 2–12\, 15–20\, 24–27\, 29–31 with compact f
- irst-pass notes\; bookmark for continuation.\nhttps://www.youtube.com/play
- list?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3
+SUMMARY:GATE — Inspect propositional questions and begin theory
+DESCRIPTION:Read only the four question statements below to see what they a
+ sk\; do not scroll to solutions. Then begin Neso Academy's Discrete Mathem
+ atics lessons\, playlist positions 2–12\, 15–20\, 24–27 and 29–31 
+ (propositional logic through The Limitation of Propositional Logic). Take 
+ compact notes and bookmark your stopping point.\nNeso playlist: https://ww
+ w.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3\n2017 CS se
+ t 1\, question 1: https://gateoverflow.in/118698/gate-cse-2017-set-1-quest
+ ion-01\n2017 CS set 2\, question 11: https://gateoverflow.in/118151/gate-c
+ se-2017-set-2-question-11\n2021 CS set 1\, question 7: https://gateoverflo
+ w.in/357445/gate-cse-2021-set-1-question-7\n2024 CS set 2\, official quest
+ ion 12: https://gateoverflow.in/422895/gate-cse-2024-set-2-question-2
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261001-07@personal-planner
@@ -90,17 +97,22 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261001-08@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261001T140000
 DTEND;TZID=Asia/Kolkata:20261001T153000
 SUMMARY:System Design — Requirements and decision criteria
-DESCRIPTION:Plan: O2. Read only system-design/SPRINT_001_PREP.md — Primar
- y teaching material\, rows 1–5: arc42 §§1.1–1.3\, §2 Content/Motiva
- tion/Form\, §10 opening and 10.2\, Tip 1-13\, §9 through its decision ta
- ble\, Tip 9-2 opening/first table. Use the exact links there. Briefly rest
- ate the distinctions\; leave examples and longer explain-back for the case
-  block.
+DESCRIPTION:Read only these arc42 portions:\nIntroduction & Goals 1.1–1.3
+ \; stop before Practical Tips: https://docs.arc42.org/section-1/\nArchitec
+ ture Constraints—Content\, Motivation\, Form: https://docs.arc42.org/sec
+ tion-2/\nQuality Requirements—opening Content/Motivation and 10.2 Qualit
+ y Scenarios: https://docs.arc42.org/section-10/\nMake assumptions explicit
+ —main explanation: https://docs.arc42.org/tips/1-13/\nArchitecture Decis
+ ions—Content through the Context/Decision/Status/Consequences table: htt
+ ps://docs.arc42.org/section-9/\nDecision criteria—opening explanation an
+ d first example table: https://docs.arc42.org/tips/9-2/\nExplain required 
+ behavior\, constraints\, assumptions and measurable quality goals in your 
+ own words. Skip other sections and linked catalogs.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261001-09@personal-planner
@@ -113,15 +125,15 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261001-10@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261001T160000
 DTEND;TZID=Asia/Kolkata:20261001T173000
 SUMMARY:Music — Choose a beat and finish the short lyric
-DESCRIPTION:Plan: O5. Choose an existing beat and write your own roughly 60
- –90-second verse/hook demo. Try phrases aloud and commit a usable beginn
- ing and ending. Set a small beat-selection limit\; use an available DAW th
- at runs comfortably. No beat-making or tutorial prerequisite.
+DESCRIPTION:Choose an existing beat and write your own roughly 60–90-seco
+ nd verse/hook demo. Try phrases aloud and commit a usable beginning and en
+ ding. Set a small beat-selection limit\; use an available DAW that runs co
+ mfortably. No beat-making or tutorial prerequisite.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261001-11@personal-planner
@@ -134,16 +146,17 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261002-01@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261002T090000
 DTEND;TZID=Asia/Kolkata:20261002T104500
 SUMMARY:GATE — Finish propositional theory and first-pass notes
-DESCRIPTION:Plan: O1. Resume the bookmark within Neso positions 2–12\, 15
- –20\, 24–27\, 29–31. Connect compact notes to the four mapped PYQ pa
- tterns. Stop at the selected boundary\; flag unfinished teaching rather th
- an skipping it to attempt questions.\nhttps://www.youtube.com/playlist?lis
- t=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3
+DESCRIPTION:Resume Neso Academy's Discrete Mathematics playlist at your boo
+ kmark. Finish only positions 2–12\, 15–20\, 24–27 and 29–31\, endi
+ ng with The Limitation of Propositional Logic. Connect your notes to the q
+ uestions you inspected: conditions\, translations\, equivalence and infere
+ nce. Flag unfinished teaching instead of skipping ahead to solving.\nhttps
+ ://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261002-02@personal-planner
@@ -156,17 +169,20 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261002-03@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261002T110000
 DTEND;TZID=Asia/Kolkata:20261002T121500
-SUMMARY:LeetCode — P32 independent attempt
-DESCRIPTION:Plan: O4. https://leetcode.com/problems/shortest-bridge/\nUse l
- eetcode/MAINTENANCE_PLAN.md — Attempt protocol: restate\, constraints/ba
- seline\, candidates and chosen approach before coding. Log before checking
-  the pool key\; validate only after attempting. No hints/AI before a genui
- ne attempt or genuine stall. Preserve unfinished reasoning at the block bo
- undary.
+SUMMARY:LeetCode — Shortest Bridge
+DESCRIPTION:Shortest Bridge\nhttps://leetcode.com/problems/shortest-bridge/
+ \nRead output → input → constraints → story. Restate the task\; esti
+ mate feasible complexity\, a brute-force baseline and alternatives. Choose
+  an approach before coding. Save your approach\, result\, confidence and a
+ ny help used before checking answers. No hints\, tags or AI before a real 
+ attempt or a stall you can explain. Assisted solves are not independent re
+ cognition\; familiar problems count as revisits.\nAfter attempting only\, 
+ check the pool answer key for this problem: https://github.com/souiiii/dsa
+ -pool/blob/HEAD/Output/answer_key.md
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261002-04@personal-planner
@@ -179,16 +195,20 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261002-05@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261002T140000
 DTEND;TZID=Asia/Kolkata:20261002T153000
 SUMMARY:Product — Observe a real workflow and merchant friction
-DESCRIPTION:Plan: O3. Choose one workflow you actually repeat\; record real
-  episodes as they occur. Use product/ROADMAP.md E1 and VALIDATION.md — W
- hat counts. Begin a narrow https://community.shopify.com/ pass for current
-  behavior\, workarounds and consequences. Retain exact sources and unknown
- s\; no solution ideas or candidate quota.
+DESCRIPTION:Choose a workflow you actually repeat and note concrete frictio
+ n as it occurs\; label this as personal observation.\nOpen Shopify Communi
+ ty: https://community.shopify.com/\nInspect recent merchant discussions fo
+ r current behavior\, manual workarounds\, recurring effort/cost or switchi
+ ng between paid apps. Save strong thread links if you find them\; note who
+  is affected\, what they do\, recurrence and consequence. Separate merchan
+ t accounts from partner/staff replies. Ignore vague complaints\, feature w
+ ishes and resolved questions. Stop when a concrete follow-up emerges\; do 
+ not invent a product idea.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261002-06@personal-planner
@@ -218,16 +238,25 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-01@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261003T090000
 DTEND;TZID=Asia/Kolkata:20261003T094500
-SUMMARY:GATE — Attempt the mapped propositional PYQs
-DESCRIPTION:Plan: O1. After theory/first-pass notes\, independently attempt
-  2017 CS1 GO Q1\, 2017 CS2 GO Q11\, 2021 CS1 GO Q7\, 2024 CS2 official Q12
- . Use gate/SPRINT_001_PREP.md pool links. Check matched keys only afterwar
- d\; capture reasoning and diagnose misses. For MSQs justify accepted and r
- ejected options.
+SUMMARY:GATE — Solve propositional past questions
+DESCRIPTION:Independently solve these four questions after completing the r
+ elevant teaching and notes. Keep the answer discussions hidden until you h
+ ave written your reasoning. Then check answers and name the cause of each 
+ miss\; justify every accepted/rejected option in multiple-select questions
+ .\n2017 CS set 1\, question 1: https://gateoverflow.in/118698/gate-cse-201
+ 7-set-1-question-01\n2017 CS set 2\, question 11: https://gateoverflow.in/
+ 118151/gate-cse-2017-set-2-question-11\n2021 CS set 1\, question 7: https:
+ //gateoverflow.in/357445/gate-cse-2021-set-1-question-7\n2024 CS set 2\, o
+ fficial question 12: https://gateoverflow.in/422895/gate-cse-2024-set-2-qu
+ estion-2\n2024 official key (Q12): https://gate2026.iitg.ac.in/doc/downloa
+ d/2024/CS2FinalAnswerKey.pdf\nOlder official papers/keys: https://gate2026
+ .iitg.ac.in/download.html\nMatch year\, session and question wording befor
+ e using a key. Flag an unmatched or disputed answer rather than treating i
+ t as settled.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-02@personal-planner
@@ -240,15 +269,17 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-03@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261003T100000
 DTEND;TZID=Asia/Kolkata:20261003T104500
 SUMMARY:GATE — Repair propositional reasoning
-DESCRIPTION:Plan: O1. Diagnose actual misses\, revisit only the matching se
- lected Neso lessons\, and rework the failed reasoning. Tighten notes per g
- ate/PREP_METHOD.md topic loop\, steps 5–8. If attempts remain unfinished
- \, complete them before repair. Keep the reserved checkpoint closed.
+DESCRIPTION:Finish any pending propositional attempts\, then choose the act
+ ual reasoning gap that caused a miss. Revisit only the matching Neso lesso
+ n within positions 2–12\, 15–20\, 24–27 or 29–31. Close the explan
+ ation\, redo the reasoning yourself\, and tighten the relevant note. Leave
+  the later checkpoint question unopened.\nhttps://www.youtube.com/playlist
+ ?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-04@personal-planner
@@ -261,16 +292,22 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-05@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261003T110000
 DTEND;TZID=Asia/Kolkata:20261003T111500
-SUMMARY:GATE — GA inference practice
-DESCRIPTION:Plan: O1. Map 2026 CS1 GA Q5 and 2025 CS2 GA Q6 via gate/SPRINT
- _001_PREP.md — Direct official pairs needed for the recent map. Reuse th
- e relevant implication/inference teaching and compact notes\, then attempt
-  and review. Keep GA evidence separate\; unfinished work takes priority in
-  the later GA block.
+SUMMARY:GATE — General Aptitude inference practice
+DESCRIPTION:Read the two aptitude questions below. Recall the implication/i
+ nference lesson and make a short note of the relevant rule\, then attempt 
+ independently and check afterward. Keep aptitude results separate from the
+  logic-topic results. If unfinished\, resume in the later aptitude block.\
+ n2026 CS set 1\, General Aptitude question 5: https://gate2026.iitg.ac.in/
+ doc/download/2026/QPs/CS1.pdf\n2025 CS set 2\, General Aptitude question 6
+ : https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf\nKeys—open a
+ fter attempting:\n2026: https://gate2026.iitg.ac.in/doc/download/2026/Keys
+ /CS1_Keys.pdf\n2025: https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2
+ _Keys.pdf\nNeso inference review\, only if needed (positions 29–31): htt
+ ps://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-06@personal-planner
@@ -283,17 +320,23 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-07@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261003T140000
 DTEND;TZID=Asia/Kolkata:20261003T153000
 SUMMARY:System Design — HtmlSanityCheck and explain-back
-DESCRIPTION:Plan: O2. Use system-design/SPRINT_001_PREP.md — Worked case\
- , passes 1–2: introduction §§1.1–1.3\, short constraints\, quality s
- cenarios 10.2\, and decision 9.2 only. Reconstruct requirement → constra
- int → alternatives → trade-off → decision\, separating stated reason
- s from inference. Close sources and attempt exercise A\; repair only uncle
- ar concepts.
+DESCRIPTION:Read the HtmlSanityCheck worked example:\nIntroduction & Goals 
+ 1.1–1.3\, including the review note: https://examples.arc42.org/systems/
+ htmlsc/01-introduction-and-goals/\nShort constraints list: https://docs.ar
+ c42.org/examples/constraints-1/\nQuality scenarios 10.2: https://docs.arc4
+ 2.org/examples/quality-htmlsc-2/\nDecision 9.2\, HTML Parsing with jsoup o
+ nly: https://docs.arc42.org/examples/decision-htmlsc/\nReconstruct require
+ ment → constraint → alternatives → trade-off → decision. Distingui
+ sh the author's reasons from your inference and name missing evidence. Clo
+ se sources: explain feature/quality requirement/constraint/preference/assu
+ mption using a familiar app\, make one vague quality measurable\, and say 
+ how an assumption could be disproved. When would these criteria or more do
+ cumentation be unhelpful?
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-08@personal-planner
@@ -306,16 +349,23 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-09@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261003T160000
 DTEND;TZID=Asia/Kolkata:20261003T164500
 SUMMARY:Markets — Why markets exist
-DESCRIPTION:Plan: O7. Briefly explain your current view\, then read only th
- e SEBI excerpts in markets/SPRINT_001_PREP.md — Proposed resources: prin
- ted pp.3–9 / PDF pp.7–13\, with the exact entry/paragraph exclusions t
- here. Close the booklet and explain the economic need\, motives and risks.
-  Keep uncertainty visible\; no investing procedures.
+DESCRIPTION:First briefly explain: why would a business use a market\, and 
+ who participates?\nRead SEBI's Securities Market: Understanding from Inves
+ tor's Perspective:\nhttps://investor.sebi.gov.in/pdf/reference-material/la
+ nguages/english/SM%20Booklet_English%20-%20Final%20%28Low%29.pdf\nUse PDF 
+ page numbers (cover = 1):\np7: entries A and D only.\np8: two prose paragr
+ aphs on markets/allocation of savings\; skip diagram.\np9: opening definit
+ ion\, two issuer categories and IPO definition.\np10: two bullets on new s
+ hares versus an existing holder's sale\, plus Secondary market paragraph.\
+ npp11–12: institutional/intermediary descriptions\; stop before Basics o
+ f Investing.\np13: liquidity-risk and business-risk entries only.\nClose i
+ t and explain the economic need\, motives and risks. Skip procedures/timet
+ ables\; this older booklet teaches concepts\, not current rules.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-10@personal-planner
@@ -328,17 +378,21 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-11@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261003T170000
 DTEND;TZID=Asia/Kolkata:20261003T181500
 SUMMARY:Open Source — Refresh workflow and evaluate one repository
-DESCRIPTION:Plan: O6. Piyush: https://www.youtube.com/watch?v=noKgvN_42Hk 0
- 0:35–03:00\; https://www.youtube.com/watch?v=o6xikISiz2w 08:40–20:15 a
- nd 24:30–30:15. Explain upstream/fork/local branch and demonstrate a loc
- al branch/diff. Evaluate one familiar JS/TS-aligned repository: guide\, ac
- tivity\, setup\, roughly two issue discussions and two merged PRs. Record 
- a linked keep/drop judgment. No tutorial PR.
+DESCRIPTION:Watch Piyush Garg's selected excerpts:\nHow to Find the Best Re
+ positories for Open Source Contribution\, 00:35–03:00: https://www.youtu
+ be.com/watch?v=noKgvN_42Hk&t=35s\nOpen Source Crash Course\, 08:40–20:15
+ : https://www.youtube.com/watch?v=o6xikISiz2w&t=520s\nSame course\, 24:30
+ –30:15: https://www.youtube.com/watch?v=o6xikISiz2w&t=1470s\nExplain ups
+ tream/fork/local branch and demonstrate a local branch/diff. Evaluate one 
+ tool/library you use or understand in JS/TS/Node/React: purpose/license\, 
+ current activity\, contribution/setup rules\, roughly two issue discussion
+ s and two merged PRs. Save a short keep/drop judgment with links. No pract
+ ice-only public PR or broad repository hunt.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261003-12@personal-planner
@@ -351,16 +405,22 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261004-01@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261004T090000
 DTEND;TZID=Asia/Kolkata:20261004T110000
 SUMMARY:GATE — Map first-order patterns and begin theory
-DESCRIPTION:Plan: O1. Map stems: 2017 CS1 GO Q2\, 2023 official Q26\, 2025 
- CS1 official Q48\, 2025 CS2 official Q15\; use gate/SPRINT_001_PREP.md poo
- l links. Begin Neso positions 32–47\, 52–63\, 68–72 with first-pass 
- notes. Bookmark at a natural stop\; reserved stems remain closed.\nhttps:/
- /www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3
+DESCRIPTION:Inspect only the four question statements below\; keep solution
+ s hidden. Begin Neso Academy's first-order logic lessons\, positions 32–
+ 47\, 52–63 and 68–72: quantifiers\, domains\, scope\, translation\, ne
+ gation and inference. Write compact first-pass notes and bookmark a natura
+ l stopping point.\nNeso playlist: https://www.youtube.com/playlist?list=PL
+ BlnK6fEyqRhqJPDXcvYlLfXPh37L89g3\n2017 CS set 1\, question 2: https://gate
+ overflow.in/118701/gate-cse-2017-set-1-question-02\n2023 CS\, official que
+ stion 26: https://gateoverflow.in/399295/gate-cse-2023-question-16\n2025 C
+ S set 1\, official question 48: https://gateoverflow.in/460042/gate-cse-20
+ 25-set-1-question-38\n2025 CS set 2\, official question 15: https://gateov
+ erflow.in/460830/gate-cse-2025-set-2-question-5
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261004-02@personal-planner
@@ -373,17 +433,22 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261004-03@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261004T111500
 DTEND;TZID=Asia/Kolkata:20261004T123000
-SUMMARY:LeetCode — C1 independent attempt
-DESCRIPTION:Plan: O4. https://leetcode.com/problems/maximum-length-of-a-con
- catenated-string-with-unique-characters/description/\nUse the same recogni
- tion-first protocol: candidates/complexity before coding\, ATTEMPTS.md bef
- ore validation. Open only the statement\; company reports\, tags\, editori
- als and AI stay closed until a genuine attempt/stall. Validate afterward a
- nd queue real misses.
+SUMMARY:LeetCode — Maximum Length of a Concatenated String with Unique Ch
+ aracters
+DESCRIPTION:Maximum Length of a Concatenated String with Unique Characters\
+ nhttps://leetcode.com/problems/maximum-length-of-a-concatenated-string-wit
+ h-unique-characters/description/\nRead output → input → constraints 
+ → story. Restate the task\; estimate feasible complexity\, a brute-force
+  baseline and alternatives. Choose an approach before coding. Save your ap
+ proach\, result\, confidence and any help used before checking answers. No
+  hints\, tags or AI before a real attempt or a stall you can explain. Assi
+ sted solves are not independent recognition\; familiar problems count as r
+ evisits.\nAfter attempting\, use this problem page’s editorial or an exp
+ lanatory discussion to check your reasoning.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261004-04@personal-planner
@@ -396,16 +461,15 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261004-05@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261004T140000
 DTEND;TZID=Asia/Kolkata:20261004T153000
 SUMMARY:Music — Record and comp the lead
-DESCRIPTION:Plan: O5. Listen to a short test take first. Record the written
-  demo\, retry weak phrases\, and comp the strongest moments against the be
- at. Prioritize delivery and timing\; doubles/ad-libs only if wanted. Save 
- takes and project. Do not process indefinitely to hide a performance probl
- em.
+DESCRIPTION:Listen to a short test take first. Record the written demo\, re
+ try weak phrases\, and comp the strongest moments against the beat. Priori
+ tize delivery and timing\; doubles/ad-libs only if wanted. Save takes and 
+ project. Do not process indefinitely to hide a performance problem.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261004-06@personal-planner
@@ -418,17 +482,20 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261004-07@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261004T160000
 DTEND;TZID=Asia/Kolkata:20261004T171500
 SUMMARY:Product — Check observation sources and current status
-DESCRIPTION:Plan: O3. Follow the strongest observed behavior through its fu
- ll source and latest resolution. If no concrete follow-up emerged\, make t
- he bounded developer-surface pass at https://github.com/vercel/next.js/dis
- cussions. Capture behavior\, recurrence\, cost and exact source\; drop str
- aightforward resolved issues and feature wishes. Stop browsing when a usef
- ul follow-up exists.
+DESCRIPTION:Follow your strongest observation through the full thread and l
+ atest replies: is the problem still present\, recurring and consequential?
+ \nShopify Community: https://community.shopify.com/\nIf no concrete follow
+ -up emerged\, make one narrow pass through recent Next.js user discussions
+ : https://github.com/vercel/next.js/discussions\nLook for actual work\, at
+ tempted remedies and unresolved constraints. Save exact sources\, behavior
+ \, recurrence\, cost and unknowns. Skip showcases\, feature wishes and str
+ aightforward resolved questions. Familiar technical friction alone does no
+ t establish demand.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261004-08@personal-planner
@@ -441,16 +508,19 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261005-01@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261005T090000
 DTEND;TZID=Asia/Kolkata:20261005T091500
 SUMMARY:GATE — Delayed propositional checkpoint
-DESCRIPTION:Plan: O1. Attempt reserved 2021 CS2 GO Q15 without notes\, usin
- g gate/SPRINT_001_PREP.md pool link. Record reasoning before checking the 
- verified matching key. If previously exposed\, treat it as a re-solve and 
- use an unexposed equivalent real PYQ for fresh evidence under the prep rul
- e.
+DESCRIPTION:Without notes\, solve 2021 CS set 2 question 15. Write reasons 
+ for accepting and rejecting each option before checking answers.\nQuestion
+ : https://gateoverflow.in/357525/gate-cse-2021-set-2-question-15\nOfficial
+  2021 paper/key: https://gate2026.iitg.ac.in/download.html\nMatch the stem
+ /session before using the key. If already seen in teaching\, label this a 
+ re-solve\; for fresh evidence choose an unexposed equivalent question with
+  a verified key from https://gateoverflow.in/questions/mathematics/discret
+ e-mathematics/mathematical-logic?sort=gate
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261005-02@personal-planner
@@ -463,17 +533,19 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261005-03@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261005T093000
 DTEND;TZID=Asia/Kolkata:20261005T113000
 SUMMARY:GATE — Finish first-order theory and bridges
-DESCRIPTION:Plan: O1. Finish bookmarked Neso positions 32–47\, 52–63\, 
- 68–72 and first-pass notes. Complete the accepted bridges before their P
- YQs: GO Classes Module 4 OPTIONAL Lecture 3 — Uniqueness Quantifier (27m
- )\; TrevTutor induction (~14m). Exact primary links remain in gate/SPRINT_
- 001_PREP.md.\nhttps://www.goclasses.in/courses/Discrete-Mathematics-Course
- /\nhttps://www.youtube.com/watch?v=Tm2PJPvAULs
+DESCRIPTION:Finish bookmarked Neso lessons within positions 32–47\, 52–
+ 63 and 68–72\, plus your first-pass notes.\nNeso Academy: https://www.yo
+ utube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3\nBefore attempt
+ ing the uniqueness/induction questions\, complete:\nGO Classes Discrete Ma
+ thematics\, Module 4 → OPTIONAL Lecture 3\, Uniqueness Quantifier (27 mi
+ nutes\; free signup): https://www.goclasses.in/courses/Discrete-Mathematic
+ s-Course/\nTrevTutor\, Mathematical Induction (whole ~14-minute video): ht
+ tps://www.youtube.com/watch?v=Tm2PJPvAULs
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261005-04@personal-planner
@@ -486,16 +558,24 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261005-05@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261005T140000
 DTEND;TZID=Asia/Kolkata:20261005T153000
 SUMMARY:System Design — Clarify the handbook brief
-DESCRIPTION:Plan: O2. Work system-design/SPRINT_001_PREP.md exercise B\, st
- eps 1–2. Identify users\, behavior\, constraints\, unanswered questions 
- and falsifiable assumptions. Write acceptance conditions and defend the do
- minant requirement. Use the accepted readings beside you\; do not invent b
- enchmark findings or build a checker.
+DESCRIPTION:Hypothetical brief: a college club publishes a 120-page static 
+ handbook. Twenty contributors update it a few times weekly\; it has intern
+ al links\, local images and external links. One volunteer maintains publis
+ hing. Contributors want useful feedback before publishing\; the editor wan
+ ts quick\, dependable publication. No budget for another hosted service or
+  dedicated operator. Acceptable delay\, uncertain link results and offline
+  operation are undecided.\nIdentify users\, required behavior\, scope and 
+ hard constraints. Separate facts\, preferences and assumptions\; ask the q
+ uestions that would change a decision. Write checkable acceptance conditio
+ ns and defend the dominant requirement. Label how each assumption could be
+  tested.\nIf needed\, consult arc42 requirements 1.1–1.3: https://docs.a
+ rc42.org/section-1/ and quality scenarios 10.2: https://docs.arc42.org/sec
+ tion-10/
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261005-06@personal-planner
@@ -525,16 +605,26 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-01@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261006T090000
 DTEND;TZID=Asia/Kolkata:20261006T100000
-SUMMARY:GATE — Attempt first-order and induction PYQs
-DESCRIPTION:Plan: O1. After the relevant teaching/notes\, independently att
- empt 2017 CS1 GO Q2\, 2023 official Q26\, 2025 CS1 official Q48\, 2025 CS2
-  official Q15. Use gate/SPRINT_001_PREP.md pool links. Check matched keys 
- after attempts\; diagnose causes. Explain both accepted and rejected MSQ o
- ptions.
+SUMMARY:GATE — Solve first-order and induction questions
+DESCRIPTION:Independently solve the four questions below after the relevant
+  teaching\, including uniqueness and induction. Write reasoning before ope
+ ning solutions\; explain accepted and rejected multiple-select options. Di
+ agnose each miss.\n2017 CS set 1\, question 2: https://gateoverflow.in/118
+ 701/gate-cse-2017-set-1-question-02\n2023 CS\, official question 26: https
+ ://gateoverflow.in/399295/gate-cse-2023-question-16\n2025 CS set 1\, offic
+ ial question 48: https://gateoverflow.in/460042/gate-cse-2025-set-1-questi
+ on-38\n2025 CS set 2\, official question 15: https://gateoverflow.in/46083
+ 0/gate-cse-2025-set-2-question-5\nOfficial keys—match paper/session/stem
+ \, then check:\n2023 Q26: https://gate2026.iitg.ac.in/doc/download/Answer_
+ keys2023/CS_ANS_GATE2023.pdf\n2025 set 1 Q48: https://gate2026.iitg.ac.in/
+ doc/download/2025_Key/CS1_Keys.pdf\n2025 set 2 Q15: https://gate2026.iitg.
+ ac.in/doc/download/2025_Key/CS2_Keys.pdf\nOlder paper/key: https://gate202
+ 6.iitg.ac.in/download.html\nGATE Overflow numbering may differ from offici
+ al numbering\; use its discussions only after attempting.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-02@personal-planner
@@ -547,15 +637,20 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-03@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261006T101500
 DTEND;TZID=Asia/Kolkata:20261006T103000
-SUMMARY:GATE — GA cold return
-DESCRIPTION:Plan: O1. Return without notes to 2026 CS1 GA Q5 and 2025 CS2 G
- A Q6. Finish any unattempted item before review\, then explain prior error
- s or independently defend the reasoning. Record separate GA evidence and u
- nresolved causes\; this is not full GA coverage.
+SUMMARY:GATE — General Aptitude cold return
+DESCRIPTION:Return to these aptitude questions without notes. Finish any un
+ attempted item first\; otherwise redo the reasoning and explain what cause
+ d any earlier mistake. Check afterward and keep aptitude results separate.
+ \n2026 CS set 1\, General Aptitude question 5: https://gate2026.iitg.ac.in
+ /doc/download/2026/QPs/CS1.pdf\n2025 CS set 2\, General Aptitude question 
+ 6: https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf\nKeys—open 
+ after attempting:\n2026: https://gate2026.iitg.ac.in/doc/download/2026/Key
+ s/CS1_Keys.pdf\n2025: https://gate2026.iitg.ac.in/doc/download/2025_Key/CS
+ 2_Keys.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-04@personal-planner
@@ -568,17 +663,23 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-05@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261006T110000
 DTEND;TZID=Asia/Kolkata:20261006T121500
-SUMMARY:LeetCode — P16 independent attempt
-DESCRIPTION:Plan: O4. https://leetcode.com/problems/smallest-range-covering
- -elements-from-k-lists/\nUse leetcode/MAINTENANCE_PLAN.md attempt protocol
- . Approach and complexity before code\; log before the pool key. No hints/
- AI before a genuine attempt/stall. If existing repair needs this block\, d
- efer this new attempt and its unstarted company counterpart C2 rather than
-  borrowing slack.
+SUMMARY:LeetCode — Smallest Range Covering Elements from K Lists
+DESCRIPTION:Smallest Range Covering Elements from K Lists\nhttps://leetcode
+ .com/problems/smallest-range-covering-elements-from-k-lists/\nRead output 
+ → input → constraints → story. Restate the task\; estimate feasible 
+ complexity\, a brute-force baseline and alternatives. Choose an approach b
+ efore coding. Save your approach\, result\, confidence and any help used b
+ efore checking answers. No hints\, tags or AI before a real attempt or a s
+ tall you can explain. Assisted solves are not independent recognition\; fa
+ miliar problems count as revisits.\nAfter attempting only\, check the pool
+  answer key for this problem: https://github.com/souiiii/dsa-pool/blob/HEA
+ D/Output/answer_key.md\nIf earlier repair needs this block\, defer this ne
+ w attempt and the Oct 9 company question together\; do not borrow protecte
+ d time.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-06@personal-planner
@@ -591,16 +692,21 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-07@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261006T140000
 DTEND;TZID=Asia/Kolkata:20261006T153000
 SUMMARY:System Design — Compare and defend two handbook approaches
-DESCRIPTION:Plan: O2. Continue exercise B\, steps 3–4\, in system-design/
- SPRINT_001_PREP.md. Compare two viable approaches against the same require
- ments\, including the simplest workable option. Defend one\, name its cost
- s/failure modes and evidence that would change your mind. A sketch and sho
- rt argument suffice.
+DESCRIPTION:Continue your 120-page club-handbook analysis: 20 contributors\
+ , one volunteer\, no extra service/operator budget\; checks must balance u
+ seful feedback with quick\, dependable publishing.\nCompare two viable way
+ s to incorporate checks and handle results\, including the simplest workab
+ le option. Use the same criteria: delay\, correctness\, failure behavior\,
+  maintenance and cost. Defend one choice\, state its downside and what evi
+ dence would change your mind. Every component needs a job\, cost and new f
+ ailure mode. A sketch and short argument suffice\; no implementation.\nOpt
+ ional reminder\, arc42 decision criteria—opening and first example table
+  only: https://docs.arc42.org/tips/9-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-08@personal-planner
@@ -613,17 +719,18 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-09@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261006T160000
 DTEND;TZID=Asia/Kolkata:20261006T173000
 SUMMARY:Open Source — Set up and check the baseline
-DESCRIPTION:Plan: O6. Finish repository suitability checks if needed. Read 
- its contribution/test/AI rules\; use a separate checkout and documented ru
- ntime/package manager. Record revision\, setup commands and actual baselin
- e results. Check one issue is current and not already handled. Preserve bl
- ockers\; at most one replacement repository\, no unrelated dependency chur
- n.
+DESCRIPTION:Finish evaluating your chosen repository if needed. Read its co
+ ntributor\, test and AI-use rules. Set up a separate checkout using its do
+ cumented runtime\, package manager and lockfile\; run the relevant app/exa
+ mple and baseline checks. Save revision\, commands and actual results. Che
+ ck one small issue is current\, unclaimed or available under project norms
+ \, and not already solved. Keep setup errors honestly\; use at most one re
+ placement repository. No unrelated dependency updates.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261006-10@personal-planner
@@ -636,16 +743,20 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261007-01@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261007T090000
 DTEND;TZID=Asia/Kolkata:20261007T093000
 SUMMARY:GATE — Repair first-order misses
-DESCRIPTION:Plan: O1. Use actual error causes to revisit only the matching 
- selected lesson\, reconstruct the reasoning\, and tighten notes. Finish pe
- nding core attempts before repair. Scope/free-variable supplements stay co
- nditional per gate/SPRINT_001_PREP.md. Keep reserved first-order questions
-  closed until the delayed check.
+DESCRIPTION:Finish pending first-order questions\, then repair the specific
+  errors your attempts exposed. Revisit only the relevant Neso lesson withi
+ n positions 32–47\, 52–63 or 68–72\; close it and reconstruct the re
+ asoning yourself.\nNeso Academy: https://www.youtube.com/playlist?list=PLB
+ lnK6fEyqRhqJPDXcvYlLfXPh37L89g3\nOnly if scope/free variables remain uncle
+ ar: GO Classes Module 4\, Lecture 21 (Free Variable Vs Bounded Variable) O
+ R Lecture 24 (Scope of a Quantifier)\, whichever matches the error: https:
+ //www.goclasses.in/courses/Discrete-Mathematics-Course/\nKeep the later ch
+ eckpoint questions unopened.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261007-02@personal-planner
@@ -658,16 +769,16 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261007-03@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261007T100000
 DTEND;TZID=Asia/Kolkata:20261007T120000
 SUMMARY:Music — Process vocals\, mix and bounce
-DESCRIPTION:Plan: O5. Work from your actual comp and beat: balance\, clarit
- y\, consistency and space. Choose each processing move for an audible need
- \; no preset chain. Re-record if the weakness is performance. Consult a sm
- all owner-accepted resource only for a real blockage. Export a rough bounc
- e before further tweaking.
+DESCRIPTION:Work from your actual comp and beat: balance\, clarity\, consis
+ tency and space. Choose each processing move for an audible need\; no pres
+ et chain. Re-record if the weakness is performance. Consult a small owner-
+ accepted resource only for a real blockage. Export a rough bounce before f
+ urther tweaking.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261007-04@personal-planner
@@ -680,17 +791,20 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261007-05@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261007T140000
 DTEND;TZID=Asia/Kolkata:20261007T151500
 SUMMARY:Product — Corroborate the strongest observation
-DESCRIPTION:Plan: O3. Check recurrence\, present resolution status and cons
- equences in independent accounts. Use G2 only for a specific corroboration
-  need from an existing observation\, not category browsing. A brief owner-
- led E2 conversation may replace this work only if a grounded candidate and
-  reachable person emerged\; ask about their last actual occurrence. Record
-  only evidence obtained.
+DESCRIPTION:Check your strongest observation against independent accounts: 
+ does it recur\, is it still unresolved\, and what does it cost in time\, m
+ oney or risk? Reopen the exact threads you saved.\nUse G2 only to corrobor
+ ate that specific behavior\, not to browse for ideas: https://www.g2.com/c
+ ategories\nIf a concrete candidate and reachable affected person emerged\,
+  a brief conversation may replace browsing: ask about their last occurrenc
+ e\, what they did\, frequency\, consequences and attempted remedies. Do no
+ t pitch or ask hypothetical buying questions. Record only what was actuall
+ y learned and what remains unknown.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261007-06@personal-planner
@@ -703,16 +817,22 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261007-07@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261007T160000
 DTEND;TZID=Asia/Kolkata:20261007T164500
 SUMMARY:Markets — Map CAVA's IPO and hypothetical resale
-DESCRIPTION:Plan: O7. Open the CAVA closing announcement linked in markets/
- SPRINT_001_PREP.md — One case. Read only its first four body paragraphs.
-  Draw offering/resale panels with money and ownership arrows\; explain par
- ticipant roles\, motives and risk. Mark resale/buyers as hypothetical and 
- intended spending as intention. Keep to one rough page/map.
+DESCRIPTION:Read only the first four body paragraphs of CAVA's June 20\, 20
+ 23 IPO closing announcement—closure\, listing\, intended use of proceeds
+  and intermediaries. Stop before the registration-statement paragraph.\nht
+ tps://investor.cava.com/news/news-details/2023/CAVA-Announces-Closing-of-I
+ nitial-Public-Offering-and-Full-Exercise-of-Underwriters-Option-to-Purchas
+ e-Additional-Shares/default.aspx\nDraw two panels: the offering\, then a h
+ ypothetical resale between investors. Add money/ownership arrows and expla
+ in each participant's role\, motive and risk. Connect capital allocation\,
+  liquidity and price discovery. Separate sourced facts\, general reasoning
+  and unknowns\; don't invent actual buyers/providers or assume intended sp
+ ending occurred. One rough page/map is enough.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261007-08@personal-planner
@@ -752,15 +872,17 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261008-04@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261008T140000
 DTEND;TZID=Asia/Kolkata:20261008T144500
 SUMMARY:System Design — Challenge and revise the handbook decision
-DESCRIPTION:Plan: O2. Apply exercise B step 5: the external-site outage dur
- ing an urgent correction. Walk your chosen approach through the failure\, 
- then revise requirements or the choice and explain consequences. Use syste
- m-design/SPRINT_001_PREP.md\; keep this at requirements/workflow level.
+DESCRIPTION:Challenge your handbook-publishing choice: an external site is 
+ unreachable for an hour while an urgent handbook correction needs publishi
+ ng. Walk through what contributors\, the editor and volunteer experience. 
+ Does your approach still meet its requirements? Revise the requirements or
+  choice where needed and explain the consequence. Distinguish an unreachab
+ le link from an incorrect one\; stay at workflow level.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261008-05@personal-planner
@@ -773,16 +895,17 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261008-06@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261008T150000
 DTEND;TZID=Asia/Kolkata:20261008T153000
 SUMMARY:LeetCode — Cold revisit from actual attempts
-DESCRIPTION:Plan: O4. Select an actual queued miss/near-miss/lucky solve. B
- lank editor and no notes/key\; state approach and complexity before coding
- . Close only a clean explainable solve\; otherwise repair and retain the q
- ueue entry. If none needs revisiting\, finish pending validation or releas
- e the block. No new question draw.
+DESCRIPTION:Choose an actual missed\, nearly missed or lucky solve from you
+ r recent attempts. Reopen its problem statement\, start a blank editor and
+  keep notes/solutions closed. State your approach and complexity before co
+ ding. Mark it resolved only after a clean\, explainable solve\; otherwise 
+ identify the gap and keep it for another return. If no revisit is needed\,
+  finish pending answer checks or release this block to free time.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261008-07@personal-planner
@@ -795,11 +918,12 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261008-08@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261008T160000
 DTEND;TZID=Asia/Kolkata:20261008T180000
-SUMMARY:College Project
+SUMMARY:Free Time
+DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261008-09@personal-planner
@@ -812,16 +936,22 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-01@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261009T090000
 DTEND;TZID=Asia/Kolkata:20261009T094500
 SUMMARY:GATE — Delayed first-order checkpoints and evidence
-DESCRIPTION:Plan: O1. Without notes\, attempt reserved 2020 CS GO Q39 and 2
- 026 CS2 official Q11 via gate/SPRINT_001_PREP.md. Record reasoning before 
- matched-key validation\; justify every MSQ option. Apply the exposure rule
-  if needed. Summarize actual pattern evidence\, unresolved causes and next
-  checks. No Discrete Mathematics or M1 completion claim from elapsed time.
+DESCRIPTION:Solve both questions without notes\, writing your reasoning bef
+ ore checking answers:\n2020 CS question 39: https://gateoverflow.in/333192
+ /gate-cse-2020-question-39\n2026 CS set 2\, official Q11: https://gate2026
+ .iitg.ac.in/doc/download/2026/QPs/CS2.pdf\nAfter attempting:\n2020 officia
+ l paper/key: https://gate2026.iitg.ac.in/download.html\n2026 key (Q11): ht
+ tps://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf\n2026 explan
+ ation: https://gateoverflow.in/523146/gate-cse-2026-set-2-question-1\nMatc
+ h stems and keys. Previously exposed questions are re-solves\; fresh evide
+ nce needs an unexposed equivalent with a verified key. Note what you can n
+ ow explain\, unresolved causes and what to recheck\; do not infer mastery 
+ from time spent.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-02@personal-planner
@@ -834,17 +964,23 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-03@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261009T100000
 DTEND;TZID=Asia/Kolkata:20261009T111500
-SUMMARY:LeetCode — C2 independent attempt
-DESCRIPTION:Plan: O4. https://leetcode.com/problems/minimum-deletions-to-ma
- ke-character-frequencies-unique/description/\nState candidate approaches a
- nd complexity before code\; log before post-attempt editorial validation. 
- No hints/AI before a genuine attempt/stall. If P16 was deferred for review
- \, use this block for actual repair/revisit too\, preserving the retained 
- new-attempt mix.
+SUMMARY:LeetCode — Minimum Deletions to Make Character Frequencies Unique
+DESCRIPTION:Minimum Deletions to Make Character Frequencies Unique\nhttps:/
+ /leetcode.com/problems/minimum-deletions-to-make-character-frequencies-uni
+ que/description/\nRead output → input → constraints → story. Restate
+  the task\; estimate feasible complexity\, a brute-force baseline and alte
+ rnatives. Choose an approach before coding. Save your approach\, result\, 
+ confidence and any help used before checking answers. No hints\, tags or A
+ I before a real attempt or a stall you can explain. Assisted solves are no
+ t independent recognition\; familiar problems count as revisits.\nAfter at
+ tempting\, use this problem page’s editorial or an explanatory discussio
+ n to check your reasoning.\nIf the Oct 6 new pool attempt was deferred for
+  repair\, use this block for repair too\, keeping roughly equal numbers of
+  new pool/company attempts.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-04@personal-planner
@@ -857,17 +993,19 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-05@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261009T140000
 DTEND;TZID=Asia/Kolkata:20261009T154500
 SUMMARY:Open Source — Trace\, reproduce and decide
-DESCRIPTION:Plan: O6. Trace the chosen behavior from entry point through im
- plementation/tests\; reproduce it or establish the concrete unmet need. Ex
- plain the path yourself and retain commands/results. Only if scope and cap
- acity permit\, make/validate a useful small change under repository rules.
-  Otherwise record the blocker and continue/narrow/drop decision. Follow op
- ensource/CONTRIBUTION_METHOD.md AI boundaries\; no forced PR.
+DESCRIPTION:Trace the chosen behavior from its entry point through implemen
+ tation and tests. Explain the path yourself\; reproduce the report or esta
+ blish a concrete unmet need. Save commands and actual results.\nOnly if sc
+ ope and time permit\, make and validate the smallest useful change\, follo
+ wing project rules. Inspect the diff\; submit only work you understand and
+  can defend. AI may help navigate or critique\, but verify its claims and 
+ obey project restrictions/disclosure rules. Otherwise record the blocker a
+ nd whether to continue\, narrow or drop. No PR or merge requirement.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-06@personal-planner
@@ -880,16 +1018,16 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-07@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261009T160000
 DTEND;TZID=Asia/Kolkata:20261009T170000
 SUMMARY:Music — Listen later\, revise once and bounce
-DESCRIPTION:Plan: O5. Listen to the rough bounce before reopening edits. Na
- me the most distracting weakness\, try one bounded change\, and export aga
- in. Keep both bounces and note whether the change helped plus one next-att
- empt focus. Stop after this revision\; references are optional and the own
- er judges the result.
+DESCRIPTION:Listen to the rough bounce before reopening edits. Name the mos
+ t distracting weakness\, try one bounded change\, and export again. Keep b
+ oth bounces and note whether the change helped plus one next-attempt focus
+ . Stop after this revision\; references are optional and the owner judges 
+ the result.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261009-08@personal-planner
@@ -902,17 +1040,23 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-01@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261010T090000
 DTEND;TZID=Asia/Kolkata:20261010T094500
-SUMMARY:System Design — Independent S1 check or targeted repair
-DESCRIPTION:Plan: O2. If the guided loop is coherent\, close sources and at
- tempt system-design/SPRINT_001_PREP.md exercise C\, equipment lending plus
-  the 10×-members challenge. Produce constraints\, falsifiable assumptions
- \, two approaches and a defense. Seek critique after attempting. Otherwise
-  repair the guided loop's actual gaps and defer C. No database/infrastruct
- ure design.
+SUMMARY:System Design — Independent brief or targeted repair
+DESCRIPTION:If your handbook comparison and failure revision are still inco
+ mplete\, repair those gaps instead.\nOtherwise\, close teaching sources an
+ d try this new brief: a campus club lends 40 pieces of equipment to about 
+ 150 members. Requests arrive in chat\; one volunteer confirms bookings and
+  hands out equipment on weekdays. Members want to see availability and req
+ uest slots. No overlapping confirmed bookings for the same item. Administr
+ ation should stay low\; uptime\, retention and budget are undecided.\nList
+  constraints\, testable assumptions\, unanswered questions and the dominan
+ t requirement. Compare two plausible approaches and defend one. Then consi
+ der 10× as many members with the same volunteer availability: what change
+ s or gets cut first? Stay above database/infrastructure details. Seek crit
+ ique only after your attempt.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-02@personal-planner
@@ -925,16 +1069,16 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-03@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261010T100000
 DTEND;TZID=Asia/Kolkata:20261010T103000
 SUMMARY:LeetCode — Review evidence and unresolved revisits
-DESCRIPTION:Plan: O4. Use the actual queue for a cold attempt or needed rep
- air\; no notes/key first. Complete outstanding validation fields and help 
- disclosures. Distinguish recognition/selection from derivation/implementat
- ion only from these attempts. Leave unresolved items honestly queued\; no 
- extra questions or broad pattern sheet.
+DESCRIPTION:Use your actual unresolved attempts for a cold solve or targete
+ d repair: blank editor\, no notes/answers first. Finish any pending answer
+  checks and record help used. Distinguish failure to recognize/select an a
+ pproach from trouble deriving or implementing it only from what happened. 
+ Preserve unresolved items\; no new questions or pattern-sheet exercise.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-04@personal-planner
@@ -947,16 +1091,18 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-05@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261010T110000
 DTEND;TZID=Asia/Kolkata:20261010T120000
 SUMMARY:Product — Decide what warrants further discovery
-DESCRIPTION:Plan: O3. Review only observations actually obtained. Retain/dr
- op candidates with sourced reasons and explicit unknowns in the existing i
- nbox. If none qualifies\, record inspected scope and why its signals were 
- insufficient. An actual E2 conversation may inform the decision\; elapsed 
- time does not pass a gate. No feature list\, experiment or build.
+DESCRIPTION:Review your actual observations and source links. Decide which 
+ problems deserve further investigation and which to drop\, with a short re
+ ason for each. Keep personal observations separate from outside evidence\,
+  interpretation and unknowns. If nothing qualifies\, record where you look
+ ed and why the signals were insufficient. No idea quota\, feature list or 
+ build\; an actual conversation can inform the decision\, but a planned one
+  cannot.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-06@personal-planner
@@ -969,16 +1115,24 @@ DESCRIPTION:Protected time. Not catch-up.
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-07@personal-planner
-DTSTAMP:20260930T170852Z
-SEQUENCE:0
+DTSTAMP:20260930T181214Z
+SEQUENCE:1
 DTSTART;TZID=Asia/Kolkata:20261010T140000
 DTEND;TZID=Asia/Kolkata:20261010T143000
 SUMMARY:Markets — Challenge the map and check understanding
-DESCRIPTION:Plan: O7. With sources closed\, answer the three challenge prom
- pts in markets/SPRINT_001_PREP.md: resale proceeds\, no willing buyer\, an
- d mistaken exchange/broker/clearing claims. Check disputed points against 
- the accepted excerpts and correct the map. Explain both flows and risk-bea
- ring\; name missing S1 roles instead of forcing an M1 pass.
+DESCRIPTION:Without sources\, explain your offering/resale map and answer:\
+ nWho gets the money on resale? Does a higher resale price automatically fu
+ nd company expansion?\nWhat if nobody buys at the holder's desired price\,
+  and why might that matter to an original buyer?\nEvaluate: “The exchang
+ e funds the business\; the broker owns everything it helps sell\; clearing
+  prevents shareholders losing money.”\nThen check disputed claims and co
+ rrect the map. Name remaining gaps rather than forcing a complete explanat
+ ion.\nSEBI booklet\, only the relevant entries on printed pp3–9 / PDF pp
+ 7–13: https://investor.sebi.gov.in/pdf/reference-material/languages/engl
+ ish/SM%20Booklet_English%20-%20Final%20%28Low%29.pdf\nCAVA\, first four bo
+ dy paragraphs only: https://investor.cava.com/news/news-details/2023/CAVA-
+ Announces-Closing-of-Initial-Public-Offering-and-Full-Exercise-of-Underwri
+ ters-Option-to-Purchase-Additional-Shares/default.aspx
 END:VEVENT
 BEGIN:VEVENT
 UID:sprint-001-20261010-08@personal-planner
